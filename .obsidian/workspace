@@ -7,8 +7,12 @@
         "id": "9f2236daa97daf47",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "3-RESOURCES/Templates/Daily-Note-Template.md",
+            "mode": "source",
+            "backlinks": true
+          }
         }
       }
     ],
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "3-RESOURCES/Templates/Daily-Note-Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "3-RESOURCES/Templates/Daily-Note-Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "3-RESOURCES/Templates/Daily-Note-Template.md"
+              }
             }
           },
           {
@@ -136,6 +144,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a22ed5e326b1fa83",
-  "lastOpenFiles": []
+  "active": "9f2236daa97daf47",
+  "lastOpenFiles": [
+    "3-RESOURCES/_about_.md",
+    "_about_/_about_.md",
+    "README.md",
+    "2-AREAS/_about_.md"
+  ]
 }

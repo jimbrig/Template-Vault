@@ -1,0 +1,8 @@
+{
+  "folderNotePref": 0,
+  "deleteOutsideNoteWithFolder": false,
+  "indexName": "_README",
+  "autoRename": true,
+  "folderNoteTemplate": "---\nDate: <% tp.date.now() %>\nAuthor: Jimmy Briggs <jimmy.briggs@jimbrig.com>\nTags: [\"#Type/Folder\"]\nAlias: [\"{{FOLDER_NAME}}\"]\n---\n\n# {{FOLDER_NAME}}",
+  "logLevel": 4
+}

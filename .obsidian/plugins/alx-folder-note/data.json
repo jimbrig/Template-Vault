@@ -1,0 +1,15 @@
+{
+  "modifierForNewNote": "Mod",
+  "hideNoteInExplorer": false,
+  "hideCollapseIndicator": false,
+  "longPressFocus": false,
+  "folderIcon": true,
+  "folderNotePref": null,
+  "deleteOutsideNoteWithFolder": null,
+  "indexName": null,
+  "autoRename": null,
+  "folderNoteTemplate": null,
+  "mobileClickToOpen": true,
+  "longPressDelay": 800,
+  "expandFolderOnClick": false
+}

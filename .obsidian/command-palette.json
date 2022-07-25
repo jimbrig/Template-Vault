@@ -1,0 +1,16 @@
+{
+  "pinned": [
+    "graph:open-local",
+    "file-explorer:new-file-in-new-pane",
+    "workspace:split-vertical",
+    "obsidian-dynamic-toc:dynamic-toc-insert-command",
+    "table-editor-obsidian:table-control-bar",
+    "table-editor-obsidian:format-all-tables",
+    "workspace:copy-path",
+    "app:toggle-default-new-pane-mode",
+    "file-explorer:move-file",
+    "file-recovery:open",
+    "workspace:toggle-pin",
+    "app:reload"
+  ]
+}

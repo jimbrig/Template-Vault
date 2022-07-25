@@ -1,0 +1,10 @@
+{
+  "skipFirstHeadline": true,
+  "disableHeadlines": false,
+  "graphOverwrite": false,
+  "rootIndexFile": "Dashboard.md",
+  "autoCreateIndexFile": true,
+  "autoRenameIndexFile": true,
+  "hideIndexFiles": false,
+  "indexFileInitText": "```folder-index-content\n```"
+}
