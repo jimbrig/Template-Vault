@@ -7,12 +7,8 @@
         "id": "9f2236daa97daf47",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "2-AREAS/_README.md",
-            "mode": "preview",
-            "backlinks": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-AREAS/_README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-AREAS/_README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2-AREAS/_README.md"
-              }
+              "state": {}
             }
           },
           {
@@ -144,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9f2236daa97daf47",
+  "active": "fef2140fd3d7a3e9",
   "lastOpenFiles": [
-    "2-AREAS/Daily-Notes/_README.md",
-    "2-AREAS/_README.md",
-    "1-SLIPBOX/About Data Requirements.md",
-    "1-SLIPBOX/_README.md",
-    "0-INBOX/_README.md",
-    "3-RESOURCES/_README.md",
-    "0-INBOX/0-INBOX.md",
-    "README.md",
-    "3-RESOURCES/Templates/Templates.md",
-    "2-AREAS/Daily-Notes/Daily-Notes.md"
+    "2-AREAS/Code/Bash/_README.md",
+    "2-AREAS/Code/Batch/_README.md",
+    "2-AREAS/Code/CMD/_README.md",
+    "2-AREAS/Code/CSS/_README.md",
+    "2-AREAS/Code/GHA/_README.md",
+    "2-AREAS/Code/Java/_README.md",
+    "2-AREAS/Code/JavaScript/_README.md",
+    "2-AREAS/Code/Pandoc/_README.md",
+    "2-AREAS/Code/PowerQuery/_README.md",
+    "2-AREAS/Code/PowerShell/_README.md"
   ]
 }

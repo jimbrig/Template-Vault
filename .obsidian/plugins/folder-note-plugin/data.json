@@ -5,5 +5,5 @@
   "folderNoteKey": "ctrl",
   "folderNoteAutoRename": true,
   "folderDelete2Note": false,
-  "folderNoteStrInit": "---\nDate: <% tp.date.now() %>\nAuthor: Jimmy Briggs <jimmy.briggs@jimbrig.com>\nTags: [\"#Type/Folder\"]\nAlias: [\"#{{FOLDER_NAME}}\"]\n---\n\n# {{FOLDER_NAME}} Overview\n\n {{FOLDER_BRIEF_LIVE}} \n\n***\n"
+  "folderNoteStrInit": "---\nDate: <% tp.date.now() %>\nAuthor: Jimmy Briggs <jimmy.briggs@jimbrig.com>\nTags: [\"#Type/Folder\"]\nAlias: [\"{{FOLDER_NAME}}\"]\n---\n\n# {{FOLDER_NAME}} Overview\n\n {{FOLDER_BRIEF_LIVE}} \n\n***\n"
 }
