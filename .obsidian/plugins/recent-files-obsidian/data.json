@@ -2,19 +2,23 @@
   "recentFiles": [
     {
       "basename": "_README",
-      "path": "1-SLIPBOX/_README.md"
-    },
-    {
-      "basename": "_README",
       "path": "0-INBOX/_README.md"
     },
     {
-      "basename": "README",
-      "path": "README.md"
+      "basename": "_README",
+      "path": "3-RESOURCES/_README.md"
     },
     {
       "basename": "_README",
       "path": "2-AREAS/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "1-SLIPBOX/_README.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
     },
     {
       "basename": "_README",
@@ -23,10 +27,6 @@
     {
       "basename": "Daily-Note-Template",
       "path": "3-RESOURCES/Templates/Daily-Note-Template.md"
-    },
-    {
-      "basename": "_README",
-      "path": "3-RESOURCES/_README.md"
     }
   ],
   "omittedPaths": [],
