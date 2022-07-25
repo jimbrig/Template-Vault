@@ -39,7 +39,7 @@ sh -c "$(fetch -o - https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 _Note that any previous `.zshrc` will be renamed to `.zshrc.pre-oh-my-zsh`. After installation, you can move the configuration you want to preserve into the new `.zshrc`._
 
-#### Manual inspection
+## Manual inspection
 
 It's a good idea to inspect the install script from projects you don't yet know. You can do
 that by downloading the install script first, looking through it so everything looks normal,
@@ -58,6 +58,12 @@ sh install.sh
 - [[Development]]
 - [[Linux]]
 - [[2-AREAS/Code/Bash/_README|Bash]]
+- [[Zsh]]
+- [[Oh-My-Zsh]]
+- [[macOS]]
+- [[Shell]]
+- [[Terminal]]
+- [[Zsh Setup Guide]]
 
 ***
 
