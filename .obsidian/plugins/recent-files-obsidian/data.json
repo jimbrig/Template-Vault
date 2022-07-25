@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Bash - Git-Auto",
+      "path": "2-AREAS/Code/Bash/Bash - Git-Auto.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "3-RESOURCES/Templates/_README.md"
+    },
+    {
       "basename": "Default-Note-Template",
-      "path": "3-RESOURCES/Templates/Default-Note-Template.md"
+      "path": "3-RESOURCES/Templates/Core Templates/Default-Note-Template.md"
     },
     {
       "basename": "Daily-Note-Template",
-      "path": "3-RESOURCES/Templates/Daily-Note-Template.md"
+      "path": "3-RESOURCES/Templates/Core Templates/Daily-Note-Template.md"
     },
     {
       "basename": "Appendix-Template",
@@ -19,14 +31,6 @@
     {
       "basename": "Frontmatter-Template",
       "path": "3-RESOURCES/Templates/Fragments/Frontmatter-Template.md"
-    },
-    {
-      "basename": "_README",
-      "path": "3-RESOURCES/_README.md"
-    },
-    {
-      "basename": "Bash - Git-Auto",
-      "path": "2-AREAS/Code/Bash/Bash - Git-Auto.md"
     },
     {
       "basename": "_README",
@@ -123,10 +127,6 @@
     {
       "basename": "_README",
       "path": "0-INBOX/_README.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     }
   ],
   "omittedPaths": [],

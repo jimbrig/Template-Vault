@@ -5,7 +5,7 @@ Tags: ["#Type/Code/Bash", "#Topic/Dev/Code"]
 Alias: ["Git-Auto"]
 ---
 
-*Source: [[Git-Auto] Auto commit and push to remote repo tracking local changes to files #git #automation #git-extras #dotfiles #config · GitHub](https://gist.github.com/439f74475d36449cc02a1fd1e878e22f#file-git-auto)*
+*Source: [[Git-Auto] Auto commit and push to remote repo tracking local changes to files · GitHub](https://gist.github.com/439f74475d36449cc02a1fd1e878e22f#file-git-auto)*
 
 ```bash
 #!/usr/bin/env bash
@@ -86,13 +86,8 @@ fi
 
 ***
 
-## Appendix: Links 
+## Appendix: Links and References
 
 - [[Code]]
 - [[Development]]
 
-*Backlinks:*
-
-```dataview
-list from [[Bash - Git-Auto]] AND -"Changelog"
-```
