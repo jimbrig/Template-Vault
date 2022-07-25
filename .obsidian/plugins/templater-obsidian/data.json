@@ -16,7 +16,7 @@
   "folder_templates": [
     {
       "folder": "2-AREAS/Code/Bash",
-      "template": ""
+      "template": "3-RESOURCES/Templates/Code Templates/Bash-Template.md"
     }
   ],
   "syntax_highlighting": true,

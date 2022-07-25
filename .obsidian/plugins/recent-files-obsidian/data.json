@@ -1,20 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Bash-Template",
-      "path": "3-RESOURCES/Templates/Code Templates/Bash-Template.md"
-    },
-    {
-      "basename": "Footer-Template",
-      "path": "3-RESOURCES/Templates/Fragments/Footer-Template.md"
-    },
-    {
       "basename": "Bash - Install NVM",
       "path": "2-AREAS/Code/Bash/Bash - Install NVM.md"
     },
     {
       "basename": "Bash - Git-Auto",
       "path": "2-AREAS/Code/Bash/Bash - Git-Auto.md"
+    },
+    {
+      "basename": "Bash-Template",
+      "path": "3-RESOURCES/Templates/Code Templates/Bash-Template.md"
+    },
+    {
+      "basename": "Footer-Template",
+      "path": "3-RESOURCES/Templates/Fragments/Footer-Template.md"
     },
     {
       "basename": "README",

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3-RESOURCES/Templates/Code Templates/Bash-Template.md",
+            "file": "2-AREAS/Code/Bash/Bash - Install NVM.md",
             "mode": "source",
             "backlinks": true
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-RESOURCES/Templates/Code Templates/Bash-Template.md",
+                "file": "2-AREAS/Code/Bash/Bash - Install NVM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-RESOURCES/Templates/Code Templates/Bash-Template.md",
+                "file": "2-AREAS/Code/Bash/Bash - Install NVM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-RESOURCES/Templates/Code Templates/Bash-Template.md"
+                "file": "2-AREAS/Code/Bash/Bash - Install NVM.md"
               }
             }
           },
@@ -144,12 +144,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "fef2140fd3d7a3e9",
+  "active": "9f2236daa97daf47",
   "lastOpenFiles": [
-    "3-RESOURCES/Templates/Fragments/Footer-Template.md",
-    "3-RESOURCES/Templates/Code Templates/Bash-Template.md",
-    "2-AREAS/Code/Bash/Bash - Install NVM.md",
     "2-AREAS/Code/Bash/Bash - Git-Auto.md",
+    "3-RESOURCES/Templates/Code Templates/Bash-Template.md",
+    "3-RESOURCES/Templates/Fragments/Footer-Template.md",
+    "2-AREAS/Code/Bash/Bash - Install NVM.md",
     "README.md",
     "3-RESOURCES/Templates/_README.md",
     "3-RESOURCES/_README.md",
