@@ -14,6 +14,8 @@ Sources:
 - [Documenting Data Quality: Considerations | U.S. Geological Survey (usgs.gov)](https://www.usgs.gov/data-management/documenting-data-quality-considerations)
 - [DOC_15138.DOC (live.com)](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.hud.gov%2Fsites%2Fdocuments%2FDOC_15138.DOC&wdOrigin=BROWSELINK)
 
+***
+
 
 ![](https://i.imgur.com/153NIxq.png)
 
@@ -36,7 +38,9 @@ These facts represent specific pieces of business information that are tracked, 
 
 A metadata glossary captures all the business terms associated with the business workflows, and classifies the hierarchical composition of any aggregated or analyzed data concepts. Most glossaries may contain a core set of terms across similar projects along with additional project specific terms. When possible, use existing metadata repositories to capture the approved organization definition.
 
+***
 
+## Appendix: Links and References
 
 *Backlinks:*
 
