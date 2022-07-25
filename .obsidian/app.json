@@ -1,0 +1,13 @@
+{
+  "livePreview": false,
+  "readableLineLength": false,
+  "showFrontmatter": true,
+  "showLineNumber": true,
+  "spellcheck": true,
+  "legacyEditor": true,
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "0-INBOX",
+  "attachmentFolderPath": "./_assets"
+}
