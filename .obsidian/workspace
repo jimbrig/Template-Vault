@@ -7,12 +7,8 @@
         "id": "9f2236daa97daf47",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "0-INBOX/0-INBOX.md",
-            "mode": "source",
-            "backlinks": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-INBOX/0-INBOX.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-INBOX/0-INBOX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "0-INBOX/0-INBOX.md"
-              }
+              "state": {}
             }
           },
           {
@@ -144,7 +136,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9f2236daa97daf47",
+  "active": "fef2140fd3d7a3e9",
   "lastOpenFiles": [
     "README.md",
     "3-RESOURCES/Templates/Templates.md",
