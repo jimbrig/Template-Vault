@@ -1,12 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "2-AREAS/Code/Bash/Untitled.md"
+    },
+    {
+      "basename": "Bash - Install PostgreSQL",
+      "path": "2-AREAS/Code/Bash/Bash - Install PostgreSQL.md"
+    },
+    {
+      "basename": "Bash - Install oh-my-zsh",
+      "path": "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md"
+    },
+    {
       "basename": "Bash - Install NVM",
       "path": "2-AREAS/Code/Bash/Bash - Install NVM.md"
     },
     {
       "basename": "Bash - Git-Auto",
       "path": "2-AREAS/Code/Bash/Bash - Git-Auto.md"
+    },
+    {
+      "basename": "Appendix-Template",
+      "path": "3-RESOURCES/Templates/Fragments/Appendix-Template.md"
+    },
+    {
+      "basename": "Default-Note-Template",
+      "path": "3-RESOURCES/Templates/Core Templates/Default-Note-Template.md"
+    },
+    {
+      "basename": "Daily-Note-Template",
+      "path": "3-RESOURCES/Templates/Core Templates/Daily-Note-Template.md"
     },
     {
       "basename": "Bash-Template",
@@ -23,18 +47,6 @@
     {
       "basename": "_README",
       "path": "3-RESOURCES/Templates/_README.md"
-    },
-    {
-      "basename": "Default-Note-Template",
-      "path": "3-RESOURCES/Templates/Core Templates/Default-Note-Template.md"
-    },
-    {
-      "basename": "Daily-Note-Template",
-      "path": "3-RESOURCES/Templates/Core Templates/Daily-Note-Template.md"
-    },
-    {
-      "basename": "Appendix-Template",
-      "path": "3-RESOURCES/Templates/Fragments/Appendix-Template.md"
     },
     {
       "basename": "_README",

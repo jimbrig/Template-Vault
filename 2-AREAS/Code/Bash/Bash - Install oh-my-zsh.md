@@ -1,11 +1,11 @@
 ---
-Date: <% tp.date.now() %>
+Date: 2022-07-25
 Author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 Tags: ["#Type/Code/Bash", "#Topic/Dev/Linux"]
 Alias: []
 ---
 
-# <% tp.file.title %>
+# Untitled
 
 *Source: *
 
@@ -24,4 +24,4 @@ Alias: []
 
 ***
 
-Jimmy Briggs <jimmy.briggs@jimbrig.com> | <% tp.date.now("YYYY") %>
+Jimmy Briggs <jimmy.briggs@jimbrig.com> | 2022
