@@ -5,13 +5,56 @@ Tags: ["#Type/Code/Bash", "#Topic/Dev/Linux"]
 Alias: []
 ---
 
-# Untitled
+# Bash - Install oh-my-zsh
 
 *Source: *
 
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
+
+### Prerequisites
+
+- A Unix-like operating system: macOS, Linux, BSD. On Windows: WSL2 is preferred, but cygwin or msys also mostly work.
+- [Zsh](https://www.zsh.org) should be installed (v4.3.9 or more recent is fine but we prefer 5.0.8 and newer). If not pre-installed (run `zsh --version` to confirm), check the following wiki instructions here: [Installing ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+- `curl` or `wget` should be installed
+- `git` should be installed (recommended v2.4.11 or higher)
+
+### Basic Installation
+
+Oh My Zsh is installed by running one of the following commands in your terminal. You can install this via the command-line with either `curl`, `wget` or another similar tool.
+
+| Method    | Command                                                                                           |
+| :-------- | :------------------------------------------------------------------------------------------------ |
+| **curl**  | `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"` |
+| **wget**  | `sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`   |
+| **fetch** | `sh -c "$(fetch -o - https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"` |
+
+_Note that any previous `.zshrc` will be renamed to `.zshrc.pre-oh-my-zsh`. After installation, you can move the configuration you want to preserve into the new `.zshrc`._
+
+#### Manual inspection
+
+It's a good idea to inspect the install script from projects you don't yet know. You can do
+that by downloading the install script first, looking through it so everything looks normal,
+then running it:
+
+```sh
+wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+sh install.sh
+```
+
+***
+
+## Appendix: Links and References
+
+- [[Code]]
+- [[Development]]
+- [[Linux]]
+- [[2-AREAS/Code/Bash/_README|Bash]]
+
+***
+
+Jimmy Briggs <jimmy.briggs@jimbrig.com> | 2022
 
 ***
 
