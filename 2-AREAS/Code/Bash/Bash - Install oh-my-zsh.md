@@ -7,10 +7,17 @@ Alias: []
 
 # Bash - Install oh-my-zsh
 
-*Source: *
+*Source: [GitHub - ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh#basic-installation)*
 
 ```bash
+# curl
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# wget
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# fetch
+
 ```
 
 ### Prerequisites
