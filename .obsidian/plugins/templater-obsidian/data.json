@@ -15,7 +15,7 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "",
+      "folder": "2-AREAS/Code/Bash",
       "template": ""
     }
   ],

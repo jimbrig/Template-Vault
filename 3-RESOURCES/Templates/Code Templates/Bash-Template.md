@@ -20,10 +20,8 @@ Alias: []
 - [[Code]]
 - [[Development]]
 - [[Linux]]
-- [[]]
+- [[2-AREAS/Code/Bash/_README|Bash]]
 
-*Backlinks:*
+***
 
-```dataview
-list from [[<% tp.file.title %>]] AND -"Changelog"
-```
+Jimmy Briggs <jimmy.briggs@jimbrig.com> | <% tp.date.now("YYYY") %>
