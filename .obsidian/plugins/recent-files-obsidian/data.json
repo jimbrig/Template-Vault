@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "_README",
+      "path": "1-SLIPBOX/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "0-INBOX/_README.md"
+    },
+    {
       "basename": "README",
       "path": "README.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Daily-Notes/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "1-SLIPBOX/_README.md"
     },
     {
       "basename": "Daily-Note-Template",

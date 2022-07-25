@@ -7,8 +7,12 @@
         "id": "9f2236daa97daf47",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "1-SLIPBOX/_README.md",
+            "mode": "source",
+            "backlinks": true
+          }
         }
       }
     ],
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1-SLIPBOX/_README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1-SLIPBOX/_README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1-SLIPBOX/_README.md"
+              }
             }
           },
           {
@@ -136,17 +144,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "fef2140fd3d7a3e9",
+  "active": "9f2236daa97daf47",
   "lastOpenFiles": [
+    "1-SLIPBOX/_README.md",
+    "0-INBOX/_README.md",
+    "0-INBOX/0-INBOX.md",
     "README.md",
     "3-RESOURCES/Templates/Templates.md",
     "2-AREAS/_README.md",
     "2-AREAS/Daily-Notes/_README.md",
     "2-AREAS/Daily-Notes/Daily-Notes.md",
     "1-SLIPBOX/1-SLIPBOX.md",
-    "1-SLIPBOX/_README.md",
-    "_about_/_about_.md",
-    "3-RESOURCES/Templates/Daily-Note-Template.md",
-    "3-RESOURCES/_README.md"
+    "_about_/_about_.md"
   ]
 }
