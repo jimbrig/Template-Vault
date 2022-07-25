@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-AREAS/Code/AHK/_README.md",
-            "mode": "source",
+            "file": "2-AREAS/Code/_README.md",
+            "mode": "preview",
             "backlinks": true
           }
         }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-AREAS/Code/AHK/_README.md",
+                "file": "2-AREAS/Code/_README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-AREAS/Code/AHK/_README.md",
+                "file": "2-AREAS/Code/_README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-AREAS/Code/AHK/_README.md"
+                "file": "2-AREAS/Code/_README.md"
               }
             }
           },
@@ -146,15 +146,15 @@
   },
   "active": "9f2236daa97daf47",
   "lastOpenFiles": [
-    "2-AREAS/Code/_README.md",
-    "2-AREAS/Code/Batch/_README.md",
-    "2-AREAS/Code/Bash/_README.md",
-    "2-AREAS/Code/CMD/_README.md",
-    "2-AREAS/Code/CSS/_README.md",
-    "2-AREAS/Code/GHA/_README.md",
-    "2-AREAS/Code/Java/_README.md",
-    "2-AREAS/Code/JavaScript/_README.md",
-    "2-AREAS/Code/Pandoc/_README.md",
-    "2-AREAS/Code/PowerQuery/_README.md"
+    "2-AREAS/Code/Visual Basic/_README.md",
+    "2-AREAS/Code/VBA/_README.md",
+    "2-AREAS/Code/SQL/_README.md",
+    "2-AREAS/Code/PowerShell/_README.md",
+    "2-AREAS/Code/Python/_README.md",
+    "2-AREAS/Code/PowerQuery/_README.md",
+    "2-AREAS/Code/Run/_README.md",
+    "2-AREAS/Code/Registry/_README.md",
+    "2-AREAS/Code/R/_README.md",
+    "2-AREAS/Code/Pandoc/_README.md"
   ]
 }

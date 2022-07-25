@@ -9,5 +9,8 @@
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
   "newFileFolderPath": "0-INBOX",
-  "attachmentFolderPath": "./_assets"
+  "attachmentFolderPath": "./_assets",
+  "spellcheckDictionary": [
+    "Espanso"
+  ]
 }
