@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Daily-Note-Template",
+      "path": "3-RESOURCES/Templates/Daily-Note-Template.md"
+    },
+    {
       "basename": "Frontmatter-Template",
       "path": "3-RESOURCES/Templates/Fragments/Frontmatter-Template.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "Default-Note-Template",
       "path": "3-RESOURCES/Templates/Default-Note-Template.md"
-    },
-    {
-      "basename": "Daily-Note-Template",
-      "path": "3-RESOURCES/Templates/Daily-Note-Template.md"
     },
     {
       "basename": "_README",
