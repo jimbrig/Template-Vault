@@ -1,13 +1,14 @@
 ---
 Date: 2022-05-16
 Author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
-Tags: ["#Type/Slipbox", "#Topic/Dev"]
-Alias: "About Data Requirements"
+Tags: ["#Type/Slipbox", "#Topic/Data"]
+Alias: ["Data Requirements"]
 ---
 
 # About Data Requirements
 
-*Sources: [Data Requirement Analysis - an overview | ScienceDirect Topics](https://www.sciencedirect.com/topics/computer-science/data-requirement-analysis)*
+Sources: 
+- [Data Requirement Analysis - an overview | ScienceDirect Topics](https://www.sciencedirect.com/topics/computer-science/data-requirement-analysis)
 - [Data Requirement Document (dendanskemaritimefond.dk)](https://www.dendanskemaritimefond.dk/wp-content/uploads/2016/04/GLAUCUS-Data-Requirements.pdf)
 - [Agile Gathering Data Requirements | AgileData Way of Working](https://wow.agiledata.io/wow/agiledata-thoughts/agile-gathering-data-requirements/)
 - [Documenting Data Quality: Considerations | U.S. Geological Survey (usgs.gov)](https://www.usgs.gov/data-management/documenting-data-quality-considerations)
