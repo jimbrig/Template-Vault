@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3-RESOURCES/Templates/Fragments/Appendix-Template.md",
+            "file": "3-RESOURCES/Templates/Fragments/Frontmatter-Template.md",
             "mode": "source",
             "backlinks": true
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-RESOURCES/Templates/Fragments/Appendix-Template.md",
+                "file": "3-RESOURCES/Templates/Fragments/Frontmatter-Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-RESOURCES/Templates/Fragments/Appendix-Template.md",
+                "file": "3-RESOURCES/Templates/Fragments/Frontmatter-Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-RESOURCES/Templates/Fragments/Appendix-Template.md"
+                "file": "3-RESOURCES/Templates/Fragments/Frontmatter-Template.md"
               }
             }
           },
@@ -146,6 +146,7 @@
   },
   "active": "9f2236daa97daf47",
   "lastOpenFiles": [
+    "3-RESOURCES/Templates/Fragments/Appendix-Template.md",
     "3-RESOURCES/Templates/Fragments/Frontmatter-Template.md",
     "3-RESOURCES/Templates/Default-Note-Template.md",
     "3-RESOURCES/Templates/Daily-Note-Template.md",
@@ -154,7 +155,6 @@
     "2-AREAS/Code/_README.md",
     "2-AREAS/Code/Visual Basic/_README.md",
     "2-AREAS/Code/VBA/_README.md",
-    "2-AREAS/Code/SQL/_README.md",
-    "2-AREAS/Code/PowerShell/_README.md"
+    "2-AREAS/Code/SQL/_README.md"
   ]
 }

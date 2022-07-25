@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Appendix-Template",
-      "path": "3-RESOURCES/Templates/Fragments/Appendix-Template.md"
-    },
-    {
       "basename": "Frontmatter-Template",
       "path": "3-RESOURCES/Templates/Fragments/Frontmatter-Template.md"
+    },
+    {
+      "basename": "Appendix-Template",
+      "path": "3-RESOURCES/Templates/Fragments/Appendix-Template.md"
     },
     {
       "basename": "Default-Note-Template",
