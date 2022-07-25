@@ -29,8 +29,6 @@ Alias: []
 
 - [[2-Areas/Daily-Notes/_README|Daily Notes]]
 
-*Backlinks:*
+***
 
-```dataview
-list from [[<% tp.file.title %>]] AND -"Changelog"
-```
+Jimmy Briggs <jimmy.briggs@jimbrig.com> | <% tp.date.now("YYYY") %>
