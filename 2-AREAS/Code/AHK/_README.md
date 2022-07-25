@@ -1,11 +1,11 @@
 ---
 Date: 2022-07-25
 Author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
-Tags: ["#Type/Folder"]
-Alias: ["#PowerQuery"]
+Tags: ["#Type/Folder", "#Topic/Dev/Code"]
+Alias: ["AutoHotKey", "AHK"]
 ---
 
-# PowerQuery Overview
+# AHK Overview
 
  
 ```ccard

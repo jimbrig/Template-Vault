@@ -7,8 +7,12 @@
         "id": "9f2236daa97daf47",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "2-AREAS/Code/AHK/_README.md",
+            "mode": "source",
+            "backlinks": true
+          }
         }
       }
     ],
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2-AREAS/Code/AHK/_README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2-AREAS/Code/AHK/_README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2-AREAS/Code/AHK/_README.md"
+              }
             }
           },
           {
@@ -136,17 +144,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "fef2140fd3d7a3e9",
+  "active": "9f2236daa97daf47",
   "lastOpenFiles": [
-    "2-AREAS/Code/Bash/_README.md",
+    "2-AREAS/Code/_README.md",
     "2-AREAS/Code/Batch/_README.md",
+    "2-AREAS/Code/Bash/_README.md",
     "2-AREAS/Code/CMD/_README.md",
     "2-AREAS/Code/CSS/_README.md",
     "2-AREAS/Code/GHA/_README.md",
     "2-AREAS/Code/Java/_README.md",
     "2-AREAS/Code/JavaScript/_README.md",
     "2-AREAS/Code/Pandoc/_README.md",
-    "2-AREAS/Code/PowerQuery/_README.md",
-    "2-AREAS/Code/PowerShell/_README.md"
+    "2-AREAS/Code/PowerQuery/_README.md"
   ]
 }
