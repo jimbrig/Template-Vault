@@ -91,3 +91,6 @@ fi
 - [[Code]]
 - [[Development]]
 
+***
+
+Jimmy Briggs <jimmy.briggs@jimbrig.com> | 2022

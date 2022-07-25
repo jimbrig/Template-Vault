@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-AREAS/Code/Bash/Bash - Git-Auto.md",
+            "file": "2-AREAS/Code/Bash/Bash - Install NVM.md",
             "mode": "source",
             "backlinks": true
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-AREAS/Code/Bash/Bash - Git-Auto.md",
+                "file": "2-AREAS/Code/Bash/Bash - Install NVM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-AREAS/Code/Bash/Bash - Git-Auto.md",
+                "file": "2-AREAS/Code/Bash/Bash - Install NVM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-AREAS/Code/Bash/Bash - Git-Auto.md"
+                "file": "2-AREAS/Code/Bash/Bash - Install NVM.md"
               }
             }
           },
@@ -146,6 +146,8 @@
   },
   "active": "9f2236daa97daf47",
   "lastOpenFiles": [
+    "2-AREAS/Code/Bash/Bash - Git-Auto.md",
+    "3-RESOURCES/Templates/Fragments/Footer.md",
     "README.md",
     "3-RESOURCES/Templates/_README.md",
     "3-RESOURCES/_README.md",
@@ -153,8 +155,6 @@
     "3-RESOURCES/Templates/Core Templates/Daily-Note-Template.md",
     "3-RESOURCES/Templates/Fragments/Appendix-Template.md",
     "2-AREAS/Daily-Notes/_README.md",
-    "3-RESOURCES/Templates/Fragments/Frontmatter-Template.md",
-    "2-AREAS/Code/Bash/Bash - Git-Auto.md",
-    "2-AREAS/Code/_README.md"
+    "3-RESOURCES/Templates/Fragments/Frontmatter-Template.md"
   ]
 }
