@@ -9,6 +9,8 @@ Alias: []
 
 *Source: [GitHub - ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh#basic-installation)*
 
+[TOC]
+
 ```bash
 # curl
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
