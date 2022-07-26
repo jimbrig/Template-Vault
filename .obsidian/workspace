@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md",
-            "mode": "preview",
+            "mode": "source",
             "backlinks": true
           }
         }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-AREAS/Code/Bash/Bash - Install Zsh.md",
+                "file": "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-AREAS/Code/Bash/Bash - Install Zsh.md",
+                "file": "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-AREAS/Code/Bash/Bash - Install Zsh.md"
+                "file": "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md"
               }
             }
           },
@@ -156,10 +156,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "36c5b2bb2108ad5a",
+  "active": "9f2236daa97daf47",
   "lastOpenFiles": [
-    "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md",
     "2-AREAS/Code/Bash/Bash - Install Zsh.md",
+    "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md",
     "2-AREAS/Code/Bash/Bash - Install PostgreSQL.md",
     "2-AREAS/Code/Bash/Bash - Install and Setup Git.md",
     "2-AREAS/Code/Bash/Bash - Install R.md",
