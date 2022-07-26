@@ -97,9 +97,9 @@ Alias: "Development"
 - [[Nativefier]]
 - [[nostalgic]]
 - [[Zsh]], [[Oh-My-Zsh]] 
-- [[Git-Extras]]
-- [[Git-Cliff]]
-- [[topgrade]]
+- [[Git-Extras]] and [[Git-Extensio⭐
+- [[Git-Cliff]] ⭐
+- [[topgrade]] ⭐
 - [[to-ico]]
 - [[Todoist CLI]]
 - [[wsh]]
@@ -108,16 +108,20 @@ Alias: "Development"
 - [[lsd]] and [[exa]]
 - [[fzf]]
 - [[Tmux]]
-- [[git-crypt]]
+- [[git-crypt]] ⭐
 - [[fq]]
 - [[graphviz]]
-- [[Pandoc]]
+- [[Pandoc]] ⭐
 - [[perl]]
 - [[schemacrawler]] and [[schemaspy]]
 - [[shellexview]]
-- [[neofetch]] and [[winfetch]]
-- [[wttop]] and [[tiptop]]
+- [[neofetch]] and [[winfetch]] ⭐
+- [[wttop]] and [[tiptop]] ⭐
 - [[sqlite]]
+- [[aria2]] ⭐
+- [[dark]]
+- [[dos2unix]] ⭐
+
 
 ### Lists
 
