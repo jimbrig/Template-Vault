@@ -5,7 +5,7 @@ Tags: ["#Type/Code/Bash", "#Topic/Dev/Linux"]
 Alias: []
 ---
 
-# Untitled
+# Bash - Install PostgreSQL
 
 *Source: *
 

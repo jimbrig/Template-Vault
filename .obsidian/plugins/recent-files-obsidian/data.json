@@ -6,6 +6,34 @@
     },
     {
       "basename": "_README",
+      "path": "2-AREAS/Code/GHA/_README.md"
+    },
+    {
+      "basename": "Bash - Install oh-my-zsh",
+      "path": "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/Bash/_README.md"
+    },
+    {
+      "basename": "Bash - Install Zsh",
+      "path": "2-AREAS/Code/Bash/Bash - Install Zsh.md"
+    },
+    {
+      "basename": "Bash - Install R",
+      "path": "2-AREAS/Code/Bash/Bash - Install R.md"
+    },
+    {
+      "basename": "Bash - Install PostgreSQL",
+      "path": "2-AREAS/Code/Bash/Bash - Install PostgreSQL.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/_README.md"
+    },
+    {
+      "basename": "_README",
       "path": "2-AREAS/MOCs/_README.md"
     },
     {
@@ -13,28 +41,8 @@
       "path": "3-RESOURCES/Templates/Core Templates/MOC-Template.md"
     },
     {
-      "basename": "Bash - Install Zsh",
-      "path": "2-AREAS/Code/Bash/Bash - Install Zsh.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/_README.md"
-    },
-    {
-      "basename": "Bash - Install oh-my-zsh",
-      "path": "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md"
-    },
-    {
-      "basename": "Bash - Install PostgreSQL",
-      "path": "2-AREAS/Code/Bash/Bash - Install PostgreSQL.md"
-    },
-    {
       "basename": "Bash - Install and Setup Git",
       "path": "2-AREAS/Code/Bash/Bash - Install and Setup Git.md"
-    },
-    {
-      "basename": "Bash - Install R",
-      "path": "2-AREAS/Code/Bash/Bash - Install R.md"
     },
     {
       "basename": "Bash - Install NVM",
@@ -130,10 +138,6 @@
     },
     {
       "basename": "_README",
-      "path": "2-AREAS/Code/GHA/_README.md"
-    },
-    {
-      "basename": "_README",
       "path": "2-AREAS/Code/Espanso/_README.md"
     },
     {
@@ -147,10 +151,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Code/Batch/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Bash/_README.md"
     },
     {
       "basename": "_README",
