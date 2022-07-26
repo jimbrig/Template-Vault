@@ -69,7 +69,11 @@ Alias: "Development"
 
 - [[Git]]
 - [[GitHub]], [[GitHub CLI]], [[GitHub CLI Extensions]]
-- [[Azure DevOps]], [[Azure DevOps ]]
+- [[Azure DevOps]], [[Azure DevOps (az extension)]]
+- [[Git Extras]] and [[Git Extensions]]
+- [[Git Secret]] and [[Git-Crypt]]
+- [[hub]]
+- [[]]
 
 ### API Development
 
