@@ -16,14 +16,13 @@ Alias: "Development"
 **General:**
 - [[Software Development]]
 - [[Web Development]]
-
+- [[Computer Science]]
+- [[Mathematics and Statistics]]
 
 **Data:**
-- [[Data Science]]:
+- [[Data Science]]
 - [[Data Engineering]]
 - [[Databases]]
-
-## Notes about Development
 
 ## Operating Systems
 
@@ -262,28 +261,6 @@ Alias: "Development"
 
 ## Appendix: Links and References
 
-### Tagged as *Topic/Development*
-
-```dataview
-list from #Topic/Development AND -"Templates" AND -"MOCs" AND -"Changelog"
-```
-
 ***
 
 Jimmy Briggs <jimmy.briggs@jimbrig.com> | 2022
-
-
-
-## Dataviews
-
-### Tagged as *Topic/Dev*
-
-```dataview
-list from #Topic/Dev AND -"Templates" AND -"MOCs" AND -"Changelog"
-```
-
-### Links to this File
-
-```dataview
-list from [[Development]] AND -"Changelog"
-```
