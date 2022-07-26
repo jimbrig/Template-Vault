@@ -101,7 +101,14 @@ Alias: "Development"
 - [[Git-Cliff]]
 - [[topgrade]]
 - [[to-ico]]
-- [[To]]
+- [[Todoist CLI]]
+- [[wsh]]
+- [[Youtube DL]]
+- [[wslenv]]
+- [[lsd]] and [[exa]]
+- [[fzf]]
+- [[Tmux]]
+- [[]]
 
 ### Lists
 
