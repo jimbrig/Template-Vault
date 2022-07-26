@@ -108,7 +108,16 @@ Alias: "Development"
 - [[lsd]] and [[exa]]
 - [[fzf]]
 - [[Tmux]]
-- [[]]
+- [[git-crypt]]
+- [[fq]]
+- [[graphviz]]
+- [[Pandoc]]
+- [[perl]]
+- [[schemacrawler]] and [[schemaspy]]
+- [[shellexview]]
+- [[neofetch]] and [[winfetch]]
+- [[wttop]] and [[tiptop]]
+- [[sqlite]]
 
 ### Lists
 
