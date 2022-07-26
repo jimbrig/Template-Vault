@@ -61,11 +61,14 @@ Alias: "Development"
 
 ## Tools
 
+### Lists
+
 - [[Online Developer Tools List]]
 - [[CLI Tools List]]
 - [[GitHub Awesome Lists]]
-- [[Web Browsers List]]
-- [[Database GUIs ]]
+- [[Web Browser Extensions List]]
+- [[Database GUIs List]]
+- [[VSCode Extensions List]]
 
 ### Version Control
 
@@ -88,7 +91,7 @@ Alias: "Development"
 
 - [[Amazon Web Services]]
 - [[Google Cloud Platform]]
-- [[Azure]]
+- [[Microsoft Azure]]
 - [[Heroku]]
 - [[Digital Ocean]]
 - [[Linode]]
