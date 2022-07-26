@@ -61,6 +61,12 @@ Alias: "Development"
 
 ## Tools
 
+- [[Online Developer Tools List]]
+- [[CLI Tools List]]
+- [[GitHub Awesome Lists]]
+
+### V
+
 ### API Development
 
 - [[Swagger]]
@@ -125,7 +131,9 @@ Alias: "Development"
 - [[driverview]]
 - [[diskpart]]
 - [[everything-cli]]
-- [[]]
+- [[installedpackagesview]]
+
+
 
 ### Lists
 
