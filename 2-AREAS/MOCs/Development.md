@@ -39,7 +39,11 @@ Alias: "Development"
 	- [[PowerShell Core]]
 	- [[Windows PowerShell]]
 - [[Command Line]]
-- [[Bash]] and [[Zsh]]
+	- [[Windows CMD]]
+	- [[Batch]]
+	- [[Bash]]
+	- [[Zsh]]
+	- [[sh]]
 - [[HTML]], [[CSS]], [[JavaScript]]
 - [[Node.js]]
 - [[React.js]], [[Angular.js]], [[Vue.js]]
@@ -56,6 +60,8 @@ Alias: "Development"
 - [[Terraform]]
 
 ## Tools
+
+
 
 ### Lists
 
