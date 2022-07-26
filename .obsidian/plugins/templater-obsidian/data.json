@@ -17,6 +17,10 @@
     {
       "folder": "2-AREAS/Code/Bash",
       "template": "3-RESOURCES/Templates/Code Templates/Bash-Template.md"
+    },
+    {
+      "folder": "2-AREAS/MOCs",
+      "template": "3-RESOURCES/Templates/Core Templates/MOC-Template.md"
     }
   ],
   "syntax_highlighting": true,
