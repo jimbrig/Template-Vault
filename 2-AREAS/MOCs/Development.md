@@ -25,9 +25,9 @@ Alias: "Development"
 
 ## Notes about Development
 
-### Languages and Frameworks
+## Languages and Frameworks
 
-- [[R]] & [[R Shiny]]
+- [[R]]
 - [[SQL]] ([[T-SQL]], [[PLPGSQL]])
 - [[Python]]
 - [[PowerShell]]
@@ -35,7 +35,7 @@ Alias: "Development"
 - [[Bash]] and [[Zsh]]
 - [[HTML]], [[CSS]], [[JavaScript]]
 - [[Node.js]]
-- [[React.js]]
+- [[React.js]], [[Angular.js]], [[Vue.js]]
 - [[Golang]]
 - [[Rust]]
 - [[Julia]]
@@ -47,8 +47,6 @@ Alias: "Development"
 - [[ASP.Net]]
 - [[Docker]]
 - [[Terraform]]
-
-
 
 ## Tools
 
