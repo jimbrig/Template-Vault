@@ -13,16 +13,18 @@ Alias: "<% tp.file.title %>"
 
 ## Related MOCs
 
-## Dataviews
+***
 
-### Tagged as *Category/<% tp.file.title %>*
+## Appendix: Links and References
+
+***
+
+Jimmy Briggs <jimmy.briggs@jimbrig.com> | <% tp.date.now("YYYY") %>
+
+
+### Tagged as *Topic/<% tp.file.title %>*
 
 ```dataview
-list from #Category/<% tp.file.title %> AND -"Templates" AND -"MOCs" AND -"Changelog"
+list from #Topic/<% tp.file.title %> AND -"Templates" AND -"MOCs" AND -"Changelog"
 ```
 
-### Links to this File
-
-```dataview
-list from [[<% tp.file.title %>]] AND -"Changelog"
-```
