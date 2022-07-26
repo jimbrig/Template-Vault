@@ -152,70 +152,6 @@ Alias: "Development"
 - [[everything-cli]]
 - [[installedpackagesview]]
 
-
-
-
-
-### Version Control
-
-**Version Control:**
-
-- [[Git]]
-- [[GitHub]]
-- [[GitHub CLI]]
-- [[Git Extras]]
-- [[Git-Crypt]]
-
-### Clouds
-
-- [[Microsoft Azure]]
-- [[Amazon Web Services]]
-- [[Google Cloud Platform]]
-
-**AWS Tools:**
-
-- [[AWS CLI]]
-- [[AWS RDS]]
-- [[AWS Secrets Manager]]
-- [[AWS Lambda]]
-- [[AWS Glue]]
-- [[AWS IAM]]
-- [[AWS Lightsail]]
-- [[AWS Elastic Container Registry]]
-- [[AWS Athena]]
-- [[AWS QuickSight]]
-- [[AWS Redshift]]
-
-**Azure Tools:**
-
-- [[Azure Data Studio]]
-- [[Azure DevOps]]
-- [[Azure DevOps Pipelines]]
-- [[Azure CLI]]
-- [[Azure Machine Learning]]
-- [[Azure ML Compute Instances]]
-- [[Azure MLOps]]
-- [[Azure SQL Databases]]
-- [[Azure Storage Explorer]]
-- [[Azure Container Registry]]
-- [[Azure Vault]]
-- [[Azure App Services]]
-- [[Azure Resource Groups]]
-- [[Azure Subscriptions]]
-- [[Azure Active Directory]]
-
-**GCP Tools:**
-
-- [[Gcloud SDK]]
-- [[Gcloud Components]]
-
-**Other:**
-
-- [[MEGA CMD]]
-- [[Vercel]]
-- [[Heroku]]
-- [[Digital Ocean]]
-
 ### Package Management
 
 **Package Managers:**
@@ -223,19 +159,18 @@ Alias: "Development"
 - [[Winget]]
 - [[Chocolatey]]
 - [[Scoop]]
+- [[apt]]
 - [[Homebrew]]
-
 - [[Node - npm]]
 - [[Python - pip]]
-
-- [[RIM - R Installation Manager CLI]]
+- [[R - CRAN]]
+- [[Rust - cargo]]
 
 ### Databases
 
-- [[SQL]]
-- [[Azure Data Studio]]
 - [[SQL Server]]
 - [[SQL Server Management Studio]]
+- [[Azure Data Studio]]
 - [[Dbgate]]
 - [[BeeKeeper]]
 - [[DBeaver]]
