@@ -61,6 +61,22 @@ Alias: "Development"
 
 ## Tools
 
+### API Development
+
+- [[Swagger]]
+- [[OpenAPI Specification]]
+- [[Async API Specification]]
+- [[GraphQL]]
+
+### Cloud Services
+
+- [[Amazon Web Services]]
+- [[Google Cloud Platform]]
+- [[Azure]]
+- [[Heroku]]
+- [[Digital Ocean]]
+- [[Linode]]
+- 
 
 
 ### Lists
