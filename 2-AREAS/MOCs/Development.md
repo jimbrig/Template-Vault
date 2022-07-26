@@ -186,10 +186,14 @@ Alias: "Development"
 
 - [[Windows Subsystem for Linux]]
 - [[Windows Terminal]]
+- [[Winget]]
 - [[Visual Studio Code]]
+- [[Visual Studio]]
+- [[Windows SDK]]
+- [[Windows APK]]
 - [[PowerToys]]
-- [[Windows Subsystem for Andr]]
-
+- [[Windows Subsystem for Android]]
+- [[Windows Defender]]
 - [[EaseUS]]
 
 ### Markdown Editors
@@ -221,7 +225,7 @@ Alias: "Development"
 - [[Prophet]]
 - [[Zotero]]
 
-## Best Practices, Guides, How-To's, and Setups
+## Best Practices, Guides, How-Tos, and Setups
 
 - [[Windows Developer Environment]]
 - [[Windows Registry Hacks]]
