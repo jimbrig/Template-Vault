@@ -13,6 +13,8 @@
   "spellcheckDictionary": [
     "Espanso",
     "Zsh",
-    "zsh"
+    "zsh",
+    "Homebrew",
+    "macOS"
   ]
 }

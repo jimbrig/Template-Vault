@@ -59,19 +59,24 @@ brew install zsh
 To set zsh as your default shell, execute the following assuming a default install of Homebrew
 
 -   Recent macOS versions:
-    
-    chsh -s /usr/local/bin/zsh
-    
+
+```bash
+chsh -s /usr/local/bin/zsh
+```
+
 -   macOS **High Sierra** and older:
-    
-    chsh -s /bin/zsh
-    
+
+```bash    
+chsh -s /bin/zsh
+```    
 
 Assuming you have [Homebrew](https://brew.sh/) installed. If not, most versions of **macOS** ship zsh by default, but it's normally an older version. Alternatively, you may also use [MacPorts](https://www.macports.org/)
 
+```bash
 sudo port install zsh zsh-completions
+```
 
-### [](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#ubuntu-debian--derivatives-windows-10-wsl--native-linux-kernel-with-windows-10-build-1903)Ubuntu, Debian & derivatives (Windows 10 WSL | Native Linux kernel with Windows 10 build 1903)
+### Ubuntu, Debian & derivatives (Windows 10 WSL | Native Linux kernel with Windows 10 build 1903)
 
 apt install zsh
 
