@@ -33,9 +33,17 @@ Alias: "Development"
 - [[PowerShell]]
 - [[Command Line]]
 - [[Bash]] and [[Zsh]]
+- [[HTML]], [[CSS]], [[JavaScript]]
 - [[Node.js]]
 - [[React.js]]
-- 
+- [[Golang]]
+- [[Rust]]
+- [[Julia]]
+- [[Java]]
+- [[C#]]
+- [[C++]]
+- [[]]
+
 
 ## Tools
 
