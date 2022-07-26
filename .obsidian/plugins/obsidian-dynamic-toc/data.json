@@ -4,5 +4,6 @@
   "max_depth": 6,
   "externalStyle": "TOC",
   "supportAllMatchers": true,
-  "allow_inconsistent_headings": false
+  "allow_inconsistent_headings": false,
+  "title": "## Contents"
 }

@@ -9,6 +9,8 @@ Alias: []
 
 *Source: [GitHub - ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh#basic-installation)*
 
+## Contents
+
 [TOC]
 
 ```bash
@@ -66,19 +68,6 @@ sh install.sh
 - [[Shell]]
 - [[Terminal]]
 - [[Zsh Setup Guide]]
-
-***
-
-Jimmy Briggs <jimmy.briggs@jimbrig.com> | 2022
-
-***
-
-## Appendix: Links and References
-
-- [[Code]]
-- [[Development]]
-- [[Linux]]
-- [[2-AREAS/Code/Bash/_README|Bash]]
 
 ***
 

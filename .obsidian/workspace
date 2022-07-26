@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md",
-            "mode": "preview",
+            "mode": "source",
             "backlinks": true
           }
         }
@@ -146,10 +146,10 @@
   },
   "active": "9f2236daa97daf47",
   "lastOpenFiles": [
-    "2-AREAS/Code/Bash/Bash - Install and Setup Git.md",
-    "2-AREAS/Code/Bash/Bash - Install R.md",
     "2-AREAS/Code/Bash/Bash - Install PostgreSQL.md",
     "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md",
+    "2-AREAS/Code/Bash/Bash - Install and Setup Git.md",
+    "2-AREAS/Code/Bash/Bash - Install R.md",
     "2-AREAS/Code/Bash/Bash - Install NVM.md",
     "2-AREAS/Code/Bash/Bash - Git-Auto.md",
     "3-RESOURCES/Templates/Fragments/Appendix-Template.md",
