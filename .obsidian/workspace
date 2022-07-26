@@ -10,6 +10,18 @@
           "type": "markdown",
           "state": {
             "file": "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md",
+            "mode": "preview",
+            "backlinks": true
+          }
+        }
+      },
+      {
+        "id": "36c5b2bb2108ad5a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "2-AREAS/Code/Bash/Bash - Install Zsh.md",
             "mode": "source",
             "backlinks": true
           }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md",
+                "file": "2-AREAS/Code/Bash/Bash - Install Zsh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md",
+                "file": "2-AREAS/Code/Bash/Bash - Install Zsh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md"
+                "file": "2-AREAS/Code/Bash/Bash - Install Zsh.md"
               }
             }
           },
@@ -144,17 +156,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9f2236daa97daf47",
+  "active": "36c5b2bb2108ad5a",
   "lastOpenFiles": [
-    "2-AREAS/Code/Bash/Bash - Install PostgreSQL.md",
     "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md",
+    "2-AREAS/Code/Bash/Bash - Install Zsh.md",
+    "2-AREAS/Code/Bash/Bash - Install PostgreSQL.md",
     "2-AREAS/Code/Bash/Bash - Install and Setup Git.md",
     "2-AREAS/Code/Bash/Bash - Install R.md",
     "2-AREAS/Code/Bash/Bash - Install NVM.md",
     "2-AREAS/Code/Bash/Bash - Git-Auto.md",
     "3-RESOURCES/Templates/Fragments/Appendix-Template.md",
     "3-RESOURCES/Templates/Core Templates/Default-Note-Template.md",
-    "3-RESOURCES/Templates/Core Templates/Daily-Note-Template.md",
-    "3-RESOURCES/Templates/Code Templates/Bash-Template.md"
+    "3-RESOURCES/Templates/Core Templates/Daily-Note-Template.md"
   ]
 }

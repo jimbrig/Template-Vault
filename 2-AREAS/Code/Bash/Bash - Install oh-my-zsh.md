@@ -9,7 +9,7 @@ Alias: []
 
 *Source: [GitHub - ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh#basic-installation)*
 
-## Contents
+*See Also: [[Bash - Install Zsh]]*
 
 [TOC]
 
