@@ -119,37 +119,49 @@ To install the package:
 pkg_add zsh
 ```
 
-### [](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#freebsd)FreeBSD
+### FreeBSD
 
 To install the package:
 
+```bash
 pkg install zsh
+```
 
 To install the port:
 
+```bash
 cd /usr/ports/shells/zsh/ && make install clean
+```
 
 To reduce memory usage, optionally enable zsh-mem options with ![installation screen to enable zsh-mem](https://camo.githubusercontent.com/68720a867a939ffaf119cfbddb8d4aa64670b3366f22e20793fbaa36a064f0cd/68747470733a2f2f692e696d6775722e636f6d2f6c34696436456b2e706e67)
 
+```bash
 make config
+```
 
-before running "make install".
+before running `make install`.
 
-### [](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#centosrhel)Centos/RHEL
+### Centos/RHEL
 
+```bash
 sudo yum update && sudo yum -y install zsh
+```
 
-### [](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#cygwin)Cygwin
+### Cygwin
 
 Install the zsh package using the installer. Unfortunately Cygwin doesn't have a standard command line interface. You could, however, setup [apt-cyg](https://github.com/kou1okada/apt-cyg) and install zsh as follows:
 
+```bash
 apt-cyg install zsh
+```
 
 The easiest way to change the default shell is to set your SHELL user environment variable. Search for "Edit Environment variables for your account" to bring up the environment variables window, create a new variable named "SHELL" and give it the value "/usr/bin/zsh/".
 
 _Alternatively:_ Open Cygwin (in BASH) then type:
 
+```bash
 sudo nano ~/.bashrc
+```
 
 Once the .bashrc file is open, add this line to the very top:
 
