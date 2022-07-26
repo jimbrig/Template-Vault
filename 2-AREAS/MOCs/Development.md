@@ -169,6 +169,11 @@ Alias: "Development"
 ### Databases
 
 - [[SQL Server]]
+- [[PostgreSQL]]
+- [[SQLite]]
+- [[MySQL]]
+- [[MongoDB]]
+- [[pgAdmin4]]
 - [[SQL Server Management Studio]]
 - [[Azure Data Studio]]
 - [[Dbgate]]
@@ -182,9 +187,10 @@ Alias: "Development"
 - [[Windows Subsystem for Linux]]
 - [[Windows Terminal]]
 - [[Visual Studio Code]]
-- [[DotNet]]
+- [[PowerToys]]
+- [[Windows Subsystem for Andr]]
+
 - [[EaseUS]]
-- [[Microsoft Edge]]
 
 ### Markdown Editors
 
