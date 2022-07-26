@@ -96,7 +96,12 @@ Alias: "Development"
 - [[gcloud]]
 - [[Nativefier]]
 - [[nostalgic]]
-- [[]]
+- [[Zsh]], [[Oh-My-Zsh]] 
+- [[Git-Extras]]
+- [[Git-Cliff]]
+- [[topgrade]]
+- [[to-ico]]
+- [[To]]
 
 ### Lists
 
