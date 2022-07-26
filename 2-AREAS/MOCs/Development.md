@@ -28,9 +28,16 @@ Alias: "Development"
 ## Languages and Frameworks
 
 - [[R]]
-- [[SQL]] ([[T-SQL]], [[PLPGSQL]])
+	- [[R Shiny]]
+- [[SQL]]
+	- [[T-SQL]]
+	- [[PLPGSQL]]
 - [[Python]]
+	- [[Flask]]
+	- [[Django]]
 - [[PowerShell]]
+	- [[PowerShell Core]]
+	- [[Windows PowerShell]]
 - [[Command Line]]
 - [[Bash]] and [[Zsh]]
 - [[HTML]], [[CSS]], [[JavaScript]]
