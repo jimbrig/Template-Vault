@@ -28,10 +28,14 @@ Alias: "Development"
 ### Languages and Frameworks
 
 - [[R]] & [[R Shiny]]
+- [[SQL]] ([[T-SQL]], [[PLPGSQL]])
 - [[Python]]
-- [[PowerShell]], [[PowerShell Core]], [[Windows PowerShell]], [[PowerShell Modules]]
-- [[Nodejs]]
-
+- [[PowerShell]]
+- [[Command Line]]
+- [[Bash]] and [[Zsh]]
+- [[Node.js]]
+- [[React.js]]
+- 
 
 ## Tools
 
