@@ -68,7 +68,7 @@ Alias: "Development"
 - [[Async API Specification]]
 - [[GraphQL]]
 
-### Cloud Services
+### Cloud Vendors
 
 - [[Amazon Web Services]]
 - [[Google Cloud Platform]]
@@ -76,10 +76,22 @@ Alias: "Development"
 - [[Heroku]]
 - [[Digital Ocean]]
 - [[Linode]]
-- 
+- [[Fly.io]]
+- [[Vercel]]
+
+### Command Line Utilities
+
+- [[doctoc]]
+- [[tldr]]
+- [[bat]]
+- [[ffsend]]
+- [[gcalcli]]
+- [[keep]]
+- [[GAM - Google ]]
 
 
 ### Lists
+
 
 - [[Online Developer Tools List]]
 - [[CLI Tools List]]
