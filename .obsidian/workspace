@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-AREAS/MOCs/Development.md",
+            "file": "0-INBOX/_README.md",
             "mode": "source",
             "backlinks": true
           }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-AREAS/MOCs/Development.md",
+                "file": "0-INBOX/_README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-AREAS/MOCs/Development.md",
+                "file": "0-INBOX/_README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-AREAS/MOCs/Development.md"
+                "file": "0-INBOX/_README.md"
               }
             }
           },
@@ -158,15 +158,15 @@
   },
   "active": "9f2236daa97daf47",
   "lastOpenFiles": [
+    "README.md",
+    "3-RESOURCES/_README.md",
+    "2-AREAS/MOCs/Development.md",
     "2-AREAS/Code/GHA/_README.md",
     "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md",
     "2-AREAS/Code/Bash/_README.md",
     "2-AREAS/Code/Bash/Bash - Install Zsh.md",
     "2-AREAS/Code/Bash/Bash - Install R.md",
     "2-AREAS/Code/Bash/Bash - Install PostgreSQL.md",
-    "2-AREAS/Code/_README.md",
-    "2-AREAS/MOCs/Development.md",
-    "2-AREAS/MOCs/_README.md",
-    "3-RESOURCES/Templates/Core Templates/MOC-Template.md"
+    "2-AREAS/Code/_README.md"
   ]
 }

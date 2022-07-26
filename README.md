@@ -1,0 +1,1 @@
+# Template Obsidian Vault
