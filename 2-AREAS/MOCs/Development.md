@@ -42,7 +42,12 @@ Alias: "Development"
 - [[Java]]
 - [[C#]]
 - [[C++]]
-- [[]]
+- [[F#]]
+- [[.Net]]
+- [[ASP.Net]]
+- [[Docker]]
+- [[Terraform]]
+
 
 
 ## Tools
