@@ -81,23 +81,23 @@ Alias: "Development"
 
 ### Command Line Utilities
 
-- [[doctoc]]
-- [[tldr]]
-- [[bat]]
-- [[ffsend]]
-- [[gcalcli]]
-- [[keep]]
+- [[doctoc]] ⭐
+- [[tldr]] ⭐
+- [[bat]] ⭐
+- [[ffsend]] ⭐
+- [[gcalcli]] ⭐
+- [[keep]] ⭐
 - [[GAM - Google Admin Manager]]
 - [[RIM - R Installation Manager]]
 - [[MEGA CMD]]
-- [[GitHub CLI]] and [[GitHub CLI Extensions]]
+- [[GitHub CLI]] and [[GitHub CLI Extensions]] ⭐
 - [[Azure CLI]]
 - [[AWS CLI]]
 - [[gcloud]]
-- [[Nativefier]]
+- [[Nativefier]] ⭐
 - [[nostalgic]]
-- [[Zsh]], [[Oh-My-Zsh]] 
-- [[Git-Extras]] and [[Git-Extensio⭐
+- [[Zsh]], [[Oh-My-Zsh]] ⭐
+- [[Git-Extras]] and [[Git-Extensions]] ⭐
 - [[Git-Cliff]] ⭐
 - [[topgrade]] ⭐
 - [[to-ico]]
@@ -121,7 +121,11 @@ Alias: "Development"
 - [[aria2]] ⭐
 - [[dark]]
 - [[dos2unix]] ⭐
-
+- [[quarto]]
+- [[driverview]]
+- [[diskpart]]
+- [[everything-cli]]
+- [[]]
 
 ### Lists
 
