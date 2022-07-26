@@ -12,6 +12,7 @@
   "attachmentFolderPath": "./_assets",
   "spellcheckDictionary": [
     "Espanso",
-    "Zsh"
+    "Zsh",
+    "zsh"
   ]
 }

@@ -17,7 +17,10 @@ sudo apt-get -y install zsh
 # verify
 zsh --version
 
+# make default shell
+chsh -s $(which zsh)
 
+# 
 
 ```
 
@@ -35,6 +38,7 @@ If necessary, follow these steps to install Zsh:
 3.  Make it your default shell: `chsh -s $(which zsh)`
     
     -   Note that this will not work if Zsh is not in your authorized shells list (`/etc/shells`) or if you don't have permission to use `chsh`. If that's the case [you'll need to use a different procedure](https://www.google.com/search?q=zsh+default+without+chsh).
+
 4.  Log out and log back in again to use your new default shell.
     
 5.  Test that it worked with `echo $SHELL`. Expected result: `/bin/zsh` or similar.
@@ -42,13 +46,15 @@ If necessary, follow these steps to install Zsh:
 6.  Test with `$SHELL --version`. Expected result: 'zsh 5.8' or similar
     
 
-## [](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#how-to-install-zsh-on-many-platforms)How to install zsh on many platforms
+## How to install zsh on many platforms
 
-### [](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#macos)macOS
+### macOS
 
-**Try `zsh --version` before installing it from Homebrew. Preferably newer than or equal to `5.0.8`.**
+**Try `zsh --version` before installing it from [[Homebrew]]. Preferably newer than or equal to `5.0.8`.**
 
+```bash
 brew install zsh
+```
 
 To set zsh as your default shell, execute the following assuming a default install of Homebrew
 
