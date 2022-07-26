@@ -163,57 +163,26 @@ _Alternatively:_ Open Cygwin (in BASH) then type:
 sudo nano ~/.bashrc
 ```
 
-Once the .bashrc file is open, add this line to the very top:
+Once the `.bashrc` file is open, add this line to the very top:
 
+```bash
 exec zsh
+```
 
-Close and save the file. Close and reopen Cygwin. It will execute the command every time you load the terminal and run your zsh shell.
-
-### [](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#solus)Solus
-
-eopkg it zsh
-
-### [](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#funtoogentoo)Funtoo/Gentoo
-
-emerge app-shells/zsh
-
-### [](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#alpine-linux)Alpine Linux
-
-apk add zsh
-
-### [](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#msys2)MSYS2
-
-pacman -S zsh
-
-### [](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#termux-android)Termux (Android)
-
-Termux is an terminal emulator for Android but has modern feature like Debian and Ubuntu (Termux has Bash shell and Busybox GNU-like programs). For the package manager, Termux using an Debian/Ubuntu package manager, APT. To install the package, run this command:
-
-pkg install zsh
-
-The command looks like FreeBSD package manager (`pkg`). Or you can run this command:
-
-apt update && apt upgrade
-apt install zsh
-
-To set zsh as your default shell, run this command:
-
-chsh -s zsh
-
-### [](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#kiss-linux)KISS Linux
-
-To install zsh, you must add the [community](https://github.com/kiss-community/repo-community/) repo to your `$KISS_PATH`.
-
-kiss b zsh && kiss i zsh
+Close and save the file. Close and reopen [[Cygwin]]. It will execute the command every time you load the terminal and run your zsh shell.
 
 ***
 
 ## Appendix: Links and References
 
-- [[Code]]
+- [[2-AREAS/Code/_README|Code]]
 - [[Development]]
 - [[Linux]]
 - [[2-AREAS/Code/Bash/_README|Bash]]
+- [[Oh-My-Zsh]]
+- [[Shell]]
+- [[WSL]]
+- [[Zsh Setup Guide]]
 
 ***
 

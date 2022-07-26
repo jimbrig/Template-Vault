@@ -5,6 +5,10 @@
       "path": "2-AREAS/Code/Bash/Bash - Install Zsh.md"
     },
     {
+      "basename": "_README",
+      "path": "2-AREAS/Code/_README.md"
+    },
+    {
       "basename": "Bash - Install oh-my-zsh",
       "path": "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md"
     },
@@ -63,10 +67,6 @@
     {
       "basename": "Frontmatter-Template",
       "path": "3-RESOURCES/Templates/Fragments/Frontmatter-Template.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/_README.md"
     },
     {
       "basename": "_README",
