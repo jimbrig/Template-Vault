@@ -25,6 +25,12 @@ Alias: "Development"
 
 ## Notes about Development
 
+## Operating Systems
+
+- [[Microsoft Windows]]
+- [[Linux]]
+- [[macOS]]
+
 ## Languages and Frameworks
 
 - [[R]]
@@ -148,11 +154,7 @@ Alias: "Development"
 
 
 
-### Lists
 
-
-- [[Online Developer Tools List]]
-- [[CLI Tools List]]
 
 ### Version Control
 
