@@ -10,10 +10,16 @@ Alias: []
 *Source: [Installing ZSH · ohmyzsh/ohmyzsh Wiki · GitHub](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)*
 
 ```bash
+# update and install
+sudo apt-get -y update
+sudo apt-get -y install zsh
+
+# verify
+zsh --version
+
+
 
 ```
-
-
 
 ## Install and set up Zsh as default
 
@@ -21,8 +27,9 @@ If necessary, follow these steps to install Zsh:
 
 1.  There are two main ways to install Zsh:
     
-    -   With the package manager of your choice, _e.g._ `sudo apt install zsh` (see [below for more examples](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#how-to-install-zsh-on-many-platforms))
+    -   With the package manager of your choice, _e.g._ `sudo apt install zsh` (see [more examples](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#how-to-install-zsh-on-many-platforms))
     -   From [source](https://zsh.sourceforge.io/Arc/source.html), following [the instructions from the Zsh FAQ](https://zsh.sourceforge.io/FAQ/zshfaq01.html#l7).
+    
 2.  Verify installation by running `zsh --version`. Expected result: `zsh 5.0.8` or more recent.
     
 3.  Make it your default shell: `chsh -s $(which zsh)`
