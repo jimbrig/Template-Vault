@@ -87,8 +87,16 @@ Alias: "Development"
 - [[ffsend]]
 - [[gcalcli]]
 - [[keep]]
-- [[GAM - Google ]]
-
+- [[GAM - Google Admin Manager]]
+- [[RIM - R Installation Manager]]
+- [[MEGA CMD]]
+- [[GitHub CLI]] and [[GitHub CLI Extensions]]
+- [[Azure CLI]]
+- [[AWS CLI]]
+- [[gcloud]]
+- [[Nativefier]]
+- [[nostalgic]]
+- [[]]
 
 ### Lists
 
