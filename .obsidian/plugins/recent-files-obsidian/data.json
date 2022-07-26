@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "MOC-Template",
+      "path": "3-RESOURCES/Templates/Core Templates/MOC-Template.md"
+    },
+    {
+      "basename": "Development",
+      "path": "2-AREAS/MOCs/Development.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/MOCs/_README.md"
+    },
+    {
       "basename": "Bash - Install Zsh",
       "path": "2-AREAS/Code/Bash/Bash - Install Zsh.md"
     },

@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-AREAS/Code/Bash/Bash - Install Zsh.md",
+            "file": "3-RESOURCES/Templates/Core Templates/MOC-Template.md",
             "mode": "source",
             "backlinks": true
           }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-AREAS/Code/Bash/Bash - Install Zsh.md",
+                "file": "3-RESOURCES/Templates/Core Templates/MOC-Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-AREAS/Code/Bash/Bash - Install Zsh.md",
+                "file": "3-RESOURCES/Templates/Core Templates/MOC-Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-AREAS/Code/Bash/Bash - Install Zsh.md"
+                "file": "3-RESOURCES/Templates/Core Templates/MOC-Template.md"
               }
             }
           },
@@ -158,15 +158,15 @@
   },
   "active": "36c5b2bb2108ad5a",
   "lastOpenFiles": [
-    "2-AREAS/Code/_README.md",
+    "2-AREAS/MOCs/Development.md",
+    "2-AREAS/MOCs/_README.md",
     "2-AREAS/Code/Bash/Bash - Install Zsh.md",
+    "2-AREAS/Code/_README.md",
     "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md",
     "2-AREAS/Code/Bash/Bash - Install PostgreSQL.md",
     "2-AREAS/Code/Bash/Bash - Install and Setup Git.md",
     "2-AREAS/Code/Bash/Bash - Install R.md",
     "2-AREAS/Code/Bash/Bash - Install NVM.md",
-    "2-AREAS/Code/Bash/Bash - Git-Auto.md",
-    "3-RESOURCES/Templates/Fragments/Appendix-Template.md",
-    "3-RESOURCES/Templates/Core Templates/Default-Note-Template.md"
+    "2-AREAS/Code/Bash/Bash - Git-Auto.md"
   ]
 }
