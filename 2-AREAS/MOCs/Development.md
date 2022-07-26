@@ -64,16 +64,18 @@ Alias: "Development"
 - [[Online Developer Tools List]]
 - [[CLI Tools List]]
 - [[GitHub Awesome Lists]]
+- [[Web Browsers List]]
+- [[Database GUIs ]]
 
 ### Version Control
 
 - [[Git]]
 - [[GitHub]], [[GitHub CLI]], [[GitHub CLI Extensions]]
+- [[GitKraken]]
 - [[Azure DevOps]], [[Azure DevOps (az extension)]]
 - [[Git Extras]] and [[Git Extensions]]
 - [[Git Secret]] and [[Git-Crypt]]
 - [[hub]]
-- [[]]
 
 ### API Development
 
