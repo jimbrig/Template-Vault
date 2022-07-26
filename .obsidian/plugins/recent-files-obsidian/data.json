@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "MOC-Template",
-      "path": "3-RESOURCES/Templates/Core Templates/MOC-Template.md"
-    },
-    {
       "basename": "Development",
       "path": "2-AREAS/MOCs/Development.md"
+    },
+    {
+      "basename": "MOC-Template",
+      "path": "3-RESOURCES/Templates/Core Templates/MOC-Template.md"
     },
     {
       "basename": "_README",
