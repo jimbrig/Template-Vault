@@ -7,7 +7,7 @@ Alias: []
 
 # Bash - Install Zsh
 
-*Source: *
+*Source: [Installing ZSH · ohmyzsh/ohmyzsh Wiki · GitHub](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)*
 
 ```bash
 
