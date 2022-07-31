@@ -7,7 +7,6 @@ Alias: ["Docker Commands"]
 
 # Docker Commands Reference
 
-
 *Source: [tech-workbook/docker-commands.md at master · akarazhev/tech-workbook (github.com)](https://github.com/akarazhev/tech-workbook/blob/master/commands/docker-commands.md)*
 
 ## Contents
