@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "VBA-Template",
+      "path": "3-RESOURCES/Templates/Code Templates/VBA-Template.md"
+    },
+    {
+      "basename": "Bash-Template",
+      "path": "3-RESOURCES/Templates/Code Templates/Bash-Template.md"
+    },
+    {
+      "basename": "_README",
+      "path": "3-RESOURCES/_README.md"
+    },
+    {
+      "basename": "VBA - Excel Dark Mode",
+      "path": "2-AREAS/Code/VBA/VBA - Excel Dark Mode.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/VBA/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Development/_README.md"
+    },
+    {
+      "basename": "Docker Commands Reference",
+      "path": "2-AREAS/Development/Docker Commands Reference.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "1-SLIPBOX/_README.md"
+    },
+    {
       "basename": "Linux Commands Reference",
       "path": "2-AREAS/Development/Linux Commands Reference.md"
     },
@@ -9,20 +49,8 @@
       "path": "2-AREAS/Development/Git Commands Reference.md"
     },
     {
-      "basename": "Docker Commands Reference",
-      "path": "2-AREAS/Development/Docker Commands Reference.md"
-    },
-    {
       "basename": "Git and Github Contribution Lifecycle",
       "path": "2-AREAS/Development/Git and Github Contribution Lifecycle.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Development/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "3-RESOURCES/_README.md"
     },
     {
       "basename": "Development",
@@ -37,20 +65,8 @@
       "path": "2-AREAS/Daily-Notes/_README.md"
     },
     {
-      "basename": "_README",
-      "path": "2-AREAS/Code/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/_README.md"
-    },
-    {
       "basename": "About Data Requirements",
       "path": "1-SLIPBOX/About Data Requirements.md"
-    },
-    {
-      "basename": "_README",
-      "path": "1-SLIPBOX/_README.md"
     },
     {
       "basename": "_README",
@@ -113,10 +129,6 @@
       "path": "3-RESOURCES/Templates/Core Templates/Daily-Note-Template.md"
     },
     {
-      "basename": "Bash-Template",
-      "path": "3-RESOURCES/Templates/Code Templates/Bash-Template.md"
-    },
-    {
       "basename": "Footer-Template",
       "path": "3-RESOURCES/Templates/Fragments/Footer-Template.md"
     },
@@ -131,10 +143,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Code/Visual Basic/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/VBA/_README.md"
     },
     {
       "basename": "_README",
@@ -191,10 +199,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Code/Batch/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/AHK/_README.md"
     }
   ],
   "omittedPaths": [],
