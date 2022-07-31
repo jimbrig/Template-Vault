@@ -1,7 +1,7 @@
 ---
 Date: <% tp.date.now() %>
 Author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
-Tags: ["#Type/Code/VBA", "#Topic/Dev/VBA", "#Topic/Excel"]
+Tags: ["#Type/Code/VBA", "#Topic/Dev/VBA", "#Topic/Tools/Excel"]
 Alias: []
 ---
 
@@ -9,7 +9,7 @@ Alias: []
 
 *Source: *
 
-```bash
+```vba
 
 ```
 
@@ -17,10 +17,9 @@ Alias: []
 
 ## Appendix: Links and References
 
-- [[Code]]
+- [[2-AREAS/Code/_README|Code]]
 - [[Development]]
-- [[Linux]]
-- [[2-AREAS/Code/Bash/_README|Bash]]
+- [[2-AREAS/Code/VBA/_README|VBA]]
 
 ***
 
