@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-AREAS/Development/Git Commands Reference.md",
-            "mode": "source",
+            "file": "2-AREAS/Development/Linux Commands Reference.md",
+            "mode": "preview",
             "backlinks": true
           }
         }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-AREAS/Development/Git Commands Reference.md",
+                "file": "2-AREAS/Development/Linux Commands Reference.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-AREAS/Development/Git Commands Reference.md",
+                "file": "2-AREAS/Development/Linux Commands Reference.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-AREAS/Development/Git Commands Reference.md"
+                "file": "2-AREAS/Development/Linux Commands Reference.md"
               }
             }
           },
@@ -146,8 +146,8 @@
   },
   "active": "1aeed37e6319cef6",
   "lastOpenFiles": [
-    "2-AREAS/Development/Docker Commands Reference.md",
     "2-AREAS/Development/Git Commands Reference.md",
+    "2-AREAS/Development/Docker Commands Reference.md",
     "2-AREAS/Development/Git and Github Contribution Lifecycle.md",
     "2-AREAS/Development/_README.md",
     "3-RESOURCES/_README.md",
