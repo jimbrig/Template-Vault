@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/VBA/_README.md"
+    },
+    {
       "basename": "VBA - Excel Dark Mode",
       "path": "2-AREAS/Code/VBA/VBA - Excel Dark Mode.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "_README",
       "path": "3-RESOURCES/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/VBA/_README.md"
     },
     {
       "basename": "_README",
@@ -75,10 +79,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Code/GHA/_README.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "Bash - Install oh-my-zsh",
