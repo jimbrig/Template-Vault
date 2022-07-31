@@ -19,9 +19,11 @@ flowchart TB
 	Step2 --> Step3(Create a Feature Branch)
 	Step3 --> Step4(Commit Changes to Feature Branch)
 	Step4 --> Step5(Push Feature Branch to Forked Repository)
-	Step5 --> Step6(Ras)
-
-
+	Step5 --> Step6(Raise a Pull Request Against Upstream Repository)
+	Step6 --> Step7(Address Review Comments and Merge Pull Reuqest)
+	Step7 --> Step8(Add the Main Repository as an Upstream to your Cloned Repository)
+	Step8 --> Step9(Update your `main` Branch from Upstream Remote)
+	Step9 --> Step10(Push the `main` Branch to your Fork)
 ```
 
 ## 1. Fork the main repository
