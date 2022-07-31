@@ -138,14 +138,14 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "1aeed37e6319cef6",
+  "active": "78bcb9ce4d722f8f",
   "lastOpenFiles": [
     "2-AREAS/Development/_README.md",
     "3-RESOURCES/_README.md",
