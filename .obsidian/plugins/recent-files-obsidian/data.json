@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "_README",
-      "path": "0-INBOX/_README.md"
+      "basename": "Docker Commands Reference",
+      "path": "2-AREAS/Development/Docker Commands Reference.md"
     },
     {
-      "basename": "README",
-      "path": "README.md"
+      "basename": "_README",
+      "path": "2-AREAS/Development/_README.md"
     },
     {
       "basename": "_README",
@@ -18,7 +18,39 @@
     },
     {
       "basename": "_README",
+      "path": "2-AREAS/MOCs/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/_README.md"
+    },
+    {
+      "basename": "About Data Requirements",
+      "path": "1-SLIPBOX/About Data Requirements.md"
+    },
+    {
+      "basename": "_README",
+      "path": "1-SLIPBOX/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "0-INBOX/_README.md"
+    },
+    {
+      "basename": "_README",
       "path": "2-AREAS/Code/GHA/_README.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
     },
     {
       "basename": "Bash - Install oh-my-zsh",
@@ -39,14 +71,6 @@
     {
       "basename": "Bash - Install PostgreSQL",
       "path": "2-AREAS/Code/Bash/Bash - Install PostgreSQL.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/MOCs/_README.md"
     },
     {
       "basename": "MOC-Template",
@@ -87,10 +111,6 @@
     {
       "basename": "_README",
       "path": "3-RESOURCES/Templates/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/_README.md"
     },
     {
       "basename": "Frontmatter-Template",
@@ -163,18 +183,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Code/AHK/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/_README.md"
-    },
-    {
-      "basename": "About Data Requirements",
-      "path": "1-SLIPBOX/About Data Requirements.md"
-    },
-    {
-      "basename": "_README",
-      "path": "1-SLIPBOX/_README.md"
     }
   ],
   "omittedPaths": [],
