@@ -11,6 +11,13 @@ Alias: ["Git Lifecycle"]
 
 [TOC]
 
+## Workflow Overview
+
+```mermaid
+GRAPH LR
+
+
+```
 
 ## 1. Fork the main repository
 
@@ -158,6 +165,7 @@ Hopefully, this article clears the air around the process of making GitHub contr
 - [[Git]]
 - [[GitHub]]
 - [[Version Control]]
+- [[Coding Best Practices]]
 
 ***
 
