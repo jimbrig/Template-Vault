@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Git and Github Contribution Lifecycle",
-      "path": "2-AREAS/Development/Git and Github Contribution Lifecycle.md"
+      "basename": "Git Commands Reference",
+      "path": "2-AREAS/Development/Git Commands Reference.md"
     },
     {
       "basename": "Docker Commands Reference",
       "path": "2-AREAS/Development/Docker Commands Reference.md"
+    },
+    {
+      "basename": "Git and Github Contribution Lifecycle",
+      "path": "2-AREAS/Development/Git and Github Contribution Lifecycle.md"
     },
     {
       "basename": "_README",
