@@ -1,10 +1,10 @@
 {
-  "livePreview": false,
+  "livePreview": true,
   "readableLineLength": false,
   "showFrontmatter": true,
   "showLineNumber": true,
   "spellcheck": true,
-  "legacyEditor": true,
+  "legacyEditor": false,
   "promptDelete": false,
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",

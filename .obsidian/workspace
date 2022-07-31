@@ -11,7 +11,8 @@
           "state": {
             "file": "0-INBOX/_README.md",
             "mode": "source",
-            "backlinks": true
+            "backlinks": true,
+            "source": false
           }
         }
       },
@@ -23,7 +24,8 @@
           "state": {
             "file": "2-AREAS/Code/GHA/_README.md",
             "mode": "preview",
-            "backlinks": true
+            "backlinks": true,
+            "source": false
           }
         }
       }
@@ -156,7 +158,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9f2236daa97daf47",
+  "active": "a22ed5e326b1fa83",
   "lastOpenFiles": [
     "README.md",
     "3-RESOURCES/_README.md",
