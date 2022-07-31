@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-AREAS/Code/VBA/_README.md",
+            "file": "README.md",
             "mode": "source",
             "backlinks": true
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-AREAS/Code/VBA/_README.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-AREAS/Code/VBA/_README.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-AREAS/Code/VBA/_README.md"
+                "file": "README.md"
               }
             }
           },
@@ -146,11 +146,11 @@
   },
   "active": "1aeed37e6319cef6",
   "lastOpenFiles": [
+    "2-AREAS/Code/VBA/_README.md",
     "2-AREAS/Code/VBA/VBA - Excel Dark Mode.md",
     "3-RESOURCES/Templates/Code Templates/VBA-Template.md",
     "3-RESOURCES/Templates/Code Templates/Bash-Template.md",
     "3-RESOURCES/_README.md",
-    "2-AREAS/Code/VBA/_README.md",
     "2-AREAS/Code/_README.md",
     "2-AREAS/Development/_README.md",
     "2-AREAS/Development/Docker Commands Reference.md",
