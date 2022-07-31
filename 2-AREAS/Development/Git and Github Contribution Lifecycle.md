@@ -14,7 +14,12 @@ Alias: ["Git Lifecycle"]
 ## Workflow Overview
 
 ```mermaid
-GRAPH LR
+flowchart TB
+	Step1(Fork the Repository) --> Step2(Clone Forked Repository to Local Machine)
+	Step2 --> Step3(Create a Feature Branch)
+	Step3 --> Step4(Commit Changes to Feature Branch)
+	Step4 --> Step5(Push Feature Branch to Forked Repository)
+	Step5 --> Step6(Ras)
 
 
 ```
