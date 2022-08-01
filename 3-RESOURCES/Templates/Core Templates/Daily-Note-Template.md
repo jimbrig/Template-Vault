@@ -5,9 +5,23 @@ Alias: []
 ---
 Tags:: [[+Daily Notes]]
 
-<< [[<% tp.date.now("YYYY-MM-DD", -1) %>]] | [[<% tp.date.now("YYYY-MM-DD", 1) %>]] >>
+<< [[<% tp.date.now("YYYY-MM-DD-dddd", -1, tp.file.title, "YYYY-MM-DD-dddd") %>]] | [[<% tp.date.now("YYYY-MM-DD-dddd", 1, tp.file.title, "YYYY-MM-DD-dddd") %>]]>>
 
-# <% tp.date.now("dddd - YYYY-MM-DD") %>
+# <% moment(tp.file.title,'YYYY-MM-DD').format("dddd, MMMM DD, YYYY") %>
+
+---
+### Daily Questions
+-
+
+---
+## Notes
+-
+
+---
+### Notes Created Today:
+```dataview
+
+```
 
 ## Day Planner
 
