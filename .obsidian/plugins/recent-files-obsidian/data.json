@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "CHANGELOG",
+      "path": "CHANGELOG.md"
+    },
+    {
       "basename": "README",
       "path": "README.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Code/CMD/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Batch/_README.md"
     }
   ],
   "omittedPaths": [],

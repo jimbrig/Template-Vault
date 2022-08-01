@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "0-INBOX/CHANGELOG.md",
             "mode": "source",
             "backlinks": true
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "0-INBOX/CHANGELOG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "0-INBOX/CHANGELOG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "0-INBOX/CHANGELOG.md"
               }
             }
           },
@@ -146,6 +146,8 @@
   },
   "active": "1aeed37e6319cef6",
   "lastOpenFiles": [
+    "HOME.md",
+    "README.md",
     "2-AREAS/Code/VBA/_README.md",
     "2-AREAS/Code/VBA/VBA - Excel Dark Mode.md",
     "3-RESOURCES/Templates/Code Templates/VBA-Template.md",
@@ -153,8 +155,6 @@
     "3-RESOURCES/_README.md",
     "2-AREAS/Code/_README.md",
     "2-AREAS/Development/_README.md",
-    "2-AREAS/Development/Docker Commands Reference.md",
-    "2-AREAS/_README.md",
-    "1-SLIPBOX/_README.md"
+    "2-AREAS/Development/Docker Commands Reference.md"
   ]
 }
