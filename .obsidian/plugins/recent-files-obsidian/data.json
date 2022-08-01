@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2022/2022-04/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2022/2022-03/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2022/2022-02/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2022/2022-01/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2021/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2022/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/_README.md"
+    },
+    {
       "basename": "2022-08-01",
       "path": "2-AREAS/Daily-Notes/2022-08-01.md"
     },
@@ -23,10 +51,6 @@
     {
       "basename": "_README",
       "path": "3-RESOURCES/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/_README.md"
     },
     {
       "basename": "_README",
@@ -175,30 +199,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Code/Python/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/PowerQuery/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Run/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Registry/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/R/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Pandoc/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/JavaScript/_README.md"
     }
   ],
   "omittedPaths": [],
