@@ -1,6 +1,74 @@
 {
   "recentFiles": [
     {
+      "basename": "2022-08-01",
+      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-01.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2022/2022-08/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2022/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Development/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "3-RESOURCES/Templates/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "3-RESOURCES/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "1-SLIPBOX/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/MOCs/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2021/2021-12/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2021/2021-11/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2022/2022-09/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2022/2022-07/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2022/2022-06/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2022/2022-05/_README.md"
+    },
+    {
       "basename": "_README",
       "path": "2-AREAS/Daily-Notes/2022/2022-04/_README.md"
     },
@@ -21,18 +89,6 @@
       "path": "2-AREAS/Daily-Notes/2021/_README.md"
     },
     {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/2022/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/_README.md"
-    },
-    {
-      "basename": "2022-08-01",
-      "path": "2-AREAS/Daily-Notes/2022-08-01.md"
-    },
-    {
       "basename": "2022-07-31",
       "path": "2-AREAS/Daily-Notes/2022/2022-07/2022-07-31.md"
     },
@@ -47,18 +103,6 @@
     {
       "basename": "_README",
       "path": "0-INBOX/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "3-RESOURCES/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "1-SLIPBOX/_README.md"
     },
     {
       "basename": "ABOUT",
@@ -89,14 +133,6 @@
       "path": "3-RESOURCES/Templates/Code Templates/Bash-Template.md"
     },
     {
-      "basename": "_README",
-      "path": "2-AREAS/Code/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Development/_README.md"
-    },
-    {
       "basename": "Docker Commands Reference",
       "path": "2-AREAS/Development/Docker Commands Reference.md"
     },
@@ -115,10 +151,6 @@
     {
       "basename": "Development",
       "path": "2-AREAS/MOCs/Development.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/MOCs/_README.md"
     },
     {
       "basename": "About Data Requirements",
@@ -167,38 +199,6 @@
     {
       "basename": "Appendix-Template",
       "path": "3-RESOURCES/Templates/Fragments/Appendix-Template.md"
-    },
-    {
-      "basename": "Default-Note-Template",
-      "path": "3-RESOURCES/Templates/Core Templates/Default-Note-Template.md"
-    },
-    {
-      "basename": "Footer-Template",
-      "path": "3-RESOURCES/Templates/Fragments/Footer-Template.md"
-    },
-    {
-      "basename": "_README",
-      "path": "3-RESOURCES/Templates/_README.md"
-    },
-    {
-      "basename": "Frontmatter-Template",
-      "path": "3-RESOURCES/Templates/Fragments/Frontmatter-Template.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Visual Basic/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/SQL/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/PowerShell/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Python/_README.md"
     }
   ],
   "omittedPaths": [],
