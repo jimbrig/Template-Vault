@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "1-SLIPBOX/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "0-INBOX/_README.md"
+    },
+    {
+      "basename": "ABOUT",
+      "path": "ABOUT.md"
+    },
+    {
       "basename": "CHANGELOG",
       "path": "CHANGELOG.md"
     },
@@ -41,14 +61,6 @@
       "path": "2-AREAS/Development/Docker Commands Reference.md"
     },
     {
-      "basename": "_README",
-      "path": "2-AREAS/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "1-SLIPBOX/_README.md"
-    },
-    {
       "basename": "Linux Commands Reference",
       "path": "2-AREAS/Development/Linux Commands Reference.md"
     },
@@ -69,16 +81,8 @@
       "path": "2-AREAS/MOCs/_README.md"
     },
     {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/_README.md"
-    },
-    {
       "basename": "About Data Requirements",
       "path": "1-SLIPBOX/About Data Requirements.md"
-    },
-    {
-      "basename": "_README",
-      "path": "0-INBOX/_README.md"
     },
     {
       "basename": "_README",
@@ -191,14 +195,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Code/Espanso/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/CSS/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/CMD/_README.md"
     }
   ],
   "omittedPaths": [],
