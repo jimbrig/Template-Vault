@@ -1,5 +1,11 @@
 {
-  "calendarSources": [],
+  "calendarSources": [
+    {
+      "type": "ical",
+      "color": "#2ea043",
+      "url": "https://calendar.google.com/calendar/ical/jimmy.briggs%40jimbrig.com/private-9fe66f580d681fd127a4bcc8fb9bea99/basic.ics"
+    }
+  ],
   "defaultCalendar": 0,
   "recursiveLocal": false,
   "firstDay": 1
