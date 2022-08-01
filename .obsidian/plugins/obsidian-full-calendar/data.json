@@ -7,8 +7,13 @@
     },
     {
       "type": "ical",
-      "color": "#9e2e2e",
-      "url": "https://calendar.google.com/calendar/ical/c_gt98qmdmfssr0nmosjfpki13f0%40group.calendar.google.com/private-83c76ab1f07ce09ec40d760b908814f1/basic.ics"
+      "color": "#9e2e39",
+      "url": "https://calendar.google.com/calendar/ical/c_o1ujm7jnq2rc6da9r2e1grdp28%40group.calendar.google.com/private-9e4151b3898f70ad2a4352965244bcaf/basic.ics"
+    },
+    {
+      "type": "ical",
+      "color": "#2ea043",
+      "url": "https://calendar.google.com/calendar/ical/c_qrl4uet6922md38gfov4bffi5s%40group.calendar.google.com/private-d903457537a42e5d23322759d8298afe/basic.ics"
     }
   ],
   "defaultCalendar": 0,
