@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "3-RESOURCES/Templates/Core Templates/Daily-Note-Template.md",
-            "mode": "preview",
+            "mode": "source",
             "backlinks": true
           }
         }
@@ -142,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "1aeed37e6319cef6",
   "lastOpenFiles": [
