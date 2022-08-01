@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "2022-01-08",
+      "path": "2-AREAS/Daily-Notes/2022/2022-01/2022-01-08.md"
+    },
+    {
+      "basename": "Daily-Note-Template",
+      "path": "3-RESOURCES/Templates/Core Templates/Daily-Note-Template.md"
+    },
+    {
+      "basename": "_README",
+      "path": "3-RESOURCES/_README.md"
+    },
+    {
       "basename": "_README",
       "path": "2-AREAS/Daily-Notes/_README.md"
     },
@@ -43,10 +55,6 @@
     {
       "basename": "Bash-Template",
       "path": "3-RESOURCES/Templates/Code Templates/Bash-Template.md"
-    },
-    {
-      "basename": "_README",
-      "path": "3-RESOURCES/_README.md"
     },
     {
       "basename": "_README",
@@ -131,10 +139,6 @@
     {
       "basename": "Default-Note-Template",
       "path": "3-RESOURCES/Templates/Core Templates/Default-Note-Template.md"
-    },
-    {
-      "basename": "Daily-Note-Template",
-      "path": "3-RESOURCES/Templates/Core Templates/Daily-Note-Template.md"
     },
     {
       "basename": "Footer-Template",
