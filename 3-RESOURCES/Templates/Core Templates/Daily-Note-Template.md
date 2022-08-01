@@ -7,7 +7,7 @@ Alias: []
 
 << [[<% tp.date.now("YYYY-MM-DD", -1) %>]] | [[<% tp.date.now("YYYY-MM-DD", 1) %>]] >>
 
-# <% tp.date.now("ddddd - YYYY-MM-DD") %>
+# <% tp.date.now("dddd - YYYY-MM-DD") %>
 
 ## Day Planner
 
