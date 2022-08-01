@@ -10,7 +10,14 @@ Tags:: [[+Daily Notes]]
 # <% moment(tp.file.title,'YYYY-MM-DD').format("dddd, MMMM DD, YYYY") %>
 
 ---
-### Daily Questions
+## Day Planner
+
+- [ ] 08:00 Wakeup and Startup
+- [ ] 12:00 Lunch
+- [ ] 17:00 Shutdown
+
+---
+## Agendas
 -
 
 ---
@@ -19,23 +26,17 @@ Tags:: [[+Daily Notes]]
 
 ---
 ### Notes Created Today:
-```dataview
 
+```dataview
+List FROM "" WHERE file.cday = date("<%tp.date.now("YYYY-MM-DD")%>") SORT file.ctime asc
 ```
 
-## Day Planner
+---
+### Notes Modified Today:
 
-- [ ] 08:00 Wakeup and Startup
-- [ ] 12:00 Lunch
-- [ ] 17:00 Shutdown
-
-
-## Agendas
-
-- [ ] 
-
-## Notes
-
+```dataview
+List FROM "" WHERE file.mday = date("<%tp.date.now("YYYY-MM-DD")%>") SORT file.mtime asc
+```
 
 ***
 
