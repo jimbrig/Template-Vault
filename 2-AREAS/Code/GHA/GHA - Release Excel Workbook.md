@@ -42,7 +42,7 @@ jobs:
 
 - [[2-AREAS/Code/_README|Code]]
 - [[Development]]
-- [[2-AREAS/Code/GHA/_README|GHA]]
+- [[2-AREAS/Code/GHA/_README|GitHub Actions]]
 - [[2-AREAS/Code/VBA/_README|VBA]]
 
 ***

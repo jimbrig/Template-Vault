@@ -4,31 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "16afca308d917fca",
-        "type": "split",
-        "children": [
-          {
-            "id": "a6bf3ab872556062",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2-AREAS/Code/GHA/GHA - Release Excel Workbook.md",
-                "mode": "source",
-                "backlinks": true
-              }
-            }
-          },
-          {
-            "id": "bb9782c0a2fd1cda",
-            "type": "leaf",
-            "state": {
-              "type": "full-calendar-view",
-              "state": {}
-            }
+        "id": "a6bf3ab872556062",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "2-AREAS/Code/GHA/GHA - Release Excel Workbook.md",
+            "mode": "preview",
+            "backlinks": true
           }
-        ],
-        "direction": "horizontal"
+        }
       }
     ],
     "direction": "vertical"
