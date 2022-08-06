@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "GHA - Release Excel Workbook",
+      "path": "2-AREAS/Code/GHA/GHA - Release Excel Workbook.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/GHA/_README.md"
+    },
+    {
+      "basename": "2022-08-06",
+      "path": "2-AREAS/Daily-Notes/2022-08-06.md"
+    },
+    {
       "basename": "2022-08-01",
       "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-01.md"
     },
@@ -157,10 +169,6 @@
       "path": "1-SLIPBOX/About Data Requirements.md"
     },
     {
-      "basename": "_README",
-      "path": "2-AREAS/Code/GHA/_README.md"
-    },
-    {
       "basename": "Bash - Install oh-my-zsh",
       "path": "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Bash - Install NVM",
       "path": "2-AREAS/Code/Bash/Bash - Install NVM.md"
-    },
-    {
-      "basename": "Bash - Git-Auto",
-      "path": "2-AREAS/Code/Bash/Bash - Git-Auto.md"
-    },
-    {
-      "basename": "Appendix-Template",
-      "path": "3-RESOURCES/Templates/Fragments/Appendix-Template.md"
     }
   ],
   "omittedPaths": [],
