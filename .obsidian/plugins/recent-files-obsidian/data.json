@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2022-08-11",
+      "path": "2-AREAS/Daily-Notes/2022-08-11.md"
+    },
+    {
       "basename": "GHA - Release Excel Workbook",
       "path": "2-AREAS/Code/GHA/GHA - Release Excel Workbook.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Bash - Install and Setup Git",
       "path": "2-AREAS/Code/Bash/Bash - Install and Setup Git.md"
-    },
-    {
-      "basename": "Bash - Install NVM",
-      "path": "2-AREAS/Code/Bash/Bash - Install NVM.md"
     }
   ],
   "omittedPaths": [],

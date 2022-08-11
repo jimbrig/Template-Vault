@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-AREAS/Code/GHA/GHA - Release Excel Workbook.md",
-            "mode": "preview",
+            "file": "2-AREAS/Daily-Notes/2022-08-11.md",
+            "mode": "source",
             "backlinks": true
           }
         }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-AREAS/Code/GHA/GHA - Release Excel Workbook.md",
+                "file": "2-AREAS/Daily-Notes/2022-08-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-AREAS/Code/GHA/GHA - Release Excel Workbook.md",
+                "file": "2-AREAS/Daily-Notes/2022-08-11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-AREAS/Code/GHA/GHA - Release Excel Workbook.md"
+                "file": "2-AREAS/Daily-Notes/2022-08-11.md"
               }
             }
           },
@@ -146,8 +146,8 @@
   },
   "active": "a6bf3ab872556062",
   "lastOpenFiles": [
-    "2-AREAS/Code/GHA/_README.md",
     "2-AREAS/Code/GHA/GHA - Release Excel Workbook.md",
+    "2-AREAS/Code/GHA/_README.md",
     "2-AREAS/Daily-Notes/2022-08-06.md",
     "2-AREAS/Daily-Notes/2022/2022-08/2022-08-01.md",
     "2-AREAS/Daily-Notes/2022/2022-08/_README.md",
