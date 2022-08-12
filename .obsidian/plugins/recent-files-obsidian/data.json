@@ -2,6 +2,54 @@
   "recentFiles": [
     {
       "basename": "_README",
+      "path": "3-RESOURCES/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/People/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/MOCs/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Mindsweeps/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Meta/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Lists/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Learning/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Guides/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Goals/_README.md"
+    },
+    {
+      "basename": "About Data Requirements",
+      "path": "2-AREAS/Development/About Data Requirements.md"
+    },
+    {
+      "basename": "_README",
+      "path": "1-SLIPBOX/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Development/_README.md"
+    },
+    {
+      "basename": "_README",
       "path": "2-AREAS/Daily-Notes/_README.md"
     },
     {
@@ -86,10 +134,6 @@
     },
     {
       "basename": "_README",
-      "path": "1-SLIPBOX/_README.md"
-    },
-    {
-      "basename": "_README",
       "path": "0-INBOX/_README.md"
     },
     {
@@ -105,14 +149,6 @@
       "path": "2-AREAS/MOCs/Data Engineering.md"
     },
     {
-      "basename": "_README",
-      "path": "2-AREAS/MOCs/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/People/_README.md"
-    },
-    {
       "basename": "Bill Inmon",
       "path": "2-AREAS/People/Bill Inmon.md"
     },
@@ -126,15 +162,15 @@
     },
     {
       "basename": "Data Engineers",
-      "path": "1-SLIPBOX/Data Engineers.md"
+      "path": "2-AREAS/Development/Data Engineers.md"
     },
     {
       "basename": "Data Cataloging",
-      "path": "1-SLIPBOX/Data Cataloging.md"
+      "path": "2-AREAS/Development/Data Cataloging.md"
     },
     {
       "basename": "Data Warehouse",
-      "path": "1-SLIPBOX/Data Warehouse.md"
+      "path": "2-AREAS/Development/Data Warehouse.md"
     },
     {
       "basename": "Computer Science",
@@ -163,42 +199,6 @@
     {
       "basename": "Mathematics and Statistics",
       "path": "2-AREAS/MOCs/Mathematics and Statistics.md"
-    },
-    {
-      "basename": "Web Development",
-      "path": "2-AREAS/MOCs/Web Development.md"
-    },
-    {
-      "basename": "Software Development",
-      "path": "2-AREAS/MOCs/Software Development.md"
-    },
-    {
-      "basename": "MOC-Template",
-      "path": "3-RESOURCES/Templates/Core Templates/MOC-Template.md"
-    },
-    {
-      "basename": "Daily-Note-Template",
-      "path": "3-RESOURCES/Templates/Core Templates/Daily-Note-Template.md"
-    },
-    {
-      "basename": "Default-Note-Template",
-      "path": "3-RESOURCES/Templates/Core Templates/Default-Note-Template.md"
-    },
-    {
-      "basename": "VBA-Template",
-      "path": "3-RESOURCES/Templates/Code Templates/VBA-Template.md"
-    },
-    {
-      "basename": "Bash-Template",
-      "path": "3-RESOURCES/Templates/Code Templates/Bash-Template.md"
-    },
-    {
-      "basename": "_README",
-      "path": "3-RESOURCES/_README.md"
-    },
-    {
-      "basename": "Bash - WSL - Set Default Browser to Windows",
-      "path": "2-AREAS/Code/Bash/Bash - WSL - Set Default Browser to Windows.md"
     }
   ],
   "omittedPaths": [],

@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-AREAS/Daily-Notes/_README.md",
-            "mode": "source",
+            "file": "3-RESOURCES/_README.md",
+            "mode": "preview",
             "backlinks": true
           }
         }
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-AREAS/Daily-Notes/_README.md"
+                "file": "3-RESOURCES/_README.md"
               }
             }
           },
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-AREAS/Daily-Notes/_README.md",
+                "file": "3-RESOURCES/_README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-AREAS/Daily-Notes/_README.md",
+                "file": "3-RESOURCES/_README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "2-AREAS/Daily-Notes/_README.md",
+                "file": "3-RESOURCES/_README.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -212,23 +212,23 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 343.5
+    "width": 557.5
   },
-  "active": "e35f4c209133e732",
+  "active": "dc0f033e7cb86245",
   "lastOpenFiles": [
-    "2-AREAS/Code/Visual Basic/_README.md",
-    "2-AREAS/Code/VBA/_README.md",
-    "2-AREAS/Code/SQL/_README.md",
-    "2-AREAS/Code/Run/_README.md",
-    "2-AREAS/Code/Registry/_README.md",
-    "2-AREAS/Code/R/_README.md",
-    "2-AREAS/Code/Python/_README.md",
-    "2-AREAS/Code/PowerShell/_README.md",
-    "2-AREAS/Code/PowerQuery/_README.md",
-    "2-AREAS/Code/Pandoc/_README.md"
+    "2-AREAS/People/_README.md",
+    "2-AREAS/MOCs/_README.md",
+    "2-AREAS/Mindsweeps/_README.md",
+    "2-AREAS/Meta/_README.md",
+    "2-AREAS/Lists/_README.md",
+    "2-AREAS/Learning/_README.md",
+    "2-AREAS/Guides/_README.md",
+    "2-AREAS/Goals/_README.md",
+    "2-AREAS/Development/About Data Requirements.md",
+    "1-SLIPBOX/_README.md"
   ]
 }
