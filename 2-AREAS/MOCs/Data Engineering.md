@@ -31,7 +31,44 @@ Alias: "Data Engineering"
 - **[[Business Intelligence]]**
 - **[[Data Science]]**
 - **[[Modeling]]**
-- **[[Data Transformation]]
+- **[[Data Transformation]]**
+
+### Data Modeling
+
+-   [[Features of a Data Warehouse]]
+-   [[Fact Table Structure]]
+-   [[Dimensional Modeling]]
+-   [[Data Warehousing Roadmap]]
+-   [[Data Warehousing for Insurance Data]]
+
+### Databases
+
+- [[SQL Server]]
+- [[PostgreSQL]]
+- [[MySQL]]
+- [[SQLite]]
+- [[MongoDB]]
+- [[AWS DynamoDB]]
+- [[AWS Redshift]]
+- [[Google Cloud BigQuery]]
+- [[Azure SQL Database]]
+
+#### Procedural Languages for Databases
+
+- [[SQL]]
+- [[T-SQL]]
+- [[PLPGSQL]]
+- [[Python]]
+- [[Perl]]
+
+### Data Lineage and Processing
+
+- [[SQL Stored Procedures Best Practices]]
+- [[Stored Procedures - SQL Server]]
+- [[ETL Data Warehousing Best Practices]]
+- [[ETL]] and [[ELT]]
+- [[SQL - PostgreSQL - ETL Function Template|SQL - PostgreSQL ETL Function Template]]
+
 
 
 ***
