@@ -1,12 +1,84 @@
 {
   "recentFiles": [
     {
-      "basename": "Bash - WSL - View System Init Process",
-      "path": "2-AREAS/Code/Bash/Bash - WSL - View System Init Process.md"
+      "basename": "Web Development",
+      "path": "2-AREAS/MOCs/Web Development.md"
+    },
+    {
+      "basename": "Development",
+      "path": "2-AREAS/MOCs/Development.md"
+    },
+    {
+      "basename": "Software Development",
+      "path": "2-AREAS/MOCs/Software Development.md"
+    },
+    {
+      "basename": "MOC-Template",
+      "path": "3-RESOURCES/Templates/Core Templates/MOC-Template.md"
+    },
+    {
+      "basename": "Daily-Note-Template",
+      "path": "3-RESOURCES/Templates/Core Templates/Daily-Note-Template.md"
+    },
+    {
+      "basename": "Default-Note-Template",
+      "path": "3-RESOURCES/Templates/Core Templates/Default-Note-Template.md"
+    },
+    {
+      "basename": "VBA-Template",
+      "path": "3-RESOURCES/Templates/Code Templates/VBA-Template.md"
+    },
+    {
+      "basename": "Bash-Template",
+      "path": "3-RESOURCES/Templates/Code Templates/Bash-Template.md"
+    },
+    {
+      "basename": "_README",
+      "path": "3-RESOURCES/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/MOCs/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/_README.md"
     },
     {
       "basename": "Bash - WSL - Set Default Browser to Windows",
       "path": "2-AREAS/Code/Bash/Bash - WSL - Set Default Browser to Windows.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/Bash/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/AHK/_README.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "ABOUT",
+      "path": "ABOUT.md"
+    },
+    {
+      "basename": "CHANGELOG",
+      "path": "CHANGELOG.md"
+    },
+    {
+      "basename": "2022-08-12",
+      "path": "2-AREAS/Daily-Notes/2022-08-12.md"
+    },
+    {
+      "basename": "Bash - WSL - View System Init Process",
+      "path": "2-AREAS/Code/Bash/Bash - WSL - View System Init Process.md"
     },
     {
       "basename": "Bash - Install Zsh",
@@ -37,28 +109,12 @@
       "path": "2-AREAS/Code/Bash/Bash - Git-Auto.md"
     },
     {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Bash/_README.md"
-    },
-    {
       "basename": "Linux",
       "path": "0-INBOX/Linux.md"
     },
     {
       "basename": "_README",
       "path": "2-AREAS/Development/_README.md"
-    },
-    {
-      "basename": "Development",
-      "path": "2-AREAS/MOCs/Development.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/MOCs/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/_README.md"
     },
     {
       "basename": "_README",
@@ -94,15 +150,7 @@
     },
     {
       "basename": "_README",
-      "path": "2-AREAS/_README.md"
-    },
-    {
-      "basename": "_README",
       "path": "3-RESOURCES/Templates/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "3-RESOURCES/_README.md"
     },
     {
       "basename": "_README",
@@ -151,54 +199,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Daily-Notes/2021/_README.md"
-    },
-    {
-      "basename": "2022-07-31",
-      "path": "2-AREAS/Daily-Notes/2022/2022-07/2022-07-31.md"
-    },
-    {
-      "basename": "Daily-Note-Template",
-      "path": "3-RESOURCES/Templates/Core Templates/Daily-Note-Template.md"
-    },
-    {
-      "basename": "2022-01-08",
-      "path": "2-AREAS/Daily-Notes/2022/2022-01/2022-01-08.md"
-    },
-    {
-      "basename": "_README",
-      "path": "0-INBOX/_README.md"
-    },
-    {
-      "basename": "ABOUT",
-      "path": "ABOUT.md"
-    },
-    {
-      "basename": "CHANGELOG",
-      "path": "CHANGELOG.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/VBA/_README.md"
-    },
-    {
-      "basename": "VBA - Excel Dark Mode",
-      "path": "2-AREAS/Code/VBA/VBA - Excel Dark Mode.md"
-    },
-    {
-      "basename": "VBA-Template",
-      "path": "3-RESOURCES/Templates/Code Templates/VBA-Template.md"
-    },
-    {
-      "basename": "Bash-Template",
-      "path": "3-RESOURCES/Templates/Code Templates/Bash-Template.md"
-    },
-    {
-      "basename": "Docker Commands Reference",
-      "path": "2-AREAS/Development/Docker Commands Reference.md"
     }
   ],
   "omittedPaths": [],

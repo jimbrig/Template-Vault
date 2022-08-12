@@ -22,7 +22,7 @@ Alias: "<% tp.file.title %>"
 ### Tagged as *Topic/<% tp.file.title %>*
 
 ```dataview
-list from #Topic/<% tp.file.title %> AND -"Templates" AND -"MOCs" AND -"Changelog"
+list from "#Topic/<% tp.file.title %>" AND -"Templates" AND -"MOCs" AND -"Changelog"
 ```
 
 ***
