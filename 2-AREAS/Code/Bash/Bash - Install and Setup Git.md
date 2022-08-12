@@ -62,9 +62,16 @@ git config --global apply.whitespace fix
 # help
 git config --global help.autocorrect 1
 
+# sub-modules
+git config --global submodule.recurse true
+
+# URL shorthands
+git config --global 
+
 # aliases
 git config --global alias.aliases "!git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ / | grep -v ^'alias '"
-git config --global alias.l "log --pre"
+git config --global alias.l "log --pretty=oneline -n 20 --graph --abbrev-commit"
+
 
 
 
@@ -79,6 +86,16 @@ git config --global alias.l "log --pre"
 - [[Development]]
 - [[Linux]]
 - [[2-AREAS/Code/Bash/_README|Bash]]
+- [[Git]]
+- [[Version Control]]
+- [[GitHub]]
+- [[GitHub CLI]]
+- [[Development Environment Essentials]]
+- [[Setup and Configure Git]]
+- [[SSH]]
+- [[GPG]]
+- [[Configuration Management]]
+- [[]]
 
 ***
 
