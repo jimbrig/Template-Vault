@@ -32,7 +32,10 @@ git config --global user.email "jimmy.briggs@jimbrig.com"
 git config --global init.defaultbranch "main"
 
 # default protocol
-git config --global default.protocol ssh"
+git config --global default.protocol "ssh"
+
+# speed up untracked files when running git status - see https://git-scm.com/docs/git-update-index#_untracked_cache
+git config --global core.untrackedCache true
 
 # mainly for windows
 git config --global core.longpaths true
@@ -47,7 +50,8 @@ git config --global core.attributesFile ""
 # configure GPG signing keys
 git config --global gpg.program ""
 git config --global user.signingkey ""
-git config --global tag.forcesignannotated true
+git config --global commit.gpgSign true
+git config --global tag.forceSignAnnotated true
 
 
 ```
