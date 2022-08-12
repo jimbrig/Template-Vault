@@ -28,9 +28,13 @@ git config --global user.email "jimmy.briggs@jimbrig.com"
 git config --global init.defaultbranch "main"
 git config --global core.longpaths true
 git config --global core.excludesFile ""
-git config
+git config --global core.attributesFile ""
 
+# configure GPG signing keys
+git config --global gpg.program ""
 git config --global user.signingkey ""
+git config --global tag.forcesignannotated true
+
 
 ```
 
