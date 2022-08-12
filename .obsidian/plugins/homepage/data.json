@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "defaultNote": "Home",
+  "defaultNote": "HOME",
   "useMoment": false,
   "momentFormat": "YYYY-MM-DD",
   "workspace": "Home",
@@ -8,5 +8,5 @@
   "hasRibbonIcon": true,
   "openMode": "Replace all open notes",
   "view": "Default view",
-  "refreshDataview": false
+  "refreshDataview": true
 }

@@ -1,32 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "_README",
-      "path": "0-INBOX/_README.md"
+      "basename": "Bash - WSL - View System Init Process",
+      "path": "2-AREAS/Code/Bash/Bash - WSL - View System Init Process.md"
     },
     {
-      "basename": "_README",
-      "path": "2-AREAS/Code/GHA/_README.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "3-RESOURCES/_README.md"
-    },
-    {
-      "basename": "Development",
-      "path": "2-AREAS/MOCs/Development.md"
-    },
-    {
-      "basename": "Bash - Install oh-my-zsh",
-      "path": "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Bash/_README.md"
+      "basename": "Bash - WSL - Set Default Browser to Windows",
+      "path": "2-AREAS/Code/Bash/Bash - WSL - Set Default Browser to Windows.md"
     },
     {
       "basename": "Bash - Install Zsh",
@@ -41,48 +21,80 @@
       "path": "2-AREAS/Code/Bash/Bash - Install PostgreSQL.md"
     },
     {
-      "basename": "_README",
-      "path": "2-AREAS/Code/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/MOCs/_README.md"
-    },
-    {
-      "basename": "MOC-Template",
-      "path": "3-RESOURCES/Templates/Core Templates/MOC-Template.md"
-    },
-    {
-      "basename": "Bash - Install and Setup Git",
-      "path": "2-AREAS/Code/Bash/Bash - Install and Setup Git.md"
+      "basename": "Bash - Install oh-my-zsh",
+      "path": "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md"
     },
     {
       "basename": "Bash - Install NVM",
       "path": "2-AREAS/Code/Bash/Bash - Install NVM.md"
     },
     {
+      "basename": "Bash - Install and Setup Git",
+      "path": "2-AREAS/Code/Bash/Bash - Install and Setup Git.md"
+    },
+    {
       "basename": "Bash - Git-Auto",
       "path": "2-AREAS/Code/Bash/Bash - Git-Auto.md"
     },
     {
-      "basename": "Appendix-Template",
-      "path": "3-RESOURCES/Templates/Fragments/Appendix-Template.md"
+      "basename": "_README",
+      "path": "2-AREAS/Code/Bash/_README.md"
     },
     {
-      "basename": "Default-Note-Template",
-      "path": "3-RESOURCES/Templates/Core Templates/Default-Note-Template.md"
+      "basename": "Linux",
+      "path": "0-INBOX/Linux.md"
     },
     {
-      "basename": "Daily-Note-Template",
-      "path": "3-RESOURCES/Templates/Core Templates/Daily-Note-Template.md"
+      "basename": "_README",
+      "path": "2-AREAS/Development/_README.md"
     },
     {
-      "basename": "Bash-Template",
-      "path": "3-RESOURCES/Templates/Code Templates/Bash-Template.md"
+      "basename": "Development",
+      "path": "2-AREAS/MOCs/Development.md"
     },
     {
-      "basename": "Footer-Template",
-      "path": "3-RESOURCES/Templates/Fragments/Footer-Template.md"
+      "basename": "_README",
+      "path": "2-AREAS/MOCs/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2022/_README.md"
+    },
+    {
+      "basename": "2022-08-11",
+      "path": "2-AREAS/Daily-Notes/2022/2022-08-11.md"
+    },
+    {
+      "basename": "GHA - Release Excel Workbook",
+      "path": "2-AREAS/Code/GHA/GHA - Release Excel Workbook.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/GHA/_README.md"
+    },
+    {
+      "basename": "2022-08-06",
+      "path": "2-AREAS/Daily-Notes/2022/2022-08-06.md"
+    },
+    {
+      "basename": "2022-08-01",
+      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-01.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2022/2022-08/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/_README.md"
     },
     {
       "basename": "_README",
@@ -90,91 +102,103 @@
     },
     {
       "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/_README.md"
-    },
-    {
-      "basename": "Frontmatter-Template",
-      "path": "3-RESOURCES/Templates/Fragments/Frontmatter-Template.md"
+      "path": "3-RESOURCES/_README.md"
     },
     {
       "basename": "_README",
-      "path": "2-AREAS/Code/Visual Basic/_README.md"
+      "path": "1-SLIPBOX/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2021/2021-12/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2021/2021-11/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2022/2022-09/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2022/2022-07/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2022/2022-06/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2022/2022-05/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2022/2022-04/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2022/2022-03/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2022/2022-02/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2022/2022-01/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2021/_README.md"
+    },
+    {
+      "basename": "2022-07-31",
+      "path": "2-AREAS/Daily-Notes/2022/2022-07/2022-07-31.md"
+    },
+    {
+      "basename": "Daily-Note-Template",
+      "path": "3-RESOURCES/Templates/Core Templates/Daily-Note-Template.md"
+    },
+    {
+      "basename": "2022-01-08",
+      "path": "2-AREAS/Daily-Notes/2022/2022-01/2022-01-08.md"
+    },
+    {
+      "basename": "_README",
+      "path": "0-INBOX/_README.md"
+    },
+    {
+      "basename": "ABOUT",
+      "path": "ABOUT.md"
+    },
+    {
+      "basename": "CHANGELOG",
+      "path": "CHANGELOG.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
     },
     {
       "basename": "_README",
       "path": "2-AREAS/Code/VBA/_README.md"
     },
     {
-      "basename": "_README",
-      "path": "2-AREAS/Code/SQL/_README.md"
+      "basename": "VBA - Excel Dark Mode",
+      "path": "2-AREAS/Code/VBA/VBA - Excel Dark Mode.md"
     },
     {
-      "basename": "_README",
-      "path": "2-AREAS/Code/PowerShell/_README.md"
+      "basename": "VBA-Template",
+      "path": "3-RESOURCES/Templates/Code Templates/VBA-Template.md"
     },
     {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Python/_README.md"
+      "basename": "Bash-Template",
+      "path": "3-RESOURCES/Templates/Code Templates/Bash-Template.md"
     },
     {
-      "basename": "_README",
-      "path": "2-AREAS/Code/PowerQuery/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Run/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Registry/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/R/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Pandoc/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/JavaScript/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Java/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Espanso/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/CSS/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/CMD/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Batch/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/AHK/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/_README.md"
-    },
-    {
-      "basename": "About Data Requirements",
-      "path": "1-SLIPBOX/About Data Requirements.md"
-    },
-    {
-      "basename": "_README",
-      "path": "1-SLIPBOX/_README.md"
+      "basename": "Docker Commands Reference",
+      "path": "2-AREAS/Development/Docker Commands Reference.md"
     }
   ],
   "omittedPaths": [],

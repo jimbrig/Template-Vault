@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f11cbfb448e1cb7b",
+        "id": "a6bf3ab872556062",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "2-AREAS/Code/Bash/Bash - WSL - View System Init Process.md",
+            "mode": "source",
+            "backlinks": true
+          }
         }
       }
     ],
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2-AREAS/Code/Bash/Bash - WSL - View System Init Process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2-AREAS/Code/Bash/Bash - WSL - View System Init Process.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2-AREAS/Code/Bash/Bash - WSL - View System Init Process.md"
+              }
             }
           },
           {
@@ -128,25 +136,34 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "a4c4c39fb66690c1",
+            "type": "leaf",
+            "state": {
+              "type": "tlfItemView",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 343.5,
     "collapsed": true
   },
-  "active": "f11cbfb448e1cb7b",
+  "active": "a6bf3ab872556062",
   "lastOpenFiles": [
-    "0-INBOX/_README.md",
-    "2-AREAS/Code/GHA/_README.md",
-    "README.md",
-    "3-RESOURCES/_README.md",
-    "2-AREAS/MOCs/Development.md",
-    "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md",
-    "2-AREAS/Code/Bash/_README.md",
+    "2-AREAS/Code/Bash/Bash - WSL - Set Default Browser to Windows.md",
     "2-AREAS/Code/Bash/Bash - Install Zsh.md",
     "2-AREAS/Code/Bash/Bash - Install R.md",
-    "2-AREAS/Code/Bash/Bash - Install PostgreSQL.md"
+    "2-AREAS/Code/Bash/Bash - Install PostgreSQL.md",
+    "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md",
+    "2-AREAS/Code/Bash/Bash - Install NVM.md",
+    "2-AREAS/Code/Bash/Bash - Install and Setup Git.md",
+    "2-AREAS/Code/Bash/Bash - Git-Auto.md",
+    "2-AREAS/Code/Bash/_README.md",
+    "0-INBOX/Linux.md"
   ]
 }

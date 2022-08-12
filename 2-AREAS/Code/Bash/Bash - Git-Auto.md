@@ -1,9 +1,11 @@
 ---
 Date: 2022-03-01
 Author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
-Tags: ["#Type/Code/Bash", "#Topic/Dev/Code"]
-Alias: ["Git-Auto"]
+Tags: ["#Type/Code/Bash", "#Topic/Dev/Linux", "#Topic/Dev/Code"]
+Alias: ["Git-Auto", "gitauto", "Git Auto"]
 ---
+
+# Bash - Git-Auto
 
 *Source: [[Git-Auto] Auto commit and push to remote repo tracking local changes to files · GitHub](https://gist.github.com/439f74475d36449cc02a1fd1e878e22f#file-git-auto)*
 
@@ -88,9 +90,12 @@ fi
 
 ## Appendix: Links and References
 
-- [[Code]]
+- [[2-AREAS/Code/_README|Code]]
 - [[Development]]
+- [[Linux]]
+- [[2-AREAS/Code/Bash/_README|Bash]]
 
 ***
 
 Jimmy Briggs <jimmy.briggs@jimbrig.com> | 2022
+

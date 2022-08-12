@@ -19,7 +19,6 @@
   "convert-url-to-iframe",
   "obsidian-collapse-all-plugin",
   "quick-explorer",
-  "homepage",
   "obsidian-footnotes",
   "obsidian-plugin-toc",
   "obsidian-auto-link-title",
@@ -36,5 +35,7 @@
   "mrj-crosslink-between-notes",
   "obsidian-dangling-links",
   "reveal-active-file-button",
-  "alx-folder-note-folderv"
+  "alx-folder-note-folderv",
+  "nldates-obsidian",
+  "obsidian-full-calendar"
 ]

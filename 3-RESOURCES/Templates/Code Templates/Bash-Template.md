@@ -17,7 +17,7 @@ Alias: []
 
 ## Appendix: Links and References
 
-- [[Code]]
+- [[2-AREAS/Code/_README|Code]]
 - [[Development]]
 - [[Linux]]
 - [[2-AREAS/Code/Bash/_README|Bash]]

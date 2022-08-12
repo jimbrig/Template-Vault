@@ -2,10 +2,10 @@
 Date: 2022-07-25
 Author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
 Tags: ["#Type/Folder", "#Topic/Dev/Code"]
-Alias: ["GHA"]
+Alias: ["GitHub Actions"]
 ---
 
-# GHA Overview
+# GitHub Actions Overview
 
  
 ```ccard
