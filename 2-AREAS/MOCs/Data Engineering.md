@@ -67,15 +67,62 @@ Alias: "Data Engineering"
 - [[Stored Procedures - SQL Server]]
 - [[ETL Data Warehousing Best Practices]]
 - [[ETL]] and [[ELT]]
-- [[SQL - PostgreSQL - ETL Function Template|SQL - PostgreSQL ETL Function Template]]
+- [[SQL - PostgreSQL - ETL Function Template|PostgreSQL ETL Function Template]]
 
 
+## People
+
+- [[Ralph Kimball]]
+- [[Bill Inmon]]
+
+## Tools
+
+- [[SQL Server Management Studio]]
+- [[Azure Data Studio]]
+- [[dbt - Data Build Tool]]
+- [[R Package - dbx]]
+- [[Excel]], [[Excel VBA]], and [[Power Query]] / [[Power Pivot]]
+- [[Power BI]], [[Tableau]], [[AWS QuickSight]]
+
+## Lists
+
+- [[SQL Server List of Tools and Scripts]]
+- [[R - Database Packages List]]
+- [[R - Data Validation Packages List]]
+- [[Learn to Code Platforms Master List]]
+- [[Data Engineering and Its Main Concepts]]
+- [[Data Engineering Master List of Resources]]
+- [[Querying Data from PostgreSQL Database]]
+- [[SQL Stored Procedures - Cursors]]
+- [[SQL - Window Functions]]
+- [[Modern Data Pipeline Complexities]]
+- [[Data Warehousing Concepts - Slowly Changing Dimensions]]
+- [[Data Pipelines]]
+- [[Data Pipeline Architecture]]
+- [[PostgreSQL Tools List]]
+- [[PostgreSQL Triggers]]
+- [[Excel VBA Resource List]]
+
+## Miscellaneous
+
+- [[Data Science Lifecycle]]
+- [[Team Data Science Process]]
 
 ***
 
 ## Appendix: Links and References
 
-### Tagged as *Topic/Data Engineering*
+**Backlinks:**
+
+- [[Development]]
+- [[Databases]]
+- [[Data Science]]
+- [[Software Development]]
+- [[Web Development]]
+- [[Actuarial Science]]
+
+
+### Tagged as Topic/Data Engineering
 
 ```dataview
 list from "#Topic/Data Engineering" AND -"Templates" AND -"MOCs" AND -"Changelog"
