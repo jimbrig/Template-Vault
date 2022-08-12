@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Bash - WSL - View System Init Process",
+      "path": "2-AREAS/Code/Bash/Bash - WSL - View System Init Process.md"
+    },
+    {
       "basename": "Bash - WSL - Set Default Browser to Windows",
       "path": "2-AREAS/Code/Bash/Bash - WSL - Set Default Browser to Windows.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Docker Commands Reference",
       "path": "2-AREAS/Development/Docker Commands Reference.md"
-    },
-    {
-      "basename": "Linux Commands Reference",
-      "path": "2-AREAS/Development/Linux Commands Reference.md"
     }
   ],
   "omittedPaths": [],
