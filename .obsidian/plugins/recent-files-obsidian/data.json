@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "_README",
+      "path": "2-AREAS/Code/PowerShell/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/AHK/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/_README.md"
+    },
+    {
       "basename": "Data Engineering",
       "path": "2-AREAS/MOCs/Data Engineering.md"
     },
@@ -101,20 +113,12 @@
       "path": "3-RESOURCES/_README.md"
     },
     {
-      "basename": "_README",
-      "path": "2-AREAS/Code/_README.md"
-    },
-    {
       "basename": "Bash - WSL - Set Default Browser to Windows",
       "path": "2-AREAS/Code/Bash/Bash - WSL - Set Default Browser to Windows.md"
     },
     {
       "basename": "_README",
       "path": "2-AREAS/Code/Bash/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/AHK/_README.md"
     },
     {
       "basename": "README",
@@ -195,10 +199,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Daily-Notes/2022/2022-08/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/_README.md"
     }
   ],
   "omittedPaths": [],

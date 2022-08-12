@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-AREAS/MOCs/Data Engineering.md",
+            "file": "2-AREAS/Code/PowerShell/_README.md",
             "mode": "preview",
             "backlinks": true
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-AREAS/MOCs/Data Engineering.md",
+                "file": "2-AREAS/Code/PowerShell/_README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-AREAS/MOCs/Data Engineering.md",
+                "file": "2-AREAS/Code/PowerShell/_README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-AREAS/MOCs/Data Engineering.md"
+                "file": "2-AREAS/Code/PowerShell/_README.md"
               }
             }
           },
@@ -155,15 +155,15 @@
   },
   "active": "a6bf3ab872556062",
   "lastOpenFiles": [
+    "2-AREAS/Code/AHK/_README.md",
+    "2-AREAS/Code/_README.md",
+    "2-AREAS/MOCs/Data Engineering.md",
     "2-AREAS/MOCs/_README.md",
     "2-AREAS/People/_README.md",
     "2-AREAS/_README.md",
     "2-AREAS/People/Bill Inmon.md",
     "2-AREAS/People/Ralph Kimball.md",
-    "2-AREAS/MOCs/Data Engineering.md",
     "0-INBOX/Linux.md",
-    "1-SLIPBOX/Data Engineers.md",
-    "1-SLIPBOX/Data Cataloging.md",
-    "1-SLIPBOX/Data Warehouse.md"
+    "1-SLIPBOX/Data Engineers.md"
   ]
 }
