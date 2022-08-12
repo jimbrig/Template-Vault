@@ -53,6 +53,21 @@ git config --global user.signingkey ""
 git config --global commit.gpgSign true
 git config --global tag.forceSignAnnotated true
 
+# colors
+git config --global color.ui auto
+
+# fix whitespace
+git config --global apply.whitespace fix
+
+# help
+git config --global help.autocorrect 1
+
+# aliases
+git config --global alias.aliases "!git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ / | grep -v ^'alias '"
+git config --global alias.l "log --pre"
+
+
+
 
 ```
 
