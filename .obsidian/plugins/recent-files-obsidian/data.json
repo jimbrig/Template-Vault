@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Linux",
+      "path": "0-INBOX/Linux.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Development/_README.md"
+    },
+    {
       "basename": "Development",
       "path": "2-AREAS/MOCs/Development.md"
     },
@@ -43,10 +51,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Daily-Notes/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Development/_README.md"
     },
     {
       "basename": "_README",
@@ -195,10 +199,6 @@
     {
       "basename": "MOC-Template",
       "path": "3-RESOURCES/Templates/Core Templates/MOC-Template.md"
-    },
-    {
-      "basename": "Bash - Install and Setup Git",
-      "path": "2-AREAS/Code/Bash/Bash - Install and Setup Git.md"
     }
   ],
   "omittedPaths": [],
