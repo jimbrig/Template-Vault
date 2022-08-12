@@ -1,11 +1,11 @@
 ---
-Date: 2022-07-25
+Date: 2022-08-12
 Author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
-Tags: ["#Type/Folder", "#Topic/Dev/Code"]
-Alias: ["AutoHotKey", "AHK"]
+Tags: ["#Type/Folder"]
+Alias: ["AutoHotKey"]
 ---
 
-# AHK Overview
+# AutoHotKey Overview
 
  
 ```ccard

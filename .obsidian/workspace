@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-AREAS/Daily-Notes/2022/2022-08-11.md",
-            "mode": "preview",
+            "file": "2-AREAS/Daily-Notes/_README.md",
+            "mode": "source",
             "backlinks": true
           }
         }
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-AREAS/Daily-Notes/2022/2022-08-11.md"
+                "file": "2-AREAS/Daily-Notes/_README.md"
               }
             }
           },
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-AREAS/Daily-Notes/2022/2022-08-11.md",
+                "file": "2-AREAS/Daily-Notes/_README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,22 +131,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-AREAS/Daily-Notes/2022/2022-08-11.md",
+                "file": "2-AREAS/Daily-Notes/_README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
-          },
-          {
-            "id": "2e0f185a27a755b3",
-            "type": "leaf",
-            "state": {
-              "type": "dictionary-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       },
       {
         "id": "aec3b81bfb6261bc",
@@ -158,7 +150,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "2-AREAS/Daily-Notes/2022/2022-08-11.md",
+                "file": "2-AREAS/Daily-Notes/_README.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -202,25 +194,41 @@
               "type": "tlfItemView",
               "state": {}
             }
+          },
+          {
+            "id": "2e0f185a27a755b3",
+            "type": "leaf",
+            "state": {
+              "type": "dictionary-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "e58e0f954ebe5867",
+            "type": "leaf",
+            "state": {
+              "type": "dangling-links",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
     "width": 343.5
   },
-  "active": "2e0f185a27a755b3",
+  "active": "e35f4c209133e732",
   "lastOpenFiles": [
-    "0-INBOX/_README.md",
+    "2-AREAS/Code/Visual Basic/_README.md",
+    "2-AREAS/Code/VBA/_README.md",
+    "2-AREAS/Code/SQL/_README.md",
+    "2-AREAS/Code/Run/_README.md",
+    "2-AREAS/Code/Registry/_README.md",
+    "2-AREAS/Code/R/_README.md",
+    "2-AREAS/Code/Python/_README.md",
     "2-AREAS/Code/PowerShell/_README.md",
-    "2-AREAS/Code/AHK/_README.md",
-    "2-AREAS/Code/_README.md",
-    "2-AREAS/MOCs/Data Engineering.md",
-    "2-AREAS/MOCs/_README.md",
-    "2-AREAS/People/_README.md",
-    "2-AREAS/_README.md",
-    "2-AREAS/People/Bill Inmon.md",
-    "2-AREAS/People/Ralph Kimball.md"
+    "2-AREAS/Code/PowerQuery/_README.md",
+    "2-AREAS/Code/Pandoc/_README.md"
   ]
 }

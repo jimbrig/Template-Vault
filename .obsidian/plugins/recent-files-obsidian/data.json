@@ -1,12 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "2022-08-11",
-      "path": "2-AREAS/Daily-Notes/2022/2022-08-11.md"
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/_README.md"
     },
     {
       "basename": "_README",
-      "path": "0-INBOX/_README.md"
+      "path": "2-AREAS/Code/Visual Basic/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/VBA/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/SQL/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/Run/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/Registry/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/R/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/Python/_README.md"
     },
     {
       "basename": "_README",
@@ -14,11 +38,67 @@
     },
     {
       "basename": "_README",
-      "path": "2-AREAS/Code/AHK/_README.md"
+      "path": "2-AREAS/Code/PowerQuery/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/Pandoc/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/JavaScript/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/Java/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/GitHub Actions/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/Espanso/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/CSS/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/Cmd/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/Batch/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/AutoHotKey/_README.md"
     },
     {
       "basename": "_README",
       "path": "2-AREAS/Code/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "1-SLIPBOX/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "0-INBOX/_README.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "2022-08-11",
+      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-11.md"
     },
     {
       "basename": "Data Engineering",
@@ -31,10 +111,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/People/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/_README.md"
     },
     {
       "basename": "Bill Inmon",
@@ -123,82 +199,6 @@
     {
       "basename": "Bash - WSL - Set Default Browser to Windows",
       "path": "2-AREAS/Code/Bash/Bash - WSL - Set Default Browser to Windows.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Bash/_README.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "ABOUT",
-      "path": "ABOUT.md"
-    },
-    {
-      "basename": "CHANGELOG",
-      "path": "CHANGELOG.md"
-    },
-    {
-      "basename": "2022-08-12",
-      "path": "2-AREAS/Daily-Notes/2022-08-12.md"
-    },
-    {
-      "basename": "Bash - WSL - View System Init Process",
-      "path": "2-AREAS/Code/Bash/Bash - WSL - View System Init Process.md"
-    },
-    {
-      "basename": "Bash - Install Zsh",
-      "path": "2-AREAS/Code/Bash/Bash - Install Zsh.md"
-    },
-    {
-      "basename": "Bash - Install R",
-      "path": "2-AREAS/Code/Bash/Bash - Install R.md"
-    },
-    {
-      "basename": "Bash - Install PostgreSQL",
-      "path": "2-AREAS/Code/Bash/Bash - Install PostgreSQL.md"
-    },
-    {
-      "basename": "Bash - Install oh-my-zsh",
-      "path": "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md"
-    },
-    {
-      "basename": "Bash - Install NVM",
-      "path": "2-AREAS/Code/Bash/Bash - Install NVM.md"
-    },
-    {
-      "basename": "Bash - Install and Setup Git",
-      "path": "2-AREAS/Code/Bash/Bash - Install and Setup Git.md"
-    },
-    {
-      "basename": "Bash - Git-Auto",
-      "path": "2-AREAS/Code/Bash/Bash - Git-Auto.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Development/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/2022/_README.md"
-    },
-    {
-      "basename": "GHA - Release Excel Workbook",
-      "path": "2-AREAS/Code/GHA/GHA - Release Excel Workbook.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/GHA/_README.md"
-    },
-    {
-      "basename": "2022-08-06",
-      "path": "2-AREAS/Daily-Notes/2022/2022-08-06.md"
-    },
-    {
-      "basename": "2022-08-01",
-      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-01.md"
     }
   ],
   "omittedPaths": [],
