@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-INBOX/Linux.md",
+            "file": "2-AREAS/Code/Bash/Bash - Git-Auto.md",
             "mode": "source",
             "backlinks": true
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-INBOX/Linux.md",
+                "file": "2-AREAS/Code/Bash/Bash - Git-Auto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-INBOX/Linux.md",
+                "file": "2-AREAS/Code/Bash/Bash - Git-Auto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-INBOX/Linux.md"
+                "file": "2-AREAS/Code/Bash/Bash - Git-Auto.md"
               }
             }
           },
@@ -154,15 +154,15 @@
   },
   "active": "a6bf3ab872556062",
   "lastOpenFiles": [
-    "2-AREAS/Development/_README.md",
+    "2-AREAS/Code/Bash/Bash - Install NVM.md",
+    "2-AREAS/Code/Bash/Bash - Git-Auto.md",
+    "2-AREAS/Code/Bash/Bash - Install and Setup Git.md",
+    "2-AREAS/Code/Bash/_README.md",
     "0-INBOX/Linux.md",
+    "2-AREAS/Development/_README.md",
     "2-AREAS/MOCs/Development.md",
     "2-AREAS/MOCs/_README.md",
     "2-AREAS/Code/_README.md",
-    "2-AREAS/Daily-Notes/2022/_README.md",
-    "2-AREAS/Daily-Notes/2022/2022-08-11.md",
-    "2-AREAS/Code/GHA/GHA - Release Excel Workbook.md",
-    "2-AREAS/Code/GHA/_README.md",
-    "2-AREAS/Daily-Notes/2022/2022-08-06.md"
+    "2-AREAS/Daily-Notes/2022/_README.md"
   ]
 }

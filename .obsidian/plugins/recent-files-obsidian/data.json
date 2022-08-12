@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Bash - Git-Auto",
+      "path": "2-AREAS/Code/Bash/Bash - Git-Auto.md"
+    },
+    {
+      "basename": "Bash - Install NVM",
+      "path": "2-AREAS/Code/Bash/Bash - Install NVM.md"
+    },
+    {
+      "basename": "Bash - Install and Setup Git",
+      "path": "2-AREAS/Code/Bash/Bash - Install and Setup Git.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/Bash/_README.md"
+    },
+    {
       "basename": "Linux",
       "path": "0-INBOX/Linux.md"
     },
@@ -181,24 +197,8 @@
       "path": "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md"
     },
     {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Bash/_README.md"
-    },
-    {
       "basename": "Bash - Install Zsh",
       "path": "2-AREAS/Code/Bash/Bash - Install Zsh.md"
-    },
-    {
-      "basename": "Bash - Install R",
-      "path": "2-AREAS/Code/Bash/Bash - Install R.md"
-    },
-    {
-      "basename": "Bash - Install PostgreSQL",
-      "path": "2-AREAS/Code/Bash/Bash - Install PostgreSQL.md"
-    },
-    {
-      "basename": "MOC-Template",
-      "path": "3-RESOURCES/Templates/Core Templates/MOC-Template.md"
     }
   ],
   "omittedPaths": [],

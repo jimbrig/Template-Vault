@@ -1,7 +1,35 @@
 ---
 Date: 2022-03-01
 Author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
-Tags: ["#Type/Code/Bash", "#Topic/Dev/Code"]
+Tags: ["#Type/Code/Bash", "#Topic/Dev/Linux", "#Topic/Dev/Code"]
+Alias: ["Git-Auto", "gitauto"]
+---
+
+# Bash - Git-Auto
+
+*Source: *
+
+```bash
+
+```
+
+***
+
+## Appendix: Links and References
+
+- [[2-AREAS/Code/_README|Code]]
+- [[Development]]
+- [[Linux]]
+- [[2-AREAS/Code/Bash/_README|Bash]]
+
+***
+
+Jimmy Briggs <jimmy.briggs@jimbrig.com> | 2022
+
+---
+Date: 
+Author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
+Tags: ["#Type/Code/Bash", ]
 Alias: ["Git-Auto"]
 ---
 
