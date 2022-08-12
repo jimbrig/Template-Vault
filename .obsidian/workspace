@@ -80,6 +80,35 @@
         "type": "tabs",
         "children": [
           {
+            "id": "32e529598e1d80c4",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "78bcb9ce4d722f8f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5abeaf6f16384316",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2-AREAS/Daily-Notes/2022/2022-08-11.md"
+              }
+            }
+          },
+          {
             "id": "1af2b34a0697ec54",
             "type": "leaf",
             "state": {
@@ -109,36 +138,15 @@
             }
           },
           {
-            "id": "78bcb9ce4d722f8f",
+            "id": "2e0f185a27a755b3",
             "type": "leaf",
             "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "5abeaf6f16384316",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "2-AREAS/Daily-Notes/2022/2022-08-11.md"
-              }
-            }
-          },
-          {
-            "id": "32e529598e1d80c4",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
+              "type": "dictionary-view",
               "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       },
       {
         "id": "aec3b81bfb6261bc",
@@ -186,14 +194,23 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "2f1cbd7c217d4f52",
+            "type": "leaf",
+            "state": {
+              "type": "tlfItemView",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 343.5
   },
-  "active": "78bcb9ce4d722f8f",
+  "active": "2e0f185a27a755b3",
   "lastOpenFiles": [
     "0-INBOX/_README.md",
     "2-AREAS/Code/PowerShell/_README.md",
