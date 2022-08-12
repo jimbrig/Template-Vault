@@ -1,12 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "Web Development",
-      "path": "2-AREAS/MOCs/Web Development.md"
+      "basename": "Computer Science",
+      "path": "2-AREAS/MOCs/Computer Science.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/MOCs/_README.md"
     },
     {
       "basename": "Development",
       "path": "2-AREAS/MOCs/Development.md"
+    },
+    {
+      "basename": "macOS",
+      "path": "0-INBOX/macOS.md"
+    },
+    {
+      "basename": "Microsoft Windows",
+      "path": "2-AREAS/MOCs/Microsoft Windows.md"
+    },
+    {
+      "basename": "Databases",
+      "path": "2-AREAS/MOCs/Databases.md"
+    },
+    {
+      "basename": "Data Engineering",
+      "path": "2-AREAS/MOCs/Data Engineering.md"
+    },
+    {
+      "basename": "Data Science",
+      "path": "2-AREAS/MOCs/Data Science.md"
+    },
+    {
+      "basename": "Mathematics and Statistics",
+      "path": "2-AREAS/MOCs/Mathematics and Statistics.md"
+    },
+    {
+      "basename": "Web Development",
+      "path": "2-AREAS/MOCs/Web Development.md"
     },
     {
       "basename": "Software Development",
@@ -35,10 +67,6 @@
     {
       "basename": "_README",
       "path": "3-RESOURCES/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/MOCs/_README.md"
     },
     {
       "basename": "_README",
@@ -171,34 +199,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Daily-Notes/2022/2022-07/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/2022/2022-06/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/2022/2022-05/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/2022/2022-04/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/2022/2022-03/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/2022/2022-02/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/2022/2022-01/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/2021/_README.md"
     }
   ],
   "omittedPaths": [],
