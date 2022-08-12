@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Development",
+      "path": "2-AREAS/MOCs/Development.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/MOCs/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2022/_README.md"
+    },
+    {
       "basename": "2022-08-11",
-      "path": "2-AREAS/Daily-Notes/2022-08-11.md"
+      "path": "2-AREAS/Daily-Notes/2022/2022-08-11.md"
     },
     {
       "basename": "GHA - Release Excel Workbook",
@@ -14,7 +30,7 @@
     },
     {
       "basename": "2022-08-06",
-      "path": "2-AREAS/Daily-Notes/2022-08-06.md"
+      "path": "2-AREAS/Daily-Notes/2022/2022-08-06.md"
     },
     {
       "basename": "2022-08-01",
@@ -23,10 +39,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Daily-Notes/2022/2022-08/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/2022/_README.md"
     },
     {
       "basename": "_README",
@@ -51,14 +63,6 @@
     {
       "basename": "_README",
       "path": "1-SLIPBOX/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/MOCs/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/_README.md"
     },
     {
       "basename": "_README",
@@ -163,10 +167,6 @@
     {
       "basename": "Git and Github Contribution Lifecycle",
       "path": "2-AREAS/Development/Git and Github Contribution Lifecycle.md"
-    },
-    {
-      "basename": "Development",
-      "path": "2-AREAS/MOCs/Development.md"
     },
     {
       "basename": "About Data Requirements",
