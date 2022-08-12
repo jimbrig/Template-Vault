@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Ralph Kimball",
-      "path": "2-AREAS/People/Ralph Kimball.md"
-    },
-    {
       "basename": "Data Engineering",
       "path": "2-AREAS/MOCs/Data Engineering.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/MOCs/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/People/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/_README.md"
+    },
+    {
+      "basename": "Bill Inmon",
+      "path": "2-AREAS/People/Bill Inmon.md"
+    },
+    {
+      "basename": "Ralph Kimball",
+      "path": "2-AREAS/People/Ralph Kimball.md"
     },
     {
       "basename": "Linux",
@@ -27,10 +43,6 @@
     {
       "basename": "Computer Science",
       "path": "2-AREAS/MOCs/Computer Science.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/MOCs/_README.md"
     },
     {
       "basename": "Development",
@@ -87,10 +99,6 @@
     {
       "basename": "_README",
       "path": "3-RESOURCES/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/_README.md"
     },
     {
       "basename": "_README",
@@ -191,14 +199,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Daily-Notes/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "3-RESOURCES/Templates/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "1-SLIPBOX/_README.md"
     }
   ],
   "omittedPaths": [],
