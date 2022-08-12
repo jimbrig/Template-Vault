@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-AREAS/Code/Bash/Bash - Install and Setup Git.md",
+            "file": "2-AREAS/Code/Bash/Bash - WSL - Set Default Browser to Windows.md",
             "mode": "source",
             "backlinks": true
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-AREAS/Code/Bash/Bash - Install and Setup Git.md",
+                "file": "2-AREAS/Code/Bash/Bash - WSL - Set Default Browser to Windows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-AREAS/Code/Bash/Bash - Install and Setup Git.md",
+                "file": "2-AREAS/Code/Bash/Bash - WSL - Set Default Browser to Windows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-AREAS/Code/Bash/Bash - Install and Setup Git.md"
+                "file": "2-AREAS/Code/Bash/Bash - WSL - Set Default Browser to Windows.md"
               }
             }
           },
@@ -155,15 +155,15 @@
   },
   "active": "a6bf3ab872556062",
   "lastOpenFiles": [
-    "2-AREAS/Code/Bash/Bash - Git-Auto.md",
+    "2-AREAS/Code/Bash/Bash - Install Zsh.md",
+    "2-AREAS/Code/Bash/Bash - Install R.md",
+    "2-AREAS/Code/Bash/Bash - Install PostgreSQL.md",
+    "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md",
     "2-AREAS/Code/Bash/Bash - Install NVM.md",
     "2-AREAS/Code/Bash/Bash - Install and Setup Git.md",
+    "2-AREAS/Code/Bash/Bash - Git-Auto.md",
     "2-AREAS/Code/Bash/_README.md",
     "0-INBOX/Linux.md",
-    "2-AREAS/Development/_README.md",
-    "2-AREAS/MOCs/Development.md",
-    "2-AREAS/MOCs/_README.md",
-    "2-AREAS/Code/_README.md",
-    "2-AREAS/Daily-Notes/2022/_README.md"
+    "2-AREAS/Development/_README.md"
   ]
 }

@@ -95,7 +95,9 @@ git config --global alias.l "log --pretty=oneline -n 20 --graph --abbrev-commit"
 - [[SSH]]
 - [[GPG]]
 - [[Configuration Management]]
-- [[]]
+- [[Dotfiles]]
+- [[WSL]]
+- [[Windows]]
 
 ***
 

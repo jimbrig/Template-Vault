@@ -1,16 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "Bash - WSL - Set Default Browser to Windows",
+      "path": "2-AREAS/Code/Bash/Bash - WSL - Set Default Browser to Windows.md"
+    },
+    {
+      "basename": "Bash - Install Zsh",
+      "path": "2-AREAS/Code/Bash/Bash - Install Zsh.md"
+    },
+    {
+      "basename": "Bash - Install R",
+      "path": "2-AREAS/Code/Bash/Bash - Install R.md"
+    },
+    {
+      "basename": "Bash - Install PostgreSQL",
+      "path": "2-AREAS/Code/Bash/Bash - Install PostgreSQL.md"
+    },
+    {
+      "basename": "Bash - Install oh-my-zsh",
+      "path": "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md"
+    },
+    {
+      "basename": "Bash - Install NVM",
+      "path": "2-AREAS/Code/Bash/Bash - Install NVM.md"
+    },
+    {
       "basename": "Bash - Install and Setup Git",
       "path": "2-AREAS/Code/Bash/Bash - Install and Setup Git.md"
     },
     {
       "basename": "Bash - Git-Auto",
       "path": "2-AREAS/Code/Bash/Bash - Git-Auto.md"
-    },
-    {
-      "basename": "Bash - Install NVM",
-      "path": "2-AREAS/Code/Bash/Bash - Install NVM.md"
     },
     {
       "basename": "_README",
@@ -179,26 +199,6 @@
     {
       "basename": "Linux Commands Reference",
       "path": "2-AREAS/Development/Linux Commands Reference.md"
-    },
-    {
-      "basename": "Git Commands Reference",
-      "path": "2-AREAS/Development/Git Commands Reference.md"
-    },
-    {
-      "basename": "Git and Github Contribution Lifecycle",
-      "path": "2-AREAS/Development/Git and Github Contribution Lifecycle.md"
-    },
-    {
-      "basename": "About Data Requirements",
-      "path": "1-SLIPBOX/About Data Requirements.md"
-    },
-    {
-      "basename": "Bash - Install oh-my-zsh",
-      "path": "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md"
-    },
-    {
-      "basename": "Bash - Install Zsh",
-      "path": "2-AREAS/Code/Bash/Bash - Install Zsh.md"
     }
   ],
   "omittedPaths": [],
