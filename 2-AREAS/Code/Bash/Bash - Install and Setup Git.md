@@ -23,10 +23,24 @@ git --version
 which git
 
 # configure git
+
+# user name and email
 git config --global user.name "Jimmy Briggs"
 git config --global user.email "jimmy.briggs@jimbrig.com"
+
+# default branch = 'main'
 git config --global init.defaultbranch "main"
+
+# default protocol
+git config --global default.protocol ssh"
+
+# mainly for windows
 git config --global core.longpaths true
+git config --global autocrlf false
+git config --global safecrlf warn
+git config --global symlinks true
+
+# global gitignore and gitattributes
 git config --global core.excludesFile ""
 git config --global core.attributesFile ""
 
