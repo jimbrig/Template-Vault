@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-AREAS/MOCs/Computer Science.md",
+            "file": "2-AREAS/MOCs/Data Engineering.md",
             "mode": "source",
             "backlinks": true
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-AREAS/MOCs/Computer Science.md",
+                "file": "2-AREAS/MOCs/Data Engineering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-AREAS/MOCs/Computer Science.md",
+                "file": "2-AREAS/MOCs/Data Engineering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-AREAS/MOCs/Computer Science.md"
+                "file": "2-AREAS/MOCs/Data Engineering.md"
               }
             }
           },
@@ -155,6 +155,7 @@
   },
   "active": "a6bf3ab872556062",
   "lastOpenFiles": [
+    "2-AREAS/MOCs/Computer Science.md",
     "2-AREAS/MOCs/_README.md",
     "2-AREAS/MOCs/Development.md",
     "0-INBOX/macOS.md",
@@ -163,7 +164,6 @@
     "2-AREAS/MOCs/Data Engineering.md",
     "2-AREAS/MOCs/Data Science.md",
     "2-AREAS/MOCs/Mathematics and Statistics.md",
-    "2-AREAS/MOCs/Computer Science.md",
     "2-AREAS/MOCs/Web Development.md"
   ]
 }

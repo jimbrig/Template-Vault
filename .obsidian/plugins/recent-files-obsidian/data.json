@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Data Engineering",
+      "path": "2-AREAS/MOCs/Data Engineering.md"
+    },
+    {
       "basename": "Computer Science",
       "path": "2-AREAS/MOCs/Computer Science.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "Databases",
       "path": "2-AREAS/MOCs/Databases.md"
-    },
-    {
-      "basename": "Data Engineering",
-      "path": "2-AREAS/MOCs/Data Engineering.md"
     },
     {
       "basename": "Data Science",

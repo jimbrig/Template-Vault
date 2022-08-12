@@ -21,7 +21,7 @@ Alias: "Computer Science"
 
 ## Notes about Computer Science
 
-
+- [[Computer Science Overview]]
 
 ***
 

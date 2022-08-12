@@ -1,7 +1,7 @@
 ---
 Date: 2022-08-12
 Author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
-Tags: ["#Type/MOC"]
+Tags: ["#Type/MOC", "#Topic/Dev/Data"]
 Alias: "Data Engineering"
 ---
 
@@ -13,7 +13,26 @@ Alias: "Data Engineering"
 
 ## Related Maps of Content
 
-## Notes about Data Engineering
+- [[Development]]
+- [[Databases]]
+- [[Data Science]]
+- [[Computer Science]]
+- [[Software Development]]
+
+## Data Engineering Concepts
+
+- **[[Data Engineers]]**
+- **[[Data Cataloging]]**
+- **[[Databases]]**
+- **[[Data Warehouse]]**
+- **[[Dimensional Modeling]]**
+- **[[Data Lake]]**
+- **[[Data Mart]]**
+- **[[Business Intelligence]]**
+- **[[Data Science]]**
+- **[[Modeling]]**
+- **[[Data Transformation]]
+
 
 ***
 
