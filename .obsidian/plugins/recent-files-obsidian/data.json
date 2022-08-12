@@ -5,6 +5,10 @@
       "path": "0-INBOX/_README.md"
     },
     {
+      "basename": "_README",
+      "path": "2-AREAS/Code/GHA/_README.md"
+    },
+    {
       "basename": "README",
       "path": "README.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "Development",
       "path": "2-AREAS/MOCs/Development.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/GHA/_README.md"
     },
     {
       "basename": "Bash - Install oh-my-zsh",

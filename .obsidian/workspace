@@ -4,27 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9f2236daa97daf47",
+        "id": "f11cbfb448e1cb7b",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "0-INBOX/_README.md",
-            "mode": "source",
-            "backlinks": true
-          }
-        }
-      },
-      {
-        "id": "36c5b2bb2108ad5a",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "2-AREAS/Code/GHA/_README.md",
-            "mode": "preview",
-            "backlinks": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -97,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-INBOX/_README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-INBOX/_README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "0-INBOX/_README.md"
-              }
+              "state": {}
             }
           },
           {
@@ -156,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9f2236daa97daf47",
+  "active": "f11cbfb448e1cb7b",
   "lastOpenFiles": [
+    "0-INBOX/_README.md",
+    "2-AREAS/Code/GHA/_README.md",
     "README.md",
     "3-RESOURCES/_README.md",
     "2-AREAS/MOCs/Development.md",
-    "2-AREAS/Code/GHA/_README.md",
     "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md",
     "2-AREAS/Code/Bash/_README.md",
     "2-AREAS/Code/Bash/Bash - Install Zsh.md",
     "2-AREAS/Code/Bash/Bash - Install R.md",
-    "2-AREAS/Code/Bash/Bash - Install PostgreSQL.md",
-    "2-AREAS/Code/_README.md"
+    "2-AREAS/Code/Bash/Bash - Install PostgreSQL.md"
   ]
 }
