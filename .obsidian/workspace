@@ -138,14 +138,62 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
+      },
+      {
+        "id": "aec3b81bfb6261bc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4e331db880b87c18",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "2-AREAS/Daily-Notes/2022/2022-08-11.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.3628873693012117,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "dc0f033e7cb86245",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 343.5,
-    "collapsed": true
+    "width": 343.5
   },
-  "active": "e35f4c209133e732",
+  "active": "78bcb9ce4d722f8f",
   "lastOpenFiles": [
     "0-INBOX/_README.md",
     "2-AREAS/Code/PowerShell/_README.md",
