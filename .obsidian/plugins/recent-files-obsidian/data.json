@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "Ralph Kimball",
+      "path": "2-AREAS/People/Ralph Kimball.md"
+    },
+    {
       "basename": "Data Engineering",
       "path": "2-AREAS/MOCs/Data Engineering.md"
+    },
+    {
+      "basename": "Linux",
+      "path": "0-INBOX/Linux.md"
+    },
+    {
+      "basename": "Data Engineers",
+      "path": "1-SLIPBOX/Data Engineers.md"
+    },
+    {
+      "basename": "Data Cataloging",
+      "path": "1-SLIPBOX/Data Cataloging.md"
+    },
+    {
+      "basename": "Data Warehouse",
+      "path": "1-SLIPBOX/Data Warehouse.md"
     },
     {
       "basename": "Computer Science",
@@ -137,10 +157,6 @@
       "path": "2-AREAS/Code/Bash/Bash - Git-Auto.md"
     },
     {
-      "basename": "Linux",
-      "path": "0-INBOX/Linux.md"
-    },
-    {
       "basename": "_README",
       "path": "2-AREAS/Development/_README.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "_README",
       "path": "1-SLIPBOX/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/2021/2021-12/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/2021/2021-11/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/2022/2022-09/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/2022/2022-07/_README.md"
     }
   ],
   "omittedPaths": [],
