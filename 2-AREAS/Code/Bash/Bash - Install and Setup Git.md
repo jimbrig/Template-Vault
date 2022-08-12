@@ -17,10 +17,21 @@ sudo apt-get -y update && sudo apt-get -y upgrade
 sudo apt-get -y install git
 
 # check git version
+git --version
 
+# check path for git
+which git
 
 # configure git
-g
+git config --global user.name "Jimmy Briggs"
+git config --global user.email "jimmy.briggs@jimbrig.com"
+git config --global init.defaultbranch "main"
+git config --global core.longpaths true
+git config --global core.excludesFile ""
+git config
+
+git config --global user.signingkey ""
+
 ```
 
 ***
