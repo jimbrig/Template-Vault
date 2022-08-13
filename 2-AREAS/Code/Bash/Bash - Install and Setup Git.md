@@ -5,7 +5,7 @@ Tags: ["#Type/Code/Bash", "#Topic/Dev/Linux"]
 Alias: []
 ---
 
-# Bash - Install and Setup Git
+# Bash - Install and Setup [[Git]]
 
 *Source: *
 

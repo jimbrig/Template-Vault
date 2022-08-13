@@ -5,6 +5,10 @@
       "path": "0-INBOX/Git.md"
     },
     {
+      "basename": "Bash - Git-Auto",
+      "path": "2-AREAS/Code/Bash/Bash - Git-Auto.md"
+    },
+    {
       "basename": "Bash - Install and Setup Git",
       "path": "2-AREAS/Code/Bash/Bash - Install and Setup Git.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "Development",
       "path": "2-AREAS/MOCs/Development.md"
-    },
-    {
-      "basename": "Bash - Git-Auto",
-      "path": "2-AREAS/Code/Bash/Bash - Git-Auto.md"
     },
     {
       "basename": "_README",

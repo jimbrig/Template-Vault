@@ -5,7 +5,7 @@ Tags: ["#Type/Code/Bash", "#Topic/Dev/Linux", "#Topic/Dev/Code"]
 Alias: ["Git-Auto", "gitauto", "Git Auto"]
 ---
 
-# Bash - Git-Auto
+# Bash - [[Git]]-Auto
 
 *Source: [[Git-Auto] Auto commit and push to remote repo tracking local changes to files · GitHub](https://gist.github.com/439f74475d36449cc02a1fd1e878e22f#file-git-auto)*
 

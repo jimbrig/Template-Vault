@@ -8,8 +8,11 @@ Alias: ["Git"]
 # Git
 *Website: [Git](https://git-scm.com/)*
 
-<p><center>
-<img src="https://git-scm.com/images/logos/downloads/Git-Logo-White.png" align="right" height="30%" width="30%" />
+<p>
+	<center>
+		<img src="https://git-scm.com/images/logos/downloads/Git-Logo-White.png" align="right" height="30%" width="30%" />
+	</center>
+</p>
 
 [TOC]
 
@@ -42,6 +45,8 @@ Alias: ["Git"]
 - [[Web Development]]
 - [[GitHub]]
 - [[Bash - Git-Auto|Git-Auto]]
+- [[Bash - Install and Setup Git]]
+- 
 
 
 ***
