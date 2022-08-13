@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "ABOUT",
+      "path": "ABOUT.md"
+    },
+    {
       "basename": "README",
       "path": "README.md"
     },
@@ -47,10 +51,6 @@
     {
       "basename": "_README",
       "path": "1-SLIPBOX/_README.md"
-    },
-    {
-      "basename": "ABOUT",
-      "path": "ABOUT.md"
     },
     {
       "basename": "_README",
