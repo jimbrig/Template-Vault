@@ -53,7 +53,14 @@ flowchart TB
 	end
 	
 	subgraph Topic
-	
+	Dev[Dev]
+	Dev --> Linux[Linux]
+	Dev --> Code2[Code]
+	Dev --> CLI[CLI]
+	Dev --> etc[etc.]
+	Data[Data] --> DB[Database]
+	Data --> D
+	PKM[PKM] --> Obsidian[Obsidian]
 	end
 ```
 
