@@ -46,8 +46,9 @@ Alias: ["Git"]
 - [[GitHub]]
 - [[Bash - Git-Auto|Git-Auto]]
 - [[Bash - Install and Setup Git]]
-- 
-
+- [[Git Extensions]]
+- [[Git and Github Contribution Lifecycle]]
+- [[Git Commands Reference]]
 
 ***
 
