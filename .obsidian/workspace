@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "0-INBOX/Git.md",
-            "mode": "source",
+            "mode": "preview",
             "backlinks": true
           }
         }
@@ -216,13 +216,14 @@
       }
     ],
     "direction": "horizontal",
-    "width": 557.5
+    "width": 557.5,
+    "collapsed": true
   },
   "active": "e35f4c209133e732",
   "lastOpenFiles": [
     "0-INBOX/_README.md",
-    "README.md",
     "2-AREAS/Daily-Notes/2022-08-12.md",
+    "README.md",
     "0-INBOX/Git.md",
     "2-AREAS/Code/Bash/Bash - Git-Auto.md",
     "2-AREAS/Code/Bash/Bash - Install and Setup Git.md",

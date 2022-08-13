@@ -9,12 +9,12 @@
       "path": "0-INBOX/_README.md"
     },
     {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
       "basename": "2022-08-12",
       "path": "2-AREAS/Daily-Notes/2022-08-12.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
     },
     {
       "basename": "Bash - Git-Auto",
