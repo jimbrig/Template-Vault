@@ -93,6 +93,8 @@ Based off of [[Tiago Forte]]'s [[PARA Method]].
 
 ### Tag Structure
 
+Tags are split into **Type** and **Topic** prefixed tags:
+
 ```mermaid
 flowchart TB
 	subgraph Type
@@ -127,7 +129,9 @@ flowchart TB
 	end
 ```
 
+### Content
 
+Content in this vault is limited and includes primarily technical/development related knowledge.
 
 ***
 

@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "macOS",
+      "path": "0-INBOX/macOS.md"
+    },
+    {
+      "basename": "Git",
+      "path": "2-AREAS/Development/Git.md"
+    },
+    {
+      "basename": "_README",
+      "path": "1-SLIPBOX/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "3-RESOURCES/_README.md"
+    },
+    {
       "basename": "ABOUT",
       "path": "ABOUT.md"
     },
     {
       "basename": "README",
       "path": "README.md"
+    },
+    {
+      "basename": "CHANGELOG",
+      "path": "CHANGELOG.md"
     },
     {
       "basename": "_README",
@@ -19,10 +39,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/_README.md"
-    },
-    {
-      "basename": "Git",
-      "path": "0-INBOX/Git.md"
     },
     {
       "basename": "2022-08-12",
@@ -47,14 +63,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Code/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "1-SLIPBOX/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "3-RESOURCES/_README.md"
     },
     {
       "basename": "_README",
@@ -191,10 +199,6 @@
     {
       "basename": "Data Engineers",
       "path": "2-AREAS/Development/Data Engineers.md"
-    },
-    {
-      "basename": "Data Cataloging",
-      "path": "2-AREAS/Development/Data Cataloging.md"
     }
   ],
   "omittedPaths": [],
