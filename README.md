@@ -16,6 +16,8 @@ Alias: ["HOME", "README"]
 - [2-AREAS](2-AREAS/_README): Generic areas of my life and more - builds off of Tiego Forte's PARA Method.
 - [3-RESOURCES](3-RESOURCES/_README): Generic resource notes, currently only houses my Templates.
 
+*See Also: [[About]]*
+
 ## How To Use
 
 ```mermaid
