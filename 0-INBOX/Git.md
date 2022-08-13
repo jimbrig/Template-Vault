@@ -6,6 +6,8 @@ Alias: ["Git"]
 ---
 
 # Git
+<img align="center" height="50%" width="50%" src="_assetsPasted image 20220812200910.png
+
 *Website: [Git](https://git-scm.com/)*
 
 [TOC]
@@ -31,6 +33,15 @@ Alias: ["Git"]
 ***
 
 ## Appendix: Links and References
+
+- [[Development]]
+- [[Version Control]]
+- [[Developer Tools]]
+- [[Software Development]]
+- [[Web Development]]
+- [[GitHub]]
+- [[Bash - Git-Auto|Git-Auto]]
+
 
 ***
 
