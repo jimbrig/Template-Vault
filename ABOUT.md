@@ -24,7 +24,25 @@ The setup has four main components:
 - Tag Structure
 - Content
 
-###
+### Settings, Configuration, and Plugins
+
+### Folder Structure
+
+Based off of [[Tiago Forte]]'s [[PARA Method]].
+
+### Tag Structure
+
+```mermaid
+flowchart TB
+	subgraph Type
+	Folder[Folder]
+	Code[Code]
+	Code --> 
+	end
+	
+```
+
+
 
 ***
 
