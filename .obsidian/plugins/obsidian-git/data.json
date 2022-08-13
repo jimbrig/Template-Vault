@@ -1,6 +1,6 @@
 {
-  "commitMessage": "vault backup: {{date}}",
-  "autoCommitMessage": "vault backup: {{date}}",
+  "commitMessage": "Obsidian: Changed {{numFiles}} Files ({{hostname}})",
+  "autoCommitMessage": "Obsidian: Changed {{numFiles}} Files ({{hostname}})",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 2,
   "autoPushInterval": 0,
