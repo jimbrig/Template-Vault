@@ -36,10 +36,25 @@ Based off of [[Tiago Forte]]'s [[PARA Method]].
 flowchart TB
 	subgraph Type
 	Folder[Folder]
+	MOC[MOC]
+	Ref[Reference]
+	Slip[Slipbox]
+	Daily[DailyNote]
+	Person[Person]
+	Meta[Meta]
+	Readme[Readme]
+	Tool[Tool]
 	Code[Code]
-	Code --> 
+	Code --> Bash[Bash]
+	Code --> VBA[VBA]
+	Code --> GHA[GHA]
+	Code --> PWSH[PowerShell]
+	Code --> MISC[etc.]
 	end
 	
+	subgraph Topic
+	
+	end
 ```
 
 
