@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-INBOX/Git.md",
-            "mode": "preview",
+            "file": "README.md",
+            "mode": "source",
             "backlinks": true
           }
         }
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-INBOX/Git.md"
+                "file": "README.md"
               }
             }
           },
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-INBOX/Git.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-INBOX/Git.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "0-INBOX/Git.md",
+                "file": "README.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -216,20 +216,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 557.5,
-    "collapsed": true
+    "width": 557.5
   },
   "active": "e35f4c209133e732",
   "lastOpenFiles": [
     "0-INBOX/_README.md",
-    "2-AREAS/Daily-Notes/2022-08-12.md",
+    "0-INBOX/0-INBOX.md",
     "README.md",
+    "2-AREAS/Code/Bash/_README.md",
+    "2-AREAS/_README.md",
     "0-INBOX/Git.md",
+    "2-AREAS/Daily-Notes/2022-08-12.md",
     "2-AREAS/Code/Bash/Bash - Git-Auto.md",
     "2-AREAS/Code/Bash/Bash - Install and Setup Git.md",
-    "2-AREAS/Development/Linux.md",
-    "2-AREAS/MOCs/Development.md",
-    "2-AREAS/Code/Bash/_README.md",
-    "2-AREAS/Code/_README.md"
+    "2-AREAS/Development/Linux.md"
   ]
 }

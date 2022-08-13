@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Git",
-      "path": "0-INBOX/Git.md"
+      "basename": "README",
+      "path": "README.md"
     },
     {
       "basename": "_README",
       "path": "0-INBOX/_README.md"
     },
     {
-      "basename": "2022-08-12",
-      "path": "2-AREAS/Daily-Notes/2022-08-12.md"
+      "basename": "_README",
+      "path": "2-AREAS/Code/Bash/_README.md"
     },
     {
-      "basename": "README",
-      "path": "README.md"
+      "basename": "_README",
+      "path": "2-AREAS/_README.md"
+    },
+    {
+      "basename": "Git",
+      "path": "0-INBOX/Git.md"
+    },
+    {
+      "basename": "2022-08-12",
+      "path": "2-AREAS/Daily-Notes/2022-08-12.md"
     },
     {
       "basename": "Bash - Git-Auto",
@@ -34,15 +42,7 @@
     },
     {
       "basename": "_README",
-      "path": "2-AREAS/Code/Bash/_README.md"
-    },
-    {
-      "basename": "_README",
       "path": "2-AREAS/Code/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/_README.md"
     },
     {
       "basename": "_README",
@@ -195,10 +195,6 @@
     {
       "basename": "Data Cataloging",
       "path": "2-AREAS/Development/Data Cataloging.md"
-    },
-    {
-      "basename": "Data Warehouse",
-      "path": "2-AREAS/Development/Data Warehouse.md"
     }
   ],
   "omittedPaths": [],
