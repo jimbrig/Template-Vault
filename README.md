@@ -12,13 +12,17 @@ Alias: ["HOME", "README"]
 ## Contents
 
 - [0-INBOX](0-INBOX/_README): Landing Zone for all new notes.
-- [1-SLIPBOX](1-SLIPBOX_README): Fleeting notes mirroring the original Zettelkasten's *SlipBox*.
-- [2-AREAS](2-AREAS/_README_): Generic areas of my life and more - builds off of Tiego Forte's PARA Method.
-- [3-RESOURCES](3-RESOURCES): Generic resource notes, currently only houses my Templates.
+- [1-SLIPBOX](1-SLIPBOX/_README): Fleeting notes mirroring the original Zettelkasten's *SlipBox*.
+- [2-AREAS](2-AREAS/_README): Generic areas of my life and more - builds off of Tiego Forte's PARA Method.
+- [3-RESOURCES](3-RESOURCES/_README): Generic resource notes, currently only houses my Templates.
 
 ## How To Use
 
-Fork > Clone > Open in Obsidian
+```mermaid
+flowchart LR
+	F(Fork) --> C(Clone)
+	C --> O(Open in Obsidian)
+```
 
 ***
 
