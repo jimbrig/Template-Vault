@@ -30,6 +30,63 @@ The setup has four main components:
 
 Based off of [[Tiago Forte]]'s [[PARA Method]].
 
+```
+├───.obsidian
+│   ├───plugins
+│   └───themes
+├───0-INBOX
+├───1-SLIPBOX
+├───2-AREAS
+│   ├───Code
+│   │   ├───AutoHotKey
+│   │   ├───Bash
+│   │   ├───Batch
+│   │   ├───Cmd
+│   │   ├───CSS
+│   │   ├───Espanso
+│   │   ├───GitHub Actions
+│   │   ├───Java
+│   │   ├───JavaScript
+│   │   ├───Pandoc
+│   │   ├───PowerQuery
+│   │   ├───PowerShell
+│   │   ├───Python
+│   │   ├───R
+│   │   ├───Registry
+│   │   ├───Run
+│   │   ├───SQL
+│   │   ├───VBA
+│   │   └───Visual Basic
+│   ├───Daily-Notes
+│   │   ├───2021
+│   │   │   ├───2021-11
+│   │   │   └───2021-12
+│   │   └───2022
+│   │       ├───2022-01
+│   │       ├───2022-02
+│   │       ├───2022-03
+│   │       ├───2022-04
+│   │       ├───2022-05
+│   │       ├───2022-06
+│   │       ├───2022-07
+│   │       ├───2022-08
+│   │       └───2022-09
+│   ├───Development
+│   ├───Goals
+│   ├───Guides
+│   ├───Learning
+│   ├───Lists
+│   ├───Meta
+│   ├───Mindsweeps
+│   ├───MOCs
+│   └───People
+└───3-RESOURCES
+    └───Templates
+        ├───Code Templates
+        ├───Core Templates
+        └───Fragments
+```
+
 ### Tag Structure
 
 ```mermaid
@@ -59,8 +116,10 @@ flowchart TB
 	Dev --> CLI[CLI]
 	Dev --> etc[etc.]
 	Data[Data] --> DB[Database]
-	Data --> D
+	Data --> DE[DataEngineering]
 	PKM[PKM] --> Obsidian[Obsidian]
+	PKM --> Zet[Zettelkasten]
+	PKM --> PARA[PARA]
 	end
 ```
 
