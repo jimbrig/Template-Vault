@@ -5,6 +5,18 @@
       "path": "0-INBOX/Git.md"
     },
     {
+      "basename": "_README",
+      "path": "0-INBOX/_README.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "2022-08-12",
+      "path": "2-AREAS/Daily-Notes/2022-08-12.md"
+    },
+    {
       "basename": "Bash - Git-Auto",
       "path": "2-AREAS/Code/Bash/Bash - Git-Auto.md"
     },
@@ -31,10 +43,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "0-INBOX/_README.md"
     },
     {
       "basename": "_README",
@@ -165,10 +173,6 @@
       "path": "2-AREAS/Code/AutoHotKey/_README.md"
     },
     {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
       "basename": "2022-08-11",
       "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-11.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Data Warehouse",
       "path": "2-AREAS/Development/Data Warehouse.md"
-    },
-    {
-      "basename": "Computer Science",
-      "path": "2-AREAS/MOCs/Computer Science.md"
     }
   ],
   "omittedPaths": [],

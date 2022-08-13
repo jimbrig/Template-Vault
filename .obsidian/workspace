@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "0-INBOX/Git.md",
-            "mode": "preview",
+            "mode": "source",
             "backlinks": true
           }
         }
@@ -212,23 +212,23 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 557.5
   },
-  "active": "e58e0f954ebe5867",
+  "active": "e35f4c209133e732",
   "lastOpenFiles": [
-    "2-AREAS/Code/Bash/Bash - Git-Auto.md",
+    "0-INBOX/_README.md",
+    "README.md",
+    "2-AREAS/Daily-Notes/2022-08-12.md",
     "0-INBOX/Git.md",
+    "2-AREAS/Code/Bash/Bash - Git-Auto.md",
     "2-AREAS/Code/Bash/Bash - Install and Setup Git.md",
     "2-AREAS/Development/Linux.md",
     "2-AREAS/MOCs/Development.md",
     "2-AREAS/Code/Bash/_README.md",
-    "2-AREAS/Code/_README.md",
-    "2-AREAS/_README.md",
-    "0-INBOX/_README.md",
-    "1-SLIPBOX/_README.md"
+    "2-AREAS/Code/_README.md"
   ]
 }

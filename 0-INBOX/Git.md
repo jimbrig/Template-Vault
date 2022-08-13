@@ -10,7 +10,7 @@ Alias: ["Git"]
 
 <p>
 	<center>
-		<img src="https://git-scm.com/images/logos/downloads/Git-Logo-White.png" align="right" height="30%" width="30%" />
+		<img src="https://git-scm.com/images/logos/downloads/Git-Logo-White.png" style="inline-block" align="right" height="30%" width="30%" />
 	</center>
 </p>
 
