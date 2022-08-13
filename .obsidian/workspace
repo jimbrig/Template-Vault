@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#1-SLIPBOX",
+                "query": "tag:#2-AREAS",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -213,13 +212,13 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 557.5
   },
-  "active": "c1452617418c36af",
+  "active": "dc0f033e7cb86245",
   "lastOpenFiles": [
     "2-AREAS/Code/Bash/Bash - Git-Auto.md",
     "0-INBOX/Git.md",
