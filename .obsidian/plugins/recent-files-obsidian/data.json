@@ -1,6 +1,50 @@
 {
   "recentFiles": [
     {
+      "basename": "Git",
+      "path": "0-INBOX/Git.md"
+    },
+    {
+      "basename": "Bash - Install and Setup Git",
+      "path": "2-AREAS/Code/Bash/Bash - Install and Setup Git.md"
+    },
+    {
+      "basename": "Linux",
+      "path": "2-AREAS/Development/Linux.md"
+    },
+    {
+      "basename": "Development",
+      "path": "2-AREAS/MOCs/Development.md"
+    },
+    {
+      "basename": "Bash - Git-Auto",
+      "path": "2-AREAS/Code/Bash/Bash - Git-Auto.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/Bash/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "0-INBOX/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "1-SLIPBOX/_README.md"
+    },
+    {
+      "basename": "ABOUT",
+      "path": "ABOUT.md"
+    },
+    {
       "basename": "_README",
       "path": "3-RESOURCES/_README.md"
     },
@@ -39,10 +83,6 @@
     {
       "basename": "About Data Requirements",
       "path": "2-AREAS/Development/About Data Requirements.md"
-    },
-    {
-      "basename": "_README",
-      "path": "1-SLIPBOX/_README.md"
     },
     {
       "basename": "_README",
@@ -125,18 +165,6 @@
       "path": "2-AREAS/Code/AutoHotKey/_README.md"
     },
     {
-      "basename": "_README",
-      "path": "2-AREAS/Code/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "0-INBOX/_README.md"
-    },
-    {
       "basename": "README",
       "path": "README.md"
     },
@@ -157,10 +185,6 @@
       "path": "2-AREAS/People/Ralph Kimball.md"
     },
     {
-      "basename": "Linux",
-      "path": "0-INBOX/Linux.md"
-    },
-    {
       "basename": "Data Engineers",
       "path": "2-AREAS/Development/Data Engineers.md"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "Computer Science",
       "path": "2-AREAS/MOCs/Computer Science.md"
-    },
-    {
-      "basename": "Development",
-      "path": "2-AREAS/MOCs/Development.md"
-    },
-    {
-      "basename": "macOS",
-      "path": "0-INBOX/macOS.md"
-    },
-    {
-      "basename": "Microsoft Windows",
-      "path": "2-AREAS/MOCs/Microsoft Windows.md"
-    },
-    {
-      "basename": "Databases",
-      "path": "2-AREAS/MOCs/Databases.md"
-    },
-    {
-      "basename": "Data Science",
-      "path": "2-AREAS/MOCs/Data Science.md"
-    },
-    {
-      "basename": "Mathematics and Statistics",
-      "path": "2-AREAS/MOCs/Mathematics and Statistics.md"
     }
   ],
   "omittedPaths": [],

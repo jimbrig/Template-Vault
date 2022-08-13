@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3-RESOURCES/_README.md",
-            "mode": "preview",
+            "file": "0-INBOX/Git.md",
+            "mode": "source",
             "backlinks": true
           }
         }
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-RESOURCES/_README.md"
+                "file": "0-INBOX/Git.md"
               }
             }
           },
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-RESOURCES/_README.md",
+                "file": "0-INBOX/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-RESOURCES/_README.md",
+                "file": "0-INBOX/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3-RESOURCES/_README.md",
+                "file": "0-INBOX/Git.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -173,7 +173,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.3628873693012117,
+                  "scale": 0.18462326225858122,
                   "close": true
                 }
               }
@@ -212,23 +212,23 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
     "width": 557.5
   },
-  "active": "dc0f033e7cb86245",
+  "active": "e35f4c209133e732",
   "lastOpenFiles": [
-    "2-AREAS/People/_README.md",
-    "2-AREAS/MOCs/_README.md",
-    "2-AREAS/Mindsweeps/_README.md",
-    "2-AREAS/Meta/_README.md",
-    "2-AREAS/Lists/_README.md",
-    "2-AREAS/Learning/_README.md",
-    "2-AREAS/Guides/_README.md",
-    "2-AREAS/Goals/_README.md",
-    "2-AREAS/Development/About Data Requirements.md",
-    "1-SLIPBOX/_README.md"
+    "2-AREAS/Code/Bash/Bash - Install and Setup Git.md",
+    "2-AREAS/Development/Linux.md",
+    "2-AREAS/MOCs/Development.md",
+    "2-AREAS/Code/Bash/Bash - Git-Auto.md",
+    "2-AREAS/Code/Bash/_README.md",
+    "2-AREAS/Code/_README.md",
+    "2-AREAS/_README.md",
+    "0-INBOX/_README.md",
+    "1-SLIPBOX/_README.md",
+    "ABOUT.md"
   ]
 }
