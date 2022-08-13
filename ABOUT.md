@@ -30,7 +30,9 @@ The setup has four main components:
 
 Based off of [[Tiago Forte]]'s [[PARA Method]].
 
-```
+<details><summary>View Vault Folder Structure:</summary>
+
+```bash
 ├───.obsidian
 │   ├───plugins
 │   └───themes
@@ -86,6 +88,8 @@ Based off of [[Tiago Forte]]'s [[PARA Method]].
         ├───Core Templates
         └───Fragments
 ```
+	
+</details>
 
 ### Tag Structure
 
