@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2022-08-12",
+      "path": "2-AREAS/Daily-Notes/2022-08-12.md"
+    },
+    {
       "basename": "Bash - WSL - View System Init Process",
       "path": "2-AREAS/Code/Bash/Bash - WSL - View System Init Process.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Bash-Template",
       "path": "3-RESOURCES/Templates/Code Templates/Bash-Template.md"
-    },
-    {
-      "basename": "Docker Commands Reference",
-      "path": "2-AREAS/Development/Docker Commands Reference.md"
     }
   ],
   "omittedPaths": [],
