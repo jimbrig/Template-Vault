@@ -138,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "aec3b81bfb6261bc",
@@ -218,7 +218,7 @@
     "direction": "horizontal",
     "width": 557.5
   },
-  "active": "e35f4c209133e732",
+  "active": "78bcb9ce4d722f8f",
   "lastOpenFiles": [
     "2-AREAS/Code/Bash/Bash - Install and Setup Git.md",
     "2-AREAS/Development/Linux.md",
