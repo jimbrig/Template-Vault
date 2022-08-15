@@ -7,7 +7,7 @@ Alias: []
 
 # VBA - Add ActiveWorkbook to Favorites
 
-*Source: *
+*Source: [Workbook.AddToFavorites method (Excel) | Microsoft Docs](https://docs.microsoft.com/en-us/office/vba/api/Excel.Workbook.AddToFavorites)*
 
 ```vba
 ActiveWorkbook.AddToFavorites
