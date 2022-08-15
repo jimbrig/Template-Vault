@@ -5,13 +5,9 @@ Tags: ["#Type/Slipbox" "#Topic/Excel" "#Topic/Dev" "#Topic/Dev/VBA" "#Topic/Wind
 Alias: []
 ---
 
-
-
-
-
-#
-
 # Setting up an Optimal Excel Developer Environment
+
+![[Pasted image 20220814221211.png]]
 
 ***
 
