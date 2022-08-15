@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "PowerShell - Admin Script",
+      "path": "2-AREAS/Code/PowerShell/PowerShell - Admin Script.md"
+    },
+    {
       "basename": "PowerShell - Profile Aliases",
       "path": "2-AREAS/Code/PowerShell/PowerShell - Profile/PowerShell - Profile Aliases.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Code/Batch/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/AutoHotKey/_README.md"
     }
   ],
   "omittedPaths": [],

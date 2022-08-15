@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-AREAS/Code/PowerShell/PowerShell - Profile/PowerShell - Profile Aliases.md",
-            "mode": "source",
+            "file": "2-AREAS/Code/PowerShell/PowerShell - Admin Script.md",
+            "mode": "preview",
             "backlinks": true
           }
         }
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-AREAS/Code/PowerShell/PowerShell - Profile/PowerShell - Profile Aliases.md"
+                "file": "2-AREAS/Code/PowerShell/PowerShell - Admin Script.md"
               }
             }
           },
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-AREAS/Code/PowerShell/PowerShell - Profile/PowerShell - Profile Aliases.md",
+                "file": "2-AREAS/Code/PowerShell/PowerShell - Admin Script.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-AREAS/Code/PowerShell/PowerShell - Profile/PowerShell - Profile Aliases.md",
+                "file": "2-AREAS/Code/PowerShell/PowerShell - Admin Script.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "2-AREAS/Code/PowerShell/PowerShell - Profile/PowerShell - Profile Aliases.md",
+                "file": "2-AREAS/Code/PowerShell/PowerShell - Admin Script.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -220,6 +220,7 @@
   },
   "active": "e35f4c209133e732",
   "lastOpenFiles": [
+    "2-AREAS/Code/PowerShell/PowerShell - Profile/PowerShell - Profile Aliases.md",
     "2-AREAS/Code/PowerShell/PowerShell - Profile/_README.md",
     "2-AREAS/Code/PowerShell/PowerShell - Profile/PowerShell - $PROFILE.md",
     "2-AREAS/Code/PowerShell/PowerShell - Toast Notification.md",
@@ -228,7 +229,6 @@
     "README.md",
     "ABOUT.md",
     "0-INBOX/macOS.md",
-    "2-AREAS/Development/Git.md",
-    "1-SLIPBOX/_README.md"
+    "2-AREAS/Development/Git.md"
   ]
 }
