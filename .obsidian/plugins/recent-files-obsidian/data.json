@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Excel Developer Resources List",
+      "path": "2-AREAS/Lists/Excel Developer Resources List.md"
+    },
+    {
+      "basename": "List-Template",
+      "path": "3-RESOURCES/Templates/Core Templates/List-Template.md"
+    },
+    {
+      "basename": "Default-Note-Template",
+      "path": "3-RESOURCES/Templates/Core Templates/Default-Note-Template.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Lists/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/_README.md"
+    },
+    {
       "basename": "VBA - Add ActiveWorkbook to Favorites",
       "path": "2-AREAS/Code/VBA/VBA - Add ActiveWorkbook to Favorites.md"
     },
@@ -118,10 +138,6 @@
     },
     {
       "basename": "_README",
-      "path": "2-AREAS/Code/_README.md"
-    },
-    {
-      "basename": "_README",
       "path": "2-AREAS/People/_README.md"
     },
     {
@@ -135,10 +151,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Meta/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Lists/_README.md"
     },
     {
       "basename": "_README",
@@ -187,18 +199,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Code/Python/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/PowerQuery/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Pandoc/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/JavaScript/_README.md"
     }
   ],
   "omittedPaths": [],
