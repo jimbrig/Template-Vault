@@ -5,6 +5,14 @@
       "path": "0-INBOX/VBA.md"
     },
     {
+      "basename": "Visual Basic",
+      "path": "0-INBOX/Visual Basic.md"
+    },
+    {
+      "basename": "Microsoft",
+      "path": "0-INBOX/Microsoft.md"
+    },
+    {
       "basename": "Rubberduck",
       "path": "3-RESOURCES/Tools/Office/Rubberduck.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "About Data Requirements",
       "path": "2-AREAS/Development/About Data Requirements.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Development/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/_README.md"
     }
   ],
   "omittedPaths": [],
