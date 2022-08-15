@@ -7,7 +7,7 @@ Alias: []
 
 # Setting up an Optimal Excel Developer Environment
 
-![[Pasted image 20220814221211.png]]
+<img src="https://thenfapost.com/wp-content/uploads/2020/09/Microsoft_Office_Excel.png" height="10%" width="10%"/>
 
 ***
 
