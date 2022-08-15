@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Obsidian-Clipper 1.md",
+            "file": "0-INBOX/Obsidian-Clipper 1.md",
             "mode": "preview",
             "backlinks": true
           }
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian-Clipper 1.md"
+                "file": "0-INBOX/Obsidian-Clipper 1.md"
               }
             }
           },
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian-Clipper 1.md",
+                "file": "0-INBOX/Obsidian-Clipper 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian-Clipper 1.md",
+                "file": "0-INBOX/Obsidian-Clipper 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Obsidian-Clipper 1.md",
+                "file": "0-INBOX/Obsidian-Clipper 1.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -218,10 +218,10 @@
     "width": 557.5,
     "collapsed": true
   },
-  "active": "e35f4c209133e732",
+  "active": "fef2140fd3d7a3e9",
   "lastOpenFiles": [
-    "Obsidian-Clipper.md",
-    "BERT  ImageMSO List Reference.md",
+    "0-INBOX/Obsidian-Clipper.md",
+    "0-INBOX/BERT  ImageMSO List Reference.md",
     "0-INBOX/Excel VBA - msoImages Listing.md",
     "0-INBOX/VBA.md",
     "0-INBOX/Visual Basic.md",
