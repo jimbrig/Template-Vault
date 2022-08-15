@@ -17,7 +17,10 @@ Alias: []
 
 Setting up on optimal [[Excel]] environment is a critical task for any worker.
 
-1. Install and Configure [[Microsoft 365]]
+1. Install and Configure [[Microsoft 365]] / [[Microsoft Office]]
+2. Enable the Developer Tab in the Ribbon
+3. Add customized Quick Access Bar items to Excel
+4. 
 
 ***
 
