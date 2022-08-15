@@ -40,5 +40,6 @@
   "obsidian-full-calendar",
   "obsidian-vault-changelog",
   "oz-image-plugin",
-  "obsidian-image-toolkit"
+  "obsidian-image-toolkit",
+  "obsidian-local-rest-api"
 ]
