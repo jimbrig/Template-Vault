@@ -1,3 +1,4 @@
+- 2022-08-14 at 21h24 · [[PowerShell - Update-Help]]
 - 2022-08-14 at 21h23 · [[PowerShell - Admin Script]]
 - 2022-08-14 at 21h07 · [[PowerShell - Profile Aliases]]
 - 2022-08-14 at 21h06 · [[_README]]
@@ -16,5 +17,4 @@
 - 2022-08-12 at 22h20 · [[_README]]
 - 2022-08-12 at 22h20 · [[Ralph Kimball]]
 - 2022-08-12 at 22h20 · [[Bill Inmon]]
-- 2022-08-12 at 22h20 · [[_README]]
 - 2022-08-12 at 22h20 · [[_README]]
