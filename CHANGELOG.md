@@ -1,3 +1,4 @@
+- 2022-08-14 at 22h55 · [[VBA - Add ActiveWorkbook to Favorites]]
 - 2022-08-14 at 22h25 · [[Setting up an Optimal Excel Developer Environment]]
 - 2022-08-14 at 21h39 · [[PowerShell - Add Defender Exclusions]]
 - 2022-08-14 at 21h38 · [[PowerShell - Enable LongPaths]]
@@ -16,5 +17,4 @@
 - 2022-08-12 at 22h20 · [[_README]]
 - 2022-08-12 at 22h20 · [[_README]]
 - 2022-08-12 at 22h20 · [[GHA - Release Excel Workbook]]
-- 2022-08-12 at 22h20 · [[_README]]
 - 2022-08-12 at 22h20 · [[_README]]
