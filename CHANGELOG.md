@@ -1,3 +1,5 @@
+- 2022-08-14 at 21h07 · [[PowerShell - Profile Aliases]]
+- 2022-08-14 at 21h06 · [[_README]]
 - 2022-08-14 at 20h54 · [[PowerShell - $PROFILE]]
 - 2022-08-14 at 20h16 · [[PowerShell - Toast Notification]]
 - 2022-08-14 at 20h14 · [[PowerShell-Template]]
@@ -16,5 +18,3 @@
 - 2022-08-12 at 22h20 · [[_README]]
 - 2022-08-12 at 22h20 · [[_README]]
 - 2022-08-12 at 22h20 · [[Web Development]]
-- 2022-08-12 at 22h20 · [[Software Development]]
-- 2022-08-12 at 22h20 · [[Microsoft Windows]]

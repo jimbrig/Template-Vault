@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "PowerShell - Profile Aliases",
+      "path": "2-AREAS/Code/PowerShell/PowerShell - Profile/PowerShell - Profile Aliases.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/PowerShell/PowerShell - Profile/_README.md"
+    },
+    {
       "basename": "PowerShell - $PROFILE",
-      "path": "2-AREAS/Code/PowerShell/PowerShell - $PROFILE.md"
+      "path": "2-AREAS/Code/PowerShell/PowerShell - Profile/PowerShell - $PROFILE.md"
     },
     {
       "basename": "PowerShell - Toast Notification",
@@ -191,14 +199,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Code/AutoHotKey/_README.md"
-    },
-    {
-      "basename": "2022-08-11",
-      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-11.md"
-    },
-    {
-      "basename": "Data Engineering",
-      "path": "2-AREAS/MOCs/Data Engineering.md"
     }
   ],
   "omittedPaths": [],
