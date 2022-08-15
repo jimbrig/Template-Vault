@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "1-SLIPBOX/Untitled.md"
+    },
+    {
       "basename": "_README",
       "path": "2-AREAS/Code/PowerShell/_README.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Code/GitHub Actions/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Espanso/_README.md"
     }
   ],
   "omittedPaths": [],
