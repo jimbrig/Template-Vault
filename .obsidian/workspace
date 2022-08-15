@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-AREAS/Daily-Notes/2022-08-14.md",
+            "file": "2-AREAS/Code/PowerShell/PowerShell - $PROFILE.md",
             "mode": "source",
             "backlinks": true
           }
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-AREAS/Daily-Notes/2022-08-14.md"
+                "file": "2-AREAS/Code/PowerShell/PowerShell - $PROFILE.md"
               }
             }
           },
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-AREAS/Daily-Notes/2022-08-14.md",
+                "file": "2-AREAS/Code/PowerShell/PowerShell - $PROFILE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-AREAS/Daily-Notes/2022-08-14.md",
+                "file": "2-AREAS/Code/PowerShell/PowerShell - $PROFILE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "2-AREAS/Daily-Notes/2022-08-14.md",
+                "file": "2-AREAS/Code/PowerShell/PowerShell - $PROFILE.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -219,6 +219,8 @@
   },
   "active": "e35f4c209133e732",
   "lastOpenFiles": [
+    "2-AREAS/Code/PowerShell/PowerShell - Toast Notification.md",
+    "2-AREAS/Daily-Notes/2022-08-14.md",
     "CHANGELOG.md",
     "README.md",
     "ABOUT.md",
@@ -226,8 +228,6 @@
     "2-AREAS/Development/Git.md",
     "1-SLIPBOX/_README.md",
     "3-RESOURCES/_README.md",
-    "0-INBOX/_README.md",
-    "0-INBOX/0-INBOX.md",
-    "2-AREAS/Code/Bash/_README.md"
+    "0-INBOX/_README.md"
   ]
 }

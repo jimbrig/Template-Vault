@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "PowerShell - $PROFILE",
+      "path": "2-AREAS/Code/PowerShell/PowerShell - $PROFILE.md"
+    },
+    {
+      "basename": "PowerShell - Toast Notification",
+      "path": "2-AREAS/Code/PowerShell/PowerShell - Toast Notification.md"
+    },
+    {
       "basename": "2022-08-14",
       "path": "2-AREAS/Daily-Notes/2022-08-14.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Data Engineering",
       "path": "2-AREAS/MOCs/Data Engineering.md"
-    },
-    {
-      "basename": "Bill Inmon",
-      "path": "2-AREAS/People/Bill Inmon.md"
-    },
-    {
-      "basename": "Ralph Kimball",
-      "path": "2-AREAS/People/Ralph Kimball.md"
     }
   ],
   "omittedPaths": [],
