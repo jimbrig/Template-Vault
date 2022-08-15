@@ -2,15 +2,31 @@
   "recentFiles": [
     {
       "basename": "_README",
-      "path": "2-AREAS/Lists/_README.md"
+      "path": "3-RESOURCES/Tools/_README.md"
     },
     {
       "basename": "Rubberduck",
-      "path": "0-INBOX/Rubberduck.md"
+      "path": "3-RESOURCES/Tools/Rubberduck.md"
+    },
+    {
+      "basename": "Microsoft Excel",
+      "path": "3-RESOURCES/Tools/Microsoft Excel.md"
+    },
+    {
+      "basename": "_README",
+      "path": "0-INBOX/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "3-RESOURCES/Templates/_README.md"
     },
     {
       "basename": "Excel Developer Resources List",
       "path": "2-AREAS/Lists/Excel Developer Resources List.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Lists/_README.md"
     },
     {
       "basename": "List-Template",
@@ -114,10 +130,6 @@
     },
     {
       "basename": "_README",
-      "path": "0-INBOX/_README.md"
-    },
-    {
-      "basename": "_README",
       "path": "2-AREAS/Code/Bash/_README.md"
     },
     {
@@ -187,18 +199,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Code/SQL/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Run/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Registry/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/R/_README.md"
     }
   ],
   "omittedPaths": [],
