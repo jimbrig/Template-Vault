@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2022-08-15",
+      "path": "2-AREAS/Daily-Notes/2022-08-15.md"
+    },
+    {
       "basename": "CHANGELOG",
       "path": "CHANGELOG.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Ralph Kimball",
       "path": "2-AREAS/People/Ralph Kimball.md"
-    },
-    {
-      "basename": "Data Engineers",
-      "path": "2-AREAS/Development/Data Engineers.md"
     }
   ],
   "omittedPaths": [],

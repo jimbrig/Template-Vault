@@ -1,3 +1,4 @@
+- 2022-08-15 at 08h36 · [[2022-08-15]]
 - 2022-08-12 at 20h43 · [[README]]
 - 2022-08-12 at 20h42 · [[ABOUT]]
 - 2022-08-12 at 20h25 · [[Git]]
@@ -17,4 +18,3 @@
 - 2022-08-12 at 16h35 · [[Ralph Kimball]]
 - 2022-08-12 at 16h34 · [[Data Warehouse]]
 - 2022-08-12 at 16h34 · [[Data Cataloging]]
-- 2022-08-12 at 16h33 · [[Data Engineers]]
