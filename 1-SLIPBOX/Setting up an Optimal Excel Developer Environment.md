@@ -7,7 +7,17 @@ Alias: []
 
 # Setting up an Optimal Excel Developer Environment
 
-<img src="https://thenfapost.com/wp-content/uploads/2020/09/Microsoft_Office_Excel.png" height="10%" width="10%"/>
+<img src="https://thenfapost.com/wp-content/uploads/2020/09/Microsoft_Office_Excel.png" height="10%" width="10%" />
+
+[TOC]
+
+## Overview
+
+[[Microsoft Excel]] is the number one application used in the corporate world today by knowledge workers and developers alike.
+
+Setting up on optimal [[Excel]] environment is a critical task for any worker.
+
+1. Install and Configure [[Microsoft 365]]
 
 ***
 

@@ -1,4 +1,4 @@
-- 2022-08-14 at 22h22 · [[Setting up an Optimal Excel Developer Environment]]
+- 2022-08-14 at 22h24 · [[Setting up an Optimal Excel Developer Environment]]
 - 2022-08-14 at 21h39 · [[PowerShell - Add Defender Exclusions]]
 - 2022-08-14 at 21h38 · [[PowerShell - Enable LongPaths]]
 - 2022-08-14 at 21h24 · [[PowerShell - Update-Help]]
