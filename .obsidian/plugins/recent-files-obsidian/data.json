@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "VBA",
+      "path": "0-INBOX/VBA.md"
+    },
+    {
+      "basename": "Rubberduck",
+      "path": "3-RESOURCES/Tools/Office/Rubberduck.md"
+    },
+    {
+      "basename": "Microsoft Excel",
+      "path": "3-RESOURCES/Tools/Office/Microsoft Excel.md"
+    },
+    {
+      "basename": "_README",
+      "path": "3-RESOURCES/Tools/Office/_README.md"
+    },
+    {
       "basename": "_README",
       "path": "3-RESOURCES/Tools/_README.md"
     },
     {
-      "basename": "Rubberduck",
-      "path": "3-RESOURCES/Tools/Rubberduck.md"
-    },
-    {
-      "basename": "Microsoft Excel",
-      "path": "3-RESOURCES/Tools/Microsoft Excel.md"
+      "basename": "_README",
+      "path": "3-RESOURCES/_README.md"
     },
     {
       "basename": "_README",
@@ -126,10 +138,6 @@
     },
     {
       "basename": "_README",
-      "path": "3-RESOURCES/_README.md"
-    },
-    {
-      "basename": "_README",
       "path": "2-AREAS/Code/Bash/_README.md"
     },
     {
@@ -191,14 +199,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Daily-Notes/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Visual Basic/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/SQL/_README.md"
     }
   ],
   "omittedPaths": [],

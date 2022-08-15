@@ -1,4 +1,6 @@
-- 2022-08-14 at 23h21 · [[_README]]
+- 2022-08-14 at 23h23 · [[VBA]]
+- 2022-08-14 at 23h22 · [[_README]]
+- 2022-08-14 at 23h22 · [[_README]]
 - 2022-08-14 at 23h21 · [[Microsoft Excel]]
 - 2022-08-14 at 23h19 · [[Rubberduck]]
 - 2022-08-14 at 23h18 · [[Excel Developer Resources List]]
@@ -16,5 +18,3 @@
 - 2022-08-14 at 20h16 · [[PowerShell - Toast Notification]]
 - 2022-08-14 at 20h14 · [[PowerShell-Template]]
 - 2022-08-14 at 20h13 · [[_README]]
-- 2022-08-14 at 20h12 · [[2022-08-14]]
-- 2022-08-12 at 22h20 · [[_README]]
