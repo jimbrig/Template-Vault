@@ -7,8 +7,12 @@
         "id": "e35f4c209133e732",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "0-INBOX/Excel VBA - msoImages Listing.md",
+            "mode": "source",
+            "backlinks": true
+          }
         }
       }
     ],
@@ -99,7 +103,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "0-INBOX/Excel VBA - msoImages Listing.md"
+              }
             }
           },
           {
@@ -108,6 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "0-INBOX/Excel VBA - msoImages Listing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,6 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "0-INBOX/Excel VBA - msoImages Listing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,6 +150,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "0-INBOX/Excel VBA - msoImages Listing.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
