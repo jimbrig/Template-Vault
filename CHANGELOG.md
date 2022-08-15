@@ -1,3 +1,5 @@
+- 2022-08-14 at 23h34 · [[Obsidian-Clipper 1]]
+- 2022-08-14 at 23h34 · [[Obsidian-Clipper]]
 - 2022-08-14 at 23h33 · [[BERT  ImageMSO List Reference]]
 - 2022-08-14 at 23h29 · [[Excel VBA - msoImages Listing]]
 - 2022-08-14 at 23h24 · [[Visual Basic]]
@@ -16,5 +18,3 @@
 - 2022-08-14 at 21h38 · [[PowerShell - Enable LongPaths]]
 - 2022-08-14 at 21h24 · [[PowerShell - Update-Help]]
 - 2022-08-14 at 21h23 · [[PowerShell - Admin Script]]
-- 2022-08-14 at 21h07 · [[PowerShell - Profile Aliases]]
-- 2022-08-14 at 21h06 · [[_README]]

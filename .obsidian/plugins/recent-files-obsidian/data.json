@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Obsidian-Clipper 1",
+      "path": "Obsidian-Clipper 1.md"
+    },
+    {
+      "basename": "Obsidian-Clipper",
+      "path": "Obsidian-Clipper.md"
+    },
+    {
       "basename": "BERT  ImageMSO List Reference",
       "path": "BERT  ImageMSO List Reference.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Meta/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Learning/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Guides/_README.md"
     }
   ],
   "omittedPaths": [],
