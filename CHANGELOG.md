@@ -1,3 +1,4 @@
+- 2022-08-14 at 22h08 · [[Setting up an Optimal Excel Developer Environment]]
 - 2022-08-14 at 21h39 · [[PowerShell - Add Defender Exclusions]]
 - 2022-08-14 at 21h38 · [[PowerShell - Enable LongPaths]]
 - 2022-08-14 at 21h24 · [[PowerShell - Update-Help]]
@@ -17,4 +18,3 @@
 - 2022-08-12 at 22h20 · [[GHA - Release Excel Workbook]]
 - 2022-08-12 at 22h20 · [[_README]]
 - 2022-08-12 at 22h20 · [[_README]]
-- 2022-08-12 at 22h20 · [[Ralph Kimball]]
