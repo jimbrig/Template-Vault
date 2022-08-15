@@ -1,4 +1,4 @@
-- 2022-08-14 at 23h36 · [[Obsidian-Clipper 1]]
+- 2022-08-14 at 23h38 · [[Obsidian-Clipper 1]]
 - 2022-08-14 at 23h34 · [[Obsidian-Clipper]]
 - 2022-08-14 at 23h33 · [[BERT  ImageMSO List Reference]]
 - 2022-08-14 at 23h29 · [[Excel VBA - msoImages Listing]]
