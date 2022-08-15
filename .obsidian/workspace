@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1-SLIPBOX/_README.md",
+            "file": "1-SLIPBOX/Setting up an Optimal Excel Developer Environment.md",
             "mode": "source",
             "backlinks": true
           }
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-SLIPBOX/_README.md"
+                "file": "1-SLIPBOX/Setting up an Optimal Excel Developer Environment.md"
               }
             }
           },
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-SLIPBOX/_README.md",
+                "file": "1-SLIPBOX/Setting up an Optimal Excel Developer Environment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-SLIPBOX/_README.md",
+                "file": "1-SLIPBOX/Setting up an Optimal Excel Developer Environment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "1-SLIPBOX/_README.md",
+                "file": "1-SLIPBOX/Setting up an Optimal Excel Developer Environment.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -218,8 +218,10 @@
     "width": 557.5,
     "collapsed": true
   },
-  "active": "fef2140fd3d7a3e9",
+  "active": "e35f4c209133e732",
   "lastOpenFiles": [
+    "1-SLIPBOX/_assets/Pasted image 20220814221211.png",
+    "1-SLIPBOX/_README.md",
     "1-SLIPBOX/Setting up an Optimal Excel Developer Environment.md",
     "2-AREAS/Code/PowerShell/_README.md",
     "2-AREAS/Code/PowerShell/PowerShell - Add Defender Exclusions.md",
@@ -227,8 +229,6 @@
     "2-AREAS/Code/PowerShell/PowerShell - Update-Help.md",
     "2-AREAS/Code/PowerShell/PowerShell - Admin Script.md",
     "2-AREAS/Code/PowerShell/PowerShell - Profile/PowerShell - Profile Aliases.md",
-    "2-AREAS/Code/PowerShell/PowerShell - Profile/_README.md",
-    "2-AREAS/Code/PowerShell/PowerShell - Profile/PowerShell - $PROFILE.md",
-    "2-AREAS/Code/PowerShell/PowerShell - Toast Notification.md"
+    "2-AREAS/Code/PowerShell/PowerShell - Profile/_README.md"
   ]
 }
