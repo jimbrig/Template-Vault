@@ -5,10 +5,27 @@ if you want to view the source, please visit the github repository of this plugi
 
 var __create = Object.create;
 var __defProp = Object.defineProperty;
+var __defProps = Object.defineProperties;
 var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropDescs = Object.getOwnPropertyDescriptors;
 var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getOwnPropSymbols = Object.getOwnPropertySymbols;
 var __getProtoOf = Object.getPrototypeOf;
 var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __propIsEnum = Object.prototype.propertyIsEnumerable;
+var __defNormalProp = (obj, key, value) => key in obj ? __defProp(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
+var __spreadValues = (a, b) => {
+  for (var prop in b || (b = {}))
+    if (__hasOwnProp.call(b, prop))
+      __defNormalProp(a, prop, b[prop]);
+  if (__getOwnPropSymbols)
+    for (var prop of __getOwnPropSymbols(b)) {
+      if (__propIsEnum.call(b, prop))
+        __defNormalProp(a, prop, b[prop]);
+    }
+  return a;
+};
+var __spreadProps = (a, b) => __defProps(a, __getOwnPropDescs(b));
 var __markAsModule = (target) => __defProp(target, "__esModule", { value: true });
 var __export = (target, all) => {
   __markAsModule(target);
@@ -201,16 +218,12 @@ function set_input_value(input, value) {
   input.value = value == null ? "" : value;
 }
 function set_style(node, key, value, important) {
-  if (value === null) {
-    node.style.removeProperty(key);
-  } else {
-    node.style.setProperty(key, value, important ? "important" : "");
-  }
+  node.style.setProperty(key, value, important ? "important" : "");
 }
 function toggle_class(element2, name, toggle) {
   element2.classList[toggle ? "add" : "remove"](name);
 }
-var managed_styles = new Map();
+var active_docs = new Set();
 var current_component;
 function set_current_component(component) {
   current_component = component;
@@ -230,20 +243,20 @@ function schedule_update() {
 function add_render_callback(fn) {
   render_callbacks.push(fn);
 }
+var flushing = false;
 var seen_callbacks = new Set();
-var flushidx = 0;
 function flush() {
-  const saved_component = current_component;
+  if (flushing)
+    return;
+  flushing = true;
   do {
-    while (flushidx < dirty_components.length) {
-      const component = dirty_components[flushidx];
-      flushidx++;
+    for (let i = 0; i < dirty_components.length; i += 1) {
+      const component = dirty_components[i];
       set_current_component(component);
       update(component.$$);
     }
     set_current_component(null);
     dirty_components.length = 0;
-    flushidx = 0;
     while (binding_callbacks.length)
       binding_callbacks.pop()();
     for (let i = 0; i < render_callbacks.length; i += 1) {
@@ -259,8 +272,8 @@ function flush() {
     flush_callbacks.pop()();
   }
   update_scheduled = false;
+  flushing = false;
   seen_callbacks.clear();
-  set_current_component(saved_component);
 }
 function update($$) {
   if ($$.fragment !== null) {
@@ -307,8 +320,6 @@ function transition_out(block, local, detach2, callback) {
       }
     });
     block.o(local);
-  } else if (callback) {
-    callback();
   }
 }
 var globals = typeof window !== "undefined" ? window : typeof globalThis !== "undefined" ? globalThis : global;
@@ -542,6 +553,7 @@ var treeRoot = writable();
 var currentFile = writable("");
 var maxDepth = writable(0);
 var filterString = writable("");
+var tagInfo = writable({});
 
 // types.ts
 var SUBTREE_MARK = "\u2192 ";
@@ -553,20 +565,15 @@ function add_css(target) {
 }
 function get_each_context_1(ctx, list, i) {
   const child_ctx = ctx.slice();
-  child_ctx[22] = list[i];
+  child_ctx[28] = list[i];
   return child_ctx;
 }
 function get_each_context(ctx, list, i) {
   const child_ctx = ctx.slice();
-  child_ctx[22] = list[i];
+  child_ctx[28] = list[i];
   return child_ctx;
 }
-function get_each_context_2(ctx, list, i) {
-  const child_ctx = ctx.slice();
-  child_ctx[22] = list[i];
-  return child_ctx;
-}
-function create_if_block_5(ctx) {
+function create_if_block_4(ctx) {
   let div2;
   let div1;
   let div0;
@@ -582,7 +589,7 @@ function create_if_block_5(ctx) {
       t = text(t_value);
       attr(div0, "class", "nav-file-title-content");
       attr(div1, "class", "nav-file-title");
-      toggle_class(div1, "is-active", ctx[6]);
+      toggle_class(div1, "is-active", ctx[8]);
       attr(div2, "class", "nav-file");
     },
     m(target, anchor) {
@@ -592,19 +599,23 @@ function create_if_block_5(ctx) {
       append(div0, t);
       if (!mounted) {
         dispose = [
-          listen(div1, "click", ctx[19]),
-          listen(div1, "mouseover", ctx[20]),
+          listen(div1, "click", ctx[25]),
+          listen(div1, "mouseover", ctx[26]),
           listen(div1, "focus", focus_handler),
-          listen(div1, "contextmenu", ctx[21])
+          listen(div1, "contextmenu", function() {
+            if (is_function(ctx[15](ctx[0])))
+              ctx[15](ctx[0]).apply(this, arguments);
+          })
         ];
         mounted = true;
       }
     },
-    p(ctx2, dirty) {
-      if (dirty & 1 && t_value !== (t_value = ctx2[0].displayName + ""))
+    p(new_ctx, dirty) {
+      ctx = new_ctx;
+      if (dirty[0] & 1 && t_value !== (t_value = ctx[0].displayName + ""))
         set_data(t, t_value);
-      if (dirty & 64) {
-        toggle_class(div1, "is-active", ctx2[6]);
+      if (dirty[0] & 256) {
+        toggle_class(div1, "is-active", ctx[8]);
       }
     },
     i: noop,
@@ -617,39 +628,23 @@ function create_if_block_5(ctx) {
     }
   };
 }
-function create_if_block(ctx) {
+function create_if_block_2(ctx) {
   let div5;
   let div4;
   let div0;
   let t0;
   let div3;
   let div1;
-  let t1_value = ctx[0].tag + "";
   let t1;
   let t2;
   let div2;
   let t3_value = ctx[0].itemsCount + "";
   let t3;
   let t4;
-  let t5;
-  let current_block_type_index;
-  let if_block1;
   let current;
   let mounted;
   let dispose;
-  let if_block0 = ctx[0].children && !ctx[5] && create_if_block_4(ctx);
-  const if_block_creators = [create_if_block_1, create_if_block_3];
-  const if_blocks = [];
-  function select_block_type_1(ctx2, dirty) {
-    if (ctx2[7] != 1 && ctx2[9] > ctx2[7])
-      return 0;
-    if (ctx2[0].descendants && !ctx2[5])
-      return 1;
-    return -1;
-  }
-  if (~(current_block_type_index = select_block_type_1(ctx, -1))) {
-    if_block1 = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
-  }
+  let if_block = ctx[10].length > 0 && create_if_block_3(ctx);
   return {
     c() {
       div5 = element("div");
@@ -659,22 +654,19 @@ function create_if_block(ctx) {
       t0 = space();
       div3 = element("div");
       div1 = element("div");
-      t1 = text(t1_value);
+      t1 = text(ctx[9]);
       t2 = space();
       div2 = element("div");
       t3 = text(t3_value);
       t4 = space();
-      if (if_block0)
-        if_block0.c();
-      t5 = space();
-      if (if_block1)
-        if_block1.c();
+      if (if_block)
+        if_block.c();
       attr(div0, "class", "nav-folder-collapse-indicator collapse-icon");
       attr(div1, "class", "tagfolder-titletagname svelte-1yv0nhj");
       attr(div2, "class", "tagfolder-quantity svelte-1yv0nhj");
       attr(div3, "class", "nav-folder-title-content lsl-f svelte-1yv0nhj");
       attr(div4, "class", "nav-folder-title");
-      toggle_class(div4, "is-active", ctx[0].children && ctx[5] && ctx[6]);
+      toggle_class(div4, "is-active", ctx[0].children && ctx[5] && ctx[8]);
       attr(div5, "class", "nav-folder");
       toggle_class(div5, "is-collapsed", ctx[5]);
     },
@@ -690,230 +682,131 @@ function create_if_block(ctx) {
       append(div3, div2);
       append(div2, t3);
       append(div5, t4);
-      if (if_block0)
-        if_block0.m(div5, null);
-      append(div5, t5);
-      if (~current_block_type_index) {
-        if_blocks[current_block_type_index].m(div5, null);
-      }
+      if (if_block)
+        if_block.m(div5, null);
       current = true;
       if (!mounted) {
         dispose = [
-          listen(div4, "click", ctx[17]),
-          listen(div4, "contextmenu", ctx[18])
+          listen(div4, "click", ctx[24]),
+          listen(div4, "contextmenu", function() {
+            if (is_function(ctx[15](ctx[0])))
+              ctx[15](ctx[0]).apply(this, arguments);
+          })
         ];
         mounted = true;
       }
     },
-    p(ctx2, dirty) {
-      if ((!current || dirty & 1) && t1_value !== (t1_value = ctx2[0].tag + ""))
-        set_data(t1, t1_value);
-      if ((!current || dirty & 1) && t3_value !== (t3_value = ctx2[0].itemsCount + ""))
+    p(new_ctx, dirty) {
+      ctx = new_ctx;
+      if (!current || dirty[0] & 512)
+        set_data(t1, ctx[9]);
+      if ((!current || dirty[0] & 1) && t3_value !== (t3_value = ctx[0].itemsCount + ""))
         set_data(t3, t3_value);
-      if (dirty & 97) {
-        toggle_class(div4, "is-active", ctx2[0].children && ctx2[5] && ctx2[6]);
+      if (dirty[0] & 289) {
+        toggle_class(div4, "is-active", ctx[0].children && ctx[5] && ctx[8]);
       }
-      if (ctx2[0].children && !ctx2[5]) {
-        if (if_block0) {
-          if_block0.p(ctx2, dirty);
-          if (dirty & 33) {
-            transition_in(if_block0, 1);
+      if (ctx[10].length > 0) {
+        if (if_block) {
+          if_block.p(ctx, dirty);
+          if (dirty[0] & 1024) {
+            transition_in(if_block, 1);
           }
         } else {
-          if_block0 = create_if_block_4(ctx2);
-          if_block0.c();
-          transition_in(if_block0, 1);
-          if_block0.m(div5, t5);
+          if_block = create_if_block_3(ctx);
+          if_block.c();
+          transition_in(if_block, 1);
+          if_block.m(div5, null);
         }
-      } else if (if_block0) {
+      } else if (if_block) {
         group_outros();
-        transition_out(if_block0, 1, 1, () => {
-          if_block0 = null;
+        transition_out(if_block, 1, 1, () => {
+          if_block = null;
         });
         check_outros();
       }
-      let previous_block_index = current_block_type_index;
-      current_block_type_index = select_block_type_1(ctx2, dirty);
-      if (current_block_type_index === previous_block_index) {
-        if (~current_block_type_index) {
-          if_blocks[current_block_type_index].p(ctx2, dirty);
-        }
-      } else {
-        if (if_block1) {
-          group_outros();
-          transition_out(if_blocks[previous_block_index], 1, 1, () => {
-            if_blocks[previous_block_index] = null;
-          });
-          check_outros();
-        }
-        if (~current_block_type_index) {
-          if_block1 = if_blocks[current_block_type_index];
-          if (!if_block1) {
-            if_block1 = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx2);
-            if_block1.c();
-          } else {
-            if_block1.p(ctx2, dirty);
-          }
-          transition_in(if_block1, 1);
-          if_block1.m(div5, null);
-        } else {
-          if_block1 = null;
-        }
-      }
-      if (dirty & 32) {
-        toggle_class(div5, "is-collapsed", ctx2[5]);
+      if (dirty[0] & 32) {
+        toggle_class(div5, "is-collapsed", ctx[5]);
       }
     },
     i(local) {
       if (current)
         return;
-      transition_in(if_block0);
-      transition_in(if_block1);
+      transition_in(if_block);
       current = true;
     },
     o(local) {
-      transition_out(if_block0);
-      transition_out(if_block1);
+      transition_out(if_block);
       current = false;
     },
     d(detaching) {
       if (detaching)
         detach(div5);
-      if (if_block0)
-        if_block0.d();
-      if (~current_block_type_index) {
-        if_blocks[current_block_type_index].d();
-      }
+      if (if_block)
+        if_block.d();
       mounted = false;
       run_all(dispose);
     }
   };
 }
-function create_if_block_4(ctx) {
-  let div;
+function create_if_block(ctx) {
+  let if_block_anchor;
   let current;
-  let each_value_2 = ctx[0].children.filter(func);
-  let each_blocks = [];
-  for (let i = 0; i < each_value_2.length; i += 1) {
-    each_blocks[i] = create_each_block_2(get_each_context_2(ctx, each_value_2, i));
-  }
-  const out = (i) => transition_out(each_blocks[i], 1, 1, () => {
-    each_blocks[i] = null;
-  });
+  let if_block = ctx[10].length > 0 && create_if_block_1(ctx);
   return {
     c() {
-      div = element("div");
-      for (let i = 0; i < each_blocks.length; i += 1) {
-        each_blocks[i].c();
-      }
-      attr(div, "class", "nav-folder-children");
+      if (if_block)
+        if_block.c();
+      if_block_anchor = empty();
     },
     m(target, anchor) {
-      insert(target, div, anchor);
-      for (let i = 0; i < each_blocks.length; i += 1) {
-        each_blocks[i].m(div, null);
-      }
+      if (if_block)
+        if_block.m(target, anchor);
+      insert(target, if_block_anchor, anchor);
       current = true;
     },
     p(ctx2, dirty) {
-      if (dirty & 287) {
-        each_value_2 = ctx2[0].children.filter(func);
-        let i;
-        for (i = 0; i < each_value_2.length; i += 1) {
-          const child_ctx = get_each_context_2(ctx2, each_value_2, i);
-          if (each_blocks[i]) {
-            each_blocks[i].p(child_ctx, dirty);
-            transition_in(each_blocks[i], 1);
-          } else {
-            each_blocks[i] = create_each_block_2(child_ctx);
-            each_blocks[i].c();
-            transition_in(each_blocks[i], 1);
-            each_blocks[i].m(div, null);
+      if (ctx2[10].length > 0) {
+        if (if_block) {
+          if_block.p(ctx2, dirty);
+          if (dirty[0] & 1024) {
+            transition_in(if_block, 1);
           }
+        } else {
+          if_block = create_if_block_1(ctx2);
+          if_block.c();
+          transition_in(if_block, 1);
+          if_block.m(if_block_anchor.parentNode, if_block_anchor);
         }
+      } else if (if_block) {
         group_outros();
-        for (i = each_value_2.length; i < each_blocks.length; i += 1) {
-          out(i);
-        }
+        transition_out(if_block, 1, 1, () => {
+          if_block = null;
+        });
         check_outros();
       }
     },
     i(local) {
       if (current)
         return;
-      for (let i = 0; i < each_value_2.length; i += 1) {
-        transition_in(each_blocks[i]);
-      }
+      transition_in(if_block);
       current = true;
     },
     o(local) {
-      each_blocks = each_blocks.filter(Boolean);
-      for (let i = 0; i < each_blocks.length; i += 1) {
-        transition_out(each_blocks[i]);
-      }
+      transition_out(if_block);
       current = false;
     },
     d(detaching) {
+      if (if_block)
+        if_block.d(detaching);
       if (detaching)
-        detach(div);
-      destroy_each(each_blocks, detaching);
-    }
-  };
-}
-function create_each_block_2(ctx) {
-  let treeitemcomponent;
-  let current;
-  treeitemcomponent = new TreeItemComponent({
-    props: {
-      entry: ctx[22],
-      openfile: ctx[2],
-      hoverPreview: ctx[1],
-      expandFolder: ctx[3],
-      showMenu: ctx[4],
-      path: ctx[8]
-    }
-  });
-  return {
-    c() {
-      create_component(treeitemcomponent.$$.fragment);
-    },
-    m(target, anchor) {
-      mount_component(treeitemcomponent, target, anchor);
-      current = true;
-    },
-    p(ctx2, dirty) {
-      const treeitemcomponent_changes = {};
-      if (dirty & 1)
-        treeitemcomponent_changes.entry = ctx2[22];
-      if (dirty & 4)
-        treeitemcomponent_changes.openfile = ctx2[2];
-      if (dirty & 2)
-        treeitemcomponent_changes.hoverPreview = ctx2[1];
-      if (dirty & 8)
-        treeitemcomponent_changes.expandFolder = ctx2[3];
-      if (dirty & 16)
-        treeitemcomponent_changes.showMenu = ctx2[4];
-      treeitemcomponent.$set(treeitemcomponent_changes);
-    },
-    i(local) {
-      if (current)
-        return;
-      transition_in(treeitemcomponent.$$.fragment, local);
-      current = true;
-    },
-    o(local) {
-      transition_out(treeitemcomponent.$$.fragment, local);
-      current = false;
-    },
-    d(detaching) {
-      destroy_component(treeitemcomponent, detaching);
+        detach(if_block_anchor);
     }
   };
 }
 function create_if_block_3(ctx) {
   let div;
   let current;
-  let each_value_1 = ctx[0].descendants;
+  let each_value_1 = ctx[10];
   let each_blocks = [];
   for (let i = 0; i < each_value_1.length; i += 1) {
     each_blocks[i] = create_each_block_1(get_each_context_1(ctx, each_value_1, i));
@@ -937,8 +830,8 @@ function create_if_block_3(ctx) {
       current = true;
     },
     p(ctx2, dirty) {
-      if (dirty & 287) {
-        each_value_1 = ctx2[0].descendants;
+      if (dirty[0] & 3102) {
+        each_value_1 = ctx2[10];
         let i;
         for (i = 0; i < each_value_1.length; i += 1) {
           const child_ctx = get_each_context_1(ctx2, each_value_1, i);
@@ -981,72 +874,17 @@ function create_if_block_3(ctx) {
     }
   };
 }
-function create_if_block_1(ctx) {
-  let if_block_anchor;
-  let current;
-  let if_block = ctx[0].allDescendants && !ctx[5] && create_if_block_2(ctx);
-  return {
-    c() {
-      if (if_block)
-        if_block.c();
-      if_block_anchor = empty();
-    },
-    m(target, anchor) {
-      if (if_block)
-        if_block.m(target, anchor);
-      insert(target, if_block_anchor, anchor);
-      current = true;
-    },
-    p(ctx2, dirty) {
-      if (ctx2[0].allDescendants && !ctx2[5]) {
-        if (if_block) {
-          if_block.p(ctx2, dirty);
-          if (dirty & 33) {
-            transition_in(if_block, 1);
-          }
-        } else {
-          if_block = create_if_block_2(ctx2);
-          if_block.c();
-          transition_in(if_block, 1);
-          if_block.m(if_block_anchor.parentNode, if_block_anchor);
-        }
-      } else if (if_block) {
-        group_outros();
-        transition_out(if_block, 1, 1, () => {
-          if_block = null;
-        });
-        check_outros();
-      }
-    },
-    i(local) {
-      if (current)
-        return;
-      transition_in(if_block);
-      current = true;
-    },
-    o(local) {
-      transition_out(if_block);
-      current = false;
-    },
-    d(detaching) {
-      if (if_block)
-        if_block.d(detaching);
-      if (detaching)
-        detach(if_block_anchor);
-    }
-  };
-}
 function create_each_block_1(ctx) {
   let treeitemcomponent;
   let current;
   treeitemcomponent = new TreeItemComponent({
     props: {
-      entry: ctx[22],
+      entry: ctx[28],
       openfile: ctx[2],
       hoverPreview: ctx[1],
       expandFolder: ctx[3],
       showMenu: ctx[4],
-      path: ctx[8]
+      path: ctx[11]
     }
   });
   return {
@@ -1059,16 +897,18 @@ function create_each_block_1(ctx) {
     },
     p(ctx2, dirty) {
       const treeitemcomponent_changes = {};
-      if (dirty & 1)
-        treeitemcomponent_changes.entry = ctx2[22];
-      if (dirty & 4)
+      if (dirty[0] & 1024)
+        treeitemcomponent_changes.entry = ctx2[28];
+      if (dirty[0] & 4)
         treeitemcomponent_changes.openfile = ctx2[2];
-      if (dirty & 2)
+      if (dirty[0] & 2)
         treeitemcomponent_changes.hoverPreview = ctx2[1];
-      if (dirty & 8)
+      if (dirty[0] & 8)
         treeitemcomponent_changes.expandFolder = ctx2[3];
-      if (dirty & 16)
+      if (dirty[0] & 16)
         treeitemcomponent_changes.showMenu = ctx2[4];
+      if (dirty[0] & 2048)
+        treeitemcomponent_changes.path = ctx2[11];
       treeitemcomponent.$set(treeitemcomponent_changes);
     },
     i(local) {
@@ -1086,10 +926,10 @@ function create_each_block_1(ctx) {
     }
   };
 }
-function create_if_block_2(ctx) {
-  let div;
+function create_if_block_1(ctx) {
+  let each_1_anchor;
   let current;
-  let each_value = ctx[0].allDescendants;
+  let each_value = ctx[10];
   let each_blocks = [];
   for (let i = 0; i < each_value.length; i += 1) {
     each_blocks[i] = create_each_block(get_each_context(ctx, each_value, i));
@@ -1099,22 +939,21 @@ function create_if_block_2(ctx) {
   });
   return {
     c() {
-      div = element("div");
       for (let i = 0; i < each_blocks.length; i += 1) {
         each_blocks[i].c();
       }
-      attr(div, "class", "nav-folder-children");
+      each_1_anchor = empty();
     },
     m(target, anchor) {
-      insert(target, div, anchor);
       for (let i = 0; i < each_blocks.length; i += 1) {
-        each_blocks[i].m(div, null);
+        each_blocks[i].m(target, anchor);
       }
+      insert(target, each_1_anchor, anchor);
       current = true;
     },
     p(ctx2, dirty) {
-      if (dirty & 287) {
-        each_value = ctx2[0].allDescendants;
+      if (dirty[0] & 3614) {
+        each_value = ctx2[10];
         let i;
         for (i = 0; i < each_value.length; i += 1) {
           const child_ctx = get_each_context(ctx2, each_value, i);
@@ -1125,7 +964,7 @@ function create_if_block_2(ctx) {
             each_blocks[i] = create_each_block(child_ctx);
             each_blocks[i].c();
             transition_in(each_blocks[i], 1);
-            each_blocks[i].m(div, null);
+            each_blocks[i].m(each_1_anchor.parentNode, each_1_anchor);
           }
         }
         group_outros();
@@ -1151,9 +990,9 @@ function create_if_block_2(ctx) {
       current = false;
     },
     d(detaching) {
-      if (detaching)
-        detach(div);
       destroy_each(each_blocks, detaching);
+      if (detaching)
+        detach(each_1_anchor);
     }
   };
 }
@@ -1162,12 +1001,13 @@ function create_each_block(ctx) {
   let current;
   treeitemcomponent = new TreeItemComponent({
     props: {
-      entry: ctx[22],
+      entry: ctx[28],
       openfile: ctx[2],
-      expandFolder: ctx[3],
       hoverPreview: ctx[1],
+      expandFolder: ctx[3],
       showMenu: ctx[4],
-      path: ctx[8]
+      skippedTag: ctx[9],
+      path: ctx[11]
     }
   });
   return {
@@ -1180,16 +1020,20 @@ function create_each_block(ctx) {
     },
     p(ctx2, dirty) {
       const treeitemcomponent_changes = {};
-      if (dirty & 1)
-        treeitemcomponent_changes.entry = ctx2[22];
-      if (dirty & 4)
+      if (dirty[0] & 1024)
+        treeitemcomponent_changes.entry = ctx2[28];
+      if (dirty[0] & 4)
         treeitemcomponent_changes.openfile = ctx2[2];
-      if (dirty & 8)
-        treeitemcomponent_changes.expandFolder = ctx2[3];
-      if (dirty & 2)
+      if (dirty[0] & 2)
         treeitemcomponent_changes.hoverPreview = ctx2[1];
-      if (dirty & 16)
+      if (dirty[0] & 8)
+        treeitemcomponent_changes.expandFolder = ctx2[3];
+      if (dirty[0] & 16)
         treeitemcomponent_changes.showMenu = ctx2[4];
+      if (dirty[0] & 512)
+        treeitemcomponent_changes.skippedTag = ctx2[9];
+      if (dirty[0] & 2048)
+        treeitemcomponent_changes.path = ctx2[11];
       treeitemcomponent.$set(treeitemcomponent_changes);
     },
     i(local) {
@@ -1213,20 +1057,20 @@ function fallback_block(ctx) {
   let if_block;
   let if_block_anchor;
   let current;
-  const if_block_creators = [create_if_block, create_if_block_5];
+  const if_block_creators = [create_if_block, create_if_block_2, create_if_block_4];
   const if_blocks = [];
   function select_block_type(ctx2, dirty) {
-    if (dirty & 129)
-      show_if = null;
-    if (show_if == null)
-      show_if = !!("tag" in ctx2[0] && (ctx2[9] <= ctx2[7] || ctx2[0].tag.startsWith(SUBTREE_MARK)));
-    if (show_if)
+    if (ctx2[7])
       return 0;
-    if ("path" in ctx2[0])
+    if (show_if == null || dirty[0] & 65)
+      show_if = !!("tag" in ctx2[0] && (ctx2[12] <= ctx2[6] || ctx2[0].tag.startsWith(SUBTREE_MARK)));
+    if (show_if)
       return 1;
+    if ("path" in ctx2[0])
+      return 2;
     return -1;
   }
-  if (~(current_block_type_index = select_block_type(ctx, -1))) {
+  if (~(current_block_type_index = select_block_type(ctx, [-1, -1]))) {
     if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
   }
   return {
@@ -1293,8 +1137,8 @@ function fallback_block(ctx) {
 }
 function create_fragment(ctx) {
   let current;
-  const default_slot_template = ctx[16].default;
-  const default_slot = create_slot(default_slot_template, ctx, ctx[15], null);
+  const default_slot_template = ctx[23].default;
+  const default_slot = create_slot(default_slot_template, ctx, ctx[22], null);
   const default_slot_or_fallback = default_slot || fallback_block(ctx);
   return {
     c() {
@@ -1307,14 +1151,14 @@ function create_fragment(ctx) {
       }
       current = true;
     },
-    p(ctx2, [dirty]) {
+    p(ctx2, dirty) {
       if (default_slot) {
-        if (default_slot.p && (!current || dirty & 32768)) {
-          update_slot_base(default_slot, default_slot_template, ctx2, ctx2[15], !current ? get_all_dirty_from_scope(ctx2[15]) : get_slot_changes(default_slot_template, ctx2[15], dirty, null), null);
+        if (default_slot.p && (!current || dirty[0] & 4194304)) {
+          update_slot_base(default_slot, default_slot_template, ctx2, ctx2[22], !current ? get_all_dirty_from_scope(ctx2[22]) : get_slot_changes(default_slot_template, ctx2[22], dirty, null), null);
         }
       } else {
-        if (default_slot_or_fallback && default_slot_or_fallback.p && (!current || dirty & 255)) {
-          default_slot_or_fallback.p(ctx2, !current ? -1 : dirty);
+        if (default_slot_or_fallback && default_slot_or_fallback.p && (!current || dirty[0] & 4095)) {
+          default_slot_or_fallback.p(ctx2, !current ? [-1, -1] : dirty);
         }
       }
     },
@@ -1334,6 +1178,12 @@ function create_fragment(ctx) {
     }
   };
 }
+function getItemPath(item, basepath) {
+  if (item && "tag" in item) {
+    return basepath + item.tag + "/";
+  }
+  return basepath;
+}
 function getFilenames(entry) {
   if (entry.allDescendants == null) {
     return [];
@@ -1342,10 +1192,12 @@ function getFilenames(entry) {
     return Array.from(new Set([...filenames]));
   }
 }
-var func = (e) => "tag" in e;
 var focus_handler = () => {
 };
 function instance($$self, $$props, $$invalidate) {
+  let currentPath;
+  let curTaginfo;
+  let tagMark;
   let { $$slots: slots = {}, $$scope } = $$props;
   let { entry } = $$props;
   let { hoverPreview } = $$props;
@@ -1353,9 +1205,9 @@ function instance($$self, $$props, $$invalidate) {
   let { expandFolder } = $$props;
   let { showMenu } = $$props;
   let { path } = $$props;
+  let { skippedTag } = $$props;
   let collapsed = true;
   let isSelected = false;
-  const currentPath = path + ("tag" in entry ? entry.tag + "/" : "");
   const currentDepth = path.replace(SUBTREE_MARK_REGEX, "###").split("/").length;
   let _maxDepth = 0;
   function toggleFolder(entry2) {
@@ -1371,30 +1223,42 @@ function instance($$self, $$props, $$invalidate) {
   function handleContextMenu(e, path2, entry2) {
     showMenu(e, path2, entry2);
   }
+  function contextMenuFunc(entry2) {
+    const _path = currentPath;
+    const _entry = entry2;
+    return (e) => {
+      handleContextMenu(e, _path, _entry);
+    };
+  }
   function handleMouseover(e, entry2) {
-    if ("path" in entry2)
+    if (entry2 && "path" in entry2)
       hoverPreview(e, entry2.path);
   }
   currentFile.subscribe((path2) => {
-    $$invalidate(6, isSelected = false);
+    $$invalidate(8, isSelected = false);
     if ("tags" in entry && entry.path == path2) {
-      $$invalidate(6, isSelected = true);
+      $$invalidate(8, isSelected = true);
     }
-    if ("tag" in entry && getFilenames(entry).contains(path2)) {
-      $$invalidate(6, isSelected = true);
+    if ("tag" in entry && getFilenames(entry).indexOf(path2) !== -1) {
+      $$invalidate(8, isSelected = true);
     }
   });
+  let _tagInfo = {};
   maxDepth.subscribe((depth) => {
-    $$invalidate(7, _maxDepth = depth);
+    $$invalidate(6, _maxDepth = depth);
     if (depth == 0) {
-      $$invalidate(7, _maxDepth = currentDepth + 1);
+      $$invalidate(6, _maxDepth = currentDepth + 1);
     }
   });
+  tagInfo.subscribe((info) => {
+    $$invalidate(19, _tagInfo = info);
+  });
+  let tagTitle = "";
+  let showOnlyChildren = false;
+  let children2 = [];
   const click_handler = () => toggleFolder(entry);
-  const contextmenu_handler = (e) => handleContextMenu(e, currentPath, entry);
   const click_handler_1 = () => openfileLocal(entry);
   const mouseover_handler = (e) => handleMouseover(e, entry);
-  const contextmenu_handler_1 = (e) => handleContextMenu(e, currentPath, entry);
   $$self.$$set = ($$props2) => {
     if ("entry" in $$props2)
       $$invalidate(0, entry = $$props2.entry);
@@ -1407,9 +1271,68 @@ function instance($$self, $$props, $$invalidate) {
     if ("showMenu" in $$props2)
       $$invalidate(4, showMenu = $$props2.showMenu);
     if ("path" in $$props2)
-      $$invalidate(14, path = $$props2.path);
+      $$invalidate(17, path = $$props2.path);
+    if ("skippedTag" in $$props2)
+      $$invalidate(18, skippedTag = $$props2.skippedTag);
     if ("$$scope" in $$props2)
-      $$invalidate(15, $$scope = $$props2.$$scope);
+      $$invalidate(22, $$scope = $$props2.$$scope);
+  };
+  $$self.$$.update = () => {
+    if ($$self.$$.dirty[0] & 131073) {
+      $:
+        $$invalidate(11, currentPath = getItemPath(entry, path));
+    }
+    if ($$self.$$.dirty[0] & 524289) {
+      $:
+        $$invalidate(21, curTaginfo = "tag" in entry && entry.tag in _tagInfo ? _tagInfo[entry.tag] : null);
+    }
+    if ($$self.$$.dirty[0] & 2097152) {
+      $:
+        $$invalidate(20, tagMark = !curTaginfo ? "" : "mark" in curTaginfo && curTaginfo.mark ? curTaginfo.mark : "\u{1F4CC}");
+    }
+    if ($$self.$$.dirty[0] & 1) {
+      $: {
+        $$invalidate(7, showOnlyChildren = false);
+        const getChildren = (entry2) => entry2.children.map((e) => "tag" in e ? getChildren(e) : e.tags).flat();
+        if ("tag" in entry) {
+          const childrenTags = entry.children.filter((e) => "tag" in e);
+          const childrenItems = entry.children.filter((e) => "tags" in e);
+          if (childrenTags.length == 1 && childrenItems.length == 0) {
+            $$invalidate(7, showOnlyChildren = true);
+          }
+          if (entry.itemsCount == 1) {
+            if (childrenTags.length == 1) {
+              $$invalidate(7, showOnlyChildren = true);
+            }
+          }
+        }
+      }
+    }
+    if ($$self.$$.dirty[0] & 1310721) {
+      $:
+        $$invalidate(9, tagTitle = "tag" in entry ? `${skippedTag ? `${skippedTag}${entry.tag.startsWith(SUBTREE_MARK) ? " " : "/"}` : ""}${tagMark}${entry.tag}` : "");
+    }
+    if ($$self.$$.dirty[0] & 225) {
+      $: {
+        let cx = [];
+        if ("tag" in entry) {
+          if (showOnlyChildren) {
+            cx = [...cx, ...entry.children.filter((e) => "tag" in e)];
+          } else {
+            if (entry.children && !collapsed) {
+              cx = [...cx, ...entry.children.filter((e) => "tag" in e)];
+            }
+            if (_maxDepth != 1 && currentDepth > _maxDepth && entry.allDescendants && !collapsed) {
+              cx = [...cx, ...entry.allDescendants];
+            }
+            if (entry.descendants && !collapsed) {
+              cx = [...cx, ...entry.descendants];
+            }
+          }
+          $$invalidate(10, children2 = cx);
+        }
+      }
+    }
   };
   return [
     entry,
@@ -1418,22 +1341,27 @@ function instance($$self, $$props, $$invalidate) {
     expandFolder,
     showMenu,
     collapsed,
-    isSelected,
     _maxDepth,
+    showOnlyChildren,
+    isSelected,
+    tagTitle,
+    children2,
     currentPath,
     currentDepth,
     toggleFolder,
     openfileLocal,
-    handleContextMenu,
+    contextMenuFunc,
     handleMouseover,
     path,
+    skippedTag,
+    _tagInfo,
+    tagMark,
+    curTaginfo,
     $$scope,
     slots,
     click_handler,
-    contextmenu_handler,
     click_handler_1,
-    mouseover_handler,
-    contextmenu_handler_1
+    mouseover_handler
   ];
 }
 var TreeItemComponent = class extends SvelteComponent {
@@ -1445,8 +1373,9 @@ var TreeItemComponent = class extends SvelteComponent {
       openfile: 2,
       expandFolder: 3,
       showMenu: 4,
-      path: 14
-    }, add_css);
+      path: 17,
+      skippedTag: 18
+    }, add_css, [-1, -1]);
   }
 };
 var TreeItemComponent_default = TreeItemComponent;
@@ -1515,6 +1444,7 @@ function create_each_block2(ctx) {
       openfile: ctx[2],
       expandFolder: ctx[3],
       showMenu: ctx[5],
+      skippedTag: "",
       path: "/"
     }
   });
@@ -1865,7 +1795,13 @@ var DEFAULT_SETTINGS = {
   disableNestedTags: false,
   hideItems: "NONE",
   ignoreFolders: "",
-  scanDelay: 250
+  scanDelay: 250,
+  useTitle: true,
+  reduceNestedParent: true,
+  frontmatterKey: "title",
+  useTagInfo: false,
+  tagInfo: "pininfo.md",
+  mergeRedundantCombination: false
 };
 var VIEW_TYPE_TAGFOLDER = "tagfolder-view";
 var OrderKeyTag = {
@@ -1896,6 +1832,10 @@ var doevents = () => {
     });
   });
 };
+var dotted = (object, notation) => {
+  return notation.split(".").reduce((a, b) => a && b in a ? a[b] : null, object);
+};
+var compare = Intl && Intl.Collator ? new Intl.Collator().compare : (x, y) => `${x != null ? x : ""}`.localeCompare(`${y != null ? y : ""}`);
 var TagFolderView = class extends import_obsidian.ItemView {
   getIcon() {
     return "stacked-levels";
@@ -2026,12 +1966,48 @@ var TagFolderView = class extends import_obsidian.ItemView {
     const expandedTags = x.split("/").filter((e) => e.trim() != "").map((e) => e.replace(/###/g, "/")).map((e) => "#" + e).join(" ").trim();
     const menu = new import_obsidian.Menu(this.app);
     if (navigator && navigator.clipboard) {
-      menu.addItem((item) => item.setTitle("Copy tags").setIcon("hashtag").onClick(() => __async(this, null, function* () {
+      menu.addItem((item) => item.setTitle(`Copy tags:${expandedTags}`).setIcon("hashtag").onClick(() => __async(this, null, function* () {
         yield navigator.clipboard.writeText(expandedTags);
         new import_obsidian.Notice("Copied");
       })));
     }
-    menu.showAtMouseEvent(evt);
+    if ("tag" in entry) {
+      if (this.plugin.settings.useTagInfo && this.plugin.tagInfo != null) {
+        const tag = entry.ancestors[entry.ancestors.length - 1];
+        if (tag in this.plugin.tagInfo && this.plugin.tagInfo[tag]) {
+          menu.addItem((item) => item.setTitle(`Unpin`).setIcon("pin").onClick(() => __async(this, null, function* () {
+            this.plugin.tagInfo = __spreadProps(__spreadValues({}, this.plugin.tagInfo), {
+              [tag]: void 0
+            });
+            this.plugin.applyTagInfo();
+            yield this.plugin.saveTagInfo();
+          })));
+        } else {
+          menu.addItem((item) => {
+            item.setTitle(`Pin`).setIcon("pin").onClick(() => __async(this, null, function* () {
+              this.plugin.tagInfo = __spreadProps(__spreadValues({}, this.plugin.tagInfo), {
+                [tag]: { key: "" }
+              });
+              this.plugin.applyTagInfo();
+              yield this.plugin.saveTagInfo();
+            }));
+          });
+        }
+      }
+    }
+    if ("path" in entry) {
+      const path2 = entry.path;
+      const file = this.app.vault.getAbstractFileByPath(path2);
+      this.app.workspace.trigger("file-menu", menu, file, "file-explorer");
+    }
+    if ("screenX" in evt) {
+      menu.showAtPosition({ x: evt.pageX, y: evt.pageY });
+    } else {
+      menu.showAtPosition({
+        x: evt.nativeEvent.locationX,
+        y: evt.nativeEvent.locationY
+      });
+    }
   }
 };
 var rippleDirty = (entry) => {
@@ -2076,10 +2052,11 @@ var expandDecendants = (entry, hideItems) => {
   entry.itemsCount = new Set([...ret, ...leafs]).size;
   return ret;
 };
-var expandTree = (node) => __async(void 0, null, function* () {
+var expandTree = (node, reduceNestedParent) => __async(void 0, null, function* () {
+  let modified = false;
   const tree = node.children;
   const ancestor = [...node.ancestors, node.tag];
-  const tags = Array.from(new Set(node.children.filter((e) => "tags" in e).map((e) => e.tags).map((e) => e.map((ee) => ee.toLocaleString())).flat()));
+  const tags = Array.from(new Set(node.children.filter((e) => "tags" in e).map((e) => e.tags).map((e) => e.map((ee) => ee.toLocaleLowerCase())).flat()));
   for (const tag of tags) {
     if (ancestor.map((e) => e.toLocaleLowerCase()).contains(tag.toLocaleLowerCase()))
       continue;
@@ -2090,18 +2067,24 @@ var expandTree = (node) => __async(void 0, null, function* () {
     const newLeaf = {
       tag,
       children: newChildren,
-      ancestors: [...ancestor, tag],
+      ancestors: [...new Set([...ancestor, tag])],
       descendants: null,
       isDedicatedTree: false,
       itemsCount: newChildren.length,
       allDescendants: null
     };
     tree.push(newLeaf);
-    yield splitTag(newLeaf);
+    modified = yield splitTag(newLeaf, reduceNestedParent);
   }
+  modified = (yield splitTag(node, reduceNestedParent)) || modified;
+  if (modified) {
+    yield expandTree(node, reduceNestedParent);
+  }
+  return modified;
 });
-var splitTag = (entry) => __async(void 0, null, function* () {
+var splitTag = (entry, reduceNestedParent, root) => __async(void 0, null, function* () {
   let modified = false;
+  const xRoot = root || entry;
   yield doevents();
   entry.children = entry.children.sort((a, b) => {
     if ("tag" in a && "tag" in b) {
@@ -2112,13 +2095,45 @@ var splitTag = (entry) => __async(void 0, null, function* () {
   });
   for (const curEntry of entry.children) {
     if ("tag" in curEntry) {
-      modified = (yield splitTag(curEntry)) || modified;
+      modified = (yield splitTag(curEntry, reduceNestedParent, xRoot)) || modified;
       if (curEntry.tag.contains("/")) {
         const tempEntry = curEntry;
         entry.children.remove(tempEntry);
         const tagsArray = tempEntry.tag.split("/");
         const tagCar = tagsArray.shift();
         const tagCdr = SUBTREE_MARK + tagsArray.join("/");
+        const ancestors = curEntry.ancestors.map((e) => e.toLocaleLowerCase());
+        const newAncestorsBase = tempEntry.ancestors.filter((e) => e != tempEntry.tag);
+        const idxCar = ancestors.indexOf(tagCar.toLocaleLowerCase());
+        const idxCdr = ancestors.indexOf(tagCdr.toLocaleLowerCase());
+        if (idxCar != -1) {
+          if (idxCar < idxCdr) {
+            modified = true;
+            continue;
+          } else {
+            if (reduceNestedParent) {
+              modified = true;
+              const w = __spreadProps(__spreadValues({}, tempEntry), {
+                tag: tagCdr,
+                ancestors: [
+                  ...newAncestorsBase,
+                  tagCar,
+                  tagCdr
+                ],
+                itemsCount: 0,
+                descendants: null,
+                allDescendants: null,
+                isDedicatedTree: false
+              });
+              const old = entry.children.find((e) => "tag" in e && e.tag == tagCdr);
+              if (old) {
+                entry.children.remove(old);
+              }
+              entry.children.push(w);
+              continue;
+            }
+          }
+        }
         const parent = entry.children.find((e) => "tag" in e && e.tag.toLocaleLowerCase() == tagCar.toLocaleLowerCase());
         const tempChildren = tempEntry.children;
         if (!parent) {
@@ -2126,8 +2141,8 @@ var splitTag = (entry) => __async(void 0, null, function* () {
             tag: tagCdr,
             children: [...tempChildren],
             ancestors: [
-              ...tempEntry.ancestors,
-              tempEntry.tag,
+              ...newAncestorsBase,
+              tagCar,
               tagCdr
             ],
             itemsCount: 0,
@@ -2138,7 +2153,7 @@ var splitTag = (entry) => __async(void 0, null, function* () {
           const x = {
             tag: tagCar,
             children: [xchild],
-            ancestors: [...tempEntry.ancestors, tempEntry.tag],
+            ancestors: [...new Set([...newAncestorsBase, tagCar])],
             descendants: null,
             allDescendants: null,
             isDedicatedTree: true,
@@ -2146,20 +2161,20 @@ var splitTag = (entry) => __async(void 0, null, function* () {
           };
           x.children = [xchild];
           entry.children.push(x);
-          yield splitTag(entry);
+          yield splitTag(entry, reduceNestedParent, xRoot);
           modified = true;
         } else {
           const oldIx = parent.children.find((e) => "tag" in e && e.tag.toLocaleLowerCase() == tagCdr.toLocaleLowerCase());
           if (oldIx != null) {
             oldIx.children.push(...tempChildren.filter((e) => !oldIx.children.contains(e)));
-            yield splitTag(oldIx);
+            yield splitTag(oldIx, reduceNestedParent, xRoot);
           } else {
             const x = {
               tag: tagCdr,
               children: [...tempChildren],
               ancestors: [
-                ...tempEntry.ancestors,
-                tempEntry.tag,
+                ...newAncestorsBase,
+                tagCar,
                 tagCdr
               ],
               descendants: null,
@@ -2168,9 +2183,12 @@ var splitTag = (entry) => __async(void 0, null, function* () {
               itemsCount: 0
             };
             parent.children.push(x);
-            if (!parent.isDedicatedTree)
+            if (!parent.isDedicatedTree && !parent.children.some((e) => "tags" in e)) {
               parent.isDedicatedTree = true;
-            yield splitTag(parent);
+            } else {
+              parent.isDedicatedTree = false;
+            }
+            yield splitTag(parent, reduceNestedParent, xRoot);
           }
           modified = true;
         }
@@ -2178,22 +2196,40 @@ var splitTag = (entry) => __async(void 0, null, function* () {
     }
   }
   if (modified) {
-    yield splitTag(entry);
+    modified = yield splitTag(entry, reduceNestedParent, xRoot);
+  }
+  if (modified) {
+    if (entry.isDedicatedTree && entry.children.some((e) => "tags" in e)) {
+      entry.isDedicatedTree = false;
+    }
   }
   return modified;
 });
+function getTagName(tagName, tagInfo2, invert) {
+  if (tagInfo2 == null)
+    return tagName;
+  const prefix = invert == -1 ? `\uFFFF` : ``;
+  const unpinned = invert == 1 ? `\uFFFF` : ``;
+  if (tagName in tagInfo2 && tagInfo2[tagName]) {
+    if ("key" in tagInfo2[tagName]) {
+      const k = `${prefix}_-${tagInfo2[tagName].key}__${tagName}`;
+      return k;
+    }
+  }
+  return `${prefix}_${unpinned}_${tagName}`;
+}
 function getCompareMethodTags(settings) {
   const invert = settings.sortTypeTag.contains("_DESC") ? -1 : 1;
   switch (settings.sortTypeTag) {
     case "ITEMS_ASC":
     case "ITEMS_DESC":
-      return (a, b) => (a.itemsCount - b.itemsCount) * invert;
+      return (a, b, tagInfo2) => (a.itemsCount - b.itemsCount) * invert;
     case "NAME_ASC":
     case "NAME_DESC":
-      return (a, b) => a.tag.localeCompare(b.tag) * invert;
+      return (a, b, tagInfo2) => compare(getTagName(a.tag, settings.useTagInfo ? tagInfo2 : null, invert), getTagName(b.tag, settings.useTagInfo ? tagInfo2 : null, invert)) * invert;
     default:
       console.warn("Compare method (tags) corrupted");
-      return (a, b) => a.tag.localeCompare(b.tag) * invert;
+      return (a, b, tagInfo2) => compare(a.tag, b.tag) * invert;
   }
 }
 function getCompareMethodItems(settings) {
@@ -2201,10 +2237,10 @@ function getCompareMethodItems(settings) {
   switch (settings.sortType) {
     case "DISPNAME_ASC":
     case "DISPNAME_DESC":
-      return (a, b) => a.displayName.localeCompare(b.displayName) * invert;
+      return (a, b) => compare(a.displayName, b.displayName) * invert;
     case "FULLPATH_ASC":
     case "FULLPATH_DESC":
-      return (a, b) => a.path.localeCompare(b.path) * invert;
+      return (a, b) => compare(a.path, b.path) * invert;
     case "MTIME_ASC":
     case "MTIME_DESC":
       return (a, b) => (a.mtime - b.mtime) * invert;
@@ -2213,10 +2249,10 @@ function getCompareMethodItems(settings) {
       return (a, b) => (a.ctime - b.ctime) * invert;
     case "NAME_ASC":
     case "NAME_DESC":
-      return (a, b) => a.filename.localeCompare(b.filename) * invert;
+      return (a, b) => compare(a.filename, b.filename) * invert;
     default:
       console.warn("Compare method (items) corrupted");
-      return (a, b) => a.displayName.localeCompare(b.displayName) * invert;
+      return (a, b) => compare(a.displayName, b.displayName) * invert;
   }
 }
 var TagFolderPlugin = class extends import_obsidian.Plugin {
@@ -2250,6 +2286,9 @@ var TagFolderPlugin = class extends import_obsidian.Plugin {
     this.lastTags = "";
     this.lastSettings = "";
     this.lastSearchString = "";
+    this.tagInfo = null;
+    this.tagInfoFrontMatterBuffrer = {};
+    this.tagInfoBody = "";
   }
   getView() {
     for (const leaf of this.app.workspace.getLeavesOfType(VIEW_TYPE_TAGFOLDER)) {
@@ -2273,39 +2312,70 @@ var TagFolderPlugin = class extends import_obsidian.Plugin {
     this.searchString = search;
     this.refreshAllTree(null);
   }
-  expandLastExpandedFolders(entry) {
-    return __async(this, null, function* () {
+  expandLastExpandedFolders(_0, _1) {
+    return __async(this, arguments, function* (entry, force, path = []) {
       if ("tag" in entry) {
-        const key = [...entry.ancestors, entry.tag].join("/");
-        if (this.expandedFolders.contains(key)) {
-          yield expandTree(entry);
-          yield splitTag(entry);
-          for (const child of entry.children) {
-            yield this.expandLastExpandedFolders(child);
+        if (path.indexOf(entry.tag) !== -1)
+          return;
+        const key = [...entry.ancestors].map((e) => e.startsWith(SUBTREE_MARK) ? e.substring(SUBTREE_MARK.length) : e).join("/");
+        for (const tags of this.expandedFolders) {
+          const xtag = [];
+          const tagA = tags.split("/");
+          for (const f of tagA) {
+            xtag.push(f);
+            const px = xtag.join("/");
+            if (key.startsWith(px) || force) {
+              yield expandTree(entry, this.settings.reduceNestedParent);
+              yield splitTag(entry, this.settings.reduceNestedParent);
+              for (const child of entry.children) {
+                if ("tag" in child && path.indexOf(child.tag) == -1)
+                  yield this.expandLastExpandedFolders(child, false, [...path, entry.tag]);
+              }
+            }
           }
         }
       }
     });
   }
-  getDisplayName(file) {
-    if (this.settings.displayMethod == "NAME") {
+  getFileTitle(file) {
+    if (!this.settings.useTitle)
       return file.basename;
+    const metadata = this.app.metadataCache.getCache(file.path);
+    if (metadata.frontmatter && this.settings.frontmatterKey) {
+      const d = dotted(metadata.frontmatter, this.settings.frontmatterKey);
+      if (d)
+        return d;
+    }
+    if (metadata.headings) {
+      const h1 = metadata.headings.find((e) => e.level == 1);
+      if (h1) {
+        return h1.heading;
+      }
+    }
+    return file.basename;
+  }
+  getDisplayName(file) {
+    const filename = this.getFileTitle(file) || file.basename;
+    if (this.settings.displayMethod == "NAME") {
+      return filename;
     }
     const path = file.path.split("/");
     path.pop();
     const dpath = path.join("/");
     if (this.settings.displayMethod == "NAME : PATH") {
-      return `${file.basename} : ${dpath}`;
+      return `${filename} : ${dpath}`;
     }
     if (this.settings.displayMethod == "PATH/NAME") {
-      return `${dpath}/${file.basename}`;
+      return `${dpath}/${filename}`;
     }
+    return filename;
   }
   onload() {
     return __async(this, null, function* () {
       yield this.loadSettings();
       this.hoverPreview = this.hoverPreview.bind(this);
       this.sortChildren = this.sortChildren.bind(this);
+      this.modifyFile = this.modifyFile.bind(this);
       this.setSearchString = this.setSearchString.bind(this);
       this.loadFileInfo = (0, import_obsidian.debounce)(this.loadFileInfo.bind(this), this.settings.scanDelay, true);
       this.registerView(VIEW_TYPE_TAGFOLDER, (leaf) => new TagFolderView(leaf, this));
@@ -2327,10 +2397,16 @@ var TagFolderPlugin = class extends import_obsidian.Plugin {
       this.refreshAllTree = this.refreshAllTree.bind(this);
       this.registerEvent(this.app.vault.on("rename", this.refreshAllTree));
       this.registerEvent(this.app.vault.on("delete", this.refreshAllTree));
+      this.registerEvent(this.app.vault.on("modify", this.modifyFile));
       this.registerEvent(this.app.workspace.on("file-open", this.watchWorkspaceOpen));
       this.watchWorkspaceOpen(this.app.workspace.getActiveFile());
       this.addSettingTab(new TagFolderSettingTab(this.app, this));
       maxDepth.set(this.settings.expandLimit);
+      if (this.settings.useTagInfo) {
+        this.app.workspace.onLayoutReady(() => __async(this, null, function* () {
+          yield this.loadTagInfo();
+        }));
+      }
     });
   }
   watchWorkspaceOpen(file) {
@@ -2354,7 +2430,7 @@ var TagFolderPlugin = class extends import_obsidian.Plugin {
       return 1;
     } else {
       if ("tag" in a && "tag" in b) {
-        return this.compareTags(a, b);
+        return this.compareTags(a, b, this.tagInfo);
       } else if ("tags" in a && "tags" in b) {
         return this.compareItems(a, b);
       } else {
@@ -2371,11 +2447,45 @@ var TagFolderPlugin = class extends import_obsidian.Plugin {
     }
     entry.descendants = entry.descendants.sort(this.sortChildren);
   }
+  snipEmpty(root) {
+    for (const v of root.children) {
+      if ("tag" in v)
+        this.snipEmpty(v);
+    }
+    root.children = root.children.filter((e) => !("tag" in e && e.children.length == 0));
+  }
+  mergeRedundantCombination(root) {
+    const existenChild = {};
+    const removeChildren = [];
+    for (const entry of root.children) {
+      if (!("tag" in entry))
+        continue;
+      if ("tag" in entry)
+        this.mergeRedundantCombination(entry);
+    }
+    for (const entry of root.children) {
+      if (!("tag" in entry))
+        continue;
+      const tags = [...new Set(retriveAllDecendants(entry))].map((e) => e.path).sort().join("-");
+      if (tags in existenChild) {
+        removeChildren.push(entry);
+      } else {
+        existenChild[tags] = entry;
+      }
+    }
+    for (const v of removeChildren) {
+      root.children.remove(v);
+    }
+    root.children = [...root.children];
+  }
   setRoot(root) {
     var _a;
     rippleDirty(root);
     expandDecendants(root, this.settings.hideItems);
+    this.snipEmpty(root);
     this.sortTree(root);
+    if (this.settings.mergeRedundantCombination)
+      this.mergeRedundantCombination(root);
     this.root = root;
     (_a = this.getView()) == null ? void 0 : _a.setTreeRoot(root);
   }
@@ -2426,6 +2536,8 @@ var TagFolderPlugin = class extends import_obsidian.Plugin {
         let allTags = allTagsDocs.map((e) => e.substring(1));
         if (this.settings.disableNestedTags) {
           allTags = allTags.map((e) => e.split("/")).flat();
+        } else {
+          allTags = allTags.filter((e) => !allTags.some((ae) => ae.startsWith(e + "/")));
         }
         if (allTags.length == 0) {
           allTags = ["_untagged"];
@@ -2475,10 +2587,10 @@ var TagFolderPlugin = class extends import_obsidian.Plugin {
         itemsCount: 0,
         isDedicatedTree: false
       };
-      yield expandTree(root);
+      yield expandTree(root, this.settings.reduceNestedParent);
       root.children = root.children.filter((e) => "tag" in e);
-      yield splitTag(root);
-      yield this.expandLastExpandedFolders(root);
+      yield splitTag(root, this.settings.reduceNestedParent);
+      yield this.expandLastExpandedFolders(root, true);
       return root;
     });
   }
@@ -2520,9 +2632,107 @@ var TagFolderPlugin = class extends import_obsidian.Plugin {
       this.app.workspace.revealLeaf(this.app.workspace.getLeavesOfType(VIEW_TYPE_TAGFOLDER)[0]);
     });
   }
+  modifyFile(file) {
+    return __async(this, null, function* () {
+      if (!this.settings.useTagInfo)
+        return;
+      if (this.skipOnce) {
+        this.skipOnce = false;
+        return;
+      }
+      if (file.name == this.getTagInfoFilename()) {
+        yield this.loadTagInfo();
+      }
+    });
+  }
+  getTagInfoFilename() {
+    return (0, import_obsidian.normalizePath)(this.settings.tagInfo);
+  }
+  getTagInfoFile() {
+    const file = this.app.vault.getAbstractFileByPath(this.getTagInfoFilename());
+    if (file instanceof import_obsidian.TFile) {
+      return file;
+    }
+    return null;
+  }
+  applyTagInfo() {
+    if (this.tagInfo == null)
+      return;
+    if (!this.settings.useTagInfo)
+      return;
+    tagInfo.set(this.tagInfo);
+    setTimeout(() => {
+      if (this.root)
+        this.setRoot(this.root);
+    }, 10);
+  }
+  loadTagInfo() {
+    return __async(this, null, function* () {
+      var _a;
+      if (!this.settings.useTagInfo)
+        return;
+      if (this.tagInfo == null)
+        this.tagInfo = {};
+      const file = this.getTagInfoFile();
+      if (file == null)
+        return;
+      const data = yield this.app.vault.read(file);
+      try {
+        const bodyStartIndex = data.indexOf("\n---");
+        if (!data.startsWith("---") || bodyStartIndex === -1) {
+          return;
+        }
+        const yaml = data.substring(3, bodyStartIndex);
+        const yamlData = (0, import_obsidian.parseYaml)(yaml);
+        const keys = Object.keys(yamlData);
+        const body = data.substring(bodyStartIndex + 5);
+        this.tagInfoBody = body;
+        this.tagInfoFrontMatterBuffrer = yamlData;
+        const newTagInfo = {};
+        for (const key of keys) {
+          const w = yamlData[key];
+          if (!w)
+            continue;
+          if (typeof w != "object")
+            continue;
+          if (!("key" in w))
+            continue;
+          const eachTag = {
+            key: w.key,
+            mark: (_a = w.mark) != null ? _a : void 0
+          };
+          newTagInfo[key] = eachTag;
+        }
+        this.tagInfo = newTagInfo;
+        this.applyTagInfo();
+      } catch (ex) {
+        console.log(ex);
+      }
+    });
+  }
+  saveTagInfo() {
+    return __async(this, null, function* () {
+      if (!this.settings.useTagInfo)
+        return;
+      if (this.tagInfo == null)
+        return;
+      const file = this.getTagInfoFile();
+      const yaml = (0, import_obsidian.stringifyYaml)(__spreadValues(__spreadValues({}, this.tagInfoFrontMatterBuffrer), this.tagInfo));
+      const w = `---
+${yaml}---
+${this.tagInfoBody}`;
+      this.skipOnce = true;
+      if (file == null) {
+        this.app.vault.create(this.getTagInfoFilename(), w);
+      } else {
+        this.app.vault.modify(file, w);
+      }
+    });
+  }
   loadSettings() {
     return __async(this, null, function* () {
       this.settings = Object.assign({}, DEFAULT_SETTINGS, yield this.loadData());
+      yield this.loadTagInfo();
       this.compareItems = getCompareMethodItems(this.settings);
       this.compareTags = getCompareMethodTags(this.settings);
     });
@@ -2530,6 +2740,7 @@ var TagFolderPlugin = class extends import_obsidian.Plugin {
   saveSettings() {
     return __async(this, null, function* () {
       yield this.saveData(this.settings);
+      yield this.saveTagInfo();
       this.compareItems = getCompareMethodItems(this.settings);
       this.compareTags = getCompareMethodTags(this.settings);
     });
@@ -2560,6 +2771,42 @@ var TagFolderSettingTab = class extends import_obsidian.PluginSettingTab {
       this.plugin.loadFileInfo(null);
       yield this.plugin.saveSettings();
     })));
+    new import_obsidian.Setting(containerEl).setName("Use title").setDesc("Use value in the frontmatter or first level one heading for `NAME`.").addToggle((toggle) => {
+      toggle.setValue(this.plugin.settings.useTitle).onChange((value) => __async(this, null, function* () {
+        this.plugin.settings.useTitle = value;
+        yield this.plugin.saveSettings();
+      }));
+    });
+    new import_obsidian.Setting(containerEl).setName("Frontmatter path").addText((text2) => {
+      text2.setValue(this.plugin.settings.frontmatterKey).onChange((value) => __async(this, null, function* () {
+        this.plugin.settings.frontmatterKey = value;
+        yield this.plugin.saveSettings();
+      }));
+    });
+    new import_obsidian.Setting(containerEl).setName("Use pinning").setDesc("When this feature is enabled, the pin information is saved in the file set in the next configuration.").addToggle((toggle) => {
+      toggle.setValue(this.plugin.settings.useTagInfo).onChange((value) => __async(this, null, function* () {
+        this.plugin.settings.useTagInfo = value;
+        if (this.plugin.settings.useTagInfo) {
+          yield this.plugin.loadTagInfo();
+        }
+        yield this.plugin.saveSettings();
+      }));
+    });
+    new import_obsidian.Setting(containerEl).setName("Pin information file").addText((text2) => {
+      text2.setValue(this.plugin.settings.tagInfo).onChange((value) => __async(this, null, function* () {
+        this.plugin.settings.tagInfo = value;
+        if (this.plugin.settings.useTagInfo) {
+          yield this.plugin.loadTagInfo();
+        }
+        yield this.plugin.saveSettings();
+      }));
+    });
+    new import_obsidian.Setting(containerEl).setName("Merge redundant combinations").setDesc("When this feature is enabled, a/b and b/a are merged into a/b if there is no intermediates.").addToggle((toggle) => {
+      toggle.setValue(this.plugin.settings.mergeRedundantCombination).onChange((value) => __async(this, null, function* () {
+        this.plugin.settings.mergeRedundantCombination = value;
+        yield this.plugin.saveSettings();
+      }));
+    });
     const setOrderMethod = (key, order) => __async(this, null, function* () {
       const oldSetting = this.plugin.settings.sortType.split("_");
       if (!key)
@@ -2593,6 +2840,12 @@ var TagFolderSettingTab = class extends import_obsidian.PluginSettingTab {
     new import_obsidian.Setting(containerEl).setName("Do not treat nested tags as dedicated levels").setDesc("Treat nested tags as normal tags").addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.disableNestedTags).onChange((value) => __async(this, null, function* () {
         this.plugin.settings.disableNestedTags = value;
+        yield this.plugin.saveSettings();
+      }));
+    });
+    new import_obsidian.Setting(containerEl).setName("Reduce duplicated parents in nested tags").addToggle((toggle) => {
+      toggle.setValue(this.plugin.settings.reduceNestedParent).onChange((value) => __async(this, null, function* () {
+        this.plugin.settings.reduceNestedParent = value;
         yield this.plugin.saveSettings();
       }));
     });

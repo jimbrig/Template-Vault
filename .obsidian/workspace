@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "a6bf3ab872556062",
+        "id": "e35f4c209133e732",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-AREAS/Daily-Notes/2022-08-12.md",
-            "mode": "source",
+            "file": "CHANGELOG.md",
+            "mode": "preview",
             "backlinks": true
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#2-AREAS",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,32 +80,11 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1af2b34a0697ec54",
+            "id": "32e529598e1d80c4",
             "type": "leaf",
             "state": {
-              "type": "backlink",
-              "state": {
-                "file": "2-AREAS/Daily-Notes/2022-08-12.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "c0fba64b747372e5",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "2-AREAS/Daily-Notes/2022-08-12.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
+              "type": "calendar",
+              "state": {}
             }
           },
           {
@@ -125,45 +104,130 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-AREAS/Daily-Notes/2022-08-12.md"
+                "file": "CHANGELOG.md"
               }
             }
           },
           {
-            "id": "32e529598e1d80c4",
+            "id": "1af2b34a0697ec54",
             "type": "leaf",
             "state": {
-              "type": "calendar",
+              "type": "backlink",
+              "state": {
+                "file": "CHANGELOG.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c0fba64b747372e5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CHANGELOG.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "aec3b81bfb6261bc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4e331db880b87c18",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "CHANGELOG.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.18462326225858122,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "dc0f033e7cb86245",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
               "state": {}
             }
           },
           {
-            "id": "a4c4c39fb66690c1",
+            "id": "2f1cbd7c217d4f52",
             "type": "leaf",
             "state": {
               "type": "tlfItemView",
               "state": {}
             }
+          },
+          {
+            "id": "2e0f185a27a755b3",
+            "type": "leaf",
+            "state": {
+              "type": "dictionary-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "e58e0f954ebe5867",
+            "type": "leaf",
+            "state": {
+              "type": "dangling-links",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 343.5,
-    "collapsed": true
+    "width": 557.5
   },
-  "active": "a6bf3ab872556062",
+  "active": "e35f4c209133e732",
   "lastOpenFiles": [
-    "2-AREAS/Code/Bash/Bash - WSL - View System Init Process.md",
-    "2-AREAS/Code/Bash/Bash - WSL - Set Default Browser to Windows.md",
-    "2-AREAS/Code/Bash/Bash - Install Zsh.md",
-    "2-AREAS/Code/Bash/Bash - Install R.md",
-    "2-AREAS/Code/Bash/Bash - Install PostgreSQL.md",
-    "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md",
-    "2-AREAS/Code/Bash/Bash - Install NVM.md",
-    "2-AREAS/Code/Bash/Bash - Install and Setup Git.md",
-    "2-AREAS/Code/Bash/Bash - Git-Auto.md",
+    "README.md",
+    "ABOUT.md",
+    "0-INBOX/macOS.md",
+    "2-AREAS/Development/Git.md",
+    "1-SLIPBOX/_README.md",
+    "3-RESOURCES/_README.md",
+    "CHANGELOG.md",
+    "0-INBOX/_README.md",
+    "0-INBOX/0-INBOX.md",
     "2-AREAS/Code/Bash/_README.md"
   ]
 }

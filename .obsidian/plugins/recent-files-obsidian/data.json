@@ -1,182 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "2022-08-12",
-      "path": "2-AREAS/Daily-Notes/2022-08-12.md"
-    },
-    {
-      "basename": "Bash - WSL - View System Init Process",
-      "path": "2-AREAS/Code/Bash/Bash - WSL - View System Init Process.md"
-    },
-    {
-      "basename": "Bash - WSL - Set Default Browser to Windows",
-      "path": "2-AREAS/Code/Bash/Bash - WSL - Set Default Browser to Windows.md"
-    },
-    {
-      "basename": "Bash - Install Zsh",
-      "path": "2-AREAS/Code/Bash/Bash - Install Zsh.md"
-    },
-    {
-      "basename": "Bash - Install R",
-      "path": "2-AREAS/Code/Bash/Bash - Install R.md"
-    },
-    {
-      "basename": "Bash - Install PostgreSQL",
-      "path": "2-AREAS/Code/Bash/Bash - Install PostgreSQL.md"
-    },
-    {
-      "basename": "Bash - Install oh-my-zsh",
-      "path": "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md"
-    },
-    {
-      "basename": "Bash - Install NVM",
-      "path": "2-AREAS/Code/Bash/Bash - Install NVM.md"
-    },
-    {
-      "basename": "Bash - Install and Setup Git",
-      "path": "2-AREAS/Code/Bash/Bash - Install and Setup Git.md"
-    },
-    {
-      "basename": "Bash - Git-Auto",
-      "path": "2-AREAS/Code/Bash/Bash - Git-Auto.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Bash/_README.md"
-    },
-    {
-      "basename": "Linux",
-      "path": "0-INBOX/Linux.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Development/_README.md"
-    },
-    {
-      "basename": "Development",
-      "path": "2-AREAS/MOCs/Development.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/MOCs/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/2022/_README.md"
-    },
-    {
-      "basename": "2022-08-11",
-      "path": "2-AREAS/Daily-Notes/2022/2022-08-11.md"
-    },
-    {
-      "basename": "GHA - Release Excel Workbook",
-      "path": "2-AREAS/Code/GHA/GHA - Release Excel Workbook.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/GHA/_README.md"
-    },
-    {
-      "basename": "2022-08-06",
-      "path": "2-AREAS/Daily-Notes/2022/2022-08-06.md"
-    },
-    {
-      "basename": "2022-08-01",
-      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-01.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/2022/2022-08/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "3-RESOURCES/Templates/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "3-RESOURCES/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "1-SLIPBOX/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/2021/2021-12/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/2021/2021-11/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/2022/2022-09/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/2022/2022-07/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/2022/2022-06/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/2022/2022-05/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/2022/2022-04/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/2022/2022-03/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/2022/2022-02/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/2022/2022-01/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/2021/_README.md"
-    },
-    {
-      "basename": "2022-07-31",
-      "path": "2-AREAS/Daily-Notes/2022/2022-07/2022-07-31.md"
-    },
-    {
-      "basename": "Daily-Note-Template",
-      "path": "3-RESOURCES/Templates/Core Templates/Daily-Note-Template.md"
-    },
-    {
-      "basename": "2022-01-08",
-      "path": "2-AREAS/Daily-Notes/2022/2022-01/2022-01-08.md"
-    },
-    {
-      "basename": "_README",
-      "path": "0-INBOX/_README.md"
-    },
-    {
-      "basename": "ABOUT",
-      "path": "ABOUT.md"
-    },
-    {
       "basename": "CHANGELOG",
       "path": "CHANGELOG.md"
     },
@@ -185,20 +9,196 @@
       "path": "README.md"
     },
     {
+      "basename": "ABOUT",
+      "path": "ABOUT.md"
+    },
+    {
+      "basename": "macOS",
+      "path": "0-INBOX/macOS.md"
+    },
+    {
+      "basename": "Git",
+      "path": "2-AREAS/Development/Git.md"
+    },
+    {
+      "basename": "_README",
+      "path": "1-SLIPBOX/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "3-RESOURCES/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "0-INBOX/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/Bash/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/_README.md"
+    },
+    {
+      "basename": "2022-08-12",
+      "path": "2-AREAS/Daily-Notes/2022-08-12.md"
+    },
+    {
+      "basename": "Bash - Git-Auto",
+      "path": "2-AREAS/Code/Bash/Bash - Git-Auto.md"
+    },
+    {
+      "basename": "Bash - Install and Setup Git",
+      "path": "2-AREAS/Code/Bash/Bash - Install and Setup Git.md"
+    },
+    {
+      "basename": "Linux",
+      "path": "2-AREAS/Development/Linux.md"
+    },
+    {
+      "basename": "Development",
+      "path": "2-AREAS/MOCs/Development.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/People/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/MOCs/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Mindsweeps/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Meta/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Lists/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Learning/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Guides/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Goals/_README.md"
+    },
+    {
+      "basename": "About Data Requirements",
+      "path": "2-AREAS/Development/About Data Requirements.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Development/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/Visual Basic/_README.md"
+    },
+    {
       "basename": "_README",
       "path": "2-AREAS/Code/VBA/_README.md"
     },
     {
-      "basename": "VBA - Excel Dark Mode",
-      "path": "2-AREAS/Code/VBA/VBA - Excel Dark Mode.md"
+      "basename": "_README",
+      "path": "2-AREAS/Code/SQL/_README.md"
     },
     {
-      "basename": "VBA-Template",
-      "path": "3-RESOURCES/Templates/Code Templates/VBA-Template.md"
+      "basename": "_README",
+      "path": "2-AREAS/Code/Run/_README.md"
     },
     {
-      "basename": "Bash-Template",
-      "path": "3-RESOURCES/Templates/Code Templates/Bash-Template.md"
+      "basename": "_README",
+      "path": "2-AREAS/Code/Registry/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/R/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/Python/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/PowerShell/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/PowerQuery/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/Pandoc/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/JavaScript/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/Java/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/GitHub Actions/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/Espanso/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/CSS/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/Cmd/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/Batch/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/AutoHotKey/_README.md"
+    },
+    {
+      "basename": "2022-08-11",
+      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-11.md"
+    },
+    {
+      "basename": "Data Engineering",
+      "path": "2-AREAS/MOCs/Data Engineering.md"
+    },
+    {
+      "basename": "Bill Inmon",
+      "path": "2-AREAS/People/Bill Inmon.md"
+    },
+    {
+      "basename": "Ralph Kimball",
+      "path": "2-AREAS/People/Ralph Kimball.md"
+    },
+    {
+      "basename": "Data Engineers",
+      "path": "2-AREAS/Development/Data Engineers.md"
     }
   ],
   "omittedPaths": [],
