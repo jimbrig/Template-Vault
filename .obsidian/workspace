@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1-SLIPBOX/Setting up an Optimal Excel Developer Environment.md",
+            "file": "2-AREAS/_README.md",
             "mode": "source",
             "backlinks": true
           }
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-SLIPBOX/Setting up an Optimal Excel Developer Environment.md"
+                "file": "2-AREAS/_README.md"
               }
             }
           },
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-SLIPBOX/Setting up an Optimal Excel Developer Environment.md",
+                "file": "2-AREAS/_README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-SLIPBOX/Setting up an Optimal Excel Developer Environment.md",
+                "file": "2-AREAS/_README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "1-SLIPBOX/Setting up an Optimal Excel Developer Environment.md",
+                "file": "2-AREAS/_README.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -220,9 +220,9 @@
   },
   "active": "e35f4c209133e732",
   "lastOpenFiles": [
-    "1-SLIPBOX/_assets/Pasted image 20220814221211.png",
     "1-SLIPBOX/_README.md",
     "1-SLIPBOX/Setting up an Optimal Excel Developer Environment.md",
+    "1-SLIPBOX/_assets/Pasted image 20220814221211.png",
     "2-AREAS/Code/PowerShell/_README.md",
     "2-AREAS/Code/PowerShell/PowerShell - Add Defender Exclusions.md",
     "2-AREAS/Code/PowerShell/PowerShell - Enable LongPaths.md",
