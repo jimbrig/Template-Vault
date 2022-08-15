@@ -11,7 +11,16 @@ Alias: []
 
 ## Overview
 
-This document provides an exhaustive listing of the various [[Microsoft Excel]] related links and resources found online whilst learning 
+This document provides an exhaustive listing of the various [[Microsoft Excel]] related links and resources found online.
+
+## Utilities
+
+
+### Rubberduck
+
+*Link: *
+
+- See [[Rubberduck]]
 
 ***
 

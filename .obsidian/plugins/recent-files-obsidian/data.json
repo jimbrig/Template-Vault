@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Rubberduck",
+      "path": "0-INBOX/Rubberduck.md"
+    },
+    {
       "basename": "Excel Developer Resources List",
       "path": "2-AREAS/Lists/Excel Developer Resources List.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Code/R/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Python/_README.md"
     }
   ],
   "omittedPaths": [],
