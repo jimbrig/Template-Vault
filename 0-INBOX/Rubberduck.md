@@ -28,7 +28,9 @@ The following screenshot shows Rubberduck’s `Refactor > Reorder Parameters` 
 - [[Microsoft Excel]]
 - [[Excel Developer Resources List]]
 - [[2-AREAS/Code/VBA/_README|VBA]]
-- 
+- [[Development]]
+- [[Tools]]
+- [[Developer Tools]]
 
 ***
 
