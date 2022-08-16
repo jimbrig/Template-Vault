@@ -9,9 +9,18 @@ Alias: []
 
 *Source: [Tools – Archer Actuarial](https://archeractuarial.com/tools/)*
 
+![[Pasted image 20220816183935.png]]
+
 ## interpolateAYLDF Function
 
 **Arguments:**
+
+interp_age: desired interpolation age  
+age_range: range of ages of existing LDFs  
+LDF_range: range of existing LDFs (these values should **not** reflect exposure adjustment)  
+descending: _optional; default=true_; existing LDFs in descending order with respect to age (_true_ or _false_)  
+exponential: _optional; default=true_; _true_=exponential interpolation, _false_=linear interpolation
+
 - x: Current age
 - index_range: ages range
 - value_range: CDFs range
@@ -91,7 +100,9 @@ End Function
 - [[2-AREAS/Code/_README|Code]]
 - [[Development]]
 - [[2-AREAS/Code/VBA/_README|VBA]]
-- [[Actuari]]
+- [[Actuarial Science]]
+- [[Microsoft Excel|Excel]]
+- [[Mathematics and Statistics]]
 
 ***
 
