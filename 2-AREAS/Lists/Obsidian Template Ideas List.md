@@ -13,7 +13,34 @@ Alias: ["Obsidian Templates List"]
 
 ## Overview
 
-This note provides a comprehensive listing of [[Obsidian]] template **
+This note provides a comprehensive listing of [[Obsidian]] template *ideas* to implement.
+
+## Template Categories
+
+- [Log Templates](#Logs)
+
+
+
+### Logs
+
+- Daily Log
+- Weekly Log
+- Monthly Log
+- Quarterly Log
+- Annual Log
+
+### Reviews
+
+- Daily Review
+- Weekly Review
+- Monthly Review
+- Quarterly Review
+- Annual Review
+
+- Yearly Goals
+- Yearly Review
+
+
 
 
 ***

@@ -1,4 +1,4 @@
-- 2022-08-16 at 17h19 · [[Obsidian Template Ideas List]]
+- 2022-08-16 at 17h21 · [[Obsidian Template Ideas List]]
 - 2022-08-16 at 17h10 · [[2022-08-16]]
 - 2022-08-15 at 08h38 · [[PowerShell - $PROFILE]]
 - 2022-08-15 at 08h38 · [[PowerShell - Profile Aliases]]
