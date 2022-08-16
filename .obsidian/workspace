@@ -7,8 +7,12 @@
         "id": "0fcb3fdac0a5586c",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "2-AREAS/Lists/Obsidian Template Ideas List.md",
+            "mode": "source",
+            "backlinks": true
+          }
         }
       }
     ],
@@ -99,7 +103,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2-AREAS/Lists/Obsidian Template Ideas List.md"
+              }
             }
           },
           {
@@ -108,6 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2-AREAS/Lists/Obsidian Template Ideas List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,6 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2-AREAS/Lists/Obsidian Template Ideas List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,6 +150,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "2-AREAS/Lists/Obsidian Template Ideas List.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -209,17 +218,17 @@
     "direction": "horizontal",
     "width": 557.5
   },
-  "active": "dc0f033e7cb86245",
+  "active": "0fcb3fdac0a5586c",
   "lastOpenFiles": [
+    "2-AREAS/_README.md",
+    "3-RESOURCES/_README.md",
+    "0-INBOX/_README.md",
+    "0-INBOX/Visual Basic.md",
+    "0-INBOX/Obsidian-Clipper 1.md",
+    "0-INBOX/Obsidian-Clipper.md",
     "2-AREAS/Daily-Notes/2022-08-16.md",
     "2-AREAS/Daily-Notes/2022-08-15.md",
     "conflict-files-obsidian-git.md",
-    "CHANGELOG.md",
-    "README.md",
-    "ABOUT.md",
-    "0-INBOX/macOS.md",
-    "2-AREAS/Development/Git.md",
-    "1-SLIPBOX/_README.md",
-    "3-RESOURCES/_README.md"
+    "CHANGELOG.md"
   ]
 }

@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Obsidian Template Ideas List",
+      "path": "2-AREAS/Lists/Obsidian Template Ideas List.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "3-RESOURCES/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "0-INBOX/_README.md"
+    },
+    {
+      "basename": "Visual Basic",
+      "path": "0-INBOX/Visual Basic.md"
+    },
+    {
       "basename": "2022-08-16",
       "path": "2-AREAS/Daily-Notes/2022-08-16.md"
     },
@@ -34,19 +54,7 @@
     },
     {
       "basename": "_README",
-      "path": "3-RESOURCES/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "0-INBOX/_README.md"
-    },
-    {
-      "basename": "_README",
       "path": "2-AREAS/Code/Bash/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/_README.md"
     },
     {
       "basename": "2022-08-12",
@@ -191,10 +199,6 @@
     {
       "basename": "2022-08-11",
       "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-11.md"
-    },
-    {
-      "basename": "Data Engineering",
-      "path": "2-AREAS/MOCs/Data Engineering.md"
     }
   ],
   "omittedPaths": [],
