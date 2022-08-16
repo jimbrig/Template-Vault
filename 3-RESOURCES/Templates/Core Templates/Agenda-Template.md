@@ -33,5 +33,11 @@ Alias: []
 - [ ] Tasks and Projects Completed, Processed, or Delegated
 - [ ] Key Dates Completed or Scheduled
 
-##  
+***
+
+## Appendix: Links and References
+
+***
+
+Jimmy Briggs <jimmy.briggs@jimbrig.com> | 2022
 
