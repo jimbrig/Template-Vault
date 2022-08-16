@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2022-08-16",
+      "path": "2-AREAS/Daily-Notes/2022-08-16.md"
+    },
+    {
       "basename": "2022-08-15",
       "path": "2-AREAS/Daily-Notes/2022-08-15.md"
     },
@@ -191,14 +195,6 @@
     {
       "basename": "Data Engineering",
       "path": "2-AREAS/MOCs/Data Engineering.md"
-    },
-    {
-      "basename": "Bill Inmon",
-      "path": "2-AREAS/People/Bill Inmon.md"
-    },
-    {
-      "basename": "Ralph Kimball",
-      "path": "2-AREAS/People/Ralph Kimball.md"
     }
   ],
   "omittedPaths": [],
