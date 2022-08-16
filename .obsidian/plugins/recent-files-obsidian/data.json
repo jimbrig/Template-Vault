@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "MSSQL - Data Dictionary Generator",
+      "path": "2-AREAS/Code/SQL/MSSQL - Data Dictionary Generator.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/SQL/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/_README.md"
+    },
+    {
+      "basename": "2022-08-16",
+      "path": "2-AREAS/Daily-Notes/2022-08-16.md"
+    },
+    {
       "basename": "Agenda-Template",
       "path": "3-RESOURCES/Templates/Core Templates/Agenda-Template.md"
     },
@@ -61,10 +77,6 @@
       "path": "0-INBOX/Visual Basic.md"
     },
     {
-      "basename": "2022-08-16",
-      "path": "2-AREAS/Daily-Notes/2022-08-16.md"
-    },
-    {
       "basename": "2022-08-15",
       "path": "2-AREAS/Daily-Notes/2022-08-15.md"
     },
@@ -115,10 +127,6 @@
     {
       "basename": "Development",
       "path": "2-AREAS/MOCs/Development.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/_README.md"
     },
     {
       "basename": "_README",
@@ -174,10 +182,6 @@
     },
     {
       "basename": "_README",
-      "path": "2-AREAS/Code/SQL/_README.md"
-    },
-    {
-      "basename": "_README",
       "path": "2-AREAS/Code/Run/_README.md"
     },
     {
@@ -195,10 +199,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Code/PowerShell/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/PowerQuery/_README.md"
     }
   ],
   "omittedPaths": [],
