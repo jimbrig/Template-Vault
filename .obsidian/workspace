@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3-RESOURCES/Templates/Other Templates/Blog-Post-Template.md",
+            "file": "3-RESOURCES/Templates/Core Templates/Contact-Template.md",
             "mode": "source",
             "backlinks": true
           }
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-RESOURCES/Templates/Other Templates/Blog-Post-Template.md"
+                "file": "3-RESOURCES/Templates/Core Templates/Contact-Template.md"
               }
             }
           },
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-RESOURCES/Templates/Other Templates/Blog-Post-Template.md",
+                "file": "3-RESOURCES/Templates/Core Templates/Contact-Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-RESOURCES/Templates/Other Templates/Blog-Post-Template.md",
+                "file": "3-RESOURCES/Templates/Core Templates/Contact-Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3-RESOURCES/Templates/Other Templates/Blog-Post-Template.md",
+                "file": "3-RESOURCES/Templates/Core Templates/Contact-Template.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -220,6 +220,7 @@
   },
   "active": "24d3405f61c09d7c",
   "lastOpenFiles": [
+    "3-RESOURCES/Templates/Other Templates/Blog-Post-Template.md",
     "3-RESOURCES/Templates/Tool Templates/Tool-Template.md",
     "3-RESOURCES/Templates/Core Templates/Default-Note-Template.md",
     "3-RESOURCES/Templates/Core Templates/Daily-Note-Template.md",
@@ -228,7 +229,6 @@
     "3-RESOURCES/Templates/_README.md",
     "2-AREAS/Lists/Obsidian Template Ideas List.md",
     "0-INBOX/Untitled.md",
-    "2-AREAS/_README.md",
-    "3-RESOURCES/_README.md"
+    "2-AREAS/_README.md"
   ]
 }

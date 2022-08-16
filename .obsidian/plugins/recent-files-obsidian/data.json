@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Contact-Template",
+      "path": "3-RESOURCES/Templates/Core Templates/Contact-Template.md"
+    },
+    {
       "basename": "Blog-Post-Template",
       "path": "3-RESOURCES/Templates/Other Templates/Blog-Post-Template.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Code/Pandoc/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/JavaScript/_README.md"
     }
   ],
   "omittedPaths": [],
