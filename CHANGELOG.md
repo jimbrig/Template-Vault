@@ -1,3 +1,4 @@
+- 2022-08-16 at 17h27 · [[Tool-Template]]
 - 2022-08-16 at 17h25 · [[Obsidian Template Ideas List]]
 - 2022-08-16 at 17h22 · [[Untitled]]
 - 2022-08-16 at 17h10 · [[2022-08-16]]
@@ -17,4 +18,3 @@
 - 2022-08-15 at 08h38 · [[PowerShell - Toast Notification]]
 - 2022-08-15 at 08h38 · [[PowerShell - Enable LongPaths]]
 - 2022-08-15 at 08h38 · [[PowerShell - Admin Script]]
-- 2022-08-15 at 08h38 · [[PowerShell - Add Defender Exclusions]]

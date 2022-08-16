@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Tool-Template",
+      "path": "3-RESOURCES/Templates/Tool Templates/Tool-Template.md"
+    },
+    {
+      "basename": "Default-Note-Template",
+      "path": "3-RESOURCES/Templates/Core Templates/Default-Note-Template.md"
+    },
+    {
+      "basename": "Daily-Note-Template",
+      "path": "3-RESOURCES/Templates/Core Templates/Daily-Note-Template.md"
+    },
+    {
+      "basename": "Microsoft Excel",
+      "path": "3-RESOURCES/Tools/Office/Microsoft Excel.md"
+    },
+    {
+      "basename": "_README",
+      "path": "3-RESOURCES/Tools/Office/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "3-RESOURCES/Templates/_README.md"
+    },
+    {
       "basename": "Obsidian Template Ideas List",
       "path": "2-AREAS/Lists/Obsidian Template Ideas List.md"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Code/Java/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/GitHub Actions/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Espanso/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/CSS/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Cmd/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Batch/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/AutoHotKey/_README.md"
     }
   ],
   "omittedPaths": [],
