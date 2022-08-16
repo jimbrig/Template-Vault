@@ -23,8 +23,8 @@ Alias: ["SQL Server Data Dictionary Script"]
 ----------------------------------------------------------------------------------
 
 -- IMPORTANT
-USE dev;  -- <<<<<<<<<<<< CHANGE THIS VALUE to Schema you want to dump
-;
+USE [dev];  -- <<<<<<<<<<<< CHANGE THIS VALUE to Schema you want to dump
+GO
 
 -- All variables are consolidated here in the first CTE (Common Table Expression)
 -- Each given row is a variable, with the value you change preceding the "AS" command
