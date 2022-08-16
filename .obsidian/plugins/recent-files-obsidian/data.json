@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Blog-Post-Template",
+      "path": "3-RESOURCES/Templates/Other Templates/Blog-Post-Template.md"
+    },
+    {
       "basename": "Tool-Template",
       "path": "3-RESOURCES/Templates/Tool Templates/Tool-Template.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Code/JavaScript/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Java/_README.md"
     }
   ],
   "omittedPaths": [],

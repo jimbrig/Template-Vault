@@ -7,13 +7,26 @@ Alias: []
 
 # <% tp.file.title %>
 
+*Source: *
+
+Related::
+Tags::
+
+***
+
+[TOC]
+
+## Overview
+-
+## Links
+-
+
 
 ***
 
 ## Appendix: Links and References
 
 - [[3-RESOURCES/Tools/_README|Tools]]
-- [[]]
 
 ***
 
