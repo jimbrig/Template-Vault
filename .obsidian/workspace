@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3-RESOURCES/Templates/Other Templates/Untitled.md",
+            "file": "3-RESOURCES/Templates/Other Templates/Blog-Post-Template.md",
             "mode": "source",
             "backlinks": true
           }
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3-RESOURCES/Templates/Other Templates/Untitled.md"
+                "file": "3-RESOURCES/Templates/Other Templates/Blog-Post-Template.md"
               }
             }
           },
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3-RESOURCES/Templates/Other Templates/Untitled.md",
+                "file": "3-RESOURCES/Templates/Other Templates/Blog-Post-Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3-RESOURCES/Templates/Other Templates/Untitled.md",
+                "file": "3-RESOURCES/Templates/Other Templates/Blog-Post-Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3-RESOURCES/Templates/Other Templates/Untitled.md",
+                "file": "3-RESOURCES/Templates/Other Templates/Blog-Post-Template.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",

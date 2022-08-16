@@ -1,4 +1,4 @@
-- 2022-08-16 at 17h29 · [[Blog-Post-Template]]
+- 2022-08-16 at 17h31 · [[Blog-Post-Template]]
 - 2022-08-16 at 17h28 · [[Tool-Template]]
 - 2022-08-16 at 17h25 · [[Obsidian Template Ideas List]]
 - 2022-08-16 at 17h22 · [[Untitled]]
