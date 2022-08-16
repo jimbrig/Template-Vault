@@ -37,8 +37,18 @@ This note provides a comprehensive listing of [[Obsidian]] template *ideas* to i
 - Quarterly Review
 - Annual Review
 
-- Yearly Goals
-- Yearly Review
+plus,
+
+- Annual Goals
+
+### Task List
+
+- Task List
+
+### Projects
+
+- Project Note Template
+- 
 
 
 

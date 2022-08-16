@@ -5,6 +5,10 @@
       "path": "2-AREAS/Lists/Obsidian Template Ideas List.md"
     },
     {
+      "basename": "Untitled",
+      "path": "0-INBOX/Untitled.md"
+    },
+    {
       "basename": "_README",
       "path": "2-AREAS/_README.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Code/AutoHotKey/_README.md"
-    },
-    {
-      "basename": "2022-08-11",
-      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-11.md"
     }
   ],
   "omittedPaths": [],
