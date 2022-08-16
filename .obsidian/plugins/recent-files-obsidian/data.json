@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "VBA - Actuarial Interpolation",
+      "path": "2-AREAS/Code/VBA/VBA - Actuarial Interpolation.md"
+    },
+    {
       "basename": "MSSQL - Data Dictionary Generator",
       "path": "2-AREAS/Code/SQL/MSSQL - Data Dictionary Generator.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Code/Python/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/PowerShell/_README.md"
     }
   ],
   "omittedPaths": [],
