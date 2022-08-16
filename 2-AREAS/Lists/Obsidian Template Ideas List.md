@@ -48,7 +48,48 @@ plus,
 ### Projects
 
 - Project Note Template
-- 
+- Action Plan
+- Project Proposal
+- Project Brainstorming
+- Project Roadmap
+- Project Requirements
+
+
+### Learning
+
+- Online Courses
+- Learning Videos
+
+### Decisions
+
+- Decision Making
+
+### Books
+
+### Blog
+
+### Reviews
+
+### Recipes
+
+### Entertainment
+
+### Application
+
+### Contact
+
+### Meeting
+
+### Trackers
+
+### Company
+
+### Investment
+
+### Index
+
+### 
+
 
 
 
