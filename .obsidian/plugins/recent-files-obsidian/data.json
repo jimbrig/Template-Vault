@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Agenda-Template",
+      "path": "3-RESOURCES/Templates/Core Templates/Agenda-Template.md"
+    },
+    {
       "basename": "Contact-Template",
       "path": "3-RESOURCES/Templates/Core Templates/Contact-Template.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Code/PowerQuery/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Pandoc/_README.md"
     }
   ],
   "omittedPaths": [],
