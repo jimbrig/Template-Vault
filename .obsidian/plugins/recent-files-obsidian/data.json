@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Development",
+      "path": "2-AREAS/MOCs/Development.md"
+    },
+    {
       "basename": "2022-08-18",
       "path": "2-AREAS/Daily-Notes/2022-08-18.md"
     },
@@ -131,10 +135,6 @@
     {
       "basename": "Linux",
       "path": "2-AREAS/Development/Linux.md"
-    },
-    {
-      "basename": "Development",
-      "path": "2-AREAS/MOCs/Development.md"
     },
     {
       "basename": "_README",

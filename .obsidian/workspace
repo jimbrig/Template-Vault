@@ -7,8 +7,12 @@
         "id": "24d3405f61c09d7c",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "2-AREAS/MOCs/Development.md",
+            "mode": "preview",
+            "backlinks": true
+          }
         }
       }
     ],
@@ -99,7 +103,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2-AREAS/MOCs/Development.md"
+              }
             }
           },
           {
@@ -108,6 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2-AREAS/MOCs/Development.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,6 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2-AREAS/MOCs/Development.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,6 +150,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "2-AREAS/MOCs/Development.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
