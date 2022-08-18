@@ -1,3 +1,4 @@
+- 2022-08-18 at 09h17 · [[2022-08-18]]
 - 2022-08-16 at 18h39 · [[VBA - Actuarial Interpolation]]
 - 2022-08-16 at 18h08 · [[MSSQL - Data Dictionary Generator]]
 - 2022-08-16 at 17h37 · [[Agenda-Template]]
@@ -17,4 +18,3 @@
 - 2022-08-15 at 08h38 · [[List-Template]]
 - 2022-08-15 at 08h38 · [[PowerShell-Template]]
 - 2022-08-15 at 08h38 · [[Excel Developer Resources List]]
-- 2022-08-15 at 08h38 · [[2022-08-14]]
