@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "PowerShell - Install 1Password CLI",
+      "path": "2-AREAS/Code/PowerShell/PowerShell - Install 1Password CLI.md"
+    },
+    {
+      "basename": "2022-08-20",
+      "path": "2-AREAS/Daily-Notes/2022-08-20.md"
+    },
+    {
       "basename": "Development",
       "path": "2-AREAS/MOCs/Development.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Code/Run/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Registry/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/R/_README.md"
     }
   ],
   "omittedPaths": [],
