@@ -1,3 +1,4 @@
+- 2022-08-25 at 13h17 · [[ABOUT]]
 - 2022-08-25 at 13h10 · [[2022-08-25]]
 - 2022-08-20 at 17h36 · [[PowerShell - Install 1Password CLI]]
 - 2022-08-20 at 17h34 · [[2022-08-20]]
@@ -17,4 +18,3 @@
 - 2022-08-15 at 08h38 · [[_README]]
 - 2022-08-15 at 08h38 · [[Rubberduck]]
 - 2022-08-15 at 08h38 · [[Microsoft Excel]]
-- 2022-08-15 at 08h38 · [[_README]]

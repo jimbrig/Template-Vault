@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "ABOUT",
+      "path": "ABOUT.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "0-INBOX/Untitled.md"
+    },
+    {
+      "basename": "Excel VBA - msoImages Listing",
+      "path": "0-INBOX/Excel VBA - msoImages Listing.md"
+    },
+    {
+      "basename": "macOS",
+      "path": "0-INBOX/macOS.md"
+    },
+    {
+      "basename": "BERT  ImageMSO List Reference",
+      "path": "0-INBOX/BERT  ImageMSO List Reference.md"
+    },
+    {
+      "basename": "_README",
+      "path": "0-INBOX/_README.md"
+    },
+    {
       "basename": "_README",
       "path": "2-AREAS/_README.md"
     },
@@ -85,16 +109,8 @@
       "path": "2-AREAS/Lists/Obsidian Template Ideas List.md"
     },
     {
-      "basename": "Untitled",
-      "path": "0-INBOX/Untitled.md"
-    },
-    {
       "basename": "_README",
       "path": "3-RESOURCES/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "0-INBOX/_README.md"
     },
     {
       "basename": "Visual Basic",
@@ -111,14 +127,6 @@
     {
       "basename": "README",
       "path": "README.md"
-    },
-    {
-      "basename": "ABOUT",
-      "path": "ABOUT.md"
-    },
-    {
-      "basename": "macOS",
-      "path": "0-INBOX/macOS.md"
     },
     {
       "basename": "Git",
@@ -191,14 +199,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Daily-Notes/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Visual Basic/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/VBA/_README.md"
     }
   ],
   "omittedPaths": [],

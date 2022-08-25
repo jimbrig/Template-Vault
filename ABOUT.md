@@ -26,6 +26,8 @@ The setup has four main components:
 
 ### Settings, Configuration, and Plugins
 
+Settings for any O
+
 ### Folder Structure
 
 Based off of [[Tiago Forte]]'s [[PARA Method]].
