@@ -26,7 +26,25 @@ The setup has four main components:
 
 ### Settings, Configuration, and Plugins
 
-Settings for any O
+Settings for any Obsidian Vault are (by default) housed under the `.obsidian` vault root-level directory.
+
+```bash
+├───.obsidian
+│   ├───plugins
+│   └───themes
+|───app.json
+│───appearance.json
+│───backlink.json
+│command-palette.json
+│   community-plugins.json
+│   core-plugins.json
+│   daily-notes.json
+│   graph.json
+│   hotkeys.json
+│   templates.json
+│   workspace
+│   workspaces.json
+```
 
 ### Folder Structure
 
