@@ -35,16 +35,22 @@ Settings for any Obsidian Vault are (by default) housed under the `.obsidian` va
 |───app.json
 │───appearance.json
 │───backlink.json
-│command-palette.json
-│   community-plugins.json
-│   core-plugins.json
-│   daily-notes.json
-│   graph.json
-│   hotkeys.json
-│   templates.json
-│   workspace
-│   workspaces.json
+│───command-palette.json
+│───community-plugins.json
+│───core-plugins.json
+│───daily-notes.json
+│───graph.json
+│───hotkeys.json
+│───templates.json
+│───workspace
+│───workspaces.json
 ```
+
+#### Settings
+
+| Setting Area | Setting Name | Setting Value | Comment |
+| :------------: | :------------: | :-------------: | :-------: |
+|              |               |         |   |
 
 ### Folder Structure
 
