@@ -7,8 +7,12 @@
         "id": "24d3405f61c09d7c",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "3-RESOURCES/Tools/_README.md",
+            "mode": "preview",
+            "backlinks": true
+          }
         }
       }
     ],
@@ -99,7 +103,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "3-RESOURCES/Tools/_README.md"
+              }
             }
           },
           {
@@ -108,6 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "3-RESOURCES/Tools/_README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,6 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "3-RESOURCES/Tools/_README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,6 +150,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "3-RESOURCES/Tools/_README.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -203,6 +212,8 @@
   },
   "active": "24d3405f61c09d7c",
   "lastOpenFiles": [
+    "2-AREAS/_README.md",
+    "3-RESOURCES/Templates/Core Templates/Agenda-Template.md",
     "0-INBOX/Excel.md",
     "1-SLIPBOX/Setting up an Optimal Excel Developer Environment.md",
     "3-RESOURCES/Templates/Fragments/Appendix-Template.md",
@@ -210,8 +221,6 @@
     "2-AREAS/Code/GitHub Actions/GHA - Release Excel Workbook.md",
     "2-AREAS/Code/GitHub Actions/_README.md",
     "2-AREAS/Code/JavaScript/_README.md",
-    "2-AREAS/Code/_README.md",
-    "2-AREAS/Daily-Notes/2022/2022-08/2022-08-06.md",
-    "2-AREAS/Daily-Notes/2022/2022-08/2022-08-01.md"
+    "2-AREAS/Code/_README.md"
   ]
 }
