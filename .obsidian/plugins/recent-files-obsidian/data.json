@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Excel",
+      "path": "0-INBOX/Excel.md"
+    },
+    {
+      "basename": "Setting up an Optimal Excel Developer Environment",
+      "path": "1-SLIPBOX/Setting up an Optimal Excel Developer Environment.md"
+    },
+    {
       "basename": "Appendix-Template",
       "path": "3-RESOURCES/Templates/Fragments/Appendix-Template.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "README",
       "path": "README.md"
-    },
-    {
-      "basename": "Git",
-      "path": "2-AREAS/Development/Git.md"
-    },
-    {
-      "basename": "_README",
-      "path": "1-SLIPBOX/_README.md"
     }
   ],
   "omittedPaths": [],
