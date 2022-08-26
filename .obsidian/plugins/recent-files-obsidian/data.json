@@ -1,6 +1,74 @@
 {
   "recentFiles": [
     {
+      "basename": "2022-08-16",
+      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-16.md"
+    },
+    {
+      "basename": "2022-08-18",
+      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-18.md"
+    },
+    {
+      "basename": "2022-08-20",
+      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-20.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2022/2022-08/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2022/2022-07/_README.md"
+    },
+    {
+      "basename": "2022-07-31",
+      "path": "2-AREAS/Daily-Notes/2022/2022-07/2022-07-31.md"
+    },
+    {
+      "basename": "2022-08-26",
+      "path": "2-AREAS/Daily-Notes/2022-08-26.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2022/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2022/2022-09/_README.md"
+    },
+    {
+      "basename": "2022-08-25",
+      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-25.md"
+    },
+    {
+      "basename": "2022-08-15",
+      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-15.md"
+    },
+    {
+      "basename": "2022-08-12",
+      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-12.md"
+    },
+    {
+      "basename": "2022-08-11",
+      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-11.md"
+    },
+    {
+      "basename": "2022-08-06",
+      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-06.md"
+    },
+    {
+      "basename": "2022-08-01",
+      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-01.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "0-INBOX/_README.md"
+    },
+    {
       "basename": "ABOUT",
       "path": "ABOUT.md"
     },
@@ -22,31 +90,15 @@
     },
     {
       "basename": "_README",
-      "path": "0-INBOX/_README.md"
-    },
-    {
-      "basename": "_README",
       "path": "2-AREAS/_README.md"
-    },
-    {
-      "basename": "2022-08-25",
-      "path": "2-AREAS/Daily-Notes/2022-08-25.md"
     },
     {
       "basename": "PowerShell - Install 1Password CLI",
       "path": "2-AREAS/Code/PowerShell/PowerShell - Install 1Password CLI.md"
     },
     {
-      "basename": "2022-08-20",
-      "path": "2-AREAS/Daily-Notes/2022-08-20.md"
-    },
-    {
       "basename": "Development",
       "path": "2-AREAS/MOCs/Development.md"
-    },
-    {
-      "basename": "2022-08-18",
-      "path": "2-AREAS/Daily-Notes/2022-08-18.md"
     },
     {
       "basename": "VBA - Actuarial Interpolation",
@@ -59,14 +111,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Code/SQL/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/_README.md"
-    },
-    {
-      "basename": "2022-08-16",
-      "path": "2-AREAS/Daily-Notes/2022-08-16.md"
     },
     {
       "basename": "Agenda-Template",
@@ -117,10 +161,6 @@
       "path": "0-INBOX/Visual Basic.md"
     },
     {
-      "basename": "2022-08-15",
-      "path": "2-AREAS/Daily-Notes/2022-08-15.md"
-    },
-    {
       "basename": "CHANGELOG",
       "path": "CHANGELOG.md"
     },
@@ -141,10 +181,6 @@
       "path": "2-AREAS/Code/Bash/_README.md"
     },
     {
-      "basename": "2022-08-12",
-      "path": "2-AREAS/Daily-Notes/2022-08-12.md"
-    },
-    {
       "basename": "Bash - Git-Auto",
       "path": "2-AREAS/Code/Bash/Bash - Git-Auto.md"
     },
@@ -163,42 +199,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/MOCs/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Mindsweeps/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Meta/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Lists/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Learning/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Guides/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Goals/_README.md"
-    },
-    {
-      "basename": "About Data Requirements",
-      "path": "2-AREAS/Development/About Data Requirements.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Development/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/_README.md"
     }
   ],
   "omittedPaths": [],

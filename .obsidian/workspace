@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ABOUT.md",
-            "mode": "source",
+            "file": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-18.md",
+            "mode": "preview",
             "backlinks": true
           }
         }
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ABOUT.md"
+                "file": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-18.md"
               }
             }
           },
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ABOUT.md",
+                "file": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ABOUT.md",
+                "file": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-18.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "ABOUT.md",
+                "file": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-18.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -221,15 +221,15 @@
   },
   "active": "24d3405f61c09d7c",
   "lastOpenFiles": [
-    "0-INBOX/Untitled.md",
-    "0-INBOX/Excel VBA - msoImages Listing.md",
-    "0-INBOX/macOS.md",
-    "0-INBOX/BERT  ImageMSO List Reference.md",
-    "0-INBOX/_README.md",
-    "2-AREAS/_README.md",
-    "2-AREAS/Daily-Notes/2022-08-25.md",
-    "2-AREAS/Code/PowerShell/PowerShell - Install 1Password CLI.md",
-    "2-AREAS/Daily-Notes/2022-08-20.md",
-    "2-AREAS/MOCs/Development.md"
+    "2-AREAS/Daily-Notes/2022/2022-08/2022-08-20.md",
+    "2-AREAS/Daily-Notes/2022/2022-08/_README.md",
+    "2-AREAS/Daily-Notes/2022/2022-07/_README.md",
+    "2-AREAS/Daily-Notes/2022/2022-07/2022-07-31.md",
+    "2-AREAS/Daily-Notes/2022-08-26.md",
+    "2-AREAS/Daily-Notes/2022/_README.md",
+    "2-AREAS/Daily-Notes/2022/2022-09/_README.md",
+    "2-AREAS/Daily-Notes/2022/2022-08/2022-08-25.md",
+    "2-AREAS/Daily-Notes/2022/2022-08/2022-08-18.md",
+    "2-AREAS/Daily-Notes/2022/2022-08/2022-08-16.md"
   ]
 }

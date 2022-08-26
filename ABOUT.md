@@ -52,6 +52,40 @@ Settings for any Obsidian Vault are (by default) housed under the `.obsidian` va
 | :------------: | :------------: | :-------------: | :-------: |
 |              |               |         |   |
 
+##### app.json
+
+- Contents of `.obsidian/app.json`:
+
+```json
+{
+  "livePreview": false,
+  "readableLineLength": false,
+  "showFrontmatter": true,
+  "showLineNumber": true,
+  "spellcheck": true,
+  "legacyEditor": true,
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "0-INBOX",
+  "attachmentFolderPath": "./_assets",
+  "spellcheckDictionary": [
+    "Espanso",
+    "Zsh",
+    "zsh",
+    "Homebrew",
+    "macOS",
+    "Init",
+    "AutoHotKey",
+    "Cheatsheets",
+    "PowerShell",
+    "Rubberduck",
+    "doesn",
+    "un"
+  ]
+}
+```
+
 ### Folder Structure
 
 Based off of [[Tiago Forte]]'s [[PARA Method]].
