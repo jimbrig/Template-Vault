@@ -1,8 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "2022-08-06",
+      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-06.md"
+    },
+    {
+      "basename": "2022-08-01",
+      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-01.md"
+    },
+    {
+      "basename": "2022-08-11",
+      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-11.md"
+    },
+    {
+      "basename": "2022-08-12",
+      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-12.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Goals/_README.md"
+    },
+    {
+      "basename": "2022-08-15",
+      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-15.md"
+    },
+    {
       "basename": "2022-08-16",
       "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-16.md"
+    },
+    {
+      "basename": "VBA - Actuarial Interpolation",
+      "path": "2-AREAS/Code/VBA/VBA - Actuarial Interpolation.md"
+    },
+    {
+      "basename": "Tool-Template",
+      "path": "3-RESOURCES/Templates/Tool Templates/Tool-Template.md"
+    },
+    {
+      "basename": "Log-Weekly-Review-Template",
+      "path": "0-INBOX/Log-Weekly-Review-Template.md"
     },
     {
       "basename": "2022-08-18",
@@ -41,26 +77,6 @@
       "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-25.md"
     },
     {
-      "basename": "2022-08-15",
-      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-15.md"
-    },
-    {
-      "basename": "2022-08-12",
-      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-12.md"
-    },
-    {
-      "basename": "2022-08-11",
-      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-11.md"
-    },
-    {
-      "basename": "2022-08-06",
-      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-06.md"
-    },
-    {
-      "basename": "2022-08-01",
-      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-01.md"
-    },
-    {
       "basename": "_README",
       "path": "2-AREAS/Code/_README.md"
     },
@@ -71,10 +87,6 @@
     {
       "basename": "ABOUT",
       "path": "ABOUT.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "0-INBOX/Untitled.md"
     },
     {
       "basename": "Excel VBA - msoImages Listing",
@@ -101,10 +113,6 @@
       "path": "2-AREAS/MOCs/Development.md"
     },
     {
-      "basename": "VBA - Actuarial Interpolation",
-      "path": "2-AREAS/Code/VBA/VBA - Actuarial Interpolation.md"
-    },
-    {
       "basename": "MSSQL - Data Dictionary Generator",
       "path": "2-AREAS/Code/SQL/MSSQL - Data Dictionary Generator.md"
     },
@@ -123,10 +131,6 @@
     {
       "basename": "Blog-Post-Template",
       "path": "3-RESOURCES/Templates/Other Templates/Blog-Post-Template.md"
-    },
-    {
-      "basename": "Tool-Template",
-      "path": "3-RESOURCES/Templates/Tool Templates/Tool-Template.md"
     },
     {
       "basename": "Default-Note-Template",
@@ -195,10 +199,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/People/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/MOCs/_README.md"
     }
   ],
   "omittedPaths": [],
