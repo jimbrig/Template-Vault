@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "_README",
+      "path": "2-AREAS/Code/JavaScript/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/_README.md"
+    },
+    {
       "basename": "2022-08-06",
       "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-06.md"
     },
@@ -75,10 +83,6 @@
     {
       "basename": "2022-08-25",
       "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-25.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/_README.md"
     },
     {
       "basename": "_README",
@@ -195,10 +199,6 @@
     {
       "basename": "Linux",
       "path": "2-AREAS/Development/Linux.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/People/_README.md"
     }
   ],
   "omittedPaths": [],
