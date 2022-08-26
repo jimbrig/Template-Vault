@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "GHA - Release Excel Workbook",
+      "path": "2-AREAS/Code/GitHub Actions/GHA - Release Excel Workbook.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/GitHub Actions/_README.md"
+    },
+    {
       "basename": "_README",
       "path": "2-AREAS/Code/JavaScript/_README.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Bash - Git-Auto",
       "path": "2-AREAS/Code/Bash/Bash - Git-Auto.md"
-    },
-    {
-      "basename": "Bash - Install and Setup Git",
-      "path": "2-AREAS/Code/Bash/Bash - Install and Setup Git.md"
-    },
-    {
-      "basename": "Linux",
-      "path": "2-AREAS/Development/Linux.md"
     }
   ],
   "omittedPaths": [],

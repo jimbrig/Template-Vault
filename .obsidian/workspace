@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-AREAS/Code/JavaScript/_README.md",
-            "mode": "preview",
+            "file": "2-AREAS/Code/GitHub Actions/GHA - Release Excel Workbook.md",
+            "mode": "source",
             "backlinks": true
           }
         }
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-AREAS/Code/JavaScript/_README.md"
+                "file": "2-AREAS/Code/GitHub Actions/GHA - Release Excel Workbook.md"
               }
             }
           },
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-AREAS/Code/JavaScript/_README.md",
+                "file": "2-AREAS/Code/GitHub Actions/GHA - Release Excel Workbook.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-AREAS/Code/JavaScript/_README.md",
+                "file": "2-AREAS/Code/GitHub Actions/GHA - Release Excel Workbook.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "2-AREAS/Code/JavaScript/_README.md",
+                "file": "2-AREAS/Code/GitHub Actions/GHA - Release Excel Workbook.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -220,6 +220,8 @@
   },
   "active": "24d3405f61c09d7c",
   "lastOpenFiles": [
+    "2-AREAS/Code/GitHub Actions/_README.md",
+    "2-AREAS/Code/JavaScript/_README.md",
     "2-AREAS/Code/_README.md",
     "2-AREAS/Daily-Notes/2022/2022-08/2022-08-06.md",
     "2-AREAS/Daily-Notes/2022/2022-08/2022-08-01.md",
@@ -227,8 +229,6 @@
     "2-AREAS/Daily-Notes/2022/2022-08/2022-08-12.md",
     "2-AREAS/Goals/_README.md",
     "2-AREAS/Daily-Notes/2022/2022-08/2022-08-15.md",
-    "2-AREAS/Daily-Notes/2022/2022-08/2022-08-16.md",
-    "2-AREAS/Code/VBA/VBA - Actuarial Interpolation.md",
-    "3-RESOURCES/Templates/Tool Templates/Tool-Template.md"
+    "2-AREAS/Daily-Notes/2022/2022-08/2022-08-16.md"
   ]
 }
