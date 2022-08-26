@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "2022-08-06",
+      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-06.md"
+    },
+    {
+      "basename": "VBA",
+      "path": "0-INBOX/VBA.md"
+    },
+    {
+      "basename": "Microsoft",
+      "path": "0-INBOX/Microsoft.md"
+    },
+    {
+      "basename": "Log-Weekly-Review-Template",
+      "path": "0-INBOX/Log-Weekly-Review-Template.md"
+    },
+    {
+      "basename": "Excel",
+      "path": "0-INBOX/Excel.md"
+    },
+    {
       "basename": "BERT  ImageMSO List Reference",
       "path": "0-INBOX/BERT  ImageMSO List Reference.md"
     },
@@ -23,10 +43,6 @@
     {
       "basename": "Agenda-Template",
       "path": "3-RESOURCES/Templates/Core Templates/Agenda-Template.md"
-    },
-    {
-      "basename": "Excel",
-      "path": "0-INBOX/Excel.md"
     },
     {
       "basename": "Setting up an Optimal Excel Developer Environment",
@@ -55,10 +71,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Code/_README.md"
-    },
-    {
-      "basename": "2022-08-06",
-      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-06.md"
     },
     {
       "basename": "2022-08-01",
@@ -91,10 +103,6 @@
     {
       "basename": "Tool-Template",
       "path": "3-RESOURCES/Templates/Tool Templates/Tool-Template.md"
-    },
-    {
-      "basename": "Log-Weekly-Review-Template",
-      "path": "0-INBOX/Log-Weekly-Review-Template.md"
     },
     {
       "basename": "2022-08-18",
@@ -191,14 +199,6 @@
     {
       "basename": "_README",
       "path": "3-RESOURCES/_README.md"
-    },
-    {
-      "basename": "Visual Basic",
-      "path": "0-INBOX/Visual Basic.md"
-    },
-    {
-      "basename": "CHANGELOG",
-      "path": "CHANGELOG.md"
     }
   ],
   "omittedPaths": [],
