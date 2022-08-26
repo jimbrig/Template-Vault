@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2-AREAS/Code/GitHub Actions/GHA - Release Excel Workbook.md",
+            "file": "3-RESOURCES/Templates/Fragments/Appendix-Template.md",
             "mode": "source",
             "backlinks": true
           }
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-AREAS/Code/GitHub Actions/GHA - Release Excel Workbook.md"
+                "file": "3-RESOURCES/Templates/Fragments/Appendix-Template.md"
               }
             }
           },
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-AREAS/Code/GitHub Actions/GHA - Release Excel Workbook.md",
+                "file": "3-RESOURCES/Templates/Fragments/Appendix-Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-AREAS/Code/GitHub Actions/GHA - Release Excel Workbook.md",
+                "file": "3-RESOURCES/Templates/Fragments/Appendix-Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "2-AREAS/Code/GitHub Actions/GHA - Release Excel Workbook.md",
+                "file": "3-RESOURCES/Templates/Fragments/Appendix-Template.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -220,6 +220,8 @@
   },
   "active": "24d3405f61c09d7c",
   "lastOpenFiles": [
+    "3-RESOURCES/Templates/Fragments/Footer-Template.md",
+    "2-AREAS/Code/GitHub Actions/GHA - Release Excel Workbook.md",
     "2-AREAS/Code/GitHub Actions/_README.md",
     "2-AREAS/Code/JavaScript/_README.md",
     "2-AREAS/Code/_README.md",
@@ -227,8 +229,6 @@
     "2-AREAS/Daily-Notes/2022/2022-08/2022-08-01.md",
     "2-AREAS/Daily-Notes/2022/2022-08/2022-08-11.md",
     "2-AREAS/Daily-Notes/2022/2022-08/2022-08-12.md",
-    "2-AREAS/Goals/_README.md",
-    "2-AREAS/Daily-Notes/2022/2022-08/2022-08-15.md",
-    "2-AREAS/Daily-Notes/2022/2022-08/2022-08-16.md"
+    "2-AREAS/Goals/_README.md"
   ]
 }

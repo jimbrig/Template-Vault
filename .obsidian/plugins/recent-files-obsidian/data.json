@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Appendix-Template",
+      "path": "3-RESOURCES/Templates/Fragments/Appendix-Template.md"
+    },
+    {
+      "basename": "Footer-Template",
+      "path": "3-RESOURCES/Templates/Fragments/Footer-Template.md"
+    },
+    {
       "basename": "GHA - Release Excel Workbook",
       "path": "2-AREAS/Code/GitHub Actions/GHA - Release Excel Workbook.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "_README",
       "path": "1-SLIPBOX/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Bash/_README.md"
-    },
-    {
-      "basename": "Bash - Git-Auto",
-      "path": "2-AREAS/Code/Bash/Bash - Git-Auto.md"
     }
   ],
   "omittedPaths": [],
