@@ -13,12 +13,12 @@
   "showStatusBar": true,
   "updateSubmodules": true,
   "syncMethod": "merge",
-  "gitPath": "C:\\Program Files\\Git\\cmd\\git.exe",
   "customMessageOnAutoBackup": false,
   "autoBackupAfterFileChange": false,
   "treeStructure": false,
   "refreshSourceControl": true,
   "basePath": "",
   "differentIntervalCommitAndPush": false,
-  "changedFilesInStatusBar": true
+  "changedFilesInStatusBar": true,
+  "username": ""
 }
