@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0-INBOX/Obsidian-Clipper 1.md",
-            "mode": "preview",
+            "file": "2-AREAS/Daily-Notes/2022-08-28.md",
+            "mode": "source",
             "backlinks": true
           }
         }
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-INBOX/Obsidian-Clipper 1.md"
+                "file": "2-AREAS/Daily-Notes/2022-08-28.md"
               }
             }
           },
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-INBOX/Obsidian-Clipper 1.md",
+                "file": "2-AREAS/Daily-Notes/2022-08-28.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-INBOX/Obsidian-Clipper 1.md",
+                "file": "2-AREAS/Daily-Notes/2022-08-28.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "0-INBOX/Obsidian-Clipper 1.md",
+                "file": "2-AREAS/Daily-Notes/2022-08-28.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -218,8 +218,9 @@
     "width": 557.5,
     "collapsed": true
   },
-  "active": "fef2140fd3d7a3e9",
+  "active": "e35f4c209133e732",
   "lastOpenFiles": [
+    "0-INBOX/Obsidian-Clipper 1.md",
     "0-INBOX/Obsidian-Clipper.md",
     "0-INBOX/BERT  ImageMSO List Reference.md",
     "0-INBOX/Excel VBA - msoImages Listing.md",
@@ -228,7 +229,6 @@
     "0-INBOX/Microsoft.md",
     "3-RESOURCES/Tools/Office/Rubberduck.md",
     "3-RESOURCES/Tools/Office/Microsoft Excel.md",
-    "3-RESOURCES/Tools/Office/_README.md",
-    "3-RESOURCES/Tools/_README.md"
+    "3-RESOURCES/Tools/Office/_README.md"
   ]
 }

@@ -1,3 +1,4 @@
+- 2022-08-28 at 14h16 · [[2022-08-28]]
 - 2022-08-14 at 23h38 · [[Obsidian-Clipper 1]]
 - 2022-08-14 at 23h34 · [[Obsidian-Clipper]]
 - 2022-08-14 at 23h33 · [[BERT  ImageMSO List Reference]]
@@ -17,4 +18,3 @@
 - 2022-08-14 at 21h39 · [[PowerShell - Add Defender Exclusions]]
 - 2022-08-14 at 21h38 · [[PowerShell - Enable LongPaths]]
 - 2022-08-14 at 21h24 · [[PowerShell - Update-Help]]
-- 2022-08-14 at 21h23 · [[PowerShell - Admin Script]]
