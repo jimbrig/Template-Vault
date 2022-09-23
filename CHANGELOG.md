@@ -1,3 +1,4 @@
+- 2022-09-23 at 19h12 · [[Setting up an Optimal Excel Developer Environment]]
 - 2022-09-23 at 19h11 · [[Appendix-Template]]
 - 2022-09-23 at 19h10 · [[Footer-Template]]
 - 2022-09-23 at 19h10 · [[_README]]
@@ -17,4 +18,3 @@
 - 2022-08-28 at 14h16 · [[2022-08-16]]
 - 2022-08-28 at 14h16 · [[2022-08-15]]
 - 2022-08-28 at 14h16 · [[2022-08-26]]
-- 2022-08-28 at 14h16 · [[VBA - Actuarial Interpolation]]

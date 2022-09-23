@@ -1,7 +1,7 @@
 ---
 Date: 2022-08-14
 Author: Jimmy Briggs <jimmy.briggs@jimbrig.com>
-Tags: ["#Type/Slipbox" "#Topic/Excel" "#Topic/Dev" "#Topic/Dev/VBA" "#Topic/Windows"]
+Tags: ["#Type/Slipbox", "#Topic/Excel", "#Topic/Dev", "#Topic/Dev/VBA", "#Topic/Windows"]
 Alias: []
 ---
 
