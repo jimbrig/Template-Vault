@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4e3585b46f3f98b0",
+        "id": "bc23bdd2e7e4441e",
         "type": "tabs",
         "children": [
           {
-            "id": "0ec7f7eb2220f80a",
+            "id": "d334cdf25c255d4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,95 +20,16 @@
             }
           },
           {
-            "id": "ec0ef2a5c7df057d",
+            "id": "cab27ee868d8a1d1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "8cad84b060ad49f1",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "eb9c8cb4d6eae21f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "ee4b57b2707d9523",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "181292d2dc32134a",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "5583136faad5b615",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "6f447a0ec253a75c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "307999e165570f4a",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "4e6942ff616277d0",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "f8d272ad9605c936",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "cf2401172abe11b2",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "0.16.3"
+              }
             }
           }
-        ],
-        "currentTab": 11
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +47,9 @@
             "type": "leaf",
             "state": {
               "type": "file-explorer",
-              "state": {}
+              "state": {
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -198,7 +121,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2-AREAS/Daily-Notes/2022-09-23.md"
+              }
             }
           },
           {
@@ -207,6 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2-AREAS/Daily-Notes/2022-09-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,6 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2-AREAS/Daily-Notes/2022-09-23.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -241,6 +168,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "2-AREAS/Daily-Notes/2022-09-23.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -308,10 +236,10 @@
     "direction": "horizontal",
     "width": 557.5
   },
-  "active": "cf2401172abe11b2",
+  "active": "d334cdf25c255d4e",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "2-AREAS/Daily-Notes/2022-09-23.md",
+    "conflict-files-obsidian-git.md",
     "2-AREAS/Daily-Notes/2022-09-16.md",
     "2-AREAS/Development/_README.md",
     "2-AREAS/Code/Visual Basic/_README.md",
