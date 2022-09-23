@@ -1,16 +1,80 @@
 {
   "recentFiles": [
     {
+      "basename": "2022-09-23",
+      "path": "2-AREAS/Daily-Notes/2022-09-23.md"
+    },
+    {
+      "basename": "2022-09-16",
+      "path": "2-AREAS/Daily-Notes/2022-09-16.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Development/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/Visual Basic/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/R/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/Python/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/JavaScript/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/Java/_README.md"
+    },
+    {
+      "basename": "GHA - Release Excel Workbook",
+      "path": "2-AREAS/Code/GitHub Actions/GHA - Release Excel Workbook.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/CSS/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/Batch/_README.md"
+    },
+    {
+      "basename": "Bash - Install oh-my-zsh",
+      "path": "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md"
+    },
+    {
+      "basename": "Bash - Install and Setup Git",
+      "path": "2-AREAS/Code/Bash/Bash - Install and Setup Git.md"
+    },
+    {
+      "basename": "Bash - Git-Auto",
+      "path": "2-AREAS/Code/Bash/Bash - Git-Auto.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/Bash/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/_README.md"
+    },
+    {
+      "basename": "2022-09-03",
+      "path": "2-AREAS/Daily-Notes/2022-09-03.md"
+    },
+    {
+      "basename": "_README",
+      "path": "0-INBOX/_README.md"
+    },
+    {
       "basename": "2022-08-28",
       "path": "2-AREAS/Daily-Notes/2022-08-28.md"
-    },
-    {
-      "basename": "Obsidian-Clipper 1",
-      "path": "0-INBOX/Obsidian-Clipper 1.md"
-    },
-    {
-      "basename": "Obsidian-Clipper",
-      "path": "0-INBOX/Obsidian-Clipper.md"
     },
     {
       "basename": "BERT  ImageMSO List Reference",
@@ -54,10 +118,6 @@
     },
     {
       "basename": "_README",
-      "path": "0-INBOX/_README.md"
-    },
-    {
-      "basename": "_README",
       "path": "3-RESOURCES/Templates/_README.md"
     },
     {
@@ -87,10 +147,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Code/VBA/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/_README.md"
     },
     {
       "basename": "_README",
@@ -139,66 +195,6 @@
     {
       "basename": "PowerShell - Toast Notification",
       "path": "2-AREAS/Code/PowerShell/PowerShell - Toast Notification.md"
-    },
-    {
-      "basename": "2022-08-14",
-      "path": "2-AREAS/Daily-Notes/2022-08-14.md"
-    },
-    {
-      "basename": "CHANGELOG",
-      "path": "CHANGELOG.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "ABOUT",
-      "path": "ABOUT.md"
-    },
-    {
-      "basename": "macOS",
-      "path": "0-INBOX/macOS.md"
-    },
-    {
-      "basename": "Git",
-      "path": "2-AREAS/Development/Git.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Bash/_README.md"
-    },
-    {
-      "basename": "2022-08-12",
-      "path": "2-AREAS/Daily-Notes/2022-08-12.md"
-    },
-    {
-      "basename": "Bash - Git-Auto",
-      "path": "2-AREAS/Code/Bash/Bash - Git-Auto.md"
-    },
-    {
-      "basename": "Bash - Install and Setup Git",
-      "path": "2-AREAS/Code/Bash/Bash - Install and Setup Git.md"
-    },
-    {
-      "basename": "Linux",
-      "path": "2-AREAS/Development/Linux.md"
-    },
-    {
-      "basename": "Development",
-      "path": "2-AREAS/MOCs/Development.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/People/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/MOCs/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Mindsweeps/_README.md"
     }
   ],
   "omittedPaths": [],

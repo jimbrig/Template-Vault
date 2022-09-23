@@ -1,5 +1,6 @@
 {
   "cssTheme": "Deep Work",
   "translucency": false,
-  "baseFontSize": 14
+  "baseFontSize": 14,
+  "accentColor": ""
 }
