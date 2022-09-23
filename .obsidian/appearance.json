@@ -1,6 +1,8 @@
 {
-  "cssTheme": "Prism",
+  "cssTheme": "Sodalite",
   "translucency": false,
   "baseFontSize": 14,
-  "accentColor": ""
+  "accentColor": "",
+  "monospaceFontFamily": "Cascadia Mono",
+  "nativeMenus": false
 }
