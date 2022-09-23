@@ -4,5 +4,8 @@
   "baseFontSize": 14,
   "accentColor": "",
   "monospaceFontFamily": "Cascadia Mono",
-  "nativeMenus": false
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "custom-admonitions.ae0925"
+  ]
 }

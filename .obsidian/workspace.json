@@ -198,14 +198,6 @@
             }
           },
           {
-            "id": "dc0f033e7cb86245",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
-          },
-          {
             "id": "2f1cbd7c217d4f52",
             "type": "leaf",
             "state": {
@@ -229,8 +221,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
