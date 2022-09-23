@@ -4,20 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "bc23bdd2e7e4441e",
+        "id": "5ce1f8bd68e39704",
         "type": "tabs",
         "children": [
           {
-            "id": "cab27ee868d8a1d1",
+            "id": "be6643e866ef0178",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "0.16.3"
-              }
+              "type": "full-calendar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "8204bd410cce6713",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -46,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "package",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -72,7 +79,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -182,14 +189,6 @@
             }
           },
           {
-            "id": "2f1cbd7c217d4f52",
-            "type": "leaf",
-            "state": {
-              "type": "tlfItemView",
-              "state": {}
-            }
-          },
-          {
             "id": "2e0f185a27a755b3",
             "type": "leaf",
             "state": {
@@ -206,12 +205,26 @@
             }
           }
         ]
+      },
+      {
+        "id": "2b2a72419fb9c1da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "58fc34a5d2f5d179",
+            "type": "leaf",
+            "state": {
+              "type": "dangling-links",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 557.5
   },
-  "active": "cab27ee868d8a1d1",
+  "active": "8204bd410cce6713",
   "lastOpenFiles": [
     "2-AREAS/Daily-Notes/2022-09-23.md",
     "conflict-files-obsidian-git.md",
