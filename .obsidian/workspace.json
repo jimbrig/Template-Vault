@@ -11,8 +11,12 @@
             "id": "487b4324da7524b1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "0-INBOX/Test Code Block.md",
+                "mode": "source",
+                "backlinks": true
+              }
             }
           }
         ]
@@ -108,7 +112,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "0-INBOX/Test Code Block.md"
+              }
             }
           },
           {
@@ -117,6 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "0-INBOX/Test Code Block.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,6 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "0-INBOX/Test Code Block.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,6 +159,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "0-INBOX/Test Code Block.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -216,7 +225,7 @@
     "width": 557.5,
     "collapsed": true
   },
-  "active": "fef2140fd3d7a3e9",
+  "active": "487b4324da7524b1",
   "lastOpenFiles": [
     "0-INBOX/Microsoft.md",
     "2-AREAS/Daily-Notes/2022-09-23.md",

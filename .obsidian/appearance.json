@@ -7,5 +7,6 @@
   "nativeMenus": false,
   "enabledCssSnippets": [
     "custom-admonitions.ae0925"
-  ]
+  ],
+  "interfaceFontFamily": ""
 }
