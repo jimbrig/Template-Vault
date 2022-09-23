@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d334cdf25c255d4e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2-AREAS/Daily-Notes/2022-09-23.md",
-                "mode": "source",
-                "backlinks": true
-              }
-            }
-          },
-          {
             "id": "cab27ee868d8a1d1",
             "type": "leaf",
             "state": {
@@ -83,7 +71,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -121,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2-AREAS/Daily-Notes/2022-09-23.md"
-              }
+              "state": {}
             }
           },
           {
@@ -132,7 +119,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-AREAS/Daily-Notes/2022-09-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +135,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-AREAS/Daily-Notes/2022-09-23.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +153,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "2-AREAS/Daily-Notes/2022-09-23.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -227,7 +211,7 @@
     "direction": "horizontal",
     "width": 557.5
   },
-  "active": "d334cdf25c255d4e",
+  "active": "cab27ee868d8a1d1",
   "lastOpenFiles": [
     "2-AREAS/Daily-Notes/2022-09-23.md",
     "conflict-files-obsidian-git.md",

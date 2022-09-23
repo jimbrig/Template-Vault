@@ -5,27 +5,10 @@ if you want to view the source, please visit the github repository of this plugi
 
 var __create = Object.create;
 var __defProp = Object.defineProperty;
-var __defProps = Object.defineProperties;
 var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
-var __getOwnPropDescs = Object.getOwnPropertyDescriptors;
 var __getOwnPropNames = Object.getOwnPropertyNames;
-var __getOwnPropSymbols = Object.getOwnPropertySymbols;
 var __getProtoOf = Object.getPrototypeOf;
 var __hasOwnProp = Object.prototype.hasOwnProperty;
-var __propIsEnum = Object.prototype.propertyIsEnumerable;
-var __defNormalProp = (obj, key, value) => key in obj ? __defProp(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
-var __spreadValues = (a, b) => {
-  for (var prop in b || (b = {}))
-    if (__hasOwnProp.call(b, prop))
-      __defNormalProp(a, prop, b[prop]);
-  if (__getOwnPropSymbols)
-    for (var prop of __getOwnPropSymbols(b)) {
-      if (__propIsEnum.call(b, prop))
-        __defNormalProp(a, prop, b[prop]);
-    }
-  return a;
-};
-var __spreadProps = (a, b) => __defProps(a, __getOwnPropDescs(b));
 var __markAsModule = (target) => __defProp(target, "__esModule", { value: true });
 var __export = (target, all) => {
   __markAsModule(target);
@@ -42,26 +25,6 @@ var __reExport = (target, module2, desc) => {
 };
 var __toModule = (module2) => {
   return __reExport(__markAsModule(__defProp(module2 != null ? __create(__getProtoOf(module2)) : {}, "default", module2 && module2.__esModule && "default" in module2 ? { get: () => module2.default, enumerable: true } : { value: module2, enumerable: true })), module2);
-};
-var __async = (__this, __arguments, generator) => {
-  return new Promise((resolve, reject) => {
-    var fulfilled = (value) => {
-      try {
-        step(generator.next(value));
-      } catch (e) {
-        reject(e);
-      }
-    };
-    var rejected = (value) => {
-      try {
-        step(generator.throw(value));
-      } catch (e) {
-        reject(e);
-      }
-    };
-    var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
-    step((generator = generator.apply(__this, __arguments)).next());
-  });
 };
 
 // main.ts
@@ -578,6 +541,7 @@ var DEFAULT_SETTINGS = {
   disableNestedTags: false,
   hideItems: "NONE",
   ignoreFolders: "",
+  targetFolders: "",
   scanDelay: 250,
   useTitle: true,
   reduceNestedParent: true,
@@ -629,7 +593,8 @@ function isAutoExpandTree(entry) {
     }
     const entryAllTags = ancestorToTags(entry.ancestors.slice(1));
     const entryTags = ancestorToLongestTag(entryAllTags);
-    const childrenItemsTag = childrenItems.map((e) => __spreadProps(__spreadValues({}, e), {
+    const childrenItemsTag = childrenItems.map((e) => ({
+      ...e,
       tags: e.tags.map((oldTag) => entryTags.reduce((trimTag, tagToTrim) => trimTag.startsWith(tagToTrim + "/") ? trimTag.substring(tagToTrim.length + 1) : trimTag, oldTag)).filter((e2) => e2)
     }));
     const firstLevelChildren = unique([
@@ -2255,7 +2220,7 @@ function instance4($$self, $$props, $$invalidate) {
     if ($$self.$$.dirty & 8) {
       $: {
         store.subscribe((_state) => {
-          $$invalidate(5, state = Object.assign({}, _state));
+          $$invalidate(5, state = { ..._state });
           return () => {
           };
         });
@@ -2297,20 +2262,16 @@ var ScrollView = class extends import_obsidian2.ItemView {
   getDisplayText() {
     return this.state.tagPath || "Tags scroll";
   }
-  setFile(filenames) {
-    return __async(this, null, function* () {
-      this.state = __spreadProps(__spreadValues({}, this.state), { files: filenames });
-      yield this.updateView();
-    });
+  async setFile(filenames) {
+    this.state = { ...this.state, files: filenames };
+    await this.updateView();
   }
-  setState(state, result) {
-    return __async(this, null, function* () {
-      this.state = __spreadValues({}, state);
-      this.title = state.title;
-      yield this.updateView();
-      result = {};
-      return;
-    });
+  async setState(state, result) {
+    this.state = { ...state };
+    this.title = state.title;
+    await this.updateView();
+    result = {};
+    return;
   }
   getState() {
     return this.state;
@@ -2321,45 +2282,39 @@ var ScrollView = class extends import_obsidian2.ItemView {
   getScrollViewState() {
     return this.state;
   }
-  updateView() {
-    return __async(this, null, function* () {
-      const items = [];
-      for (const item of this.state.files) {
-        if (item.content) {
+  async updateView() {
+    const items = [];
+    for (const item of this.state.files) {
+      if (item.content) {
+        items.push(item);
+      } else {
+        const f = this.app.vault.getAbstractFileByPath(item.path);
+        if (f == null || !(f instanceof import_obsidian2.TFile)) {
+          console.log(`File not found:${item.path}`);
           items.push(item);
-        } else {
-          const f = this.app.vault.getAbstractFileByPath(item.path);
-          if (f == null || !(f instanceof import_obsidian2.TFile)) {
-            console.log(`File not found:${item.path}`);
-            items.push(item);
-            continue;
-          }
-          const title = this.plugin.getFileTitle(f);
-          const w = yield this.app.vault.read(f);
-          item.content = w;
-          item.title = title;
-          items.push(item);
+          continue;
         }
+        const title = this.plugin.getFileTitle(f);
+        const w = await this.app.vault.read(f);
+        item.content = w;
+        item.title = title;
+        items.push(item);
       }
-      this.state = __spreadProps(__spreadValues({}, this.state), { files: [...items] });
-      this.store.set(this.state);
+    }
+    this.state = { ...this.state, files: [...items] };
+    this.store.set(this.state);
+  }
+  async onOpen() {
+    this.component = new ScrollViewComponent_default({
+      target: this.contentEl,
+      props: {
+        store: this.store,
+        openfile: this.plugin.focusFile
+      }
     });
   }
-  onOpen() {
-    return __async(this, null, function* () {
-      this.component = new ScrollViewComponent_default({
-        target: this.contentEl,
-        props: {
-          store: this.store,
-          openfile: this.plugin.focusFile
-        }
-      });
-    });
-  }
-  onClose() {
-    return __async(this, null, function* () {
-      this.component.$destroy();
-    });
+  async onClose() {
+    this.component.$destroy();
   }
 };
 
@@ -2420,17 +2375,17 @@ var TagFolderView = class extends import_obsidian3.ItemView {
   showOrder(evt) {
     const menu = new import_obsidian3.Menu(this.app);
     menu.addItem((item) => {
-      item.setTitle("Tags").setIcon("hashtag").onClick((evt2) => __async(this, null, function* () {
+      item.setTitle("Tags").setIcon("hashtag").onClick(async (evt2) => {
         const menu2 = new import_obsidian3.Menu(this.app);
         for (const key in OrderKeyTag) {
           for (const direction in OrderDirection) {
             menu2.addItem((item2) => {
               const newSetting = `${key}_${direction}`;
-              item2.setTitle(OrderKeyTag[key] + " " + OrderDirection[direction]).onClick(() => __async(this, null, function* () {
+              item2.setTitle(OrderKeyTag[key] + " " + OrderDirection[direction]).onClick(async () => {
                 this.plugin.settings.sortTypeTag = newSetting;
-                yield this.plugin.saveSettings();
+                await this.plugin.saveSettings();
                 this.plugin.setRoot(this.plugin.root);
-              }));
+              });
               if (newSetting == this.plugin.settings.sortTypeTag) {
                 item2.setIcon("checkmark");
               }
@@ -2439,21 +2394,21 @@ var TagFolderView = class extends import_obsidian3.ItemView {
             });
           }
         }
-      }));
+      });
       return item;
     });
     menu.addItem((item) => {
-      item.setTitle("Items").setIcon("document").onClick((evt2) => __async(this, null, function* () {
+      item.setTitle("Items").setIcon("document").onClick(async (evt2) => {
         const menu2 = new import_obsidian3.Menu(this.app);
         for (const key in OrderKeyItem) {
           for (const direction in OrderDirection) {
             menu2.addItem((item2) => {
               const newSetting = `${key}_${direction}`;
-              item2.setTitle(OrderKeyItem[key] + " " + OrderDirection[direction]).onClick(() => __async(this, null, function* () {
+              item2.setTitle(OrderKeyItem[key] + " " + OrderDirection[direction]).onClick(async () => {
                 this.plugin.settings.sortType = newSetting;
-                yield this.plugin.saveSettings();
+                await this.plugin.saveSettings();
                 this.plugin.setRoot(this.plugin.root);
-              }));
+              });
               if (newSetting == this.plugin.settings.sortType) {
                 item2.setIcon("checkmark");
               }
@@ -2462,19 +2417,19 @@ var TagFolderView = class extends import_obsidian3.ItemView {
             });
           }
         }
-      }));
+      });
       return item;
     });
     menu.showAtMouseEvent(evt);
   }
   showLevelSelect(evt) {
     const menu = new import_obsidian3.Menu(this.app);
-    const setLevel = (level) => __async(this, null, function* () {
+    const setLevel = async (level) => {
       this.plugin.settings.expandLimit = level;
-      yield this.plugin.saveSettings();
+      await this.plugin.saveSettings();
       maxDepth.set(level);
       this.plugin.setRoot(this.plugin.root);
-    });
+    };
     for (const level of [2, 3, 4, 5]) {
       menu.addItem((item) => {
         item.setTitle(`Level ${level - 1}`).onClick(() => {
@@ -2501,71 +2456,82 @@ var TagFolderView = class extends import_obsidian3.ItemView {
   getDisplayText() {
     return "Tag Folder";
   }
-  onOpen() {
-    return __async(this, null, function* () {
-      this.component = new TagFolderViewComponent_default({
-        target: this.contentEl,
-        props: {
-          openfile: this.plugin.focusFile,
-          hoverPreview: this.plugin.hoverPreview,
-          expandFolder: this.plugin.expandFolder,
-          vaultname: this.app.vault.getName(),
-          showMenu: this.showMenu,
-          showLevelSelect: this.showLevelSelect,
-          showOrder: this.showOrder,
-          newNote: this.newNote,
-          setSearchString: this.plugin.setSearchString,
-          openScrollView: this.plugin.openScrollView
-        }
-      });
+  async onOpen() {
+    this.component = new TagFolderViewComponent_default({
+      target: this.contentEl,
+      props: {
+        openfile: this.plugin.focusFile,
+        hoverPreview: this.plugin.hoverPreview,
+        expandFolder: this.plugin.expandFolder,
+        vaultname: this.app.vault.getName(),
+        showMenu: this.showMenu,
+        showLevelSelect: this.showLevelSelect,
+        showOrder: this.showOrder,
+        newNote: this.newNote,
+        setSearchString: this.plugin.setSearchString,
+        openScrollView: this.plugin.openScrollView
+      }
     });
   }
-  onClose() {
-    return __async(this, null, function* () {
-      this.component.$destroy();
-    });
+  async onClose() {
+    this.component.$destroy();
   }
   setTreeRoot(root) {
     treeRoot.set(root);
   }
   showMenu(evt, path, entry) {
-    const x = path.replace(SUBTREE_MARK_REGEX, "###");
-    const expandedTags = x.split("/").filter((e) => e.trim() != "").filter((e) => !isSpecialTag(e)).map((e) => e.replace(/###/g, "/")).map((e) => e.split("/").map((ee) => renderSpecialTag(ee)).join("/")).map((e) => "#" + e).join(" ").trim();
+    const entryPath = "tag" in entry ? [...ancestorToTags(entry.ancestors)] : ["root", ...entry.tags];
+    if ("tag" in entry) {
+      const oTags = omittedTags(entry);
+      if (oTags != false) {
+        entryPath.push(...oTags);
+      }
+    }
+    entryPath.shift();
+    const expandedTagsAll = ancestorToLongestTag(ancestorToTags(entryPath));
+    const expandedTags = expandedTagsAll.map((e) => e.split("/").filter((ee) => !isSpecialTag(ee)).join("/")).filter((e) => e != "").map((e) => "#" + e).join(" ").trim();
+    const displayExpandedTags = expandedTagsAll.map((e) => e.split("/").filter((ee) => renderSpecialTag(ee)).join("/")).filter((e) => e != "").map((e) => "#" + e).join(" ").trim();
     const menu = new import_obsidian3.Menu(this.app);
     if (navigator && navigator.clipboard) {
-      menu.addItem((item) => item.setTitle(`Copy tags:${expandedTags}`).setIcon("hashtag").onClick(() => __async(this, null, function* () {
-        yield navigator.clipboard.writeText(expandedTags);
+      menu.addItem((item) => item.setTitle(`Copy tags:${expandedTags}`).setIcon("hashtag").onClick(async () => {
+        await navigator.clipboard.writeText(expandedTags);
         new import_obsidian3.Notice("Copied");
-      })));
+      }));
     }
+    menu.addItem((item) => item.setTitle(`New note ${"tag" in entry ? "in here" : "as like this"}`).setIcon("create-new").onClick(async () => {
+      const ww = await this.app.fileManager.createAndOpenMarkdownFile();
+      await this.app.vault.append(ww, expandedTags);
+    }));
     if ("tag" in entry) {
       if (this.plugin.settings.useTagInfo && this.plugin.tagInfo != null) {
         const tag = entry.ancestors[entry.ancestors.length - 1];
         if (tag in this.plugin.tagInfo && this.plugin.tagInfo[tag]) {
-          menu.addItem((item) => item.setTitle(`Unpin`).setIcon("pin").onClick(() => __async(this, null, function* () {
-            this.plugin.tagInfo = __spreadProps(__spreadValues({}, this.plugin.tagInfo), {
+          menu.addItem((item) => item.setTitle(`Unpin`).setIcon("pin").onClick(async () => {
+            this.plugin.tagInfo = {
+              ...this.plugin.tagInfo,
               [tag]: void 0
-            });
+            };
             this.plugin.applyTagInfo();
-            yield this.plugin.saveTagInfo();
-          })));
+            await this.plugin.saveTagInfo();
+          }));
         } else {
           menu.addItem((item) => {
-            item.setTitle(`Pin`).setIcon("pin").onClick(() => __async(this, null, function* () {
-              this.plugin.tagInfo = __spreadProps(__spreadValues({}, this.plugin.tagInfo), {
+            item.setTitle(`Pin`).setIcon("pin").onClick(async () => {
+              this.plugin.tagInfo = {
+                ...this.plugin.tagInfo,
                 [tag]: { key: "" }
-              });
+              };
               this.plugin.applyTagInfo();
-              yield this.plugin.saveTagInfo();
-            }));
+              await this.plugin.saveTagInfo();
+            });
           });
         }
         menu.addItem((item) => {
-          item.setTitle(`Open scroll view`).setIcon("sheets-in-box").onClick(() => __async(this, null, function* () {
+          item.setTitle(`Open scroll view`).setIcon("sheets-in-box").onClick(async () => {
             const files = entry.allDescendants.map((e) => e.path);
             const tagPath = entry.ancestors.join("/");
-            yield this.plugin.openScrollView(null, expandedTags, tagPath, files);
-          }));
+            await this.plugin.openScrollView(null, displayExpandedTags, tagPath, files);
+          });
         });
       }
     }
@@ -2619,7 +2585,7 @@ var expandDescendants = (entry, hideItems) => {
         ret.push(v);
     }
   }
-  const leafs = entry.descendantsMemo != null ? entry.descendantsMemo : entry.descendantsMemo = entry.children.map((e) => "tag" in e ? e.children.map((ee) => retrieveAllDescendants(ee).flat()).flat() : []).flat();
+  const leafs = entry.descendantsMemo != null ? entry.descendantsMemo : entry.descendantsMemo = [...new Set(entry.children.map((e) => "tag" in e ? e.children.map((ee) => retrieveAllDescendants(ee).flat()).flat() : []).flat())];
   if (hideItems == "DEDICATED_INTERMIDIATES" && entry.isDedicatedTree || hideItems == "ALL_EXCEPT_BOTTOM") {
     entry.descendants = ret.filter((e) => !leafs.contains(e));
   } else {
@@ -2629,7 +2595,7 @@ var expandDescendants = (entry, hideItems) => {
   entry.itemsCount = new Set([...ret, ...leafs]).size;
   return ret;
 };
-var expandTree = (node, reduceNestedParent) => __async(void 0, null, function* () {
+var expandTree = async (node, reduceNestedParent) => {
   let modified = false;
   const tree = node.children;
   const ancestor = [...node.ancestors];
@@ -2653,16 +2619,16 @@ var expandTree = (node, reduceNestedParent) => __async(void 0, null, function* (
     };
     tree.push(newLeaf);
   }
-  modified = (yield splitTag(node, reduceNestedParent)) || modified;
+  modified = await splitTag(node, reduceNestedParent) || modified;
   if (modified) {
-    yield expandTree(node, reduceNestedParent);
+    await expandTree(node, reduceNestedParent);
   }
   return modified;
-});
-var splitTag = (entry, reduceNestedParent, root) => __async(void 0, null, function* () {
+};
+var splitTag = async (entry, reduceNestedParent, root) => {
   let modified = false;
   const xRoot = root || entry;
-  yield doevents();
+  await doevents();
   entry.children = entry.children.sort((a, b) => {
     if ("tag" in a && "tag" in b) {
       return a.tag.split("/").length - b.tag.split("/").length;
@@ -2672,7 +2638,7 @@ var splitTag = (entry, reduceNestedParent, root) => __async(void 0, null, functi
   });
   for (const curEntry of entry.children) {
     if ("tag" in curEntry) {
-      modified = (yield splitTag(curEntry, reduceNestedParent, xRoot)) || modified;
+      modified = await splitTag(curEntry, reduceNestedParent, xRoot) || modified;
       if (curEntry.tag.contains("/")) {
         const tempEntry = curEntry;
         entry.children.remove(tempEntry);
@@ -2690,7 +2656,8 @@ var splitTag = (entry, reduceNestedParent, root) => __async(void 0, null, functi
           } else {
             if (reduceNestedParent) {
               modified = true;
-              const replacer = __spreadProps(__spreadValues({}, tempEntry), {
+              const replacer = {
+                ...tempEntry,
                 tag: tagCdr,
                 ancestors: [
                   ...newAncestorsBase,
@@ -2701,7 +2668,7 @@ var splitTag = (entry, reduceNestedParent, root) => __async(void 0, null, functi
                 descendants: null,
                 allDescendants: null,
                 isDedicatedTree: tempEntry.isDedicatedTree
-              });
+              };
               const old = entry.children.find((e) => "tag" in e && e.tag == tagCdr);
               if (old) {
                 entry.children.remove(old);
@@ -2739,13 +2706,13 @@ var splitTag = (entry, reduceNestedParent, root) => __async(void 0, null, functi
           };
           newChild.children = [newGrandchild];
           entry.children.push(newChild);
-          yield splitTag(entry, reduceNestedParent, xRoot);
+          await splitTag(entry, reduceNestedParent, xRoot);
           modified = true;
         } else {
           const oldIx = parent.children.find((e) => "tag" in e && e.tag.toLocaleLowerCase() == tagCdr.toLocaleLowerCase());
           if (oldIx != null) {
             oldIx.children.push(...tempChildren.filter((e) => !oldIx.children.contains(e)));
-            yield splitTag(oldIx, reduceNestedParent, xRoot);
+            await splitTag(oldIx, reduceNestedParent, xRoot);
           } else {
             const x = {
               tag: tagCdr,
@@ -2770,7 +2737,7 @@ var splitTag = (entry, reduceNestedParent, root) => __async(void 0, null, functi
                 parent.isDedicatedTree = true;
               }
             }
-            yield splitTag(parent, reduceNestedParent, xRoot);
+            await splitTag(parent, reduceNestedParent, xRoot);
           }
           modified = true;
         }
@@ -2778,7 +2745,7 @@ var splitTag = (entry, reduceNestedParent, root) => __async(void 0, null, functi
     }
   }
   if (modified) {
-    modified = yield splitTag(entry, reduceNestedParent, xRoot);
+    modified = await splitTag(entry, reduceNestedParent, xRoot);
   }
   if (modified) {
     if (entry.isDedicatedTree && entry.children.some((e) => "tags" in e)) {
@@ -2786,7 +2753,7 @@ var splitTag = (entry, reduceNestedParent, root) => __async(void 0, null, functi
     }
   }
   return modified;
-});
+};
 function getTagName(tagName, tagInfo2, invert) {
   if (tagInfo2 == null)
     return tagName;
@@ -2851,7 +2818,7 @@ var TagFolderPlugin = class extends import_obsidian3.Plugin {
       }
     };
     this.expandingProcs = 0;
-    this.expandFolder = (entry, expanded) => __async(this, null, function* () {
+    this.expandFolder = async (entry, expanded) => {
       if ("tag" in entry) {
         const key = [...entry.ancestors].join("/");
         if (expanded) {
@@ -2860,10 +2827,10 @@ var TagFolderPlugin = class extends import_obsidian3.Plugin {
         } else {
           this.expandedFolders = this.expandedFolders.filter((e) => e != key);
         }
-        yield this.expandLastExpandedFolders(entry);
+        await this.expandLastExpandedFolders(entry);
         this.setRoot(this.root);
       }
-    });
+    };
     this.fileCaches = [];
     this.oldFileCache = "";
     this.lastTags = "";
@@ -2895,47 +2862,45 @@ var TagFolderPlugin = class extends import_obsidian3.Plugin {
     this.searchString = search;
     this.refreshAllTree(null);
   }
-  expandLastExpandedFolders(_0, _1) {
-    return __async(this, arguments, function* (entry, force, path = [], openedTags = {}, maxDepth2 = 1) {
-      if (maxDepth2 < 0) {
+  async expandLastExpandedFolders(entry, force, path = [], openedTags = {}, maxDepth2 = 1) {
+    if (maxDepth2 < 0) {
+      return;
+    }
+    if ("tag" in entry) {
+      if (path.indexOf(entry.tag) !== -1)
         return;
-      }
-      if ("tag" in entry) {
-        if (path.indexOf(entry.tag) !== -1)
-          return;
-        if (omittedTags(entry))
-          return;
-        const key = entry.ancestors.join("/");
-        for (const tags of this.expandedFolders) {
-          const tagPrefixToOpen = [];
-          const tagArray = tags.split("/");
-          for (const f of tagArray) {
-            tagPrefixToOpen.push(f);
-            const tagPrefix = tagPrefixToOpen.join("/");
-            if (!(tagPrefix in openedTags)) {
-              openedTags[tagPrefix] = new Set();
-            }
-            if (openedTags[tagPrefix].has(key)) {
-              continue;
-            }
-            if (key.startsWith(tagPrefix) || force) {
-              openedTags[tagPrefix].add(key);
-              yield expandTree(entry, this.settings.reduceNestedParent);
-              yield splitTag(entry, this.settings.reduceNestedParent);
-              for (const child of entry.children) {
-                if ("tag" in child) {
-                  const autoExp = isAutoExpandTree(child);
-                  const nextDepth = autoExp ? maxDepth2 : maxDepth2 - 1;
-                  if (path.indexOf(child.tag) == -1) {
-                    yield this.expandLastExpandedFolders(child, false, [...path, entry.tag], openedTags, nextDepth);
-                  }
+      if (omittedTags(entry))
+        return;
+      const key = entry.ancestors.join("/");
+      for (const tags of this.expandedFolders) {
+        const tagPrefixToOpen = [];
+        const tagArray = tags.split("/");
+        for (const f of tagArray) {
+          tagPrefixToOpen.push(f);
+          const tagPrefix = tagPrefixToOpen.join("/");
+          if (!(tagPrefix in openedTags)) {
+            openedTags[tagPrefix] = new Set();
+          }
+          if (openedTags[tagPrefix].has(key)) {
+            continue;
+          }
+          if (key.startsWith(tagPrefix) || force) {
+            openedTags[tagPrefix].add(key);
+            await expandTree(entry, this.settings.reduceNestedParent);
+            await splitTag(entry, this.settings.reduceNestedParent);
+            for (const child of entry.children) {
+              if ("tag" in child) {
+                const autoExp = isAutoExpandTree(child);
+                const nextDepth = autoExp ? maxDepth2 : maxDepth2 - 1;
+                if (path.indexOf(child.tag) == -1) {
+                  await this.expandLastExpandedFolders(child, false, [...path, entry.tag], openedTags, nextDepth);
                 }
               }
             }
           }
         }
       }
-    });
+    }
   }
   getFileTitle(file) {
     if (!this.settings.useTitle)
@@ -2970,46 +2935,44 @@ var TagFolderPlugin = class extends import_obsidian3.Plugin {
     }
     return filename;
   }
-  onload() {
-    return __async(this, null, function* () {
-      yield this.loadSettings();
-      this.hoverPreview = this.hoverPreview.bind(this);
-      this.sortChildren = this.sortChildren.bind(this);
-      this.modifyFile = this.modifyFile.bind(this);
-      this.setSearchString = this.setSearchString.bind(this);
-      this.openScrollView = this.openScrollView.bind(this);
-      this.loadFileInfo = (0, import_obsidian3.debounce)(this.loadFileInfo.bind(this), this.settings.scanDelay, true);
-      this.registerView(VIEW_TYPE_TAGFOLDER, (leaf) => new TagFolderView(leaf, this));
-      this.registerView(VIEW_TYPE_SCROLL, (leaf) => new ScrollView(leaf, this));
-      this.app.workspace.onLayoutReady(() => __async(this, null, function* () {
-        if (this.settings.alwaysOpen) {
-          this.activateView();
-        }
-      }));
-      this.addCommand({
-        id: "tagfolder-open",
-        name: "Show Tag Folder",
-        callback: () => {
-          this.activateView();
-        }
-      });
-      this.metadataCacheChanged = this.metadataCacheChanged.bind(this);
-      this.watchWorkspaceOpen = this.watchWorkspaceOpen.bind(this);
-      this.registerEvent(this.app.metadataCache.on("changed", this.metadataCacheChanged));
-      this.refreshAllTree = this.refreshAllTree.bind(this);
-      this.registerEvent(this.app.vault.on("rename", this.refreshAllTree));
-      this.registerEvent(this.app.vault.on("delete", this.refreshAllTree));
-      this.registerEvent(this.app.vault.on("modify", this.modifyFile));
-      this.registerEvent(this.app.workspace.on("file-open", this.watchWorkspaceOpen));
-      this.watchWorkspaceOpen(this.app.workspace.getActiveFile());
-      this.addSettingTab(new TagFolderSettingTab(this.app, this));
-      maxDepth.set(this.settings.expandLimit);
-      if (this.settings.useTagInfo) {
-        this.app.workspace.onLayoutReady(() => __async(this, null, function* () {
-          yield this.loadTagInfo();
-        }));
+  async onload() {
+    await this.loadSettings();
+    this.hoverPreview = this.hoverPreview.bind(this);
+    this.sortChildren = this.sortChildren.bind(this);
+    this.modifyFile = this.modifyFile.bind(this);
+    this.setSearchString = this.setSearchString.bind(this);
+    this.openScrollView = this.openScrollView.bind(this);
+    this.loadFileInfo = (0, import_obsidian3.debounce)(this.loadFileInfo.bind(this), this.settings.scanDelay, true);
+    this.registerView(VIEW_TYPE_TAGFOLDER, (leaf) => new TagFolderView(leaf, this));
+    this.registerView(VIEW_TYPE_SCROLL, (leaf) => new ScrollView(leaf, this));
+    this.app.workspace.onLayoutReady(async () => {
+      if (this.settings.alwaysOpen) {
+        this.activateView();
       }
     });
+    this.addCommand({
+      id: "tagfolder-open",
+      name: "Show Tag Folder",
+      callback: () => {
+        this.activateView();
+      }
+    });
+    this.metadataCacheChanged = this.metadataCacheChanged.bind(this);
+    this.watchWorkspaceOpen = this.watchWorkspaceOpen.bind(this);
+    this.registerEvent(this.app.metadataCache.on("changed", this.metadataCacheChanged));
+    this.refreshAllTree = this.refreshAllTree.bind(this);
+    this.registerEvent(this.app.vault.on("rename", this.refreshAllTree));
+    this.registerEvent(this.app.vault.on("delete", this.refreshAllTree));
+    this.registerEvent(this.app.vault.on("modify", this.modifyFile));
+    this.registerEvent(this.app.workspace.on("file-open", this.watchWorkspaceOpen));
+    this.watchWorkspaceOpen(this.app.workspace.getActiveFile());
+    this.addSettingTab(new TagFolderSettingTab(this.app, this));
+    maxDepth.set(this.settings.expandLimit);
+    if (this.settings.useTagInfo) {
+      this.app.workspace.onLayoutReady(async () => {
+        await this.loadTagInfo();
+      });
+    }
   }
   watchWorkspaceOpen(file) {
     if (file) {
@@ -3121,128 +3084,126 @@ var TagFolderPlugin = class extends import_obsidian3.Plugin {
       return true;
     }
   }
-  getItemsList() {
-    return __async(this, null, function* () {
-      var _a;
-      const items = [];
-      const ignoreDocTags = this.settings.ignoreDocTags.toLocaleLowerCase().replace(/\n| /g, "").split(",");
-      const ignoreTags = this.settings.ignoreTags.toLocaleLowerCase().replace(/\n| /g, "").split(",");
-      const ignoreFolders = this.settings.ignoreFolders.toLocaleLowerCase().replace(/\n/g, "").split(",").map((e) => e.trim()).filter((e) => !!e);
-      const searchItems = this.searchString.toLocaleLowerCase().split("|").map((ee) => ee.split(" ").map((e) => e.trim()));
-      const today = Date.now();
-      for (const fileCache of this.fileCaches) {
-        if (ignoreFolders.find((e) => e != "" && fileCache.file.path.toLocaleLowerCase().startsWith(e))) {
-          continue;
-        }
-        yield doevents();
-        const allTagsDocs = [...new Set((_a = (0, import_obsidian3.getAllTags)(fileCache.metadata)) != null ? _a : [])];
-        let allTags2 = allTagsDocs.map((e) => e.substring(1));
-        if (this.settings.disableNestedTags) {
-          allTags2 = allTags2.map((e) => e.split("/")).flat();
-        }
-        if (allTags2.length == 0) {
-          allTags2 = ["_untagged"];
-        }
-        if (this.settings.useVirtualTag) {
-          const mtime = fileCache.file.stat.mtime;
-          const diff = today - mtime;
-          const disp = secondsToFreshness(diff);
-          allTags2.push(`_VIRTUAL_TAG_FRESHNESS/${disp}`);
-        }
-        if (allTags2.some((tag) => ignoreDocTags.contains(tag.toLocaleLowerCase()))) {
-          continue;
-        }
-        const w = searchItems.map((searchItem) => {
-          let bx = false;
-          for (const search of searchItem) {
-            if (search.startsWith("-")) {
-              bx = bx || allTags2.some((tag) => tag.toLocaleLowerCase().contains(search.substring(1)));
-              if (bx)
-                continue;
-            } else {
-              bx = bx || allTags2.every((tag) => !tag.toLocaleLowerCase().contains(search));
-              if (bx)
-                continue;
-            }
-          }
-          return bx;
-        });
-        if (w.every((e) => e))
-          continue;
-        allTags2 = allTags2.filter((tag) => !ignoreTags.contains(tag.toLocaleLowerCase()));
-        items.push({
-          tags: allTags2,
-          path: fileCache.file.path,
-          displayName: this.getDisplayName(fileCache.file),
-          ancestors: [],
-          mtime: fileCache.file.stat.mtime,
-          ctime: fileCache.file.stat.ctime,
-          filename: fileCache.file.basename
-        });
+  async getItemsList() {
+    var _a;
+    const items = [];
+    const ignoreDocTags = this.settings.ignoreDocTags.toLocaleLowerCase().replace(/\n| /g, "").split(",");
+    const ignoreTags = this.settings.ignoreTags.toLocaleLowerCase().replace(/\n| /g, "").split(",");
+    const ignoreFolders = this.settings.ignoreFolders.toLocaleLowerCase().replace(/\n/g, "").split(",").map((e) => e.trim()).filter((e) => !!e);
+    const targetFolders = this.settings.targetFolders.toLocaleLowerCase().replace(/\n/g, "").split(",").map((e) => e.trim()).filter((e) => !!e);
+    const searchItems = this.searchString.toLocaleLowerCase().split("|").map((ee) => ee.split(" ").map((e) => e.trim()));
+    const today = Date.now();
+    for (const fileCache of this.fileCaches) {
+      if (targetFolders.length > 0 && !targetFolders.some((e) => {
+        return e != "" && fileCache.file.path.toLocaleLowerCase().startsWith(e);
+      })) {
+        continue;
       }
-      return items;
-    });
+      if (ignoreFolders.some((e) => e != "" && fileCache.file.path.toLocaleLowerCase().startsWith(e))) {
+        continue;
+      }
+      await doevents();
+      const allTagsDocs = [...new Set((_a = (0, import_obsidian3.getAllTags)(fileCache.metadata)) != null ? _a : [])];
+      let allTags2 = allTagsDocs.map((e) => e.substring(1));
+      if (this.settings.disableNestedTags) {
+        allTags2 = allTags2.map((e) => e.split("/")).flat();
+      }
+      if (allTags2.length == 0) {
+        allTags2 = ["_untagged"];
+      }
+      if (this.settings.useVirtualTag) {
+        const mtime = fileCache.file.stat.mtime;
+        const diff = today - mtime;
+        const disp = secondsToFreshness(diff);
+        allTags2.push(`_VIRTUAL_TAG_FRESHNESS/${disp}`);
+      }
+      if (allTags2.some((tag) => ignoreDocTags.contains(tag.toLocaleLowerCase()))) {
+        continue;
+      }
+      const w = searchItems.map((searchItem) => {
+        let bx = false;
+        for (const search of searchItem) {
+          if (search.startsWith("-")) {
+            bx = bx || allTags2.some((tag) => tag.toLocaleLowerCase().contains(search.substring(1)));
+            if (bx)
+              continue;
+          } else {
+            bx = bx || allTags2.every((tag) => !tag.toLocaleLowerCase().contains(search));
+            if (bx)
+              continue;
+          }
+        }
+        return bx;
+      });
+      if (w.every((e) => e))
+        continue;
+      allTags2 = allTags2.filter((tag) => !ignoreTags.contains(tag.toLocaleLowerCase()));
+      items.push({
+        tags: allTags2,
+        path: fileCache.file.path,
+        displayName: this.getDisplayName(fileCache.file),
+        ancestors: [],
+        mtime: fileCache.file.stat.mtime,
+        ctime: fileCache.file.stat.ctime,
+        filename: fileCache.file.basename
+      });
+    }
+    return items;
   }
-  buildUpTree(items) {
-    return __async(this, null, function* () {
-      const root = {
-        tag: "root",
-        children: [...items],
-        ancestors: ["root"],
-        descendants: null,
-        allDescendants: null,
-        itemsCount: 0,
-        isDedicatedTree: false
-      };
-      yield expandTree(root, this.settings.reduceNestedParent);
-      root.children = root.children.filter((e) => "tag" in e);
-      yield splitTag(root, this.settings.reduceNestedParent);
-      yield this.expandLastExpandedFolders(root, true);
-      return root;
-    });
+  async buildUpTree(items) {
+    const root = {
+      tag: "root",
+      children: [...items],
+      ancestors: ["root"],
+      descendants: null,
+      allDescendants: null,
+      itemsCount: 0,
+      isDedicatedTree: false
+    };
+    await expandTree(root, this.settings.reduceNestedParent);
+    root.children = root.children.filter((e) => "tag" in e);
+    await splitTag(root, this.settings.reduceNestedParent);
+    await this.expandLastExpandedFolders(root, true);
+    return root;
   }
   loadFileInfo(diff) {
     this.loadFileInfoAsync(diff);
   }
-  loadFileInfoAsync(diff) {
-    return __async(this, null, function* () {
-      if (this.getView() == null)
-        return;
-      const strSetting = JSON.stringify(this.settings);
-      const isSettingChanged = strSetting != this.lastSettings;
-      const isSearchStringModified = this.searchString != this.lastSearchString;
-      if (isSettingChanged) {
-        this.lastSettings = strSetting;
-      }
-      if (isSearchStringModified) {
-        this.lastSearchString = this.searchString;
-      }
-      if (!this.updateFileCaches(diff) && !isSearchStringModified && !isSettingChanged) {
-        yield this.applyUpdateIntoScroll(diff);
-        return;
-      }
-      const items = yield this.getItemsList();
-      const root = yield this.buildUpTree(items);
-      this.setRoot(root);
-      yield this.applyUpdateIntoScroll(diff);
-    });
+  async loadFileInfoAsync(diff) {
+    if (this.getView() == null)
+      return;
+    const strSetting = JSON.stringify(this.settings);
+    const isSettingChanged = strSetting != this.lastSettings;
+    const isSearchStringModified = this.searchString != this.lastSearchString;
+    if (isSettingChanged) {
+      this.lastSettings = strSetting;
+    }
+    if (isSearchStringModified) {
+      this.lastSearchString = this.searchString;
+    }
+    if (!this.updateFileCaches(diff) && !isSearchStringModified && !isSettingChanged) {
+      await this.applyUpdateIntoScroll(diff);
+      return;
+    }
+    const items = await this.getItemsList();
+    const root = await this.buildUpTree(items);
+    this.setRoot(root);
+    await this.applyUpdateIntoScroll(diff);
   }
   onunload() {
     this.app.workspace.detachLeavesOfType(VIEW_TYPE_TAGFOLDER);
     this.app.workspace.detachLeavesOfType(VIEW_TYPE_SCROLL);
   }
-  openScrollView(leaf, title, tagPath, files) {
-    return __async(this, null, function* () {
-      if (!leaf) {
-        leaf = this.app.workspace.createLeafInParent(this.app.workspace.rootSplit, 1);
-      }
-      yield leaf.setViewState({
-        type: VIEW_TYPE_SCROLL,
-        active: true,
-        state: { files: files.map((e) => ({ path: e })), title, tagPath }
-      });
-      this.app.workspace.revealLeaf(leaf);
+  async openScrollView(leaf, title, tagPath, files) {
+    if (!leaf) {
+      leaf = this.app.workspace.createLeafInParent(this.app.workspace.rootSplit, 1);
+    }
+    await leaf.setViewState({
+      type: VIEW_TYPE_SCROLL,
+      active: true,
+      state: { files: files.map((e) => ({ path: e })), title, tagPath }
     });
+    this.app.workspace.revealLeaf(leaf);
   }
   findTreeItemFromPath(tagPath, root) {
     if (!root) {
@@ -3263,69 +3224,67 @@ var TagFolderPlugin = class extends import_obsidian3.Plugin {
     }
     return null;
   }
-  applyUpdateIntoScroll(file) {
-    return __async(this, null, function* () {
-      const leaves = this.app.workspace.getLeavesOfType(VIEW_TYPE_SCROLL);
-      for (const leaf of leaves) {
-        const view = leaf.view;
-        const viewStat = __spreadProps(__spreadValues({}, leaf.getViewState()), { state: __spreadValues({}, view.getScrollViewState()) });
-        if (file && view.isFileOpened(file.path)) {
-          const newStat = __spreadProps(__spreadValues({}, viewStat), {
-            state: __spreadProps(__spreadValues({}, viewStat.state), {
-              files: viewStat.state.files.map((e) => e.path == file.path ? {
-                path: file.path
-              } : e)
-            })
-          });
+  async applyUpdateIntoScroll(file) {
+    const leaves = this.app.workspace.getLeavesOfType(VIEW_TYPE_SCROLL);
+    for (const leaf of leaves) {
+      const view = leaf.view;
+      const viewStat = { ...leaf.getViewState(), state: { ...view.getScrollViewState() } };
+      if (file && view.isFileOpened(file.path)) {
+        const newStat = {
+          ...viewStat,
+          state: {
+            ...viewStat.state,
+            files: viewStat.state.files.map((e) => e.path == file.path ? {
+              path: file.path
+            } : e)
+          }
+        };
+        leaf.setViewState(newStat);
+      }
+      const openedNode = this.findTreeItemFromPath(viewStat.state.tagPath);
+      if (openedNode) {
+        const newFilesArray = openedNode.allDescendants.map((e) => e.path);
+        const newFiles = newFilesArray.sort().join("-");
+        const oldFiles = viewStat.state.files.map((e) => e.path).sort().join("-");
+        if (newFiles != oldFiles) {
+          const newStat = {
+            ...viewStat,
+            state: {
+              ...viewStat.state,
+              files: newFilesArray.map((path) => {
+                const old = viewStat.state.files.find((e) => e.path == path);
+                if (old)
+                  return old;
+                return {
+                  path
+                };
+              })
+            }
+          };
           leaf.setViewState(newStat);
         }
-        const openedNode = this.findTreeItemFromPath(viewStat.state.tagPath);
-        if (openedNode) {
-          const newFilesArray = openedNode.allDescendants.map((e) => e.path);
-          const newFiles = newFilesArray.sort().join("-");
-          const oldFiles = viewStat.state.files.map((e) => e.path).sort().join("-");
-          if (newFiles != oldFiles) {
-            const newStat = __spreadProps(__spreadValues({}, viewStat), {
-              state: __spreadProps(__spreadValues({}, viewStat.state), {
-                files: newFilesArray.map((path) => {
-                  const old = viewStat.state.files.find((e) => e.path == path);
-                  if (old)
-                    return old;
-                  return {
-                    path
-                  };
-                })
-              })
-            });
-            leaf.setViewState(newStat);
-          }
-        }
       }
-    });
+    }
   }
-  activateView() {
-    return __async(this, null, function* () {
-      this.loadFileInfo();
-      this.app.workspace.detachLeavesOfType(VIEW_TYPE_TAGFOLDER);
-      yield this.app.workspace.getLeftLeaf(false).setViewState({
-        type: VIEW_TYPE_TAGFOLDER,
-        active: true
-      });
-      this.app.workspace.revealLeaf(this.app.workspace.getLeavesOfType(VIEW_TYPE_TAGFOLDER)[0]);
+  async activateView() {
+    this.loadFileInfo();
+    this.app.workspace.detachLeavesOfType(VIEW_TYPE_TAGFOLDER);
+    await this.app.workspace.getLeftLeaf(false).setViewState({
+      type: VIEW_TYPE_TAGFOLDER,
+      active: true
     });
+    this.app.workspace.revealLeaf(this.app.workspace.getLeavesOfType(VIEW_TYPE_TAGFOLDER)[0]);
   }
-  modifyFile(file) {
-    return __async(this, null, function* () {
-      if (!this.settings.useTagInfo)
-        return;
-      if (this.skipOnce) {
-        this.skipOnce = false;
-        return;
-      }
-      if (file.name == this.getTagInfoFilename()) {
-        yield this.loadTagInfo();
-      }
-    });
+  async modifyFile(file) {
+    if (!this.settings.useTagInfo)
+      return;
+    if (this.skipOnce) {
+      this.skipOnce = false;
+      return;
+    }
+    if (file.name == this.getTagInfoFilename()) {
+      await this.loadTagInfo();
+    }
   }
   getTagInfoFilename() {
     return (0, import_obsidian3.normalizePath)(this.settings.tagInfo);
@@ -3348,84 +3307,76 @@ var TagFolderPlugin = class extends import_obsidian3.Plugin {
         this.setRoot(this.root);
     }, 10);
   }
-  loadTagInfo() {
-    return __async(this, null, function* () {
-      var _a;
-      if (!this.settings.useTagInfo)
+  async loadTagInfo() {
+    var _a;
+    if (!this.settings.useTagInfo)
+      return;
+    if (this.tagInfo == null)
+      this.tagInfo = {};
+    const file = this.getTagInfoFile();
+    if (file == null)
+      return;
+    const data = await this.app.vault.read(file);
+    try {
+      const bodyStartIndex = data.indexOf("\n---");
+      if (!data.startsWith("---") || bodyStartIndex === -1) {
         return;
-      if (this.tagInfo == null)
-        this.tagInfo = {};
-      const file = this.getTagInfoFile();
-      if (file == null)
-        return;
-      const data = yield this.app.vault.read(file);
-      try {
-        const bodyStartIndex = data.indexOf("\n---");
-        if (!data.startsWith("---") || bodyStartIndex === -1) {
-          return;
-        }
-        const yaml = data.substring(3, bodyStartIndex);
-        const yamlData = (0, import_obsidian3.parseYaml)(yaml);
-        const keys = Object.keys(yamlData);
-        const body = data.substring(bodyStartIndex + 5);
-        this.tagInfoBody = body;
-        this.tagInfoFrontMatterBuffer = yamlData;
-        const newTagInfo = {};
-        for (const key of keys) {
-          const w = yamlData[key];
-          if (!w)
-            continue;
-          if (typeof w != "object")
-            continue;
-          if (!("key" in w))
-            continue;
-          const eachTag = {
-            key: w.key,
-            mark: (_a = w.mark) != null ? _a : void 0
-          };
-          newTagInfo[key] = eachTag;
-        }
-        this.tagInfo = newTagInfo;
-        this.applyTagInfo();
-      } catch (ex) {
-        console.log(ex);
       }
-    });
+      const yaml = data.substring(3, bodyStartIndex);
+      const yamlData = (0, import_obsidian3.parseYaml)(yaml);
+      const keys = Object.keys(yamlData);
+      const body = data.substring(bodyStartIndex + 5);
+      this.tagInfoBody = body;
+      this.tagInfoFrontMatterBuffer = yamlData;
+      const newTagInfo = {};
+      for (const key of keys) {
+        const w = yamlData[key];
+        if (!w)
+          continue;
+        if (typeof w != "object")
+          continue;
+        if (!("key" in w))
+          continue;
+        const eachTag = {
+          key: w.key,
+          mark: (_a = w.mark) != null ? _a : void 0
+        };
+        newTagInfo[key] = eachTag;
+      }
+      this.tagInfo = newTagInfo;
+      this.applyTagInfo();
+    } catch (ex) {
+      console.log(ex);
+    }
   }
-  saveTagInfo() {
-    return __async(this, null, function* () {
-      if (!this.settings.useTagInfo)
-        return;
-      if (this.tagInfo == null)
-        return;
-      const file = this.getTagInfoFile();
-      const yaml = (0, import_obsidian3.stringifyYaml)(__spreadValues(__spreadValues({}, this.tagInfoFrontMatterBuffer), this.tagInfo));
-      const w = `---
+  async saveTagInfo() {
+    if (!this.settings.useTagInfo)
+      return;
+    if (this.tagInfo == null)
+      return;
+    const file = this.getTagInfoFile();
+    const yaml = (0, import_obsidian3.stringifyYaml)({ ...this.tagInfoFrontMatterBuffer, ...this.tagInfo });
+    const w = `---
 ${yaml}---
 ${this.tagInfoBody}`;
-      this.skipOnce = true;
-      if (file == null) {
-        this.app.vault.create(this.getTagInfoFilename(), w);
-      } else {
-        this.app.vault.modify(file, w);
-      }
-    });
+    this.skipOnce = true;
+    if (file == null) {
+      this.app.vault.create(this.getTagInfoFilename(), w);
+    } else {
+      this.app.vault.modify(file, w);
+    }
   }
-  loadSettings() {
-    return __async(this, null, function* () {
-      this.settings = Object.assign({}, DEFAULT_SETTINGS, yield this.loadData());
-      yield this.loadTagInfo();
-      this.compareItems = getCompareMethodItems(this.settings);
-      this.compareTags = getCompareMethodTags(this.settings);
-    });
+  async loadSettings() {
+    this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
+    await this.loadTagInfo();
+    this.compareItems = getCompareMethodItems(this.settings);
+    this.compareTags = getCompareMethodTags(this.settings);
   }
-  saveSettings() {
-    return __async(this, null, function* () {
-      yield this.saveData(this.settings);
-      yield this.saveTagInfo();
-      this.compareItems = getCompareMethodItems(this.settings);
-      this.compareTags = getCompareMethodTags(this.settings);
-    });
+  async saveSettings() {
+    await this.saveData(this.settings);
+    await this.saveTagInfo();
+    this.compareItems = getCompareMethodItems(this.settings);
+    this.compareTags = getCompareMethodTags(this.settings);
   }
 };
 var TagFolderSettingTab = class extends import_obsidian3.PluginSettingTab {
@@ -3440,75 +3391,75 @@ var TagFolderSettingTab = class extends import_obsidian3.PluginSettingTab {
     const { containerEl } = this;
     containerEl.empty();
     containerEl.createEl("h2", { text: "Settings for Tag Folder." });
-    new import_obsidian3.Setting(containerEl).setName("Always Open").setDesc("Open Tag Folder when obsidian has been launched").addToggle((toggle) => toggle.setValue(this.plugin.settings.alwaysOpen).onChange((value) => __async(this, null, function* () {
+    new import_obsidian3.Setting(containerEl).setName("Always Open").setDesc("Open Tag Folder when obsidian has been launched").addToggle((toggle) => toggle.setValue(this.plugin.settings.alwaysOpen).onChange(async (value) => {
       this.plugin.settings.alwaysOpen = value;
-      yield this.plugin.saveSettings();
-    })));
+      await this.plugin.saveSettings();
+    }));
     new import_obsidian3.Setting(containerEl).setName("Display method").setDesc("Filename display").addDropdown((dropdown) => dropdown.addOptions({
       "PATH/NAME": "PATH/NAME",
       NAME: "NAME",
       "NAME : PATH": "NAME : PATH"
-    }).setValue(this.plugin.settings.displayMethod).onChange((value) => __async(this, null, function* () {
+    }).setValue(this.plugin.settings.displayMethod).onChange(async (value) => {
       this.plugin.settings.displayMethod = value;
       this.plugin.loadFileInfo(null);
-      yield this.plugin.saveSettings();
-    })));
+      await this.plugin.saveSettings();
+    }));
     new import_obsidian3.Setting(containerEl).setName("Use title").setDesc("Use value in the frontmatter or first level one heading for `NAME`.").addToggle((toggle) => {
-      toggle.setValue(this.plugin.settings.useTitle).onChange((value) => __async(this, null, function* () {
+      toggle.setValue(this.plugin.settings.useTitle).onChange(async (value) => {
         this.plugin.settings.useTitle = value;
-        yield this.plugin.saveSettings();
-      }));
+        await this.plugin.saveSettings();
+      });
     });
     new import_obsidian3.Setting(containerEl).setName("Frontmatter path").addText((text2) => {
-      text2.setValue(this.plugin.settings.frontmatterKey).onChange((value) => __async(this, null, function* () {
+      text2.setValue(this.plugin.settings.frontmatterKey).onChange(async (value) => {
         this.plugin.settings.frontmatterKey = value;
-        yield this.plugin.saveSettings();
-      }));
+        await this.plugin.saveSettings();
+      });
     });
     new import_obsidian3.Setting(containerEl).setName("Use pinning").setDesc("When this feature is enabled, the pin information is saved in the file set in the next configuration.").addToggle((toggle) => {
-      toggle.setValue(this.plugin.settings.useTagInfo).onChange((value) => __async(this, null, function* () {
+      toggle.setValue(this.plugin.settings.useTagInfo).onChange(async (value) => {
         this.plugin.settings.useTagInfo = value;
         if (this.plugin.settings.useTagInfo) {
-          yield this.plugin.loadTagInfo();
+          await this.plugin.loadTagInfo();
         }
-        yield this.plugin.saveSettings();
-      }));
+        await this.plugin.saveSettings();
+      });
     });
     new import_obsidian3.Setting(containerEl).setName("Pin information file").addText((text2) => {
-      text2.setValue(this.plugin.settings.tagInfo).onChange((value) => __async(this, null, function* () {
+      text2.setValue(this.plugin.settings.tagInfo).onChange(async (value) => {
         this.plugin.settings.tagInfo = value;
         if (this.plugin.settings.useTagInfo) {
-          yield this.plugin.loadTagInfo();
+          await this.plugin.loadTagInfo();
         }
-        yield this.plugin.saveSettings();
-      }));
+        await this.plugin.saveSettings();
+      });
     });
     new import_obsidian3.Setting(containerEl).setName("Merge redundant combinations").setDesc("When this feature is enabled, a/b and b/a are merged into a/b if there is no intermediates.").addToggle((toggle) => {
-      toggle.setValue(this.plugin.settings.mergeRedundantCombination).onChange((value) => __async(this, null, function* () {
+      toggle.setValue(this.plugin.settings.mergeRedundantCombination).onChange(async (value) => {
         this.plugin.settings.mergeRedundantCombination = value;
-        yield this.plugin.saveSettings();
-      }));
+        await this.plugin.saveSettings();
+      });
     });
-    const setOrderMethod = (key, order) => __async(this, null, function* () {
+    const setOrderMethod = async (key, order) => {
       const oldSetting = this.plugin.settings.sortType.split("_");
       if (!key)
         key = oldSetting[0];
       if (!order)
         order = oldSetting[1];
       this.plugin.settings.sortType = `${key}_${order}`;
-      yield this.plugin.saveSettings();
+      await this.plugin.saveSettings();
       this.plugin.setRoot(this.plugin.root);
-    });
-    const setOrderMethodTag = (key, order) => __async(this, null, function* () {
+    };
+    const setOrderMethodTag = async (key, order) => {
       const oldSetting = this.plugin.settings.sortTypeTag.split("_");
       if (!key)
         key = oldSetting[0];
       if (!order)
         order = oldSetting[1];
       this.plugin.settings.sortTypeTag = `${key}_${order}`;
-      yield this.plugin.saveSettings();
+      await this.plugin.saveSettings();
       this.plugin.setRoot(this.plugin.root);
-    });
+    };
     new import_obsidian3.Setting(containerEl).setName("Order method (Tags)").setDesc("how to order tags").addDropdown((dd) => {
       dd.addOptions(OrderKeyTag).setValue(this.plugin.settings.sortTypeTag.split("_")[0]).onChange((key) => setOrderMethodTag(key, null));
     }).addDropdown((dd) => {
@@ -3520,51 +3471,55 @@ var TagFolderSettingTab = class extends import_obsidian3.PluginSettingTab {
       dd.addOptions(OrderDirection).setValue(this.plugin.settings.sortType.split("_")[1]).onChange((order) => setOrderMethod(null, order));
     });
     new import_obsidian3.Setting(containerEl).setName("Do not treat nested tags as dedicated levels").setDesc("Treat nested tags as normal tags").addToggle((toggle) => {
-      toggle.setValue(this.plugin.settings.disableNestedTags).onChange((value) => __async(this, null, function* () {
+      toggle.setValue(this.plugin.settings.disableNestedTags).onChange(async (value) => {
         this.plugin.settings.disableNestedTags = value;
-        yield this.plugin.saveSettings();
-      }));
+        await this.plugin.saveSettings();
+      });
     });
     new import_obsidian3.Setting(containerEl).setName("Reduce duplicated parents in nested tags").addToggle((toggle) => {
-      toggle.setValue(this.plugin.settings.reduceNestedParent).onChange((value) => __async(this, null, function* () {
+      toggle.setValue(this.plugin.settings.reduceNestedParent).onChange(async (value) => {
         this.plugin.settings.reduceNestedParent = value;
-        yield this.plugin.saveSettings();
-      }));
+        await this.plugin.saveSettings();
+      });
     });
     new import_obsidian3.Setting(containerEl).setName("Use virtual tags").addToggle((toggle) => {
-      toggle.setValue(this.plugin.settings.useVirtualTag).onChange((value) => __async(this, null, function* () {
+      toggle.setValue(this.plugin.settings.useVirtualTag).onChange(async (value) => {
         this.plugin.settings.useVirtualTag = value;
-        yield this.plugin.saveSettings();
-      }));
+        await this.plugin.saveSettings();
+      });
     });
     new import_obsidian3.Setting(containerEl).setName("Hide Items").setDesc("Hide items on the landing or nested tags").addDropdown((dd) => {
-      dd.addOptions(HideItemsType).setValue(this.plugin.settings.hideItems).onChange((key) => __async(this, null, function* () {
+      dd.addOptions(HideItemsType).setValue(this.plugin.settings.hideItems).onChange(async (key) => {
         if (key == "NONE" || key == "DEDICATED_INTERMIDIATES" || key == "ALL_EXCEPT_BOTTOM") {
           this.plugin.settings.hideItems = key;
         }
-        yield this.plugin.saveSettings();
-      }));
+        await this.plugin.saveSettings();
+      });
     });
-    new import_obsidian3.Setting(containerEl).setName("Ignore note Tag").setDesc("If the note has the tag listed below, the note would be treated as there was not.").addTextArea((text2) => text2.setValue(this.plugin.settings.ignoreDocTags).setPlaceholder("test,test1,test2").onChange((value) => __async(this, null, function* () {
+    new import_obsidian3.Setting(containerEl).setName("Ignore note Tag").setDesc("If the note has the tag listed below, the note would be treated as there was not.").addTextArea((text2) => text2.setValue(this.plugin.settings.ignoreDocTags).setPlaceholder("test,test1,test2").onChange(async (value) => {
       this.plugin.settings.ignoreDocTags = value;
-      yield this.plugin.saveSettings();
-    })));
-    new import_obsidian3.Setting(containerEl).setName("Ignore Tag").setDesc("Tags in the list would be treated as there were not.").addTextArea((text2) => text2.setValue(this.plugin.settings.ignoreTags).setPlaceholder("test,test1,test2").onChange((value) => __async(this, null, function* () {
+      await this.plugin.saveSettings();
+    }));
+    new import_obsidian3.Setting(containerEl).setName("Ignore Tag").setDesc("Tags in the list would be treated as there were not.").addTextArea((text2) => text2.setValue(this.plugin.settings.ignoreTags).setPlaceholder("test,test1,test2").onChange(async (value) => {
       this.plugin.settings.ignoreTags = value;
-      yield this.plugin.saveSettings();
-    })));
-    new import_obsidian3.Setting(containerEl).setName("Ignore Folders").setDesc("Ignore documents in specific folders.").addTextArea((text2) => text2.setValue(this.plugin.settings.ignoreFolders).setPlaceholder("template,list/standard_tags").onChange((value) => __async(this, null, function* () {
+      await this.plugin.saveSettings();
+    }));
+    new import_obsidian3.Setting(containerEl).setName("Target Folders").setDesc("The plugin will only target files in it.").addTextArea((text2) => text2.setValue(this.plugin.settings.targetFolders).setPlaceholder("study,documents/summary").onChange(async (value) => {
+      this.plugin.settings.targetFolders = value;
+      await this.plugin.saveSettings();
+    }));
+    new import_obsidian3.Setting(containerEl).setName("Ignore Folders").setDesc("Ignore documents in specific folders.").addTextArea((text2) => text2.setValue(this.plugin.settings.ignoreFolders).setPlaceholder("template,list/standard_tags").onChange(async (value) => {
       this.plugin.settings.ignoreFolders = value;
-      yield this.plugin.saveSettings();
-    })));
+      await this.plugin.saveSettings();
+    }));
     new import_obsidian3.Setting(containerEl).setName("Tag scanning delay").setDesc("Sets the delay for reflecting metadata changes to the tag tree. (Plugin reload is required.)").addText((text2) => {
-      text2 = text2.setValue(this.plugin.settings.scanDelay + "").onChange((value) => __async(this, null, function* () {
+      text2 = text2.setValue(this.plugin.settings.scanDelay + "").onChange(async (value) => {
         const newDelay = Number.parseInt(value, 10);
         if (newDelay) {
           this.plugin.settings.scanDelay = newDelay;
-          yield this.plugin.saveSettings();
+          await this.plugin.saveSettings();
         }
-      }));
+      });
       text2.inputEl.setAttribute("type", "number");
       text2.inputEl.setAttribute("min", "250");
       return text2;
