@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-INBOX/Test Code Block.md",
-                "mode": "preview",
+                "file": "2-AREAS/Daily-Notes/2022-09-23.md",
+                "mode": "source",
                 "backlinks": true
               }
             }
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-INBOX/Test Code Block.md"
+                "file": "2-AREAS/Daily-Notes/2022-09-23.md"
               }
             }
           },
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-INBOX/Test Code Block.md",
+                "file": "2-AREAS/Daily-Notes/2022-09-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-INBOX/Test Code Block.md",
+                "file": "2-AREAS/Daily-Notes/2022-09-23.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "0-INBOX/Test Code Block.md",
+                "file": "2-AREAS/Daily-Notes/2022-09-23.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
