@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "Setting up an Optimal Excel Developer Environment",
+      "path": "1-SLIPBOX/Setting up an Optimal Excel Developer Environment.md"
+    },
+    {
+      "basename": "_README",
+      "path": "1-SLIPBOX/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Code/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/_README.md"
+    },
+    {
+      "basename": "Appendix-Template",
+      "path": "3-RESOURCES/Templates/Fragments/Appendix-Template.md"
+    },
+    {
+      "basename": "Footer-Template",
+      "path": "3-RESOURCES/Templates/Fragments/Footer-Template.md"
+    },
+    {
+      "basename": "_README",
+      "path": "3-RESOURCES/Templates/_README.md"
+    },
+    {
       "basename": "2022-09-23",
       "path": "2-AREAS/Daily-Notes/2022-09-23.md"
     },
@@ -69,10 +97,6 @@
       "path": "2-AREAS/Code/Bash/_README.md"
     },
     {
-      "basename": "_README",
-      "path": "2-AREAS/_README.md"
-    },
-    {
       "basename": "2022-09-03",
       "path": "2-AREAS/Daily-Notes/2022-09-03.md"
     },
@@ -121,10 +145,6 @@
       "path": "3-RESOURCES/_README.md"
     },
     {
-      "basename": "_README",
-      "path": "3-RESOURCES/Templates/_README.md"
-    },
-    {
       "basename": "Excel Developer Resources List",
       "path": "2-AREAS/Lists/Excel Developer Resources List.md"
     },
@@ -141,24 +161,12 @@
       "path": "3-RESOURCES/Templates/Core Templates/Default-Note-Template.md"
     },
     {
-      "basename": "_README",
-      "path": "2-AREAS/Code/_README.md"
-    },
-    {
       "basename": "VBA - Add ActiveWorkbook to Favorites",
       "path": "2-AREAS/Code/VBA/VBA - Add ActiveWorkbook to Favorites.md"
     },
     {
       "basename": "_README",
       "path": "2-AREAS/Code/VBA/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "1-SLIPBOX/_README.md"
-    },
-    {
-      "basename": "Setting up an Optimal Excel Developer Environment",
-      "path": "1-SLIPBOX/Setting up an Optimal Excel Developer Environment.md"
     },
     {
       "basename": "Pasted image 20220814221211",
@@ -191,14 +199,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Code/PowerShell/PowerShell - Profile/_README.md"
-    },
-    {
-      "basename": "PowerShell - $PROFILE",
-      "path": "2-AREAS/Code/PowerShell/PowerShell - Profile/PowerShell - $PROFILE.md"
-    },
-    {
-      "basename": "PowerShell - Toast Notification",
-      "path": "2-AREAS/Code/PowerShell/PowerShell - Toast Notification.md"
     }
   ],
   "omittedPaths": [],

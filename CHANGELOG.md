@@ -1,3 +1,6 @@
+- 2022-09-23 at 19h11 · [[Appendix-Template]]
+- 2022-09-23 at 19h10 · [[Footer-Template]]
+- 2022-09-23 at 19h10 · [[_README]]
 - 2022-09-23 at 19h03 · [[Test Code Block]]
 - 2022-09-23 at 18h22 · [[2022-09-23]]
 - 2022-09-16 at 17h28 · [[2022-09-16]]
@@ -15,6 +18,3 @@
 - 2022-08-28 at 14h16 · [[2022-08-15]]
 - 2022-08-28 at 14h16 · [[2022-08-26]]
 - 2022-08-28 at 14h16 · [[VBA - Actuarial Interpolation]]
-- 2022-08-28 at 14h16 · [[MSSQL - Data Dictionary Generator]]
-- 2022-08-28 at 14h16 · [[PowerShell - Install 1Password CLI]]
-- 2022-08-28 at 14h16 · [[Log-Weekly-Review-Template]]
