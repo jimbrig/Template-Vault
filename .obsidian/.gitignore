@@ -9,5 +9,4 @@
 !daily-notes.json
 !hotkeys.json
 !templates.json
-!workspaces.json
-!workspace.json
+!themes/*.css
