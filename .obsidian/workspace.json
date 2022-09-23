@@ -4,27 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "5ce1f8bd68e39704",
+        "id": "83984d8715f667d9",
         "type": "tabs",
         "children": [
           {
-            "id": "be6643e866ef0178",
+            "id": "487b4324da7524b1",
             "type": "leaf",
             "state": {
-              "type": "full-calendar-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "8204bd410cce6713",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,12 +69,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 352.5
+    "width": 352.5,
+    "collapsed": true
   },
   "right": {
     "id": "7498d65a50f97400",
@@ -222,10 +213,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 557.5
+    "width": 557.5,
+    "collapsed": true
   },
-  "active": "8204bd410cce6713",
+  "active": "fef2140fd3d7a3e9",
   "lastOpenFiles": [
+    "0-INBOX/Microsoft.md",
     "2-AREAS/Daily-Notes/2022-09-23.md",
     "conflict-files-obsidian-git.md",
     "2-AREAS/Daily-Notes/2022-09-16.md",
@@ -234,7 +227,6 @@
     "2-AREAS/Code/R/_README.md",
     "2-AREAS/Code/Python/_README.md",
     "2-AREAS/Code/JavaScript/_README.md",
-    "2-AREAS/Code/Java/_README.md",
-    "2-AREAS/Code/GitHub Actions/GHA - Release Excel Workbook.md"
+    "2-AREAS/Code/Java/_README.md"
   ]
 }

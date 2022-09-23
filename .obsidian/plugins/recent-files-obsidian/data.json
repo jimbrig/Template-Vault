@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Microsoft",
+      "path": "0-INBOX/Microsoft.md"
+    },
+    {
       "basename": "2022-09-23",
       "path": "2-AREAS/Daily-Notes/2022-09-23.md"
     },
@@ -91,10 +95,6 @@
     {
       "basename": "Visual Basic",
       "path": "0-INBOX/Visual Basic.md"
-    },
-    {
-      "basename": "Microsoft",
-      "path": "0-INBOX/Microsoft.md"
     },
     {
       "basename": "Rubberduck",
