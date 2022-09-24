@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@primer/primitives": "^7.9.0"
+  }
+}
