@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2022-09-24",
+      "path": "2-AREAS/Daily-Notes/2022-09-24.md"
+    },
+    {
       "basename": "_README",
       "path": "0-INBOX/_README.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "PowerShell - Profile Aliases",
       "path": "2-AREAS/Code/PowerShell/PowerShell - Profile/PowerShell - Profile Aliases.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/PowerShell/PowerShell - Profile/_README.md"
     }
   ],
   "omittedPaths": [],
