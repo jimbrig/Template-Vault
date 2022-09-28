@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2022-09-28",
+      "path": "2-AREAS/Daily-Notes/2022-09-28.md"
+    },
+    {
       "basename": "2022-09-24",
       "path": "2-AREAS/Daily-Notes/2022-09-24.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "PowerShell - Admin Script",
       "path": "2-AREAS/Code/PowerShell/PowerShell - Admin Script.md"
-    },
-    {
-      "basename": "PowerShell - Profile Aliases",
-      "path": "2-AREAS/Code/PowerShell/PowerShell - Profile/PowerShell - Profile Aliases.md"
     }
   ],
   "omittedPaths": [],
