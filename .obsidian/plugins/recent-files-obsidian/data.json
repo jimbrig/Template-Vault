@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2022-10-02",
+      "path": "2-AREAS/Daily-Notes/2022-10-02.md"
+    },
+    {
       "basename": "2022-09-28",
       "path": "2-AREAS/Daily-Notes/2022-09-28.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "PowerShell - Update-Help",
       "path": "2-AREAS/Code/PowerShell/PowerShell - Update-Help.md"
-    },
-    {
-      "basename": "PowerShell - Admin Script",
-      "path": "2-AREAS/Code/PowerShell/PowerShell - Admin Script.md"
     }
   ],
   "omittedPaths": [],
