@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Log-Weekly-Review-Template",
+      "path": "0-INBOX/Log-Weekly-Review-Template.md"
+    },
+    {
+      "basename": "Excel",
+      "path": "0-INBOX/Excel.md"
+    },
+    {
+      "basename": "BERT  ImageMSO List Reference",
+      "path": "0-INBOX/BERT  ImageMSO List Reference.md"
+    },
+    {
       "basename": "2023-01-14",
       "path": "2-AREAS/Daily-Notes/2023-01-14.md"
     },
@@ -129,10 +141,6 @@
       "path": "2-AREAS/Daily-Notes/2022-08-28.md"
     },
     {
-      "basename": "BERT  ImageMSO List Reference",
-      "path": "0-INBOX/BERT  ImageMSO List Reference.md"
-    },
-    {
       "basename": "Excel VBA - msoImages Listing",
       "path": "0-INBOX/Excel VBA - msoImages Listing.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Code/PowerShell/_README.md"
-    },
-    {
-      "basename": "PowerShell - Add Defender Exclusions",
-      "path": "2-AREAS/Code/PowerShell/PowerShell - Add Defender Exclusions.md"
-    },
-    {
-      "basename": "PowerShell - Enable LongPaths",
-      "path": "2-AREAS/Code/PowerShell/PowerShell - Enable LongPaths.md"
     }
   ],
   "omittedPaths": [],
