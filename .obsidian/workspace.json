@@ -17,7 +17,50 @@
                 "mode": "source",
                 "backlinks": true
               }
-            }
+            },
+            "group": "91372adf1691f226"
+          }
+        ]
+      },
+      {
+        "id": "5b74a92f8e71acae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "624de6259ad041d0",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "0-INBOX/Log-Weekly-Review-Template.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": false
+                }
+              }
+            },
+            "group": "91372adf1691f226"
           }
         ]
       }
@@ -145,8 +188,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "aec3b81bfb6261bc",
@@ -203,7 +245,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "2b2a72419fb9c1da",
@@ -221,8 +264,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 557.5,
-    "collapsed": true
+    "width": 557.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -246,7 +288,7 @@
       "publish:Publish changes": false
     }
   },
-  "active": "487b4324da7524b1",
+  "active": "2e0f185a27a755b3",
   "lastOpenFiles": [
     "0-INBOX/Excel.md",
     "0-INBOX/BERT  ImageMSO List Reference.md",
