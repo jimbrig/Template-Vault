@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2023-01-14",
+      "path": "2-AREAS/Daily-Notes/2023-01-14.md"
+    },
+    {
       "basename": "2022-10-02",
       "path": "2-AREAS/Daily-Notes/2022-10-02.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "PowerShell - Enable LongPaths",
       "path": "2-AREAS/Code/PowerShell/PowerShell - Enable LongPaths.md"
-    },
-    {
-      "basename": "PowerShell - Update-Help",
-      "path": "2-AREAS/Code/PowerShell/PowerShell - Update-Help.md"
     }
   ],
   "omittedPaths": [],
