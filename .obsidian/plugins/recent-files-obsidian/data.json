@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2023-01-20",
+      "path": "2-AREAS/Daily-Notes/2023-01-20.md"
+    },
+    {
       "basename": "Log-Weekly-Review-Template",
       "path": "0-INBOX/Log-Weekly-Review-Template.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20220814221211",
       "path": "1-SLIPBOX/_assets/Pasted image 20220814221211.png"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/PowerShell/_README.md"
     }
   ],
   "omittedPaths": [],

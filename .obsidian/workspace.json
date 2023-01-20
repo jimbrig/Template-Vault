@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-INBOX/Log-Weekly-Review-Template.md",
+                "file": "2-AREAS/Daily-Notes/2023-01-20.md",
                 "mode": "source",
                 "backlinks": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "0-INBOX/Log-Weekly-Review-Template.md",
+                "file": "2-AREAS/Daily-Notes/2023-01-20.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0-INBOX/Log-Weekly-Review-Template.md"
+                "file": "2-AREAS/Daily-Notes/2023-01-20.md"
               }
             }
           },
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0-INBOX/Log-Weekly-Review-Template.md",
+                "file": "2-AREAS/Daily-Notes/2023-01-20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0-INBOX/Log-Weekly-Review-Template.md",
+                "file": "2-AREAS/Daily-Notes/2023-01-20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +200,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "0-INBOX/Log-Weekly-Review-Template.md",
+                "file": "2-AREAS/Daily-Notes/2023-01-20.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -288,8 +288,9 @@
       "publish:Publish changes": false
     }
   },
-  "active": "2e0f185a27a755b3",
+  "active": "487b4324da7524b1",
   "lastOpenFiles": [
+    "0-INBOX/Log-Weekly-Review-Template.md",
     "0-INBOX/Excel.md",
     "0-INBOX/BERT  ImageMSO List Reference.md",
     "2-AREAS/Daily-Notes/2023-01-14.md",
@@ -298,7 +299,6 @@
     "2-AREAS/Daily-Notes/2022-09-24.md",
     "0-INBOX/_README.md",
     "3-RESOURCES/Tools/_README.md",
-    "1-SLIPBOX/Setting up an Optimal Excel Developer Environment.md",
-    "1-SLIPBOX/_README.md"
+    "1-SLIPBOX/Setting up an Optimal Excel Developer Environment.md"
   ]
 }
