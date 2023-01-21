@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Daily-Note-Template",
+      "path": "3-RESOURCES/Templates/Core Templates/Daily-Note-Template.md"
+    },
+    {
+      "basename": "2022-01-08",
+      "path": "2-AREAS/Daily-Notes/2022/2022-01/2022-01-08.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2021/2021-12/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2021/2021-11/_README.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/2021/_README.md"
+    },
+    {
       "basename": "Bash - Install oh-my-zsh",
       "path": "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "_README",
       "path": "3-RESOURCES/Tools/Office/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "3-RESOURCES/_README.md"
-    },
-    {
-      "basename": "Excel Developer Resources List",
-      "path": "2-AREAS/Lists/Excel Developer Resources List.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Lists/_README.md"
-    },
-    {
-      "basename": "List-Template",
-      "path": "3-RESOURCES/Templates/Core Templates/List-Template.md"
-    },
-    {
-      "basename": "Default-Note-Template",
-      "path": "3-RESOURCES/Templates/Core Templates/Default-Note-Template.md"
     }
   ],
   "omittedPaths": [],
