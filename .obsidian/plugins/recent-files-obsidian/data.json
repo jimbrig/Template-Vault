@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2022-09-03",
+      "path": "2-AREAS/Daily-Notes/2022-09-03.md"
+    },
+    {
       "basename": "2022-08-28",
       "path": "2-AREAS/Daily-Notes/2022-08-28.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Test Code Block",
       "path": "0-INBOX/Test Code Block.md"
-    },
-    {
-      "basename": "Microsoft",
-      "path": "0-INBOX/Microsoft.md"
     }
   ],
   "omittedPaths": [],
