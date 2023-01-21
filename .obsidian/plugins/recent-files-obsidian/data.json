@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "2022-08-25",
+      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-25.md"
+    },
+    {
+      "basename": "2022-08-20",
+      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-20.md"
+    },
+    {
+      "basename": "2022-08-18",
+      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-18.md"
+    },
+    {
+      "basename": "2022-08-16",
+      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-16.md"
+    },
+    {
+      "basename": "2022-08-15",
+      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-15.md"
+    },
+    {
       "basename": "2022-08-12",
       "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-12.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Code/Visual Basic/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/R/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Python/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/JavaScript/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Java/_README.md"
-    },
-    {
-      "basename": "GHA - Release Excel Workbook",
-      "path": "2-AREAS/Code/GitHub Actions/GHA - Release Excel Workbook.md"
     }
   ],
   "omittedPaths": [],
