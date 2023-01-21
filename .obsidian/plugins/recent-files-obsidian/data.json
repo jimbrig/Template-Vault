@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2022-08-12",
+      "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-12.md"
+    },
+    {
       "basename": "2022-08-11",
       "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-11.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "GHA - Release Excel Workbook",
       "path": "2-AREAS/Code/GitHub Actions/GHA - Release Excel Workbook.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/CSS/_README.md"
     }
   ],
   "omittedPaths": [],
