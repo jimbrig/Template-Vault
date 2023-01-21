@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Bash - Install and Setup Git",
+      "path": "2-AREAS/Code/Bash/Bash - Install and Setup Git.md"
+    },
+    {
       "basename": "Bash - Git-Auto",
       "path": "2-AREAS/Code/Bash/Bash - Git-Auto.md"
     },
@@ -147,10 +151,6 @@
     {
       "basename": "Bash - Install oh-my-zsh",
       "path": "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md"
-    },
-    {
-      "basename": "Bash - Install and Setup Git",
-      "path": "2-AREAS/Code/Bash/Bash - Install and Setup Git.md"
     },
     {
       "basename": "2022-09-03",
