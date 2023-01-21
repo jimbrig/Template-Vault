@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-AREAS/Code/Bash/Bash - Install and Setup Git.md",
+                "file": "2-AREAS/Code/Bash/Bash - Install NVM.md",
                 "mode": "source",
                 "backlinks": true
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-AREAS/Code/Bash/Bash - Install and Setup Git.md"
+                "file": "2-AREAS/Code/Bash/Bash - Install NVM.md"
               }
             }
           },
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-AREAS/Code/Bash/Bash - Install and Setup Git.md",
+                "file": "2-AREAS/Code/Bash/Bash - Install NVM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-AREAS/Code/Bash/Bash - Install and Setup Git.md",
+                "file": "2-AREAS/Code/Bash/Bash - Install NVM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "2-AREAS/Code/Bash/Bash - Install and Setup Git.md",
+                "file": "2-AREAS/Code/Bash/Bash - Install NVM.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -247,6 +247,7 @@
   },
   "active": "487b4324da7524b1",
   "lastOpenFiles": [
+    "2-AREAS/Code/Bash/Bash - Install and Setup Git.md",
     "2-AREAS/Code/Bash/Bash - Git-Auto.md",
     "2-AREAS/Code/Bash/_README.md",
     "2-AREAS/Code/AutoHotKey/_README.md",
@@ -255,7 +256,6 @@
     "1-SLIPBOX/_README.md",
     "0-INBOX/Visual Basic.md",
     "0-INBOX/VBA.md",
-    "2-AREAS/Daily-Notes/2023-01-21.md",
-    "2-AREAS/Daily-Notes/2023-01-20.md"
+    "2-AREAS/Daily-Notes/2023-01-21.md"
   ]
 }

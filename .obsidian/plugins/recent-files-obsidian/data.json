@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Bash - Install NVM",
+      "path": "2-AREAS/Code/Bash/Bash - Install NVM.md"
+    },
+    {
       "basename": "Bash - Install and Setup Git",
       "path": "2-AREAS/Code/Bash/Bash - Install and Setup Git.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Default-Note-Template",
       "path": "3-RESOURCES/Templates/Core Templates/Default-Note-Template.md"
-    },
-    {
-      "basename": "VBA - Add ActiveWorkbook to Favorites",
-      "path": "2-AREAS/Code/VBA/VBA - Add ActiveWorkbook to Favorites.md"
     }
   ],
   "omittedPaths": [],
