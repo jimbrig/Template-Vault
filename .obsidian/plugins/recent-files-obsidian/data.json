@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Bash - Install oh-my-zsh",
+      "path": "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md"
+    },
+    {
       "basename": "Bash - Install NVM",
       "path": "2-AREAS/Code/Bash/Bash - Install NVM.md"
     },
@@ -151,10 +155,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Code/Batch/_README.md"
-    },
-    {
-      "basename": "Bash - Install oh-my-zsh",
-      "path": "2-AREAS/Code/Bash/Bash - Install oh-my-zsh.md"
     },
     {
       "basename": "2022-09-03",
