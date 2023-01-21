@@ -9,10 +9,6 @@
       "path": "2-AREAS/Daily-Notes/2022-08-26.md"
     },
     {
-      "basename": "_README",
-      "path": "2-AREAS/Daily-Notes/_README.md"
-    },
-    {
       "basename": "2022-08-25",
       "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-25.md"
     },
@@ -23,6 +19,10 @@
     {
       "basename": "2022-08-18",
       "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-18.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/_README.md"
     },
     {
       "basename": "2022-08-16",
