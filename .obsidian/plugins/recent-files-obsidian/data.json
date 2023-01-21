@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "2023-01-21",
+      "path": "2-AREAS/Daily-Notes/2023-01-21.md"
+    },
+    {
+      "basename": "2023-01-20",
+      "path": "2-AREAS/Daily-Notes/2023-01-20.md"
+    },
+    {
+      "basename": "2023-01-14",
+      "path": "2-AREAS/Daily-Notes/2023-01-14.md"
+    },
+    {
+      "basename": "2022-10-02",
+      "path": "2-AREAS/Daily-Notes/2022-10-02.md"
+    },
+    {
+      "basename": "2022-09-28",
+      "path": "2-AREAS/Daily-Notes/2022-09-28.md"
+    },
+    {
+      "basename": "2022-09-24",
+      "path": "2-AREAS/Daily-Notes/2022-09-24.md"
+    },
+    {
+      "basename": "2022-09-23",
+      "path": "2-AREAS/Daily-Notes/2022-09-23.md"
+    },
+    {
+      "basename": "2022-09-16",
+      "path": "2-AREAS/Daily-Notes/2022-09-16.md"
+    },
+    {
       "basename": "2022-09-03",
       "path": "2-AREAS/Daily-Notes/2022-09-03.md"
     },
@@ -133,14 +165,6 @@
       "path": "0-INBOX/VBA.md"
     },
     {
-      "basename": "2023-01-21",
-      "path": "2-AREAS/Daily-Notes/2023-01-21.md"
-    },
-    {
-      "basename": "2023-01-20",
-      "path": "2-AREAS/Daily-Notes/2023-01-20.md"
-    },
-    {
       "basename": "Log-Weekly-Review-Template",
       "path": "0-INBOX/Log-Weekly-Review-Template.md"
     },
@@ -151,22 +175,6 @@
     {
       "basename": "BERT  ImageMSO List Reference",
       "path": "0-INBOX/BERT  ImageMSO List Reference.md"
-    },
-    {
-      "basename": "2023-01-14",
-      "path": "2-AREAS/Daily-Notes/2023-01-14.md"
-    },
-    {
-      "basename": "2022-10-02",
-      "path": "2-AREAS/Daily-Notes/2022-10-02.md"
-    },
-    {
-      "basename": "2022-09-28",
-      "path": "2-AREAS/Daily-Notes/2022-09-28.md"
-    },
-    {
-      "basename": "2022-09-24",
-      "path": "2-AREAS/Daily-Notes/2022-09-24.md"
     },
     {
       "basename": "_README",
@@ -191,14 +199,6 @@
     {
       "basename": "_README",
       "path": "3-RESOURCES/Templates/_README.md"
-    },
-    {
-      "basename": "2022-09-23",
-      "path": "2-AREAS/Daily-Notes/2022-09-23.md"
-    },
-    {
-      "basename": "Test Code Block",
-      "path": "0-INBOX/Test Code Block.md"
     }
   ],
   "omittedPaths": [],
