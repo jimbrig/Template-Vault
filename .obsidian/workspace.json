@@ -13,54 +13,11 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-AREAS/Daily-Notes/2023-01-20.md",
+                "file": "2-AREAS/Daily-Notes/2023-01-21.md",
                 "mode": "source",
                 "backlinks": true
               }
-            },
-            "group": "91372adf1691f226"
-          }
-        ]
-      },
-      {
-        "id": "5b74a92f8e71acae",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "624de6259ad041d0",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "2-AREAS/Daily-Notes/2023-01-20.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1,
-                  "close": false
-                }
-              }
-            },
-            "group": "91372adf1691f226"
+            }
           }
         ]
       }
@@ -155,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-AREAS/Daily-Notes/2023-01-20.md"
+                "file": "2-AREAS/Daily-Notes/2023-01-21.md"
               }
             }
           },
@@ -165,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-AREAS/Daily-Notes/2023-01-20.md",
+                "file": "2-AREAS/Daily-Notes/2023-01-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-AREAS/Daily-Notes/2023-01-20.md",
+                "file": "2-AREAS/Daily-Notes/2023-01-21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +157,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "2-AREAS/Daily-Notes/2023-01-20.md",
+                "file": "2-AREAS/Daily-Notes/2023-01-21.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -290,6 +247,7 @@
   },
   "active": "487b4324da7524b1",
   "lastOpenFiles": [
+    "2-AREAS/Daily-Notes/2023-01-20.md",
     "0-INBOX/Log-Weekly-Review-Template.md",
     "0-INBOX/Excel.md",
     "0-INBOX/BERT  ImageMSO List Reference.md",
@@ -298,7 +256,6 @@
     "2-AREAS/Daily-Notes/2022-09-28.md",
     "2-AREAS/Daily-Notes/2022-09-24.md",
     "0-INBOX/_README.md",
-    "3-RESOURCES/Tools/_README.md",
-    "1-SLIPBOX/Setting up an Optimal Excel Developer Environment.md"
+    "3-RESOURCES/Tools/_README.md"
   ]
 }
