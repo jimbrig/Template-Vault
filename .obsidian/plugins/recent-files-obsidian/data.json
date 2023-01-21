@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "2022-08-28",
+      "path": "2-AREAS/Daily-Notes/2022-08-28.md"
+    },
+    {
+      "basename": "2022-08-26",
+      "path": "2-AREAS/Daily-Notes/2022-08-26.md"
+    },
+    {
+      "basename": "_README",
+      "path": "2-AREAS/Daily-Notes/_README.md"
+    },
+    {
       "basename": "2022-08-25",
       "path": "2-AREAS/Daily-Notes/2022/2022-08/2022-08-25.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Microsoft",
       "path": "0-INBOX/Microsoft.md"
-    },
-    {
-      "basename": "2022-09-16",
-      "path": "2-AREAS/Daily-Notes/2022-09-16.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Development/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/Visual Basic/_README.md"
     }
   ],
   "omittedPaths": [],
