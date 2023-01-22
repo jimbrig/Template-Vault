@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-AREAS/People/Bill Inmon.md",
+                "file": "2-AREAS/People/Ralph Kimball.md",
                 "mode": "source",
                 "backlinks": true
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-AREAS/People/Bill Inmon.md"
+                "file": "2-AREAS/People/Ralph Kimball.md"
               }
             }
           },
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-AREAS/People/Bill Inmon.md",
+                "file": "2-AREAS/People/Ralph Kimball.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-AREAS/People/Bill Inmon.md",
+                "file": "2-AREAS/People/Ralph Kimball.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "2-AREAS/People/Bill Inmon.md",
+                "file": "2-AREAS/People/Ralph Kimball.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -247,6 +247,7 @@
   },
   "active": "487b4324da7524b1",
   "lastOpenFiles": [
+    "2-AREAS/People/Bill Inmon.md",
     "2-AREAS/MOCs/Data Science.md",
     "0-INBOX/Computer Science Overview.md",
     "2-AREAS/MOCs/Computer Science.md",
@@ -255,7 +256,6 @@
     "2-AREAS/Lists/Obsidian Template Ideas List.md",
     "2-AREAS/Lists/Excel Developer Resources List.md",
     "2-AREAS/Lists/_README.md",
-    "2-AREAS/Development/About Data Requirements.md",
-    "2-AREAS/Development/_README.md"
+    "2-AREAS/Development/About Data Requirements.md"
   ]
 }
