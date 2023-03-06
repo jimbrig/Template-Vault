@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Rubberduck",
+      "path": "3-RESOURCES/Tools/Office/Rubberduck.md"
+    },
+    {
+      "basename": "Obsidian Template Ideas List",
+      "path": "2-AREAS/Lists/Obsidian Template Ideas List.md"
+    },
+    {
+      "basename": "Excel Developer Resources List",
+      "path": "2-AREAS/Lists/Excel Developer Resources List.md"
+    },
+    {
+      "basename": "Git and Github Contribution Lifecycle",
+      "path": "2-AREAS/Development/Git and Github Contribution Lifecycle.md"
+    },
+    {
+      "basename": "Data Cataloging",
+      "path": "2-AREAS/Development/Data Cataloging.md"
+    },
+    {
       "basename": "2023-03-06",
       "path": "2-AREAS/Daily-Notes/2023-03-06.md"
     },
@@ -31,14 +51,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/Mindsweeps/_README.md"
-    },
-    {
-      "basename": "Obsidian Template Ideas List",
-      "path": "2-AREAS/Lists/Obsidian Template Ideas List.md"
-    },
-    {
-      "basename": "Excel Developer Resources List",
-      "path": "2-AREAS/Lists/Excel Developer Resources List.md"
     },
     {
       "basename": "_README",
@@ -187,18 +199,6 @@
     {
       "basename": "Bash - Install and Setup Git",
       "path": "2-AREAS/Code/Bash/Bash - Install and Setup Git.md"
-    },
-    {
-      "basename": "Bash - Git-Auto",
-      "path": "2-AREAS/Code/Bash/Bash - Git-Auto.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/Code/AutoHotKey/_README.md"
-    },
-    {
-      "basename": "_README",
-      "path": "2-AREAS/_README.md"
     }
   ],
   "omittedPaths": [],
