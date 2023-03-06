@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2023-03-06",
+      "path": "2-AREAS/Daily-Notes/2023-03-06.md"
+    },
+    {
       "basename": "Ralph Kimball",
       "path": "2-AREAS/People/Ralph Kimball.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "_README",
       "path": "2-AREAS/_README.md"
-    },
-    {
-      "basename": "Setting up an Optimal Excel Developer Environment",
-      "path": "1-SLIPBOX/Setting up an Optimal Excel Developer Environment.md"
     }
   ],
   "omittedPaths": [],

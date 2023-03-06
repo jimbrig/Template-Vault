@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-AREAS/People/Ralph Kimball.md",
+                "file": "2-AREAS/Daily-Notes/2023-03-06.md",
                 "mode": "source",
                 "backlinks": true
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2-AREAS/People/Ralph Kimball.md"
+                "file": "2-AREAS/Daily-Notes/2023-03-06.md"
               }
             }
           },
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2-AREAS/People/Ralph Kimball.md",
+                "file": "2-AREAS/Daily-Notes/2023-03-06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-AREAS/People/Ralph Kimball.md",
+                "file": "2-AREAS/Daily-Notes/2023-03-06.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "2-AREAS/People/Ralph Kimball.md",
+                "file": "2-AREAS/Daily-Notes/2023-03-06.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -247,6 +247,8 @@
   },
   "active": "487b4324da7524b1",
   "lastOpenFiles": [
+    "2-AREAS/People/Ralph Kimball.md",
+    "2-AREAS/Daily-Notes/2023-03-06.md",
     "2-AREAS/People/Bill Inmon.md",
     "2-AREAS/MOCs/Data Science.md",
     "0-INBOX/Computer Science Overview.md",
