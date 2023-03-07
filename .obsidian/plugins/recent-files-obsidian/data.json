@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2023-03-07",
+      "path": "2-AREAS/Daily-Notes/2023-03-07.md"
+    },
+    {
       "basename": "Rubberduck",
       "path": "3-RESOURCES/Tools/Office/Rubberduck.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Bash - Install NVM",
       "path": "2-AREAS/Code/Bash/Bash - Install NVM.md"
-    },
-    {
-      "basename": "Bash - Install and Setup Git",
-      "path": "2-AREAS/Code/Bash/Bash - Install and Setup Git.md"
     }
   ],
   "omittedPaths": [],

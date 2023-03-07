@@ -1,3 +1,4 @@
+- 2023-03-07 at 17h22 · [[2023-03-07]]
 - 2023-03-06 at 17h36 · [[Data Cataloging]]
 - 2023-03-06 at 17h22 · [[2023-03-06]]
 - 2023-01-21 at 19h37 · [[Data Science]]
@@ -17,4 +18,3 @@
 - 2022-09-23 at 21h19 · [[CHANGELOG]]
 - 2022-09-23 at 19h12 · [[Setting up an Optimal Excel Developer Environment]]
 - 2022-09-23 at 19h11 · [[Appendix-Template]]
-- 2022-09-23 at 19h10 · [[Footer-Template]]
