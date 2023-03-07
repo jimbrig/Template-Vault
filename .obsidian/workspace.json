@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "xdg",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -245,7 +246,7 @@
       "publish:Publish changes": false
     }
   },
-  "active": "487b4324da7524b1",
+  "active": "c1452617418c36af",
   "lastOpenFiles": [
     "3-RESOURCES/Tools/Office/Rubberduck.md",
     "2-AREAS/Daily-Notes/2023-03-07.md",
