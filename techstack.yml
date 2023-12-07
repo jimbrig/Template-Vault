@@ -1,0 +1,1043 @@
+repo_name: jimbrig/Template-Vault
+report_id: e28e6e0458b99c0a45705efa60664142
+repo_type: Public
+timestamp: '2023-12-07T20:30:18+00:00'
+requested_by: jimbrig
+provider: github
+branch: main
+detected_tools_count: 86
+tools:
+- name: Bel
+  description: A new dialect of Lisp, by Paul Graham
+  website_url: http://paulgraham.com/bel.html
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/11408/no-img-open-source.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: D
+  description: Modern convenience. Modeling power. Native efficiency.
+  website_url: http://dlang.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3117/d-5.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: ".obsidian/plugins/alx-folder-note-folderv/main.js"
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-07-25 23:21:55.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: Swift
+  description: 'An innovative new programming language for Cocoa and Cocoa Touch. '
+  website_url: https://developer.apple.com/swift/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  version: 3.7.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: github.com/jimbrig/Template-Vault/blob/main/node_modules/@primer/primitives/package.json
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: Echo
+  description: High performance, extensible, minimalist Go web framework
+  website_url: https://echo.labstack.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/4996/9P0MlumU_400x400.jpg
+  detection_source: node_modules/github-syntax-dark/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:31:47.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: Primer
+  description: CSS toolkit and guidelines that power GitHub
+  website_url: http://primercss.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/2701/7143434.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: REST
+  description: A software architectural style
+  website_url: https://en.wikipedia.org/wiki/Representational_state_transfer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Remote Procedure Call (RPC)
+  image_url: https://img.stackshare.io/service/2969/0Zflj6Y__400x400.jpg
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: dat
+  description: Real-time replication and versioning for data sets
+  website_url: http://dat-data.com/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/2504/1ca014a423414068bf3462747c3ef894.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: ent
+  description: An entity framework for Go
+  website_url: https://entgo.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/21146/default_3b393819f74c4cb10f98fa9e683fa28cf6cc85f5.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Octokit
+  description: GitHub API Client Library for .NET
+  website_url: https://github.com/octokit/octokit.net
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Tools for GitHub
+  image_url: https://img.stackshare.io/service/9827/octokit-dotnet_2.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: Prettier
+  description: 'Prettier is an opinionated code formatter. '
+  website_url: https://prettier.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: Ship
+  description: A macOS Native Interface to GitHub Issues
+  website_url: https://www.realartists.com/index.html
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Tools for GitHub
+  image_url: https://img.stackshare.io/service/6424/apple-touch-icon.png
+  detection_source: node_modules/github-syntax-dark/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:31:47.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: hub
+  description: Wraps Git with extra features that make working with GitHub easier
+    (by GitHub)
+  website_url: http://hub.github.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Git Tools
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: node_modules/github-syntax-dark/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:31:47.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: Parse
+  description: The complete mobile app platform
+  website_url: https://parse.com
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Mobile Backend
+  image_url: https://img.stackshare.io/service/86/68wTsXcT.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: Typ
+  description: Turn Markdown into formatted PDFs
+  website_url: https://www.typ-set.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: File Conversion
+  image_url: https://img.stackshare.io/service/11914/typ.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: CAS
+  description: How people build software
+  website_url: http://jasig.github.io/cas/4.2.x/index.html
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4987/pBeeJQDQ_normal.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: CocoaPods
+  description: A dependency manager for Swift and Objective-C Cocoa projects
+  website_url: https://cocoapods.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: EC
+  website_url: BUG
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4455/no-img-open-source.png
+  detection_source: node_modules/github-syntax-dark/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:31:47.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.20
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: github.com/jimbrig/Template-Vault/blob/main/node_modules/@primer/primitives/package.json
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: OpenLayers
+  description: A high-performance, feature-packed library for all your mapping needs
+  website_url: http://openlayers.org/
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Mapping APIs
+  image_url: https://img.stackshare.io/service/3208/397ce8027eb036960f00dd5153d41993.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: Prepack
+  description: A tool for making JavaScript code run faster (by Facebook)
+  website_url: https://prepack.io/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: Q
+  description: A promise library for JavaScript
+  website_url: https://github.com/kriskowal/q
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/4697/default_2d5a1d7c5eb520cdeb7db120e767345004a1d0d4.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: Typography
+  description: The visual art of creating written words
+  website_url: http://www.typography.com/
+  open_source: false
+  hosted_saas: false
+  category: Design
+  sub_category: Fonts
+  image_url: https://img.stackshare.io/service/1900/qZCU31OW_400x400.jpg
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: Vercel AI SDK
+  description: An interoperable, streaming-enabled, edge-ready software development
+    kit for AI apps
+  website_url: https://sdk.vercel.ai/docs
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/101756/default_4f2991cba3ec7fdd1cc87de69f4868157b0f2001.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: js
+  website_url: www.js.com
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/5588/jscom.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: nci
+  description: Flexible, open source continuous integration server written in node.js
+  website_url: https://github.com/node-ci/nci
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/7802/13189529.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: test
+  website_url: test
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/5477/no-img-open-source.png
+  detection_source: node_modules/github-syntax-dark/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:31:47.000000000 Z
+- name: "@babel/parser"
+  description: A JavaScript parser
+  package_url: https://www.npmjs.com/@babel/parser
+  version: 7.15.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16932/default_3823aba25646a3f105cc15ee9df24fdf78972314.png
+  detection_source_url: github.com/jimbrig/Template-Vault/blob/main/node_modules/@primer/primitives/package.json
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: "@babel/traverse"
+  description: The Babel Traverse module maintains the overall tree state
+  package_url: https://www.npmjs.com/@babel/traverse
+  version: 7.15.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17114/default_5b9eca95ab3651165eb280ed5e0bc9a9382ad24d.png
+  detection_source_url: github.com/jimbrig/Template-Vault/blob/main/node_modules/@primer/primitives/package.json
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+  vulnerabilities:
+  - name: Babel vulnerable to arbitrary code execution when compiling specifically
+      crafted malicious code
+    cve_id: CVE-2023-45133
+    cve_url: https://github.com/advisories/GHSA-67hx-6x53-jw92
+    detected_date: Oct 17
+    severity: critical
+    first_patched: 7.23.2
+- name: "@babel/types"
+  description: Babel Types is a Lodash-esque utility library for AST nodes
+  package_url: https://www.npmjs.com/@babel/types
+  version: 7.15.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16786/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
+  detection_source_url: github.com/jimbrig/Template-Vault/blob/main/node_modules/@primer/primitives/package.json
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: "@octokit/rest"
+  description: GitHub REST API client for Node.js
+  package_url: https://www.npmjs.com/@octokit/rest
+  version: 18.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16999/default_43f23668e39c9b3381720c9c76540776b8a49167.png
+  detection_source_url: github.com/jimbrig/Template-Vault/blob/main/node_modules/@primer/primitives/package.json
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: "@types/chalk"
+  description: Stub TypeScript definitions entry for chalk
+  package_url: https://www.npmjs.com/@types/chalk
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16547/default_2d1a470f86144a45b7e94185b9a5aecb5ebb69f4.png
+  detection_source_url: github.com/jimbrig/Template-Vault/blob/main/node_modules/@primer/primitives/package.json
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: "@types/lodash"
+  description: TypeScript definitions for Lo-Dash
+  package_url: https://www.npmjs.com/@types/lodash
+  version: 4.14.163
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: github.com/jimbrig/Template-Vault/blob/main/node_modules/@primer/primitives/package.json
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: "@types/mkdirp"
+  description: TypeScript definitions for mkdirp
+  package_url: https://www.npmjs.com/@types/mkdirp
+  version: 1.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16738/default_aa2369d4412b5a2c6812de3c666299e0ccd25ea2.png
+  detection_source_url: github.com/jimbrig/Template-Vault/blob/main/node_modules/@primer/primitives/package.json
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 14.0.26
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: github.com/jimbrig/Template-Vault/blob/main/node_modules/@primer/primitives/package.json
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: bl
+  description: 'Buffer List: collect buffers and access with a standard readable Buffer
+    interface'
+  package_url: https://www.npmjs.com/bl
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17221/default_183829c5079b84333a720d8590a328efc043ba0e.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: camelcase
+  description: 'Convert a dash/dot/underscore/space separated string to camelCase
+    or PascalCase: `foo-bar` → `fooBar`'
+  package_url: https://www.npmjs.com/camelcase
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16559/default_50be6a65e5f7390c20dda2f19371abc1271db012.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: cli
+  description: A tool for rapidly building command line apps
+  package_url: https://www.npmjs.com/cli
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17384/default_b39374c3a74b433364bfdbff07be26214bf186fd.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: co
+  description: Generator async control flow goodness
+  package_url: https://www.npmjs.com/co
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16007/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: code
+  description: Assertion library
+  package_url: https://www.npmjs.com/code
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16417/default_89ba91277e3434b03295bb11d22736632df1d04f.png
+  detection_source: node_modules/github-syntax-dark/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:31:47.000000000 Z
+- name: color
+  description: Color conversion and manipulation with CSS string support
+  package_url: https://www.npmjs.com/color
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16600/default_9d292a50abc76f1f74581b311ad930a616b1785c.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: colors
+  description: Get colors in your node.js console
+  package_url: https://www.npmjs.com/colors
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15908/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: conf
+  description: Simple config handling for your app or module
+  package_url: https://www.npmjs.com/conf
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17998/default_fc5f66cf44024e173fd07c415d4f30ca58b4cbad.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: config
+  description: Configuration control for production node deployments
+  package_url: https://www.npmjs.com/config
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16353/default_b5c8f3c8e46d368f74a982d06d7f13291fe651ea.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: css
+  description: CSS parser / stringifier
+  package_url: https://www.npmjs.com/css
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17017/default_824835a71140f223a333a5e10225c10368f12857.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: deepmerge
+  description: A library for deep
+  package_url: https://www.npmjs.com/deepmerge
+  version: 4.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16179/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: github.com/jimbrig/Template-Vault/blob/main/node_modules/@primer/primitives/package.json
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: flat
+  description: Take a nested Javascript object and flatten it
+  package_url: https://www.npmjs.com/flat
+  version: 5.0.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17025/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
+  detection_source_url: github.com/jimbrig/Template-Vault/blob/main/node_modules/@primer/primitives/package.json
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: github
+  description: 'DEPRECATED: renamed to @octokit/rest'
+  package_url: https://www.npmjs.com/github
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16751/default_6dc099b12d47e378ae121fb53c336fe5d8f0ffc8.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: he
+  description: A robust HTML entities encoder/decoder with full Unicode support
+  package_url: https://www.npmjs.com/he
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17059/default_31b594d049ba66ce98c924544ccc4329a3f2d530.png
+  detection_source: node_modules/github-syntax-dark/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:31:47.000000000 Z
+- name: http
+  package_url: https://www.npmjs.com/http
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16874/default_768abdabb94806c932ace6262b6bbc8241907245.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: https
+  description: Https mediation
+  package_url: https://www.npmjs.com/https
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17546/default_8d32936cb624bf7f51657c1540463db0a3c4106e.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: i
+  description: Custom inflections for nodejs
+  package_url: https://www.npmjs.com/i
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17326/default_66bbb2a75a0234b1bfceaa99b8e82825fa7b8284.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: ini
+  description: An ini encoder/decoder for node
+  package_url: https://www.npmjs.com/ini
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16594/default_ebd83b4f0415be108d977ea72558b13fd7c5283d.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: ip
+  description: "[![]"
+  package_url: https://www.npmjs.com/ip
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16483/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: is
+  description: The definitive JavaScript type testing library
+  package_url: https://www.npmjs.com/is
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17544/default_e665c133253b5cd434c1991167ebd25dc68f1c17.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: log
+  description: Universal pluggable logging utility
+  package_url: https://www.npmjs.com/log
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17960/default_e0b07170ab7d7ea66954ff35fdeaae5255c4c0aa.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: merge
+  description: Merge multiple objects into one, optionally creating a new cloned object
+  package_url: https://www.npmjs.com/merge
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16534/default_2d1a470f86144a45b7e94185b9a5aecb5ebb69f4.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: mkdirp
+  description: Recursively mkdir, like `mkdir -p`
+  package_url: https://www.npmjs.com/mkdirp
+  version: 1.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15881/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: github.com/jimbrig/Template-Vault/blob/main/node_modules/@primer/primitives/package.json
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: node
+  description: Node
+  package_url: https://www.npmjs.com/node
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17983/default_fc5f66cf44024e173fd07c415d4f30ca58b4cbad.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: node-sass
+  description: Wrapper around libsass
+  package_url: https://www.npmjs.com/node-sass
+  version: 7.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15827/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: github.com/jimbrig/Template-Vault/blob/main/node_modules/@primer/primitives/package.json
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: np
+  description: A better `npm publish`
+  package_url: https://www.npmjs.com/np
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16247/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
+  detection_source: node_modules/github-syntax-dark/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:31:47.000000000 Z
+- name: npm
+  description: A package manager for JavaScript
+  package_url: https://www.npmjs.com/npm
+  license: Artistic-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16105/default_5a461d436012a0c4024534aaba303dcdb0297d24.png
+  detection_source: node_modules/github-syntax-dark/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:31:47.000000000 Z
+- name: ol
+  description: OpenLayers mapping library
+  package_url: https://www.npmjs.com/ol
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18695/default_ba22650903e999378ab35f8093d2d808f0a46039.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: os
+  description: NodeJS Core Module Extended
+  package_url: https://www.npmjs.com/os
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17784/default_b760b4f955878b0055c02bde0608c2f01e7d4f4f.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: publish
+  description: Npm auto publishing of your modules
+  package_url: https://www.npmjs.com/publish
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18190/default_b56a957d927d2e40d2c7cf9f3588b95c4df2c97c.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: read
+  description: Read
+  package_url: https://www.npmjs.com/read
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17342/default_66bbb2a75a0234b1bfceaa99b8e82825fa7b8284.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: st
+  description: A module for serving static files. Does etags, caching, etc
+  package_url: https://www.npmjs.com/st
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18455/default_d8e945bfec4c4a608fb0493abf73c9ec1cffc9a2.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: traverse
+  description: Traverse and transform objects by visiting every node on a recursive
+    walk
+  package_url: https://www.npmjs.com/traverse
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16901/default_3772c3833c88109974c994fa9f9548ac8ad59f11.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 8.10.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: github.com/jimbrig/Template-Vault/blob/main/node_modules/@primer/primitives/package.json
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: tsc
+  description: Latest code from microsoft/typescript packaged and released
+  package_url: https://www.npmjs.com/tsc
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18739/default_45da7a7c78da21b4de04db19cc949c3490185f5e.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: url
+  description: The core `url` packaged standalone for use with Browserify
+  package_url: https://www.npmjs.com/url
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16462/default_89ba91277e3434b03295bb11d22736632df1d04f.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
+- name: watch
+  description: Utilities for watching file trees
+  package_url: https://www.npmjs.com/watch
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16280/default_97104dc50154593d2dde1d791400955934c9c715.png
+  detection_source: node_modules/@primer/primitives/package.json
+  last_updated_by: Jimmy Briggs
+  last_updated_on: 2022-09-24 01:20:47.000000000 Z
