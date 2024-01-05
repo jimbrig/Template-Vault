@@ -82,7 +82,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [jimbrig/Template-Vault](https://github.com/jimbrig/Template-Vault)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|86<br/>Tools used|12/07/23 <br/>Report generated|
+|88<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -454,9 +454,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (45)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (47)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (45)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (47)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -470,6 +470,7 @@ Full tech stack [here](/techstack.md)
 |[@types/node](https://www.npmjs.com/@types/node)|v14.0.26|09/24/22|Jimmy Briggs |MIT|N/A|
 |[bl](https://www.npmjs.com/bl)|N/A|09/24/22|Jimmy Briggs |MIT|N/A|
 |[camelcase](https://www.npmjs.com/camelcase)|N/A|09/24/22|Jimmy Briggs |MIT|N/A|
+|[chalk](https://www.npmjs.com/chalk)|v4.1.0|09/24/22|Jimmy Briggs |MIT|N/A|
 |[cli](https://www.npmjs.com/cli)|N/A|09/24/22|Jimmy Briggs |MIT|N/A|
 |[co](https://www.npmjs.com/co)|N/A|09/24/22|Jimmy Briggs |MIT|N/A|
 |[code](https://www.npmjs.com/code)|N/A|09/24/22|Jimmy Briggs |BSD-3-Clause|N/A|
@@ -500,6 +501,7 @@ Full tech stack [here](/techstack.md)
 |[publish](https://www.npmjs.com/publish)|N/A|09/24/22|Jimmy Briggs |MIT|N/A|
 |[read](https://www.npmjs.com/read)|N/A|09/24/22|Jimmy Briggs |ISC|N/A|
 |[st](https://www.npmjs.com/st)|N/A|09/24/22|Jimmy Briggs |ISC|N/A|
+|[test](https://www.npmjs.com/test)|N/A|09/24/22|Jimmy Briggs |MIT|N/A|
 |[traverse](https://www.npmjs.com/traverse)|N/A|09/24/22|Jimmy Briggs |MIT|N/A|
 |[ts-node](https://www.npmjs.com/ts-node)|v8.10.2|09/24/22|Jimmy Briggs |MIT|N/A|
 |[tsc](https://www.npmjs.com/tsc)|N/A|09/24/22|Jimmy Briggs |MIT|N/A|
