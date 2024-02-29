@@ -2,7 +2,7 @@ repo_name: jimbrig/Template-Vault
 report_id: e28e6e0458b99c0a45705efa60664142
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:28:49+00:00'
+timestamp: '2024-02-29T18:59:17+00:00'
 requested_by: jimbrig
 provider: github
 branch: main
@@ -84,7 +84,7 @@ tools:
   last_updated_by: Jimmy Briggs
   last_updated_on: 2022-09-24 01:20:47.000000000 Z
 - name: Swift
-  description: 'An innovative new programming language for Cocoa and Cocoa Touch. '
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
   website_url: https://developer.apple.com/swift/
   license: Apache-2.0
   open_source: true
@@ -236,7 +236,7 @@ tools:
   last_updated_by: Jimmy Briggs
   last_updated_on: 2022-09-24 01:20:47.000000000 Z
 - name: Prettier
-  description: 'Prettier is an opinionated code formatter. '
+  description: Prettier is an opinionated code formatter.
   website_url: https://prettier.io/
   license: MIT
   open_source: true
